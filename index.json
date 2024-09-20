@@ -127,7 +127,7 @@
   "api/Convenience.Models.DataModels.ChumonJisseki.html": {
     "href": "api/Convenience.Models.DataModels.ChumonJisseki.html",
     "title": "Class ChumonJisseki | Convenience",
-    "keywords": "Class ChumonJisseki Namespace Convenience.Models.DataModels Assembly Convenience.dll [Table(\"chumon_jisseki\")] [PrimaryKey(\"ChumonId\", new string[] { })] public class ChumonJisseki Inheritance object ChumonJisseki Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ChumonDate [Column(\"chumon_date\")] [Required] public DateOnly ChumonDate { get; set; } Property Value DateOnly ChumonId [Column(\"chumon_code\")] [MaxLength(20)] [Required] public string ChumonId { get; set; } Property Value string ChumonJissekiMeisais public virtual IList<ChumonJissekiMeisai>? ChumonJissekiMeisais { get; set; } Property Value IList<ChumonJissekiMeisai> ShiireSakiId [Column(\"shiire_saki_code\")] [MaxLength(10)] [Required] public string ShiireSakiId { get; set; } Property Value string ShiireSakiMaster [ForeignKey(\"ShiireSakiId\")] public virtual ShiireSakiMaster? ShiireSakiMaster { get; set; } Property Value ShiireSakiMaster Version [Timestamp] public uint Version { get; set; } Property Value uint"
+    "keywords": "Class ChumonJisseki Namespace Convenience.Models.DataModels Assembly Convenience.dll 注文実績DTO 主キー：注文コード [Table(\"chumon_jisseki\")] [PrimaryKey(\"ChumonId\", new string[] { })] public class ChumonJisseki Inheritance object ChumonJisseki Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ChumonDate [Column(\"chumon_date\")] [Required] public DateOnly ChumonDate { get; set; } Property Value DateOnly ChumonId 注文コード [Column(\"chumon_code\")] [MaxLength(20)] [Required] public string ChumonId { get; set; } Property Value string ChumonJissekiMeisais public virtual IList<ChumonJissekiMeisai>? ChumonJissekiMeisais { get; set; } Property Value IList<ChumonJissekiMeisai> ShiireSakiId [Column(\"shiire_saki_code\")] [MaxLength(10)] [Required] public string ShiireSakiId { get; set; } Property Value string ShiireSakiMaster [ForeignKey(\"ShiireSakiId\")] public virtual ShiireSakiMaster? ShiireSakiMaster { get; set; } Property Value ShiireSakiMaster Version [Timestamp] public uint Version { get; set; } Property Value uint"
   },
   "api/Convenience.Models.DataModels.ChumonJissekiMeisai.html": {
     "href": "api/Convenience.Models.DataModels.ChumonJissekiMeisai.html",
@@ -177,7 +177,7 @@
   "api/Convenience.Models.DataModels.html": {
     "href": "api/Convenience.Models.DataModels.html",
     "title": "Namespace Convenience.Models.DataModels | Convenience",
-    "keywords": "Namespace Convenience.Models.DataModels Classes ChumonJisseki ChumonJissekiMeisai KaikeiJisseki ShiireJisseki ShiireMaster ShiireSakiMaster ShohinMaster SokoZaiko TentoHaraidashiJisseki TentoZaiko"
+    "keywords": "Namespace Convenience.Models.DataModels Classes ChumonJisseki 注文実績DTO 主キー：注文コード ChumonJissekiMeisai KaikeiJisseki ShiireJisseki ShiireMaster ShiireSakiMaster ShohinMaster SokoZaiko TentoHaraidashiJisseki TentoZaiko"
   },
   "api/Convenience.Models.ErrorViewModel.html": {
     "href": "api/Convenience.Models.ErrorViewModel.html",

@@ -383,20 +383,5 @@
     "href": "api/Convenience.Views.Shiire.html",
     "title": "Namespace Convenience.Views.Shiire | Convenience",
     "keywords": "Namespace Convenience.Views.Shiire Classes ShiireKeyInputModel"
-  },
-  "docs/getting-started.html": {
-    "href": "docs/getting-started.html",
-    "title": "Getting Started | Convenience",
-    "keywords": "Getting Started"
-  },
-  "docs/introduction.html": {
-    "href": "docs/introduction.html",
-    "title": "Introduction | Convenience",
-    "keywords": "Introduction"
-  },
-  "index.html": {
-    "href": "index.html",
-    "title": "This is the HOMEPAGE. | Convenience",
-    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
   }
 }

@@ -2117,19 +2117,6 @@ references:
   isSpec: "True"
   fullName: Convenience.Controllers.ChumonController.Result
   nameWithType: ChumonController.Result
-- uid: Convenience.Controllers.ChumonController.SetChumonKeysViewModel
-  name: SetChumonKeysViewModel()
-  href: api/Convenience.Controllers.ChumonController.html#Convenience_Controllers_ChumonController_SetChumonKeysViewModel
-  commentId: M:Convenience.Controllers.ChumonController.SetChumonKeysViewModel
-  fullName: Convenience.Controllers.ChumonController.SetChumonKeysViewModel()
-  nameWithType: ChumonController.SetChumonKeysViewModel()
-- uid: Convenience.Controllers.ChumonController.SetChumonKeysViewModel*
-  name: SetChumonKeysViewModel
-  href: api/Convenience.Controllers.ChumonController.html#Convenience_Controllers_ChumonController_SetChumonKeysViewModel_
-  commentId: Overload:Convenience.Controllers.ChumonController.SetChumonKeysViewModel
-  isSpec: "True"
-  fullName: Convenience.Controllers.ChumonController.SetChumonKeysViewModel
-  nameWithType: ChumonController.SetChumonKeysViewModel
 - uid: Convenience.Controllers.ChumonController._context
   name: _context
   href: api/Convenience.Controllers.ChumonController.html#Convenience_Controllers_ChumonController__context
@@ -2142,12 +2129,6 @@ references:
   commentId: F:Convenience.Controllers.ChumonController.chumonService
   fullName: Convenience.Controllers.ChumonController.chumonService
   nameWithType: ChumonController.chumonService
-- uid: Convenience.Controllers.ChumonController.chumonViewModel
-  name: chumonViewModel
-  href: api/Convenience.Controllers.ChumonController.html#Convenience_Controllers_ChumonController_chumonViewModel
-  commentId: F:Convenience.Controllers.ChumonController.chumonViewModel
-  fullName: Convenience.Controllers.ChumonController.chumonViewModel
-  nameWithType: ChumonController.chumonViewModel
 - uid: Convenience.Controllers.HomeController
   name: HomeController
   href: api/Convenience.Controllers.HomeController.html
@@ -2265,22 +2246,6 @@ references:
   isSpec: "True"
   fullName: Convenience.Controllers.ShiireController.Result
   nameWithType: ShiireController.Result
-- uid: Convenience.Controllers.ShiireController.SetShiireModel(System.Int32,System.Collections.Generic.IList{Convenience.Models.DataModels.ShiireJisseki})
-  name: SetShiireModel(int, IList<ShiireJisseki>)
-  href: api/Convenience.Controllers.ShiireController.html#Convenience_Controllers_ShiireController_SetShiireModel_System_Int32_System_Collections_Generic_IList_Convenience_Models_DataModels_ShiireJisseki__
-  commentId: M:Convenience.Controllers.ShiireController.SetShiireModel(System.Int32,System.Collections.Generic.IList{Convenience.Models.DataModels.ShiireJisseki})
-  name.vb: SetShiireModel(Integer, IList(Of ShiireJisseki))
-  fullName: Convenience.Controllers.ShiireController.SetShiireModel(int, System.Collections.Generic.IList<Convenience.Models.DataModels.ShiireJisseki>)
-  fullName.vb: Convenience.Controllers.ShiireController.SetShiireModel(Integer, System.Collections.Generic.IList(Of Convenience.Models.DataModels.ShiireJisseki))
-  nameWithType: ShiireController.SetShiireModel(int, IList<ShiireJisseki>)
-  nameWithType.vb: ShiireController.SetShiireModel(Integer, IList(Of ShiireJisseki))
-- uid: Convenience.Controllers.ShiireController.SetShiireModel*
-  name: SetShiireModel
-  href: api/Convenience.Controllers.ShiireController.html#Convenience_Controllers_ShiireController_SetShiireModel_
-  commentId: Overload:Convenience.Controllers.ShiireController.SetShiireModel
-  isSpec: "True"
-  fullName: Convenience.Controllers.ShiireController.SetShiireModel
-  nameWithType: ShiireController.SetShiireModel
 - uid: Convenience.Controllers.ShiireController.Shiire(Convenience.Models.ViewModels.Shiire.ShiireViewModel)
   name: Shiire(ShiireViewModel)
   href: api/Convenience.Controllers.ShiireController.html#Convenience_Controllers_ShiireController_Shiire_Convenience_Models_ViewModels_Shiire_ShiireViewModel_
@@ -4025,12 +3990,12 @@ references:
   commentId: T:Convenience.Models.Interfaces.IChumonService
   fullName: Convenience.Models.Interfaces.IChumonService
   nameWithType: IChumonService
-- uid: Convenience.Models.Interfaces.IChumonService.ChumonCommit(Convenience.Models.DataModels.ChumonJisseki)
-  name: ChumonCommit(ChumonJisseki)
-  href: api/Convenience.Models.Interfaces.IChumonService.html#Convenience_Models_Interfaces_IChumonService_ChumonCommit_Convenience_Models_DataModels_ChumonJisseki_
-  commentId: M:Convenience.Models.Interfaces.IChumonService.ChumonCommit(Convenience.Models.DataModels.ChumonJisseki)
-  fullName: Convenience.Models.Interfaces.IChumonService.ChumonCommit(Convenience.Models.DataModels.ChumonJisseki)
-  nameWithType: IChumonService.ChumonCommit(ChumonJisseki)
+- uid: Convenience.Models.Interfaces.IChumonService.ChumonCommit(Convenience.Models.ViewModels.Chumon.ChumonViewModel)
+  name: ChumonCommit(ChumonViewModel)
+  href: api/Convenience.Models.Interfaces.IChumonService.html#Convenience_Models_Interfaces_IChumonService_ChumonCommit_Convenience_Models_ViewModels_Chumon_ChumonViewModel_
+  commentId: M:Convenience.Models.Interfaces.IChumonService.ChumonCommit(Convenience.Models.ViewModels.Chumon.ChumonViewModel)
+  fullName: Convenience.Models.Interfaces.IChumonService.ChumonCommit(Convenience.Models.ViewModels.Chumon.ChumonViewModel)
+  nameWithType: IChumonService.ChumonCommit(ChumonViewModel)
 - uid: Convenience.Models.Interfaces.IChumonService.ChumonCommit*
   name: ChumonCommit
   href: api/Convenience.Models.Interfaces.IChumonService.html#Convenience_Models_Interfaces_IChumonService_ChumonCommit_
@@ -4038,15 +4003,12 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Interfaces.IChumonService.ChumonCommit
   nameWithType: IChumonService.ChumonCommit
-- uid: Convenience.Models.Interfaces.IChumonService.ChumonSetting(System.String,System.DateOnly)
-  name: ChumonSetting(string, DateOnly)
-  href: api/Convenience.Models.Interfaces.IChumonService.html#Convenience_Models_Interfaces_IChumonService_ChumonSetting_System_String_System_DateOnly_
-  commentId: M:Convenience.Models.Interfaces.IChumonService.ChumonSetting(System.String,System.DateOnly)
-  name.vb: ChumonSetting(String, DateOnly)
-  fullName: Convenience.Models.Interfaces.IChumonService.ChumonSetting(string, System.DateOnly)
-  fullName.vb: Convenience.Models.Interfaces.IChumonService.ChumonSetting(String, System.DateOnly)
-  nameWithType: IChumonService.ChumonSetting(string, DateOnly)
-  nameWithType.vb: IChumonService.ChumonSetting(String, DateOnly)
+- uid: Convenience.Models.Interfaces.IChumonService.ChumonSetting(Convenience.Models.ViewModels.Chumon.ChumonKeysViewModel)
+  name: ChumonSetting(ChumonKeysViewModel)
+  href: api/Convenience.Models.Interfaces.IChumonService.html#Convenience_Models_Interfaces_IChumonService_ChumonSetting_Convenience_Models_ViewModels_Chumon_ChumonKeysViewModel_
+  commentId: M:Convenience.Models.Interfaces.IChumonService.ChumonSetting(Convenience.Models.ViewModels.Chumon.ChumonKeysViewModel)
+  fullName: Convenience.Models.Interfaces.IChumonService.ChumonSetting(Convenience.Models.ViewModels.Chumon.ChumonKeysViewModel)
+  nameWithType: IChumonService.ChumonSetting(ChumonKeysViewModel)
 - uid: Convenience.Models.Interfaces.IChumonService.ChumonSetting*
   name: ChumonSetting
   href: api/Convenience.Models.Interfaces.IChumonService.html#Convenience_Models_Interfaces_IChumonService_ChumonSetting_
@@ -4054,6 +4016,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Interfaces.IChumonService.ChumonSetting
   nameWithType: IChumonService.ChumonSetting
+- uid: Convenience.Models.Interfaces.IChumonService.SetChumonKeysViewModel
+  name: SetChumonKeysViewModel()
+  href: api/Convenience.Models.Interfaces.IChumonService.html#Convenience_Models_Interfaces_IChumonService_SetChumonKeysViewModel
+  commentId: M:Convenience.Models.Interfaces.IChumonService.SetChumonKeysViewModel
+  fullName: Convenience.Models.Interfaces.IChumonService.SetChumonKeysViewModel()
+  nameWithType: IChumonService.SetChumonKeysViewModel()
+- uid: Convenience.Models.Interfaces.IChumonService.SetChumonKeysViewModel*
+  name: SetChumonKeysViewModel
+  href: api/Convenience.Models.Interfaces.IChumonService.html#Convenience_Models_Interfaces_IChumonService_SetChumonKeysViewModel_
+  commentId: Overload:Convenience.Models.Interfaces.IChumonService.SetChumonKeysViewModel
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IChumonService.SetChumonKeysViewModel
+  nameWithType: IChumonService.SetChumonKeysViewModel
 - uid: Convenience.Models.Interfaces.IChumonService.chumon
   name: chumon
   href: api/Convenience.Models.Interfaces.IChumonService.html#Convenience_Models_Interfaces_IChumonService_chumon
@@ -4312,44 +4287,45 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Interfaces.IShiireService.SetShiireKeysModel
   nameWithType: IShiireService.SetShiireKeysModel
-- uid: Convenience.Models.Interfaces.IShiireService.ShiireHandling(System.String)
-  name: ShiireHandling(string)
-  href: api/Convenience.Models.Interfaces.IShiireService.html#Convenience_Models_Interfaces_IShiireService_ShiireHandling_System_String_
-  commentId: M:Convenience.Models.Interfaces.IShiireService.ShiireHandling(System.String)
-  name.vb: ShiireHandling(String)
-  fullName: Convenience.Models.Interfaces.IShiireService.ShiireHandling(string)
-  fullName.vb: Convenience.Models.Interfaces.IShiireService.ShiireHandling(String)
-  nameWithType: IShiireService.ShiireHandling(string)
-  nameWithType.vb: IShiireService.ShiireHandling(String)
-- uid: Convenience.Models.Interfaces.IShiireService.ShiireHandling(System.String,System.DateOnly,System.UInt32,System.Collections.Generic.IList{Convenience.Models.DataModels.ShiireJisseki})
-  name: ShiireHandling(string, DateOnly, uint, IList<ShiireJisseki>)
-  href: api/Convenience.Models.Interfaces.IShiireService.html#Convenience_Models_Interfaces_IShiireService_ShiireHandling_System_String_System_DateOnly_System_UInt32_System_Collections_Generic_IList_Convenience_Models_DataModels_ShiireJisseki__
-  commentId: M:Convenience.Models.Interfaces.IShiireService.ShiireHandling(System.String,System.DateOnly,System.UInt32,System.Collections.Generic.IList{Convenience.Models.DataModels.ShiireJisseki})
-  name.vb: ShiireHandling(String, DateOnly, UInteger, IList(Of ShiireJisseki))
-  fullName: Convenience.Models.Interfaces.IShiireService.ShiireHandling(string, System.DateOnly, uint, System.Collections.Generic.IList<Convenience.Models.DataModels.ShiireJisseki>)
-  fullName.vb: Convenience.Models.Interfaces.IShiireService.ShiireHandling(String, System.DateOnly, UInteger, System.Collections.Generic.IList(Of Convenience.Models.DataModels.ShiireJisseki))
-  nameWithType: IShiireService.ShiireHandling(string, DateOnly, uint, IList<ShiireJisseki>)
-  nameWithType.vb: IShiireService.ShiireHandling(String, DateOnly, UInteger, IList(Of ShiireJisseki))
-- uid: Convenience.Models.Interfaces.IShiireService.ShiireHandling*
-  name: ShiireHandling
-  href: api/Convenience.Models.Interfaces.IShiireService.html#Convenience_Models_Interfaces_IShiireService_ShiireHandling_
-  commentId: Overload:Convenience.Models.Interfaces.IShiireService.ShiireHandling
+- uid: Convenience.Models.Interfaces.IShiireService.ShiireCommit(Convenience.Models.ViewModels.Shiire.ShiireViewModel)
+  name: ShiireCommit(ShiireViewModel)
+  href: api/Convenience.Models.Interfaces.IShiireService.html#Convenience_Models_Interfaces_IShiireService_ShiireCommit_Convenience_Models_ViewModels_Shiire_ShiireViewModel_
+  commentId: M:Convenience.Models.Interfaces.IShiireService.ShiireCommit(Convenience.Models.ViewModels.Shiire.ShiireViewModel)
+  fullName: Convenience.Models.Interfaces.IShiireService.ShiireCommit(Convenience.Models.ViewModels.Shiire.ShiireViewModel)
+  nameWithType: IShiireService.ShiireCommit(ShiireViewModel)
+- uid: Convenience.Models.Interfaces.IShiireService.ShiireCommit*
+  name: ShiireCommit
+  href: api/Convenience.Models.Interfaces.IShiireService.html#Convenience_Models_Interfaces_IShiireService_ShiireCommit_
+  commentId: Overload:Convenience.Models.Interfaces.IShiireService.ShiireCommit
   isSpec: "True"
-  fullName: Convenience.Models.Interfaces.IShiireService.ShiireHandling
-  nameWithType: IShiireService.ShiireHandling
-- uid: Convenience.Models.Interfaces.IShiireService.ShiireUpdate
-  name: ShiireUpdate()
-  href: api/Convenience.Models.Interfaces.IShiireService.html#Convenience_Models_Interfaces_IShiireService_ShiireUpdate
-  commentId: M:Convenience.Models.Interfaces.IShiireService.ShiireUpdate
-  fullName: Convenience.Models.Interfaces.IShiireService.ShiireUpdate()
-  nameWithType: IShiireService.ShiireUpdate()
-- uid: Convenience.Models.Interfaces.IShiireService.ShiireUpdate*
-  name: ShiireUpdate
-  href: api/Convenience.Models.Interfaces.IShiireService.html#Convenience_Models_Interfaces_IShiireService_ShiireUpdate_
-  commentId: Overload:Convenience.Models.Interfaces.IShiireService.ShiireUpdate
+  fullName: Convenience.Models.Interfaces.IShiireService.ShiireCommit
+  nameWithType: IShiireService.ShiireCommit
+- uid: Convenience.Models.Interfaces.IShiireService.ShiireSetting(Convenience.Models.ViewModels.Shiire.ShiireKeysViewModel)
+  name: ShiireSetting(ShiireKeysViewModel)
+  href: api/Convenience.Models.Interfaces.IShiireService.html#Convenience_Models_Interfaces_IShiireService_ShiireSetting_Convenience_Models_ViewModels_Shiire_ShiireKeysViewModel_
+  commentId: M:Convenience.Models.Interfaces.IShiireService.ShiireSetting(Convenience.Models.ViewModels.Shiire.ShiireKeysViewModel)
+  fullName: Convenience.Models.Interfaces.IShiireService.ShiireSetting(Convenience.Models.ViewModels.Shiire.ShiireKeysViewModel)
+  nameWithType: IShiireService.ShiireSetting(ShiireKeysViewModel)
+- uid: Convenience.Models.Interfaces.IShiireService.ShiireSetting*
+  name: ShiireSetting
+  href: api/Convenience.Models.Interfaces.IShiireService.html#Convenience_Models_Interfaces_IShiireService_ShiireSetting_
+  commentId: Overload:Convenience.Models.Interfaces.IShiireService.ShiireSetting
   isSpec: "True"
-  fullName: Convenience.Models.Interfaces.IShiireService.ShiireUpdate
-  nameWithType: IShiireService.ShiireUpdate
+  fullName: Convenience.Models.Interfaces.IShiireService.ShiireSetting
+  nameWithType: IShiireService.ShiireSetting
+- uid: Convenience.Models.Interfaces.IShiireService.shiire
+  name: shiire
+  href: api/Convenience.Models.Interfaces.IShiireService.html#Convenience_Models_Interfaces_IShiireService_shiire
+  commentId: P:Convenience.Models.Interfaces.IShiireService.shiire
+  fullName: Convenience.Models.Interfaces.IShiireService.shiire
+  nameWithType: IShiireService.shiire
+- uid: Convenience.Models.Interfaces.IShiireService.shiire*
+  name: shiire
+  href: api/Convenience.Models.Interfaces.IShiireService.html#Convenience_Models_Interfaces_IShiireService_shiire_
+  commentId: Overload:Convenience.Models.Interfaces.IShiireService.shiire
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IShiireService.shiire
+  nameWithType: IShiireService.shiire
 - uid: Convenience.Models.Interfaces.IZaiko
   name: IZaiko
   href: api/Convenience.Models.Interfaces.IZaiko.html
@@ -5148,12 +5124,12 @@ references:
   fullName.vb: Convenience.Models.Services.ChumonService.New
   nameWithType: ChumonService.ChumonService
   nameWithType.vb: ChumonService.New
-- uid: Convenience.Models.Services.ChumonService.ChumonCommit(Convenience.Models.DataModels.ChumonJisseki)
-  name: ChumonCommit(ChumonJisseki)
-  href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService_ChumonCommit_Convenience_Models_DataModels_ChumonJisseki_
-  commentId: M:Convenience.Models.Services.ChumonService.ChumonCommit(Convenience.Models.DataModels.ChumonJisseki)
-  fullName: Convenience.Models.Services.ChumonService.ChumonCommit(Convenience.Models.DataModels.ChumonJisseki)
-  nameWithType: ChumonService.ChumonCommit(ChumonJisseki)
+- uid: Convenience.Models.Services.ChumonService.ChumonCommit(Convenience.Models.ViewModels.Chumon.ChumonViewModel)
+  name: ChumonCommit(ChumonViewModel)
+  href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService_ChumonCommit_Convenience_Models_ViewModels_Chumon_ChumonViewModel_
+  commentId: M:Convenience.Models.Services.ChumonService.ChumonCommit(Convenience.Models.ViewModels.Chumon.ChumonViewModel)
+  fullName: Convenience.Models.Services.ChumonService.ChumonCommit(Convenience.Models.ViewModels.Chumon.ChumonViewModel)
+  nameWithType: ChumonService.ChumonCommit(ChumonViewModel)
 - uid: Convenience.Models.Services.ChumonService.ChumonCommit*
   name: ChumonCommit
   href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService_ChumonCommit_
@@ -5174,15 +5150,25 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Services.ChumonService.ChumonJissekiIsValid
   nameWithType: ChumonService.ChumonJissekiIsValid
-- uid: Convenience.Models.Services.ChumonService.ChumonSetting(System.String,System.DateOnly)
-  name: ChumonSetting(string, DateOnly)
-  href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService_ChumonSetting_System_String_System_DateOnly_
-  commentId: M:Convenience.Models.Services.ChumonService.ChumonSetting(System.String,System.DateOnly)
-  name.vb: ChumonSetting(String, DateOnly)
-  fullName: Convenience.Models.Services.ChumonService.ChumonSetting(string, System.DateOnly)
-  fullName.vb: Convenience.Models.Services.ChumonService.ChumonSetting(String, System.DateOnly)
-  nameWithType: ChumonService.ChumonSetting(string, DateOnly)
-  nameWithType.vb: ChumonService.ChumonSetting(String, DateOnly)
+- uid: Convenience.Models.Services.ChumonService.ChumonKeysViewModel
+  name: ChumonKeysViewModel
+  href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService_ChumonKeysViewModel
+  commentId: P:Convenience.Models.Services.ChumonService.ChumonKeysViewModel
+  fullName: Convenience.Models.Services.ChumonService.ChumonKeysViewModel
+  nameWithType: ChumonService.ChumonKeysViewModel
+- uid: Convenience.Models.Services.ChumonService.ChumonKeysViewModel*
+  name: ChumonKeysViewModel
+  href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService_ChumonKeysViewModel_
+  commentId: Overload:Convenience.Models.Services.ChumonService.ChumonKeysViewModel
+  isSpec: "True"
+  fullName: Convenience.Models.Services.ChumonService.ChumonKeysViewModel
+  nameWithType: ChumonService.ChumonKeysViewModel
+- uid: Convenience.Models.Services.ChumonService.ChumonSetting(Convenience.Models.ViewModels.Chumon.ChumonKeysViewModel)
+  name: ChumonSetting(ChumonKeysViewModel)
+  href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService_ChumonSetting_Convenience_Models_ViewModels_Chumon_ChumonKeysViewModel_
+  commentId: M:Convenience.Models.Services.ChumonService.ChumonSetting(Convenience.Models.ViewModels.Chumon.ChumonKeysViewModel)
+  fullName: Convenience.Models.Services.ChumonService.ChumonSetting(Convenience.Models.ViewModels.Chumon.ChumonKeysViewModel)
+  nameWithType: ChumonService.ChumonSetting(ChumonKeysViewModel)
 - uid: Convenience.Models.Services.ChumonService.ChumonSetting*
   name: ChumonSetting
   href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService_ChumonSetting_
@@ -5190,12 +5176,38 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Services.ChumonService.ChumonSetting
   nameWithType: ChumonService.ChumonSetting
+- uid: Convenience.Models.Services.ChumonService.ChumonViewModel
+  name: ChumonViewModel
+  href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService_ChumonViewModel
+  commentId: P:Convenience.Models.Services.ChumonService.ChumonViewModel
+  fullName: Convenience.Models.Services.ChumonService.ChumonViewModel
+  nameWithType: ChumonService.ChumonViewModel
+- uid: Convenience.Models.Services.ChumonService.ChumonViewModel*
+  name: ChumonViewModel
+  href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService_ChumonViewModel_
+  commentId: Overload:Convenience.Models.Services.ChumonService.ChumonViewModel
+  isSpec: "True"
+  fullName: Convenience.Models.Services.ChumonService.ChumonViewModel
+  nameWithType: ChumonService.ChumonViewModel
 - uid: Convenience.Models.Services.ChumonService.CreateChumonInstance
   name: CreateChumonInstance
   href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService_CreateChumonInstance
   commentId: F:Convenience.Models.Services.ChumonService.CreateChumonInstance
   fullName: Convenience.Models.Services.ChumonService.CreateChumonInstance
   nameWithType: ChumonService.CreateChumonInstance
+- uid: Convenience.Models.Services.ChumonService.SetChumonKeysViewModel
+  name: SetChumonKeysViewModel()
+  href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService_SetChumonKeysViewModel
+  commentId: M:Convenience.Models.Services.ChumonService.SetChumonKeysViewModel
+  fullName: Convenience.Models.Services.ChumonService.SetChumonKeysViewModel()
+  nameWithType: ChumonService.SetChumonKeysViewModel()
+- uid: Convenience.Models.Services.ChumonService.SetChumonKeysViewModel*
+  name: SetChumonKeysViewModel
+  href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService_SetChumonKeysViewModel_
+  commentId: Overload:Convenience.Models.Services.ChumonService.SetChumonKeysViewModel
+  isSpec: "True"
+  fullName: Convenience.Models.Services.ChumonService.SetChumonKeysViewModel
+  nameWithType: ChumonService.SetChumonKeysViewModel
 - uid: Convenience.Models.Services.ChumonService._context
   name: _context
   href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService__context
@@ -5221,6 +5233,15 @@ references:
   commentId: T:Convenience.Models.Services.ShiireService
   fullName: Convenience.Models.Services.ShiireService
   nameWithType: ShiireService
+- uid: Convenience.Models.Services.ShiireService.#ctor
+  name: ShiireService()
+  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService__ctor
+  commentId: M:Convenience.Models.Services.ShiireService.#ctor
+  name.vb: New()
+  fullName: Convenience.Models.Services.ShiireService.ShiireService()
+  fullName.vb: Convenience.Models.Services.ShiireService.New()
+  nameWithType: ShiireService.ShiireService()
+  nameWithType.vb: ShiireService.New()
 - uid: Convenience.Models.Services.ShiireService.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShiire)
   name: ShiireService(ConvenienceContext, IShiire)
   href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IShiire_
@@ -5253,44 +5274,74 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Services.ShiireService.SetShiireKeysModel
   nameWithType: ShiireService.SetShiireKeysModel
-- uid: Convenience.Models.Services.ShiireService.ShiireHandling(System.String)
-  name: ShiireHandling(string)
-  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_ShiireHandling_System_String_
-  commentId: M:Convenience.Models.Services.ShiireService.ShiireHandling(System.String)
-  name.vb: ShiireHandling(String)
-  fullName: Convenience.Models.Services.ShiireService.ShiireHandling(string)
-  fullName.vb: Convenience.Models.Services.ShiireService.ShiireHandling(String)
-  nameWithType: ShiireService.ShiireHandling(string)
-  nameWithType.vb: ShiireService.ShiireHandling(String)
-- uid: Convenience.Models.Services.ShiireService.ShiireHandling(System.String,System.DateOnly,System.UInt32,System.Collections.Generic.IList{Convenience.Models.DataModels.ShiireJisseki})
-  name: ShiireHandling(string, DateOnly, uint, IList<ShiireJisseki>)
-  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_ShiireHandling_System_String_System_DateOnly_System_UInt32_System_Collections_Generic_IList_Convenience_Models_DataModels_ShiireJisseki__
-  commentId: M:Convenience.Models.Services.ShiireService.ShiireHandling(System.String,System.DateOnly,System.UInt32,System.Collections.Generic.IList{Convenience.Models.DataModels.ShiireJisseki})
-  name.vb: ShiireHandling(String, DateOnly, UInteger, IList(Of ShiireJisseki))
-  fullName: Convenience.Models.Services.ShiireService.ShiireHandling(string, System.DateOnly, uint, System.Collections.Generic.IList<Convenience.Models.DataModels.ShiireJisseki>)
-  fullName.vb: Convenience.Models.Services.ShiireService.ShiireHandling(String, System.DateOnly, UInteger, System.Collections.Generic.IList(Of Convenience.Models.DataModels.ShiireJisseki))
-  nameWithType: ShiireService.ShiireHandling(string, DateOnly, uint, IList<ShiireJisseki>)
-  nameWithType.vb: ShiireService.ShiireHandling(String, DateOnly, UInteger, IList(Of ShiireJisseki))
-- uid: Convenience.Models.Services.ShiireService.ShiireHandling*
-  name: ShiireHandling
-  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_ShiireHandling_
-  commentId: Overload:Convenience.Models.Services.ShiireService.ShiireHandling
+- uid: Convenience.Models.Services.ShiireService.SetShiireModel(System.Int32,System.Collections.Generic.IList{Convenience.Models.DataModels.ShiireJisseki})
+  name: SetShiireModel(int, IList<ShiireJisseki>)
+  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_SetShiireModel_System_Int32_System_Collections_Generic_IList_Convenience_Models_DataModels_ShiireJisseki__
+  commentId: M:Convenience.Models.Services.ShiireService.SetShiireModel(System.Int32,System.Collections.Generic.IList{Convenience.Models.DataModels.ShiireJisseki})
+  name.vb: SetShiireModel(Integer, IList(Of ShiireJisseki))
+  fullName: Convenience.Models.Services.ShiireService.SetShiireModel(int, System.Collections.Generic.IList<Convenience.Models.DataModels.ShiireJisseki>)
+  fullName.vb: Convenience.Models.Services.ShiireService.SetShiireModel(Integer, System.Collections.Generic.IList(Of Convenience.Models.DataModels.ShiireJisseki))
+  nameWithType: ShiireService.SetShiireModel(int, IList<ShiireJisseki>)
+  nameWithType.vb: ShiireService.SetShiireModel(Integer, IList(Of ShiireJisseki))
+- uid: Convenience.Models.Services.ShiireService.SetShiireModel*
+  name: SetShiireModel
+  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_SetShiireModel_
+  commentId: Overload:Convenience.Models.Services.ShiireService.SetShiireModel
   isSpec: "True"
-  fullName: Convenience.Models.Services.ShiireService.ShiireHandling
-  nameWithType: ShiireService.ShiireHandling
-- uid: Convenience.Models.Services.ShiireService.ShiireUpdate
-  name: ShiireUpdate()
-  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_ShiireUpdate
-  commentId: M:Convenience.Models.Services.ShiireService.ShiireUpdate
-  fullName: Convenience.Models.Services.ShiireService.ShiireUpdate()
-  nameWithType: ShiireService.ShiireUpdate()
-- uid: Convenience.Models.Services.ShiireService.ShiireUpdate*
-  name: ShiireUpdate
-  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_ShiireUpdate_
-  commentId: Overload:Convenience.Models.Services.ShiireService.ShiireUpdate
+  fullName: Convenience.Models.Services.ShiireService.SetShiireModel
+  nameWithType: ShiireService.SetShiireModel
+- uid: Convenience.Models.Services.ShiireService.ShiireCommit(Convenience.Models.ViewModels.Shiire.ShiireViewModel)
+  name: ShiireCommit(ShiireViewModel)
+  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_ShiireCommit_Convenience_Models_ViewModels_Shiire_ShiireViewModel_
+  commentId: M:Convenience.Models.Services.ShiireService.ShiireCommit(Convenience.Models.ViewModels.Shiire.ShiireViewModel)
+  fullName: Convenience.Models.Services.ShiireService.ShiireCommit(Convenience.Models.ViewModels.Shiire.ShiireViewModel)
+  nameWithType: ShiireService.ShiireCommit(ShiireViewModel)
+- uid: Convenience.Models.Services.ShiireService.ShiireCommit*
+  name: ShiireCommit
+  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_ShiireCommit_
+  commentId: Overload:Convenience.Models.Services.ShiireService.ShiireCommit
   isSpec: "True"
-  fullName: Convenience.Models.Services.ShiireService.ShiireUpdate
-  nameWithType: ShiireService.ShiireUpdate
+  fullName: Convenience.Models.Services.ShiireService.ShiireCommit
+  nameWithType: ShiireService.ShiireCommit
+- uid: Convenience.Models.Services.ShiireService.ShiireKeysViewModel
+  name: ShiireKeysViewModel
+  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_ShiireKeysViewModel
+  commentId: P:Convenience.Models.Services.ShiireService.ShiireKeysViewModel
+  fullName: Convenience.Models.Services.ShiireService.ShiireKeysViewModel
+  nameWithType: ShiireService.ShiireKeysViewModel
+- uid: Convenience.Models.Services.ShiireService.ShiireKeysViewModel*
+  name: ShiireKeysViewModel
+  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_ShiireKeysViewModel_
+  commentId: Overload:Convenience.Models.Services.ShiireService.ShiireKeysViewModel
+  isSpec: "True"
+  fullName: Convenience.Models.Services.ShiireService.ShiireKeysViewModel
+  nameWithType: ShiireService.ShiireKeysViewModel
+- uid: Convenience.Models.Services.ShiireService.ShiireSetting(Convenience.Models.ViewModels.Shiire.ShiireKeysViewModel)
+  name: ShiireSetting(ShiireKeysViewModel)
+  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_ShiireSetting_Convenience_Models_ViewModels_Shiire_ShiireKeysViewModel_
+  commentId: M:Convenience.Models.Services.ShiireService.ShiireSetting(Convenience.Models.ViewModels.Shiire.ShiireKeysViewModel)
+  fullName: Convenience.Models.Services.ShiireService.ShiireSetting(Convenience.Models.ViewModels.Shiire.ShiireKeysViewModel)
+  nameWithType: ShiireService.ShiireSetting(ShiireKeysViewModel)
+- uid: Convenience.Models.Services.ShiireService.ShiireSetting*
+  name: ShiireSetting
+  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_ShiireSetting_
+  commentId: Overload:Convenience.Models.Services.ShiireService.ShiireSetting
+  isSpec: "True"
+  fullName: Convenience.Models.Services.ShiireService.ShiireSetting
+  nameWithType: ShiireService.ShiireSetting
+- uid: Convenience.Models.Services.ShiireService.ShiireViewModel
+  name: ShiireViewModel
+  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_ShiireViewModel
+  commentId: P:Convenience.Models.Services.ShiireService.ShiireViewModel
+  fullName: Convenience.Models.Services.ShiireService.ShiireViewModel
+  nameWithType: ShiireService.ShiireViewModel
+- uid: Convenience.Models.Services.ShiireService.ShiireViewModel*
+  name: ShiireViewModel
+  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_ShiireViewModel_
+  commentId: Overload:Convenience.Models.Services.ShiireService.ShiireViewModel
+  isSpec: "True"
+  fullName: Convenience.Models.Services.ShiireService.ShiireViewModel
+  nameWithType: ShiireService.ShiireViewModel
 - uid: Convenience.Models.Services.ShiireService._context
   name: _context
   href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService__context
@@ -5300,7 +5351,14 @@ references:
 - uid: Convenience.Models.Services.ShiireService.shiire
   name: shiire
   href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_shiire
-  commentId: F:Convenience.Models.Services.ShiireService.shiire
+  commentId: P:Convenience.Models.Services.ShiireService.shiire
+  fullName: Convenience.Models.Services.ShiireService.shiire
+  nameWithType: ShiireService.shiire
+- uid: Convenience.Models.Services.ShiireService.shiire*
+  name: shiire
+  href: api/Convenience.Models.Services.ShiireService.html#Convenience_Models_Services_ShiireService_shiire_
+  commentId: Overload:Convenience.Models.Services.ShiireService.shiire
+  isSpec: "True"
   fullName: Convenience.Models.Services.ShiireService.shiire
   nameWithType: ShiireService.shiire
 - uid: Convenience.Models.Services.ZaikoService

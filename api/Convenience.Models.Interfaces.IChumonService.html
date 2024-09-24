@@ -127,14 +127,12 @@ Interface IChumonService  <a class="header-action link-secondary" title="View so
   <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumonService.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><ul>
-<li>注文クラス用オブジェクト変数</li>
-</ul>
+  <div class="markdown level1 summary"><p>注文クラス用オブジェクト変数</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IChumon chumon { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">IChumon chumon { get; }</code></pre>
   </div>
 
 
@@ -160,9 +158,9 @@ Interface IChumonService  <a class="header-action link-secondary" title="View so
 
   <a id="Convenience_Models_Interfaces_IChumonService_ChumonCommit_" data-uid="Convenience.Models.Interfaces.IChumonService.ChumonCommit*"></a>
 
-  <h3 id="Convenience_Models_Interfaces_IChumonService_ChumonCommit_Convenience_Models_DataModels_ChumonJisseki_" data-uid="Convenience.Models.Interfaces.IChumonService.ChumonCommit(Convenience.Models.DataModels.ChumonJisseki)">
-  ChumonCommit(ChumonJisseki)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumonService.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Models_Interfaces_IChumonService_ChumonCommit_Convenience_Models_ViewModels_Chumon_ChumonViewModel_" data-uid="Convenience.Models.Interfaces.IChumonService.ChumonCommit(Convenience.Models.ViewModels.Chumon.ChumonViewModel)">
+  ChumonCommit(ChumonViewModel)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumonService.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>注文データをDBに書き込む</p>
@@ -170,20 +168,20 @@ Interface IChumonService  <a class="header-action link-secondary" title="View so
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;(ChumonJisseki, int, bool, Message.ErrDef)&gt; ChumonCommit(ChumonJisseki inChumonJisseki)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;ChumonViewModel&gt; ChumonCommit(ChumonViewModel inChumonViewModel)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>inChumonJisseki</code> <a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html">ChumonJisseki</a></dt>
-    <dd><p>Postされた注文実績</p>
-</dd>
+    <dt><code>inChumonViewModel</code> <a class="xref" href="Convenience.Models.ViewModels.Chumon.ChumonViewModel.html">ChumonViewModel</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;(<a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html">ChumonJisseki</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>, <a class="xref" href="Convenience.Models.Properties.Message.html">Message</a>.<a class="xref" href="Convenience.Models.Properties.Message.ErrDef.html">ErrDef</a>)&gt;</dt>
-    <dd></dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.Chumon.ChumonViewModel.html">ChumonViewModel</a>&gt;</dt>
+    <dd><p>ChumonViewModel 注文明細ビューモデル</p>
+</dd>
   </dl>
 
 
@@ -204,9 +202,9 @@ Interface IChumonService  <a class="header-action link-secondary" title="View so
 
   <a id="Convenience_Models_Interfaces_IChumonService_ChumonSetting_" data-uid="Convenience.Models.Interfaces.IChumonService.ChumonSetting*"></a>
 
-  <h3 id="Convenience_Models_Interfaces_IChumonService_ChumonSetting_System_String_System_DateOnly_" data-uid="Convenience.Models.Interfaces.IChumonService.ChumonSetting(System.String,System.DateOnly)">
-  ChumonSetting(string, DateOnly)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumonService.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Models_Interfaces_IChumonService_ChumonSetting_Convenience_Models_ViewModels_Chumon_ChumonKeysViewModel_" data-uid="Convenience.Models.Interfaces.IChumonService.ChumonSetting(Convenience.Models.ViewModels.Chumon.ChumonKeysViewModel)">
+  ChumonSetting(ChumonKeysViewModel)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumonService.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>注文セッティング</p>
@@ -214,23 +212,52 @@ Interface IChumonService  <a class="header-action link-secondary" title="View so
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;ChumonViewModel&gt; ChumonSetting(string inShiireSakiId, DateOnly inChumonDate)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;ChumonViewModel&gt; ChumonSetting(ChumonKeysViewModel inChumonKeysViewModel)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>inShiireSakiId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>仕入先コード（画面より）</p>
-</dd>
-    <dt><code>inChumonDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a></dt>
-    <dd><p>注文日付（画面より）</p>
-</dd>
+    <dt><code>inChumonKeysViewModel</code> <a class="xref" href="Convenience.Models.ViewModels.Chumon.ChumonKeysViewModel.html">ChumonKeysViewModel</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.Chumon.ChumonViewModel.html">ChumonViewModel</a>&gt;</dt>
-    <dd><p>注文viewモデル</p>
+    <dd><p>ChumonKeysViewModel 注文明細ビューモデル</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Convenience_Models_Interfaces_IChumonService_SetChumonKeysViewModel_" data-uid="Convenience.Models.Interfaces.IChumonService.SetChumonKeysViewModel*"></a>
+
+  <h3 id="Convenience_Models_Interfaces_IChumonService_SetChumonKeysViewModel" data-uid="Convenience.Models.Interfaces.IChumonService.SetChumonKeysViewModel">
+  SetChumonKeysViewModel()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumonService.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>注文キービューモデル初期設定</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ChumonKeysViewModel&gt; SetChumonKeysViewModel()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.Chumon.ChumonKeysViewModel.html">ChumonKeysViewModel</a>&gt;</dt>
+    <dd><p>ChumonKeysViewModel 注文キービューモデル</p>
 </dd>
   </dl>
 

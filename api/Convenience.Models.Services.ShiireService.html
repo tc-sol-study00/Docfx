@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Models_Services_ShiireService" data-uid="Convenience.Models.Services.ShiireService" class="text-break">
-Class ShiireService  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L15"><i class="bi bi-code-slash"></i></a>
+Class ShiireService  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class ShiireService  <a class="header-action link-secondary" title="View source"
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ShiireService : IShiireService</code></pre>
+    <pre><code class="lang-csharp hljs">public class ShiireService : IShiireService, IDbContext</code></pre>
   </div>
 
 
@@ -120,6 +120,7 @@ Class ShiireService  <a class="header-action link-secondary" title="View source"
     <dt>Implements</dt>
     <dd>
       <div><a class="xref" href="Convenience.Models.Interfaces.IShiireService.html">IShiireService</a></div>
+      <div><a class="xref" href="Convenience.Models.Interfaces.IDbContext.html">IDbContext</a></div>
     </dd>
   </dl>
 
@@ -161,9 +162,36 @@ Class ShiireService  <a class="header-action link-secondary" title="View source"
 
   <a id="Convenience_Models_Services_ShiireService__ctor_" data-uid="Convenience.Models.Services.ShiireService.#ctor*"></a>
 
+  <h3 id="Convenience_Models_Services_ShiireService__ctor" data-uid="Convenience.Models.Services.ShiireService.#ctor">
+  ShiireService()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>C#コンソールデバッグ用</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ShiireService()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Convenience_Models_Services_ShiireService__ctor_" data-uid="Convenience.Models.Services.ShiireService.#ctor*"></a>
+
   <h3 id="Convenience_Models_Services_ShiireService__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IShiire_" data-uid="Convenience.Models.Services.ShiireService.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShiire)">
   ShiireService(ConvenienceContext, IShiire)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>コンストラクター　通常用</p>
@@ -202,7 +230,7 @@ Class ShiireService  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Convenience_Models_Services_ShiireService__context" data-uid="Convenience.Models.Services.ShiireService._context">
   _context
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -229,28 +257,98 @@ Class ShiireService  <a class="header-action link-secondary" title="View source"
 
 
 
+  <h2 class="section" id="properties">Properties
+</h2>
 
-  <h3 id="Convenience_Models_Services_ShiireService_shiire" data-uid="Convenience.Models.Services.ShiireService.shiire">
-  shiire
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L18"><i class="bi bi-code-slash"></i></a>
+
+  <a id="Convenience_Models_Services_ShiireService_ShiireKeysViewModel_" data-uid="Convenience.Models.Services.ShiireService.ShiireKeysViewModel*"></a>
+
+  <h3 id="Convenience_Models_Services_ShiireService_ShiireKeysViewModel" data-uid="Convenience.Models.Services.ShiireService.ShiireKeysViewModel">
+  ShiireKeysViewModel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>仕入キービューモデル（１枚目の画面用）</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private readonly IShiire shiire</code></pre>
+    <pre><code class="lang-csharp hljs">public ShiireKeysViewModel ShiireKeysViewModel { get; set; }</code></pre>
   </div>
 
 
 
 
-  <h4 class="section">Field Value</h4>
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Convenience.Models.ViewModels.Shiire.ShiireKeysViewModel.html">ShiireKeysViewModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Convenience_Models_Services_ShiireService_ShiireViewModel_" data-uid="Convenience.Models.Services.ShiireService.ShiireViewModel*"></a>
+
+  <h3 id="Convenience_Models_Services_ShiireService_ShiireViewModel" data-uid="Convenience.Models.Services.ShiireService.ShiireViewModel">
+  ShiireViewModel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>仕入ビューモデル（２枚目の画面用）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ShiireViewModel ShiireViewModel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Convenience.Models.ViewModels.Shiire.ShiireViewModel.html">ShiireViewModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Convenience_Models_Services_ShiireService_shiire_" data-uid="Convenience.Models.Services.ShiireService.shiire*"></a>
+
+  <h3 id="Convenience_Models_Services_ShiireService_shiire" data-uid="Convenience.Models.Services.ShiireService.shiire">
+  shiire
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>仕入クラス用オブジェクト変数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IShiire shiire { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Convenience.Models.Interfaces.IShiire.html">IShiire</a></dt>
     <dd></dd>
   </dl>
-
 
 
 
@@ -267,10 +365,11 @@ Class ShiireService  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Convenience_Models_Services_ShiireService_SetShiireKeysModel" data-uid="Convenience.Models.Services.ShiireService.SetShiireKeysModel">
   SetShiireKeysModel()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L211"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>仕入キーモデル設定（仕入画面１枚目用）</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -281,7 +380,8 @@ Class ShiireService  <a class="header-action link-secondary" title="View source"
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.Shiire.ShiireKeysViewModel.html">ShiireKeysViewModel</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>ShiireKeysViewModel 仕入キービューモデル</p>
+</dd>
   </dl>
 
 
@@ -294,29 +394,32 @@ Class ShiireService  <a class="header-action link-secondary" title="View source"
 
 
 
-  <a id="Convenience_Models_Services_ShiireService_ShiireHandling_" data-uid="Convenience.Models.Services.ShiireService.ShiireHandling*"></a>
+  <a id="Convenience_Models_Services_ShiireService_SetShiireModel_" data-uid="Convenience.Models.Services.ShiireService.SetShiireModel*"></a>
 
-  <h3 id="Convenience_Models_Services_ShiireService_ShiireHandling_System_String_" data-uid="Convenience.Models.Services.ShiireService.ShiireHandling(System.String)">
-  ShiireHandling(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Models_Services_ShiireService_SetShiireModel_System_Int32_System_Collections_Generic_IList_Convenience_Models_DataModels_ShiireJisseki__" data-uid="Convenience.Models.Services.ShiireService.SetShiireModel(System.Int32,System.Collections.Generic.IList{Convenience.Models.DataModels.ShiireJisseki})">
+  SetShiireModel(int, IList&lt;ShiireJisseki&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L227"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>仕入ビューモデル設定</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;(int, IList&lt;ShiireJisseki&gt;)&gt; ShiireHandling(string inChumonId)</code></pre>
+    <pre><code class="lang-csharp hljs">private ShiireViewModel SetShiireModel(int entities, IList&lt;ShiireJisseki&gt; inshiireJissekis)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>inChumonId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>entities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>inshiireJissekis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShiireJisseki.html">ShiireJisseki</a>&gt;</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShiireJisseki.html">ShiireJisseki</a>&gt;)&gt;</dt>
+    <dt><a class="xref" href="Convenience.Models.ViewModels.Shiire.ShiireViewModel.html">ShiireViewModel</a></dt>
     <dd></dd>
   </dl>
 
@@ -330,36 +433,34 @@ Class ShiireService  <a class="header-action link-secondary" title="View source"
 
 
 
-  <a id="Convenience_Models_Services_ShiireService_ShiireHandling_" data-uid="Convenience.Models.Services.ShiireService.ShiireHandling*"></a>
+  <a id="Convenience_Models_Services_ShiireService_ShiireCommit_" data-uid="Convenience.Models.Services.ShiireService.ShiireCommit*"></a>
 
-  <h3 id="Convenience_Models_Services_ShiireService_ShiireHandling_System_String_System_DateOnly_System_UInt32_System_Collections_Generic_IList_Convenience_Models_DataModels_ShiireJisseki__" data-uid="Convenience.Models.Services.ShiireService.ShiireHandling(System.String,System.DateOnly,System.UInt32,System.Collections.Generic.IList{Convenience.Models.DataModels.ShiireJisseki})">
-  ShiireHandling(string, DateOnly, uint, IList&lt;ShiireJisseki&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Models_Services_ShiireService_ShiireCommit_Convenience_Models_ViewModels_Shiire_ShiireViewModel_" data-uid="Convenience.Models.Services.ShiireService.ShiireCommit(Convenience.Models.ViewModels.Shiire.ShiireViewModel)">
+  ShiireCommit(ShiireViewModel)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L105"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>仕入データをDBに書き込む・注文残の調整・倉庫在庫への反映（Post後処理・再表示用）</p>
+<p>仕入実績データPost後の後の再表示用</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;(int, IList&lt;ShiireJisseki&gt;)&gt; ShiireHandling(string inChumonId, DateOnly inShiireDate, uint inSeqByShiireDate, IList&lt;ShiireJisseki&gt; inShiireJissekis)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;ShiireViewModel&gt; ShiireCommit(ShiireViewModel inShiireViewModel)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>inChumonId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>inShiireDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a></dt>
-    <dd></dd>
-    <dt><code>inSeqByShiireDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd></dd>
-    <dt><code>inShiireJissekis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShiireJisseki.html">ShiireJisseki</a>&gt;</dt>
-    <dd></dd>
+    <dt><code>inShiireViewModel</code> <a class="xref" href="Convenience.Models.ViewModels.Shiire.ShiireViewModel.html">ShiireViewModel</a></dt>
+    <dd><p>仕入ビューモデル（注文コード・仕入日・仕入SEQ、Postされた仕入実績データ）</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShiireJisseki.html">ShiireJisseki</a>&gt;)&gt;</dt>
-    <dd></dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.Shiire.ShiireViewModel.html">ShiireViewModel</a>&gt;</dt>
+    <dd><p>仕入ビューモデル（更新エンティティ数・DB更新された仕入実績）</p>
+</dd>
   </dl>
 
 
@@ -368,29 +469,45 @@ Class ShiireService  <a class="header-action link-secondary" title="View source"
 
 
 
+  <h4 class="section" id="Convenience_Models_Services_ShiireService_ShiireCommit_Convenience_Models_ViewModels_Shiire_ShiireViewModel__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>①仕入実績がある場合は、仕入実績取り込み、ない場合は注文実績から作成</p>
+<p>②　①の内容に対し、ポストデータを反映</p>
+<p>③注文実績の注文残と倉庫在庫の在庫数を仕入数にあわせ過不足する</p>
+<p>④仕入実績DB更新</p>
+<p>⑤仕入実績に倉庫在庫を接続しインクルードできるようにする（表示用）</p>
+</div>
 
 
 
 
-  <a id="Convenience_Models_Services_ShiireService_ShiireUpdate_" data-uid="Convenience.Models.Services.ShiireService.ShiireUpdate*"></a>
+  <a id="Convenience_Models_Services_ShiireService_ShiireSetting_" data-uid="Convenience.Models.Services.ShiireService.ShiireSetting*"></a>
 
-  <h3 id="Convenience_Models_Services_ShiireService_ShiireUpdate" data-uid="Convenience.Models.Services.ShiireService.ShiireUpdate">
-  ShiireUpdate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Models_Services_ShiireService_ShiireSetting_Convenience_Models_ViewModels_Shiire_ShiireKeysViewModel_" data-uid="Convenience.Models.Services.ShiireService.ShiireSetting(Convenience.Models.ViewModels.Shiire.ShiireKeysViewModel)">
+  ShiireSetting(ShiireKeysViewModel)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>仕入セッティング</p>
+<p>仕入実績データの画面初期表示用（DB更新後の再表示も含む）</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; ShiireUpdate()</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;ShiireViewModel&gt; ShiireSetting(ShiireKeysViewModel inShiireKeysViewModel)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inShiireKeysViewModel</code> <a class="xref" href="Convenience.Models.ViewModels.Shiire.ShiireKeysViewModel.html">ShiireKeysViewModel</a></dt>
+    <dd><p>注文キービューモデル</p>
+</dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
-    <dd></dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.Shiire.ShiireViewModel.html">ShiireViewModel</a>&gt;</dt>
+    <dd><p>ShiireViewModel 仕入ビューモデル（仕入実績・インクルードされた注文実績・インクルードされた倉庫在庫）</p>
+</dd>
   </dl>
 
 
@@ -399,6 +516,11 @@ Class ShiireService  <a class="header-action link-secondary" title="View source"
 
 
 
+  <h4 class="section" id="Convenience_Models_Services_ShiireService_ShiireSetting_Convenience_Models_ViewModels_Shiire_ShiireKeysViewModel__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>①現在時間により仕入日セット</p>
+<p>②仕入は毎回新規なので、仕入SEQを発番・注文実績から仕入実績を作る</p>
+<p>③関係する倉庫在庫を接続（表示用）</p>
+</div>
 
 
 
@@ -407,7 +529,7 @@ Class ShiireService  <a class="header-action link-secondary" title="View source"
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L15" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShiireService.cs/#L18" class="edit-link">Edit this page</a>
         </div>
 
 

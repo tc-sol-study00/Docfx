@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Interface IShiire | Convenience ">
       
-      
+      <meta name="description" content="仕入クラスインターフェース">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Models_Interfaces_IShiire" data-uid="Convenience.Models.Interfaces.IShiire" class="text-break">
-Interface IShiire  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Interface IShiire  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,8 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
   <dl><dt>Assembly</dt><dd>Convenience.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>仕入クラスインターフェース</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -124,10 +125,12 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Convenience_Models_Interfaces_IShiire_Shiirejissekis" data-uid="Convenience.Models.Interfaces.IShiire.Shiirejissekis">
   Shiirejissekis
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>仕入実績プロパティ
+Include ChuumonJissekiMeisai</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -155,10 +158,11 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Convenience_Models_Interfaces_IShiire_SokoZaikos" data-uid="Convenience.Models.Interfaces.IShiire.SokoZaikos">
   SokoZaikos
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>倉庫在庫プロパティ</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -190,10 +194,11 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Convenience_Models_Interfaces_IShiire_ChumonToShiireJisseki_System_String_System_DateOnly_System_UInt32_" data-uid="Convenience.Models.Interfaces.IShiire.ChumonToShiireJisseki(System.String,System.DateOnly,System.UInt32)">
   ChumonToShiireJisseki(string, DateOnly, uint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>仕入実績作成</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -203,17 +208,21 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>inChumonId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>注文コード（注文実績問い合わせキー）</p>
+</dd>
     <dt><code>inShiireDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a></dt>
-    <dd></dd>
+    <dd><p>仕入日付（仕入実績にセットされる）</p>
+</dd>
     <dt><code>inSeqByShiireDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd></dd>
+    <dd><p>仕入日付内のシーケンス（仕入実績にセットされる）</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShiireJisseki.html">ShiireJisseki</a>&gt;&gt;</dt>
-    <dd></dd>
+    <dd><p>注文実績から新規作成された仕入実績</p>
+</dd>
   </dl>
 
 
@@ -230,7 +239,7 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Convenience_Models_Interfaces_IShiire_ChuumonIdOnShiireJissekiExistingCheck_System_String_System_DateOnly_System_UInt32_" data-uid="Convenience.Models.Interfaces.IShiire.ChuumonIdOnShiireJissekiExistingCheck(System.String,System.DateOnly,System.UInt32)">
   ChuumonIdOnShiireJissekiExistingCheck(string, DateOnly, uint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -270,10 +279,11 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Convenience_Models_Interfaces_IShiire_ChuumonZanZaikoSuChousei_System_String_System_Collections_Generic_IList_Convenience_Models_DataModels_ShiireJisseki__" data-uid="Convenience.Models.Interfaces.IShiire.ChuumonZanZaikoSuChousei(System.String,System.Collections.Generic.IList{Convenience.Models.DataModels.ShiireJisseki})">
   ChuumonZanZaikoSuChousei(string, IList&lt;ShiireJisseki&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>注文残・在庫数量調整</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -283,15 +293,18 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>inChumonId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>注文コード</p>
+</dd>
     <dt><code>inShiireJissekis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShiireJisseki.html">ShiireJisseki</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>仕入実績（注文実績がインクルードされていること）</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.Properties.Shiire.html">Shiire</a>.<a class="xref" href="Convenience.Models.Properties.Shiire.ShiireUkeireReturnSet.html">ShiireUkeireReturnSet</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>注文残・倉庫在庫が調整された注文残・倉庫在庫調整用モデル</p>
+</dd>
   </dl>
 
 
@@ -308,10 +321,13 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Convenience_Models_Interfaces_IShiire_NextSeq_System_String_System_DateOnly_" data-uid="Convenience.Models.Interfaces.IShiire.NextSeq(System.String,System.DateOnly)">
   NextSeq(string, DateOnly)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>注文コード、仕入日を元に、次の仕入SEQを求める
+仕入実績の主キーは注文コード、仕入日、仕入SEQなので、仕入日に数回仕入れる場合は、
+仕入SEQをインクリメントして利用する</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -321,15 +337,18 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>inChumonId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>仕入実績検索キー：注文コード</p>
+</dd>
     <dt><code>inShiireDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a></dt>
-    <dd></dd>
+    <dd><p>仕入実績検索キー：仕入日</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>次の仕入SEQ（次に仕入実績を登録する仕入SEQ）</p>
+</dd>
   </dl>
 
 
@@ -346,10 +365,12 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Convenience_Models_Interfaces_IShiire_ShiireSokoConnection_System_Collections_Generic_IList_Convenience_Models_DataModels_ShiireJisseki__System_Collections_Generic_IEnumerable_Convenience_Models_DataModels_SokoZaiko__" data-uid="Convenience.Models.Interfaces.IShiire.ShiireSokoConnection(System.Collections.Generic.IList{Convenience.Models.DataModels.ShiireJisseki},System.Collections.Generic.IEnumerable{Convenience.Models.DataModels.SokoZaiko})">
   ShiireSokoConnection(IList&lt;ShiireJisseki&gt;, IEnumerable&lt;SokoZaiko&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L74"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>倉庫在庫を仕入データに接続する（表示前に利用する）　
+NotMappedは外部キーが使えないから、includeできないため</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -359,9 +380,11 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>inShiireJissekis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShiireJisseki.html">ShiireJisseki</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>仕入実績</p>
+</dd>
     <dt><code>indata</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Convenience.Models.DataModels.SokoZaiko.html">SokoZaiko</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>仕入実績に結合する倉庫在庫</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -384,10 +407,11 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Convenience_Models_Interfaces_IShiire_ShiireToShiireJisseki_System_String_System_DateOnly_System_UInt32_" data-uid="Convenience.Models.Interfaces.IShiire.ShiireToShiireJisseki(System.String,System.DateOnly,System.UInt32)">
   ShiireToShiireJisseki(string, DateOnly, uint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>仕入実績から仕入実績プロパティに反映</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -397,11 +421,14 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>inChumonId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>注文コード</p>
+</dd>
     <dt><code>inShiireDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a></dt>
-    <dd></dd>
+    <dd><p>仕入日付</p>
+</dd>
     <dt><code>inSeqByShiireDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd></dd>
+    <dd><p>仕入SEQ</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -424,10 +451,11 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Convenience_Models_Interfaces_IShiire_ShiireUpdate_System_Collections_Generic_IList_Convenience_Models_DataModels_ShiireJisseki__" data-uid="Convenience.Models.Interfaces.IShiire.ShiireUpdate(System.Collections.Generic.IList{Convenience.Models.DataModels.ShiireJisseki})">
   ShiireUpdate(IList&lt;ShiireJisseki&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>仕入データPost内容の反映</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -437,13 +465,15 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>inShiireJissekis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShiireJisseki.html">ShiireJisseki</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>Postされた仕入実績</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShiireJisseki.html">ShiireJisseki</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>Postされた注仕入実績がオーバライドされた仕入実績プロパティ</p>
+</dd>
   </dl>
 
 
@@ -460,10 +490,11 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Convenience_Models_Interfaces_IShiire_ZanAriChumonList" data-uid="Convenience.Models.Interfaces.IShiire.ZanAriChumonList">
   ZanAriChumonList()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L103"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>注文残がある注文のリスト化</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -474,7 +505,8 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Convenience.Models.Properties.Shiire.html">Shiire</a>.<a class="xref" href="Convenience.Models.Properties.Shiire.ChumonList.html">ChumonList</a>&gt;&gt;</dt>
-    <dd></dd>
+    <dd><p>注文残のある注文コード一覧</p>
+</dd>
   </dl>
 
 
@@ -491,7 +523,7 @@ Interface IShiire  <a class="header-action link-secondary" title="View source" h
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L5" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IShiire.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
 

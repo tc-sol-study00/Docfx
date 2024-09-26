@@ -4574,6 +4574,57 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Properties.Chumon.ChumonUpdate
   nameWithType: Chumon.ChumonUpdate
+- uid: Convenience.Models.Properties.Chumon.ChumonUpdateWithAutoMapper(Convenience.Models.DataModels.ChumonJisseki,Convenience.Models.DataModels.ChumonJisseki)
+  name: ChumonUpdateWithAutoMapper(ChumonJisseki, ChumonJisseki)
+  href: api/Convenience.Models.Properties.Chumon.html#Convenience_Models_Properties_Chumon_ChumonUpdateWithAutoMapper_Convenience_Models_DataModels_ChumonJisseki_Convenience_Models_DataModels_ChumonJisseki_
+  commentId: M:Convenience.Models.Properties.Chumon.ChumonUpdateWithAutoMapper(Convenience.Models.DataModels.ChumonJisseki,Convenience.Models.DataModels.ChumonJisseki)
+  fullName: Convenience.Models.Properties.Chumon.ChumonUpdateWithAutoMapper(Convenience.Models.DataModels.ChumonJisseki, Convenience.Models.DataModels.ChumonJisseki)
+  nameWithType: Chumon.ChumonUpdateWithAutoMapper(ChumonJisseki, ChumonJisseki)
+- uid: Convenience.Models.Properties.Chumon.ChumonUpdateWithAutoMapper*
+  name: ChumonUpdateWithAutoMapper
+  href: api/Convenience.Models.Properties.Chumon.html#Convenience_Models_Properties_Chumon_ChumonUpdateWithAutoMapper_
+  commentId: Overload:Convenience.Models.Properties.Chumon.ChumonUpdateWithAutoMapper
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.Chumon.ChumonUpdateWithAutoMapper
+  nameWithType: Chumon.ChumonUpdateWithAutoMapper
+- uid: Convenience.Models.Properties.Chumon.ChumonUpdateWithHandMade(Convenience.Models.DataModels.ChumonJisseki,Convenience.Models.DataModels.ChumonJisseki)
+  name: ChumonUpdateWithHandMade(ChumonJisseki, ChumonJisseki)
+  href: api/Convenience.Models.Properties.Chumon.html#Convenience_Models_Properties_Chumon_ChumonUpdateWithHandMade_Convenience_Models_DataModels_ChumonJisseki_Convenience_Models_DataModels_ChumonJisseki_
+  commentId: M:Convenience.Models.Properties.Chumon.ChumonUpdateWithHandMade(Convenience.Models.DataModels.ChumonJisseki,Convenience.Models.DataModels.ChumonJisseki)
+  fullName: Convenience.Models.Properties.Chumon.ChumonUpdateWithHandMade(Convenience.Models.DataModels.ChumonJisseki, Convenience.Models.DataModels.ChumonJisseki)
+  nameWithType: Chumon.ChumonUpdateWithHandMade(ChumonJisseki, ChumonJisseki)
+- uid: Convenience.Models.Properties.Chumon.ChumonUpdateWithHandMade*
+  name: ChumonUpdateWithHandMade
+  href: api/Convenience.Models.Properties.Chumon.html#Convenience_Models_Properties_Chumon_ChumonUpdateWithHandMade_
+  commentId: Overload:Convenience.Models.Properties.Chumon.ChumonUpdateWithHandMade
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.Chumon.ChumonUpdateWithHandMade
+  nameWithType: Chumon.ChumonUpdateWithHandMade
+- uid: Convenience.Models.Properties.Chumon.ChumonUpdateWithIndex(Convenience.Models.DataModels.ChumonJisseki,Convenience.Models.DataModels.ChumonJisseki)
+  name: ChumonUpdateWithIndex(ChumonJisseki, ChumonJisseki)
+  href: api/Convenience.Models.Properties.Chumon.html#Convenience_Models_Properties_Chumon_ChumonUpdateWithIndex_Convenience_Models_DataModels_ChumonJisseki_Convenience_Models_DataModels_ChumonJisseki_
+  commentId: M:Convenience.Models.Properties.Chumon.ChumonUpdateWithIndex(Convenience.Models.DataModels.ChumonJisseki,Convenience.Models.DataModels.ChumonJisseki)
+  fullName: Convenience.Models.Properties.Chumon.ChumonUpdateWithIndex(Convenience.Models.DataModels.ChumonJisseki, Convenience.Models.DataModels.ChumonJisseki)
+  nameWithType: Chumon.ChumonUpdateWithIndex(ChumonJisseki, ChumonJisseki)
+- uid: Convenience.Models.Properties.Chumon.ChumonUpdateWithIndex*
+  name: ChumonUpdateWithIndex
+  href: api/Convenience.Models.Properties.Chumon.html#Convenience_Models_Properties_Chumon_ChumonUpdateWithIndex_
+  commentId: Overload:Convenience.Models.Properties.Chumon.ChumonUpdateWithIndex
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.Chumon.ChumonUpdateWithIndex
+  nameWithType: Chumon.ChumonUpdateWithIndex
+- uid: Convenience.Models.Properties.Chumon.DelegateOverrideProc
+  name: Chumon.DelegateOverrideProc
+  href: api/Convenience.Models.Properties.Chumon.DelegateOverrideProc.html
+  commentId: T:Convenience.Models.Properties.Chumon.DelegateOverrideProc
+  fullName: Convenience.Models.Properties.Chumon.DelegateOverrideProc
+  nameWithType: Chumon.DelegateOverrideProc
+- uid: Convenience.Models.Properties.Chumon.OverrideProc
+  name: OverrideProc
+  href: api/Convenience.Models.Properties.Chumon.html#Convenience_Models_Properties_Chumon_OverrideProc
+  commentId: F:Convenience.Models.Properties.Chumon.OverrideProc
+  fullName: Convenience.Models.Properties.Chumon.OverrideProc
+  nameWithType: Chumon.OverrideProc
 - uid: Convenience.Models.Properties.Chumon._context
   name: _context
   href: api/Convenience.Models.Properties.Chumon.html#Convenience_Models_Properties_Chumon__context

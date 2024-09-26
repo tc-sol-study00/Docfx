@@ -227,6 +227,36 @@ Class Chumon  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <h3 id="Convenience_Models_Properties_Chumon_OverrideProc" data-uid="Convenience.Models.Properties.Chumon.OverrideProc">
+  OverrideProc
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Chumon.cs/#L261"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly Chumon.DelegateOverrideProc OverrideProc</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Convenience.Models.Properties.Chumon.html">Chumon</a>.<a class="xref" href="Convenience.Models.Properties.Chumon.DelegateOverrideProc.html">DelegateOverrideProc</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <h3 id="Convenience_Models_Properties_Chumon__context" data-uid="Convenience.Models.Properties.Chumon._context">
   _context
   <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Chumon.cs/#L24"><i class="bi bi-code-slash"></i></a>
@@ -442,7 +472,7 @@ Class Chumon  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Convenience_Models_Properties_Chumon_ChumonUpdate_Convenience_Models_DataModels_ChumonJisseki_" data-uid="Convenience.Models.Properties.Chumon.ChumonUpdate(Convenience.Models.DataModels.ChumonJisseki)">
   ChumonUpdate(ChumonJisseki)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Chumon.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Chumon.cs/#L268"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>注文実績＋注文明細更新</p>
@@ -473,6 +503,144 @@ Class Chumon  <a class="header-action link-secondary" title="View source" href="
 
 
 
+
+
+
+
+  <a id="Convenience_Models_Properties_Chumon_ChumonUpdateWithAutoMapper_" data-uid="Convenience.Models.Properties.Chumon.ChumonUpdateWithAutoMapper*"></a>
+
+  <h3 id="Convenience_Models_Properties_Chumon_ChumonUpdateWithAutoMapper_Convenience_Models_DataModels_ChumonJisseki_Convenience_Models_DataModels_ChumonJisseki_" data-uid="Convenience.Models.Properties.Chumon.ChumonUpdateWithAutoMapper(Convenience.Models.DataModels.ChumonJisseki,Convenience.Models.DataModels.ChumonJisseki)">
+  ChumonUpdateWithAutoMapper(ChumonJisseki, ChumonJisseki)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Chumon.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Postデータの上乗せ処理（AutoMapper利用)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private static ChumonJisseki ChumonUpdateWithAutoMapper(ChumonJisseki postedChumonJisseki, ChumonJisseki existedChumonJisseki)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>postedChumonJisseki</code> <a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html">ChumonJisseki</a></dt>
+    <dd><p>注文実績＋明細のPostデータ</p>
+</dd>
+    <dt><code>existedChumonJisseki</code> <a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html">ChumonJisseki</a></dt>
+    <dd><p>注文実績＋明細のDBデータ</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html">ChumonJisseki</a></dt>
+    <dd><p>上乗せされた注文実績＋明細データ</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Convenience_Models_Properties_Chumon_ChumonUpdateWithAutoMapper_Convenience_Models_DataModels_ChumonJisseki_Convenience_Models_DataModels_ChumonJisseki__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>private readonly DelegateOverrideProc OverrideProc = ChumonUpdateWithAutoMapper;の設定の時にコールされる
+３つの回答例の説明用の為、研修生は気にしなくて良い</p>
+</div>
+
+
+
+
+  <a id="Convenience_Models_Properties_Chumon_ChumonUpdateWithHandMade_" data-uid="Convenience.Models.Properties.Chumon.ChumonUpdateWithHandMade*"></a>
+
+  <h3 id="Convenience_Models_Properties_Chumon_ChumonUpdateWithHandMade_Convenience_Models_DataModels_ChumonJisseki_Convenience_Models_DataModels_ChumonJisseki_" data-uid="Convenience.Models.Properties.Chumon.ChumonUpdateWithHandMade(Convenience.Models.DataModels.ChumonJisseki,Convenience.Models.DataModels.ChumonJisseki)">
+  ChumonUpdateWithHandMade(ChumonJisseki, ChumonJisseki)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Chumon.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Postデータの上乗せ処理（Linq使った手書き対応)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private static ChumonJisseki ChumonUpdateWithHandMade(ChumonJisseki postedChumonJisseki, ChumonJisseki existedChumonJisseki)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>postedChumonJisseki</code> <a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html">ChumonJisseki</a></dt>
+    <dd><p>注文実績＋明細のPostデータ</p>
+</dd>
+    <dt><code>existedChumonJisseki</code> <a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html">ChumonJisseki</a></dt>
+    <dd><p>注文実績＋明細のDBデータ</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html">ChumonJisseki</a></dt>
+    <dd><p>上乗せされた注文実績＋明細データ</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Convenience_Models_Properties_Chumon_ChumonUpdateWithHandMade_Convenience_Models_DataModels_ChumonJisseki_Convenience_Models_DataModels_ChumonJisseki__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>private readonly DelegateOverrideProc OverrideProc = ChumonUpdateWithHandMade;の設定の時にコールされる
+３つの回答例の説明用の為、研修生は気にしなくて良い</p>
+</div>
+
+
+
+
+  <a id="Convenience_Models_Properties_Chumon_ChumonUpdateWithIndex_" data-uid="Convenience.Models.Properties.Chumon.ChumonUpdateWithIndex*"></a>
+
+  <h3 id="Convenience_Models_Properties_Chumon_ChumonUpdateWithIndex_Convenience_Models_DataModels_ChumonJisseki_Convenience_Models_DataModels_ChumonJisseki_" data-uid="Convenience.Models.Properties.Chumon.ChumonUpdateWithIndex(Convenience.Models.DataModels.ChumonJisseki,Convenience.Models.DataModels.ChumonJisseki)">
+  ChumonUpdateWithIndex(ChumonJisseki, ChumonJisseki)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Chumon.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Postデータの上乗せ処理（For+Index使った手書き対応)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private static ChumonJisseki ChumonUpdateWithIndex(ChumonJisseki postedChumonJisseki, ChumonJisseki existedChumonJisseki)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>postedChumonJisseki</code> <a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html">ChumonJisseki</a></dt>
+    <dd><p>注文実績＋明細のPostデータ</p>
+</dd>
+    <dt><code>existedChumonJisseki</code> <a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html">ChumonJisseki</a></dt>
+    <dd><p>注文実績＋明細のDBデータ</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html">ChumonJisseki</a></dt>
+    <dd><p>上乗せされた注文実績＋明細データ</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Convenience_Models_Properties_Chumon_ChumonUpdateWithIndex_Convenience_Models_DataModels_ChumonJisseki_Convenience_Models_DataModels_ChumonJisseki__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>private readonly DelegateOverrideProc OverrideProc = ChumonUpdateWithIndex;の設定の時にコールされる
+３つの回答例の説明用の為、研修生は気にしなくて良い</p>
+</div>
 
 
 

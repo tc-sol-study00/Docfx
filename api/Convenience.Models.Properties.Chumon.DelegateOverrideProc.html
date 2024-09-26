@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace Convenience.Models.Properties | Convenience </title>
+      <title>Delegate Chumon.DelegateOverrideProc | Convenience </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace Convenience.Models.Properties | Convenience ">
+      <meta name="title" content="Delegate Chumon.DelegateOverrideProc | Convenience ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/tc-sol-study00/Convenience/new/main/apiSpec/new?filename=Convenience_Models_Properties_Chumon_DelegateOverrideProc.md&amp;value=---%0Auid%3A%20Convenience.Models.Properties.Chumon.DelegateOverrideProc%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,73 +84,55 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Convenience.Models.Properties">
+        <article data-uid="Convenience.Models.Properties.Chumon.DelegateOverrideProc">
 
-  <h1 id="Convenience_Models_Properties" data-uid="Convenience.Models.Properties" class="text-break">Namespace Convenience.Models.Properties</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
 
-    <h3 id="classes">
-Classes
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Convenience.Models.Properties.Chumon.html">Chumon</a></dt>
-      <dd><ul>
-<li>注文クラス</li>
-</ul>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Convenience.Models.Properties.Message.html">Message</a></dt>
-      <dd><p>正常・エラーメッセージ用クラス</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Convenience.Models.Properties.Message.MessageData.html">Message.MessageData</a></dt>
-      <dd><p>メッセ―ジ表示用データクラス</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Convenience.Models.Properties.Shiire.html">Shiire</a></dt>
-      <dd><p>仕入クラス</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Convenience.Models.Properties.Shiire.ChumonList.html">Shiire.ChumonList</a></dt>
-      <dd><p>仕入画面のキー入力の注文コード一覧用</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Convenience.Models.Properties.Shiire.ShiireUkeireReturnSet.html">Shiire.ShiireUkeireReturnSet</a></dt>
-      <dd><p>注文残・倉庫在庫調整用モデル</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Convenience.Models.Properties.Zaiko.html">Zaiko</a></dt>
-      <dd><p>注文実績明細検索＆倉庫在庫（遅延実行）</p>
-</dd>
-    </dl>
-    <h3 id="enums">
-Enums
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Convenience.Models.Properties.Message.ErrDef.html">Message.ErrDef</a></dt>
-      <dd><p>エラーコードenum設定（0から付与）</p>
-</dd>
-    </dl>
-    <h3 id="delegates">
-Delegates
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="Convenience.Models.Properties.Chumon.DelegateOverrideProc.html">Chumon.DelegateOverrideProc</a></dt>
-      <dd></dd>
-    </dl>
+
+  <h1 id="Convenience_Models_Properties_Chumon_DelegateOverrideProc" data-uid="Convenience.Models.Properties.Chumon.DelegateOverrideProc" class="text-break">
+Delegate Chumon.DelegateOverrideProc  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Chumon.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Convenience.html">Convenience</a>.<a class="xref" href="Convenience.Models.html">Models</a>.<a class="xref" href="Convenience.Models.Properties.html">Properties</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Convenience.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private delegate ChumonJisseki Chumon.DelegateOverrideProc(ChumonJisseki postedChumonJisseki, ChumonJisseki existedChumonJisseki)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>postedChumonJisseki</code> <a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html">ChumonJisseki</a></dt>
+    <dd></dd>
+    <dt><code>existedChumonJisseki</code> <a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html">ChumonJisseki</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html">ChumonJisseki</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
 
 
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Chumon.cs/#L258" class="edit-link">Edit this page</a>
         </div>
 
 

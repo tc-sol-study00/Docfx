@@ -512,6 +512,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.ChumonJissekiSetupException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.ChumonJissekiSetupException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.DataCountMismatchException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.DataCountMismatchException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.DataPositionMismatchException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.DataPositionMismatchException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Properties.Message.ErrDef.yml",
       "output": {
         ".html": {
@@ -536,6 +566,36 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Properties.Message.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.NoDataFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.NoDataFoundException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.OrderCodeGenerationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.OrderCodeGenerationException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.PostDataInValidException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.PostDataInValidException.html"
         }
       },
       "version": ""

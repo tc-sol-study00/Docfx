@@ -2435,6 +2435,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Data.ConvenienceContext.ShiireJisseki
   nameWithType: ConvenienceContext.ShiireJisseki
+- uid: Convenience.Data.ConvenienceContext.ShiireMaster
+  name: ShiireMaster
+  href: api/Convenience.Data.ConvenienceContext.html#Convenience_Data_ConvenienceContext_ShiireMaster
+  commentId: P:Convenience.Data.ConvenienceContext.ShiireMaster
+  fullName: Convenience.Data.ConvenienceContext.ShiireMaster
+  nameWithType: ConvenienceContext.ShiireMaster
+- uid: Convenience.Data.ConvenienceContext.ShiireMaster*
+  name: ShiireMaster
+  href: api/Convenience.Data.ConvenienceContext.html#Convenience_Data_ConvenienceContext_ShiireMaster_
+  commentId: Overload:Convenience.Data.ConvenienceContext.ShiireMaster
+  isSpec: "True"
+  fullName: Convenience.Data.ConvenienceContext.ShiireMaster
+  nameWithType: ConvenienceContext.ShiireMaster
 - uid: Convenience.Data.ConvenienceContext.ShiireSakiMaster
   name: ShiireSakiMaster
   href: api/Convenience.Data.ConvenienceContext.html#Convenience_Data_ConvenienceContext_ShiireSakiMaster
@@ -2448,19 +2461,6 @@ references:
   isSpec: "True"
   fullName: Convenience.Data.ConvenienceContext.ShiireSakiMaster
   nameWithType: ConvenienceContext.ShiireSakiMaster
-- uid: Convenience.Data.ConvenienceContext.ShireMaster
-  name: ShireMaster
-  href: api/Convenience.Data.ConvenienceContext.html#Convenience_Data_ConvenienceContext_ShireMaster
-  commentId: P:Convenience.Data.ConvenienceContext.ShireMaster
-  fullName: Convenience.Data.ConvenienceContext.ShireMaster
-  nameWithType: ConvenienceContext.ShireMaster
-- uid: Convenience.Data.ConvenienceContext.ShireMaster*
-  name: ShireMaster
-  href: api/Convenience.Data.ConvenienceContext.html#Convenience_Data_ConvenienceContext_ShireMaster_
-  commentId: Overload:Convenience.Data.ConvenienceContext.ShireMaster
-  isSpec: "True"
-  fullName: Convenience.Data.ConvenienceContext.ShireMaster
-  nameWithType: ConvenienceContext.ShireMaster
 - uid: Convenience.Data.ConvenienceContext.ShohinMaster
   name: ShohinMaster
   href: api/Convenience.Data.ConvenienceContext.html#Convenience_Data_ConvenienceContext_ShohinMaster

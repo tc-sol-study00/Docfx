@@ -102,6 +102,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/AspNetCoreGeneratedDocument.Views_TentoHaraidashi_TentoHaraidashi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AspNetCoreGeneratedDocument.Views_TentoHaraidashi_TentoHaraidashi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/AspNetCoreGeneratedDocument.Views_Zaiko_Index.yml",
       "output": {
         ".html": {
@@ -182,6 +192,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Controllers.TentoHaraidashiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Controllers.TentoHaraidashiController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Controllers.ZaikoController.yml",
       "output": {
         ".html": {
@@ -242,10 +262,40 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Migrations.changetonull.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Migrations.changetonull.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Migrations.haraidashi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Migrations.haraidashi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Migrations.shiireTimeStamp.yml",
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Migrations.shiireTimeStamp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Migrations.tentozaiko.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Migrations.tentozaiko.html"
         }
       },
       "version": ""
@@ -336,6 +386,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.DataModels.SokoZaiko.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.DataModels.TentoHaraidashiHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.DataModels.TentoHaraidashiHeader.html"
         }
       },
       "version": ""
@@ -436,6 +496,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Interfaces.IShiireService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.ITentoHaraidashi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.ITentoHaraidashi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.ITentoHaraidashiService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.ITentoHaraidashiService.html"
         }
       },
       "version": ""
@@ -632,6 +712,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.TentoHaraidashi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.TentoHaraidashi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Properties.Zaiko.yml",
       "output": {
         ".html": {
@@ -666,6 +756,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Services.ShiireService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Services.TentoHaraidashiService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Services.TentoHaraidashiService.html"
         }
       },
       "version": ""
@@ -746,6 +846,36 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.ViewModels.Shiire.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.TentoHaraidashi.HaraidashiDateTimeAndIdMatching.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.TentoHaraidashi.HaraidashiDateTimeAndIdMatching.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.TentoHaraidashi.TentoHaraidashiViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.TentoHaraidashi.TentoHaraidashiViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.TentoHaraidashi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.TentoHaraidashi.html"
         }
       },
       "version": ""

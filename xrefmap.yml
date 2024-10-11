@@ -603,6 +603,283 @@ references:
   isSpec: "True"
   fullName: AspNetCoreGeneratedDocument.Views_Home_Privacy.Url
   nameWithType: Views_Home_Privacy.Url
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei
+  name: Views_Kaikei_Kaikei
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html
+  commentId: T:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei
+  nameWithType: Views_Kaikei_Kaikei
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Component
+  name: Component
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei_Component
+  commentId: P:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Component
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Component
+  nameWithType: Views_Kaikei_Kaikei.Component
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Component*
+  name: Component
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei_Component_
+  commentId: Overload:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Component
+  isSpec: "True"
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Component
+  nameWithType: Views_Kaikei_Kaikei.Component
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.ExecuteAsync
+  name: ExecuteAsync()
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei_ExecuteAsync
+  commentId: M:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.ExecuteAsync
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.ExecuteAsync()
+  nameWithType: Views_Kaikei_Kaikei.ExecuteAsync()
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei_ExecuteAsync_
+  commentId: Overload:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.ExecuteAsync
+  isSpec: "True"
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.ExecuteAsync
+  nameWithType: Views_Kaikei_Kaikei.ExecuteAsync
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Html
+  name: Html
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei_Html
+  commentId: P:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Html
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Html
+  nameWithType: Views_Kaikei_Kaikei.Html
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Html*
+  name: Html
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei_Html_
+  commentId: Overload:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Html
+  isSpec: "True"
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Html
+  nameWithType: Views_Kaikei_Kaikei.Html
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Json
+  name: Json
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei_Json
+  commentId: P:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Json
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Json
+  nameWithType: Views_Kaikei_Kaikei.Json
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Json*
+  name: Json
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei_Json_
+  commentId: Overload:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Json
+  isSpec: "True"
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Json
+  nameWithType: Views_Kaikei_Kaikei.Json
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.ModelExpressionProvider
+  name: ModelExpressionProvider
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei_ModelExpressionProvider
+  commentId: P:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.ModelExpressionProvider
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.ModelExpressionProvider
+  nameWithType: Views_Kaikei_Kaikei.ModelExpressionProvider
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.ModelExpressionProvider*
+  name: ModelExpressionProvider
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei_ModelExpressionProvider_
+  commentId: Overload:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.ModelExpressionProvider
+  isSpec: "True"
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.ModelExpressionProvider
+  nameWithType: Views_Kaikei_Kaikei.ModelExpressionProvider
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Url
+  name: Url
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei_Url
+  commentId: P:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Url
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Url
+  nameWithType: Views_Kaikei_Kaikei.Url
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Url*
+  name: Url
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei_Url_
+  commentId: Overload:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Url
+  isSpec: "True"
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.Url
+  nameWithType: Views_Kaikei_Kaikei.Url
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper
+  name: __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper
+  nameWithType: Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_FormActionTagHelper
+  name: __Microsoft_AspNetCore_Mvc_TagHelpers_FormActionTagHelper
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___Microsoft_AspNetCore_Mvc_TagHelpers_FormActionTagHelper
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_FormActionTagHelper
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_FormActionTagHelper
+  nameWithType: Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_FormActionTagHelper
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper
+  name: __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper
+  nameWithType: Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper
+  name: __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper
+  nameWithType: Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper
+  name: __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper
+  nameWithType: Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper
+  name: __Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper
+  nameWithType: Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper
+  name: __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper
+  nameWithType: Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper
+  name: __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper
+  nameWithType: Views_Kaikei_Kaikei.__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__backed__tagHelperScopeManager
+  name: __backed__tagHelperScopeManager
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___backed__tagHelperScopeManager
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__backed__tagHelperScopeManager
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__backed__tagHelperScopeManager
+  nameWithType: Views_Kaikei_Kaikei.__backed__tagHelperScopeManager
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_0
+  name: __tagHelperAttribute_0
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_0
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_0
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_0
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_0
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_1
+  name: __tagHelperAttribute_1
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_1
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_1
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_1
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_1
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_10
+  name: __tagHelperAttribute_10
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_10
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_10
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_10
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_10
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_11
+  name: __tagHelperAttribute_11
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_11
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_11
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_11
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_11
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_12
+  name: __tagHelperAttribute_12
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_12
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_12
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_12
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_12
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_13
+  name: __tagHelperAttribute_13
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_13
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_13
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_13
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_13
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_14
+  name: __tagHelperAttribute_14
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_14
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_14
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_14
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_14
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_15
+  name: __tagHelperAttribute_15
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_15
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_15
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_15
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_15
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_16
+  name: __tagHelperAttribute_16
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_16
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_16
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_16
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_16
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_17
+  name: __tagHelperAttribute_17
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_17
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_17
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_17
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_17
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_2
+  name: __tagHelperAttribute_2
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_2
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_2
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_2
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_2
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_3
+  name: __tagHelperAttribute_3
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_3
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_3
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_3
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_3
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_4
+  name: __tagHelperAttribute_4
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_4
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_4
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_4
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_4
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_5
+  name: __tagHelperAttribute_5
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_5
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_5
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_5
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_5
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_6
+  name: __tagHelperAttribute_6
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_6
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_6
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_6
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_6
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_7
+  name: __tagHelperAttribute_7
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_7
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_7
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_7
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_7
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_8
+  name: __tagHelperAttribute_8
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_8
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_8
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_8
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_8
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_9
+  name: __tagHelperAttribute_9
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperAttribute_9
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_9
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperAttribute_9
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperAttribute_9
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperExecutionContext
+  name: __tagHelperExecutionContext
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperExecutionContext
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperExecutionContext
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperExecutionContext
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperExecutionContext
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperRunner
+  name: __tagHelperRunner
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperRunner
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperRunner
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperRunner
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperRunner
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperScopeManager
+  name: __tagHelperScopeManager
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperScopeManager
+  commentId: P:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperScopeManager
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperScopeManager
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperScopeManager
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperScopeManager*
+  name: __tagHelperScopeManager
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperScopeManager_
+  commentId: Overload:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperScopeManager
+  isSpec: "True"
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperScopeManager
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperScopeManager
+- uid: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperStringValueBuffer
+  name: __tagHelperStringValueBuffer
+  href: api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html#AspNetCoreGeneratedDocument_Views_Kaikei_Kaikei___tagHelperStringValueBuffer
+  commentId: F:AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperStringValueBuffer
+  fullName: AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.__tagHelperStringValueBuffer
+  nameWithType: Views_Kaikei_Kaikei.__tagHelperStringValueBuffer
 - uid: AspNetCoreGeneratedDocument.Views_Shared_Error
   name: Views_Shared_Error
   href: api/AspNetCoreGeneratedDocument.Views_Shared_Error.html
@@ -916,6 +1193,12 @@ references:
   commentId: F:AspNetCoreGeneratedDocument.Views_Shared__Layout.__tagHelperAttribute_18
   fullName: AspNetCoreGeneratedDocument.Views_Shared__Layout.__tagHelperAttribute_18
   nameWithType: Views_Shared__Layout.__tagHelperAttribute_18
+- uid: AspNetCoreGeneratedDocument.Views_Shared__Layout.__tagHelperAttribute_19
+  name: __tagHelperAttribute_19
+  href: api/AspNetCoreGeneratedDocument.Views_Shared__Layout.html#AspNetCoreGeneratedDocument_Views_Shared__Layout___tagHelperAttribute_19
+  commentId: F:AspNetCoreGeneratedDocument.Views_Shared__Layout.__tagHelperAttribute_19
+  fullName: AspNetCoreGeneratedDocument.Views_Shared__Layout.__tagHelperAttribute_19
+  nameWithType: Views_Shared__Layout.__tagHelperAttribute_19
 - uid: AspNetCoreGeneratedDocument.Views_Shared__Layout.__tagHelperAttribute_2
   name: __tagHelperAttribute_2
   href: api/AspNetCoreGeneratedDocument.Views_Shared__Layout.html#AspNetCoreGeneratedDocument_Views_Shared__Layout___tagHelperAttribute_2
@@ -2437,6 +2720,132 @@ references:
   commentId: F:Convenience.Controllers.HomeController._logger
   fullName: Convenience.Controllers.HomeController._logger
   nameWithType: HomeController._logger
+- uid: Convenience.Controllers.KaikeiController
+  name: KaikeiController
+  href: api/Convenience.Controllers.KaikeiController.html
+  commentId: T:Convenience.Controllers.KaikeiController
+  fullName: Convenience.Controllers.KaikeiController
+  nameWithType: KaikeiController
+- uid: Convenience.Controllers.KaikeiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IKaikeiService)
+  name: KaikeiController(ConvenienceContext, IKaikeiService)
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IKaikeiService_
+  commentId: M:Convenience.Controllers.KaikeiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IKaikeiService)
+  name.vb: New(ConvenienceContext, IKaikeiService)
+  fullName: Convenience.Controllers.KaikeiController.KaikeiController(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IKaikeiService)
+  fullName.vb: Convenience.Controllers.KaikeiController.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IKaikeiService)
+  nameWithType: KaikeiController.KaikeiController(ConvenienceContext, IKaikeiService)
+  nameWithType.vb: KaikeiController.New(ConvenienceContext, IKaikeiService)
+- uid: Convenience.Controllers.KaikeiController.#ctor*
+  name: KaikeiController
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController__ctor_
+  commentId: Overload:Convenience.Controllers.KaikeiController.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Convenience.Controllers.KaikeiController.KaikeiController
+  fullName.vb: Convenience.Controllers.KaikeiController.New
+  nameWithType: KaikeiController.KaikeiController
+  nameWithType.vb: KaikeiController.New
+- uid: Convenience.Controllers.KaikeiController.Addkaikei(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  name: Addkaikei(KaikeiViewModel)
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController_Addkaikei_Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_
+  commentId: M:Convenience.Controllers.KaikeiController.Addkaikei(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  fullName: Convenience.Controllers.KaikeiController.Addkaikei(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  nameWithType: KaikeiController.Addkaikei(KaikeiViewModel)
+- uid: Convenience.Controllers.KaikeiController.Addkaikei*
+  name: Addkaikei
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController_Addkaikei_
+  commentId: Overload:Convenience.Controllers.KaikeiController.Addkaikei
+  isSpec: "True"
+  fullName: Convenience.Controllers.KaikeiController.Addkaikei
+  nameWithType: KaikeiController.Addkaikei
+- uid: Convenience.Controllers.KaikeiController.GetShohinName(System.String)
+  name: GetShohinName(string)
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController_GetShohinName_System_String_
+  commentId: M:Convenience.Controllers.KaikeiController.GetShohinName(System.String)
+  name.vb: GetShohinName(String)
+  fullName: Convenience.Controllers.KaikeiController.GetShohinName(string)
+  fullName.vb: Convenience.Controllers.KaikeiController.GetShohinName(String)
+  nameWithType: KaikeiController.GetShohinName(string)
+  nameWithType.vb: KaikeiController.GetShohinName(String)
+- uid: Convenience.Controllers.KaikeiController.GetShohinName*
+  name: GetShohinName
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController_GetShohinName_
+  commentId: Overload:Convenience.Controllers.KaikeiController.GetShohinName
+  isSpec: "True"
+  fullName: Convenience.Controllers.KaikeiController.GetShohinName
+  nameWithType: KaikeiController.GetShohinName
+- uid: Convenience.Controllers.KaikeiController.IndexName
+  name: IndexName
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController_IndexName
+  commentId: F:Convenience.Controllers.KaikeiController.IndexName
+  fullName: Convenience.Controllers.KaikeiController.IndexName
+  nameWithType: KaikeiController.IndexName
+- uid: Convenience.Controllers.KaikeiController.Kaikei(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  name: Kaikei(KaikeiViewModel)
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController_Kaikei_Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_
+  commentId: M:Convenience.Controllers.KaikeiController.Kaikei(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  fullName: Convenience.Controllers.KaikeiController.Kaikei(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  nameWithType: KaikeiController.Kaikei(KaikeiViewModel)
+- uid: Convenience.Controllers.KaikeiController.Kaikei*
+  name: Kaikei
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController_Kaikei_
+  commentId: Overload:Convenience.Controllers.KaikeiController.Kaikei
+  isSpec: "True"
+  fullName: Convenience.Controllers.KaikeiController.Kaikei
+  nameWithType: KaikeiController.Kaikei
+- uid: Convenience.Controllers.KaikeiController.KaikeiViewModel
+  name: KaikeiViewModel
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController_KaikeiViewModel
+  commentId: F:Convenience.Controllers.KaikeiController.KaikeiViewModel
+  fullName: Convenience.Controllers.KaikeiController.KaikeiViewModel
+  nameWithType: KaikeiController.KaikeiViewModel
+- uid: Convenience.Controllers.KaikeiController.KeyInput
+  name: KeyInput()
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController_KeyInput
+  commentId: M:Convenience.Controllers.KaikeiController.KeyInput
+  fullName: Convenience.Controllers.KaikeiController.KeyInput()
+  nameWithType: KaikeiController.KeyInput()
+- uid: Convenience.Controllers.KaikeiController.KeyInput(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  name: KeyInput(KaikeiViewModel)
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController_KeyInput_Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_
+  commentId: M:Convenience.Controllers.KaikeiController.KeyInput(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  fullName: Convenience.Controllers.KaikeiController.KeyInput(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  nameWithType: KaikeiController.KeyInput(KaikeiViewModel)
+- uid: Convenience.Controllers.KaikeiController.KeyInput*
+  name: KeyInput
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController_KeyInput_
+  commentId: Overload:Convenience.Controllers.KaikeiController.KeyInput
+  isSpec: "True"
+  fullName: Convenience.Controllers.KaikeiController.KeyInput
+  nameWithType: KaikeiController.KeyInput
+- uid: Convenience.Controllers.KaikeiController.Result(System.String)
+  name: Result(string)
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController_Result_System_String_
+  commentId: M:Convenience.Controllers.KaikeiController.Result(System.String)
+  name.vb: Result(String)
+  fullName: Convenience.Controllers.KaikeiController.Result(string)
+  fullName.vb: Convenience.Controllers.KaikeiController.Result(String)
+  nameWithType: KaikeiController.Result(string)
+  nameWithType.vb: KaikeiController.Result(String)
+- uid: Convenience.Controllers.KaikeiController.Result*
+  name: Result
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController_Result_
+  commentId: Overload:Convenience.Controllers.KaikeiController.Result
+  isSpec: "True"
+  fullName: Convenience.Controllers.KaikeiController.Result
+  nameWithType: KaikeiController.Result
+- uid: Convenience.Controllers.KaikeiController._context
+  name: _context
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController__context
+  commentId: F:Convenience.Controllers.KaikeiController._context
+  fullName: Convenience.Controllers.KaikeiController._context
+  nameWithType: KaikeiController._context
+- uid: Convenience.Controllers.KaikeiController._kaikeiService
+  name: _kaikeiService
+  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController__kaikeiService
+  commentId: F:Convenience.Controllers.KaikeiController._kaikeiService
+  fullName: Convenience.Controllers.KaikeiController._kaikeiService
+  nameWithType: KaikeiController._kaikeiService
 - uid: Convenience.Controllers.ShiireController
   name: ShiireController
   href: api/Convenience.Controllers.ShiireController.html
@@ -2537,15 +2946,15 @@ references:
   commentId: T:Convenience.Controllers.TentoHaraidashiController
   fullName: Convenience.Controllers.TentoHaraidashiController
   nameWithType: TentoHaraidashiController
-- uid: Convenience.Controllers.TentoHaraidashiController.#ctor(Convenience.Data.ConvenienceContext)
-  name: TentoHaraidashiController(ConvenienceContext)
-  href: api/Convenience.Controllers.TentoHaraidashiController.html#Convenience_Controllers_TentoHaraidashiController__ctor_Convenience_Data_ConvenienceContext_
-  commentId: M:Convenience.Controllers.TentoHaraidashiController.#ctor(Convenience.Data.ConvenienceContext)
-  name.vb: New(ConvenienceContext)
-  fullName: Convenience.Controllers.TentoHaraidashiController.TentoHaraidashiController(Convenience.Data.ConvenienceContext)
-  fullName.vb: Convenience.Controllers.TentoHaraidashiController.New(Convenience.Data.ConvenienceContext)
-  nameWithType: TentoHaraidashiController.TentoHaraidashiController(ConvenienceContext)
-  nameWithType.vb: TentoHaraidashiController.New(ConvenienceContext)
+- uid: Convenience.Controllers.TentoHaraidashiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.ITentoHaraidashiService)
+  name: TentoHaraidashiController(ConvenienceContext, ITentoHaraidashiService)
+  href: api/Convenience.Controllers.TentoHaraidashiController.html#Convenience_Controllers_TentoHaraidashiController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_ITentoHaraidashiService_
+  commentId: M:Convenience.Controllers.TentoHaraidashiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.ITentoHaraidashiService)
+  name.vb: New(ConvenienceContext, ITentoHaraidashiService)
+  fullName: Convenience.Controllers.TentoHaraidashiController.TentoHaraidashiController(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.ITentoHaraidashiService)
+  fullName.vb: Convenience.Controllers.TentoHaraidashiController.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.ITentoHaraidashiService)
+  nameWithType: TentoHaraidashiController.TentoHaraidashiController(ConvenienceContext, ITentoHaraidashiService)
+  nameWithType.vb: TentoHaraidashiController.New(ConvenienceContext, ITentoHaraidashiService)
 - uid: Convenience.Controllers.TentoHaraidashiController.#ctor*
   name: TentoHaraidashiController
   href: api/Convenience.Controllers.TentoHaraidashiController.html#Convenience_Controllers_TentoHaraidashiController__ctor_
@@ -2613,12 +3022,12 @@ references:
   commentId: F:Convenience.Controllers.TentoHaraidashiController._context
   fullName: Convenience.Controllers.TentoHaraidashiController._context
   nameWithType: TentoHaraidashiController._context
-- uid: Convenience.Controllers.TentoHaraidashiController.tentoHaraidashiService
-  name: tentoHaraidashiService
-  href: api/Convenience.Controllers.TentoHaraidashiController.html#Convenience_Controllers_TentoHaraidashiController_tentoHaraidashiService
-  commentId: F:Convenience.Controllers.TentoHaraidashiController.tentoHaraidashiService
-  fullName: Convenience.Controllers.TentoHaraidashiController.tentoHaraidashiService
-  nameWithType: TentoHaraidashiController.tentoHaraidashiService
+- uid: Convenience.Controllers.TentoHaraidashiController._tentoHaraidashiService
+  name: _tentoHaraidashiService
+  href: api/Convenience.Controllers.TentoHaraidashiController.html#Convenience_Controllers_TentoHaraidashiController__tentoHaraidashiService
+  commentId: F:Convenience.Controllers.TentoHaraidashiController._tentoHaraidashiService
+  fullName: Convenience.Controllers.TentoHaraidashiController._tentoHaraidashiService
+  nameWithType: TentoHaraidashiController._tentoHaraidashiService
 - uid: Convenience.Controllers.TentoHaraidashiController.tentoHaraidashiViewModel
   name: tentoHaraidashiViewModel
   href: api/Convenience.Controllers.TentoHaraidashiController.html#Convenience_Controllers_TentoHaraidashiController_tentoHaraidashiViewModel
@@ -2738,6 +3147,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Data.ConvenienceContext.ChumonJissekiMeisai
   nameWithType: ConvenienceContext.ChumonJissekiMeisai
+- uid: Convenience.Data.ConvenienceContext.KaikeiHeader
+  name: KaikeiHeader
+  href: api/Convenience.Data.ConvenienceContext.html#Convenience_Data_ConvenienceContext_KaikeiHeader
+  commentId: P:Convenience.Data.ConvenienceContext.KaikeiHeader
+  fullName: Convenience.Data.ConvenienceContext.KaikeiHeader
+  nameWithType: ConvenienceContext.KaikeiHeader
+- uid: Convenience.Data.ConvenienceContext.KaikeiHeader*
+  name: KaikeiHeader
+  href: api/Convenience.Data.ConvenienceContext.html#Convenience_Data_ConvenienceContext_KaikeiHeader_
+  commentId: Overload:Convenience.Data.ConvenienceContext.KaikeiHeader
+  isSpec: "True"
+  fullName: Convenience.Data.ConvenienceContext.KaikeiHeader
+  nameWithType: ConvenienceContext.KaikeiHeader
 - uid: Convenience.Data.ConvenienceContext.KaikeiJisseki
   name: KaikeiJisseki
   href: api/Convenience.Data.ConvenienceContext.html#Convenience_Data_ConvenienceContext_KaikeiJisseki
@@ -2925,6 +3347,51 @@ references:
   isSpec: "True"
   fullName: Convenience.Migrations.Init.Up
   nameWithType: Init.Up
+- uid: Convenience.Migrations.Kaikei
+  name: Kaikei
+  href: api/Convenience.Migrations.Kaikei.html
+  commentId: T:Convenience.Migrations.Kaikei
+  fullName: Convenience.Migrations.Kaikei
+  nameWithType: Kaikei
+- uid: Convenience.Migrations.Kaikei.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  name: BuildTargetModel(ModelBuilder)
+  href: api/Convenience.Migrations.Kaikei.html#Convenience_Migrations_Kaikei_BuildTargetModel_Microsoft_EntityFrameworkCore_ModelBuilder_
+  commentId: M:Convenience.Migrations.Kaikei.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  fullName: Convenience.Migrations.Kaikei.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  nameWithType: Kaikei.BuildTargetModel(ModelBuilder)
+- uid: Convenience.Migrations.Kaikei.BuildTargetModel*
+  name: BuildTargetModel
+  href: api/Convenience.Migrations.Kaikei.html#Convenience_Migrations_Kaikei_BuildTargetModel_
+  commentId: Overload:Convenience.Migrations.Kaikei.BuildTargetModel
+  isSpec: "True"
+  fullName: Convenience.Migrations.Kaikei.BuildTargetModel
+  nameWithType: Kaikei.BuildTargetModel
+- uid: Convenience.Migrations.Kaikei.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  name: Down(MigrationBuilder)
+  href: api/Convenience.Migrations.Kaikei.html#Convenience_Migrations_Kaikei_Down_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_
+  commentId: M:Convenience.Migrations.Kaikei.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  fullName: Convenience.Migrations.Kaikei.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  nameWithType: Kaikei.Down(MigrationBuilder)
+- uid: Convenience.Migrations.Kaikei.Down*
+  name: Down
+  href: api/Convenience.Migrations.Kaikei.html#Convenience_Migrations_Kaikei_Down_
+  commentId: Overload:Convenience.Migrations.Kaikei.Down
+  isSpec: "True"
+  fullName: Convenience.Migrations.Kaikei.Down
+  nameWithType: Kaikei.Down
+- uid: Convenience.Migrations.Kaikei.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  name: Up(MigrationBuilder)
+  href: api/Convenience.Migrations.Kaikei.html#Convenience_Migrations_Kaikei_Up_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_
+  commentId: M:Convenience.Migrations.Kaikei.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  fullName: Convenience.Migrations.Kaikei.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  nameWithType: Kaikei.Up(MigrationBuilder)
+- uid: Convenience.Migrations.Kaikei.Up*
+  name: Up
+  href: api/Convenience.Migrations.Kaikei.html#Convenience_Migrations_Kaikei_Up_
+  commentId: Overload:Convenience.Migrations.Kaikei.Up
+  isSpec: "True"
+  fullName: Convenience.Migrations.Kaikei.Up
+  nameWithType: Kaikei.Up
 - uid: Convenience.Migrations.changetonull
   name: changetonull
   href: api/Convenience.Migrations.changetonull.html
@@ -3060,6 +3527,96 @@ references:
   isSpec: "True"
   fullName: Convenience.Migrations.shiireTimeStamp.Up
   nameWithType: shiireTimeStamp.Up
+- uid: Convenience.Migrations.shohintanka
+  name: shohintanka
+  href: api/Convenience.Migrations.shohintanka.html
+  commentId: T:Convenience.Migrations.shohintanka
+  fullName: Convenience.Migrations.shohintanka
+  nameWithType: shohintanka
+- uid: Convenience.Migrations.shohintanka.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  name: BuildTargetModel(ModelBuilder)
+  href: api/Convenience.Migrations.shohintanka.html#Convenience_Migrations_shohintanka_BuildTargetModel_Microsoft_EntityFrameworkCore_ModelBuilder_
+  commentId: M:Convenience.Migrations.shohintanka.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  fullName: Convenience.Migrations.shohintanka.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  nameWithType: shohintanka.BuildTargetModel(ModelBuilder)
+- uid: Convenience.Migrations.shohintanka.BuildTargetModel*
+  name: BuildTargetModel
+  href: api/Convenience.Migrations.shohintanka.html#Convenience_Migrations_shohintanka_BuildTargetModel_
+  commentId: Overload:Convenience.Migrations.shohintanka.BuildTargetModel
+  isSpec: "True"
+  fullName: Convenience.Migrations.shohintanka.BuildTargetModel
+  nameWithType: shohintanka.BuildTargetModel
+- uid: Convenience.Migrations.shohintanka.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  name: Down(MigrationBuilder)
+  href: api/Convenience.Migrations.shohintanka.html#Convenience_Migrations_shohintanka_Down_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_
+  commentId: M:Convenience.Migrations.shohintanka.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  fullName: Convenience.Migrations.shohintanka.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  nameWithType: shohintanka.Down(MigrationBuilder)
+- uid: Convenience.Migrations.shohintanka.Down*
+  name: Down
+  href: api/Convenience.Migrations.shohintanka.html#Convenience_Migrations_shohintanka_Down_
+  commentId: Overload:Convenience.Migrations.shohintanka.Down
+  isSpec: "True"
+  fullName: Convenience.Migrations.shohintanka.Down
+  nameWithType: shohintanka.Down
+- uid: Convenience.Migrations.shohintanka.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  name: Up(MigrationBuilder)
+  href: api/Convenience.Migrations.shohintanka.html#Convenience_Migrations_shohintanka_Up_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_
+  commentId: M:Convenience.Migrations.shohintanka.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  fullName: Convenience.Migrations.shohintanka.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  nameWithType: shohintanka.Up(MigrationBuilder)
+- uid: Convenience.Migrations.shohintanka.Up*
+  name: Up
+  href: api/Convenience.Migrations.shohintanka.html#Convenience_Migrations_shohintanka_Up_
+  commentId: Overload:Convenience.Migrations.shohintanka.Up
+  isSpec: "True"
+  fullName: Convenience.Migrations.shohintanka.Up
+  nameWithType: shohintanka.Up
+- uid: Convenience.Migrations.shohintanka2
+  name: shohintanka2
+  href: api/Convenience.Migrations.shohintanka2.html
+  commentId: T:Convenience.Migrations.shohintanka2
+  fullName: Convenience.Migrations.shohintanka2
+  nameWithType: shohintanka2
+- uid: Convenience.Migrations.shohintanka2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  name: BuildTargetModel(ModelBuilder)
+  href: api/Convenience.Migrations.shohintanka2.html#Convenience_Migrations_shohintanka2_BuildTargetModel_Microsoft_EntityFrameworkCore_ModelBuilder_
+  commentId: M:Convenience.Migrations.shohintanka2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  fullName: Convenience.Migrations.shohintanka2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  nameWithType: shohintanka2.BuildTargetModel(ModelBuilder)
+- uid: Convenience.Migrations.shohintanka2.BuildTargetModel*
+  name: BuildTargetModel
+  href: api/Convenience.Migrations.shohintanka2.html#Convenience_Migrations_shohintanka2_BuildTargetModel_
+  commentId: Overload:Convenience.Migrations.shohintanka2.BuildTargetModel
+  isSpec: "True"
+  fullName: Convenience.Migrations.shohintanka2.BuildTargetModel
+  nameWithType: shohintanka2.BuildTargetModel
+- uid: Convenience.Migrations.shohintanka2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  name: Down(MigrationBuilder)
+  href: api/Convenience.Migrations.shohintanka2.html#Convenience_Migrations_shohintanka2_Down_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_
+  commentId: M:Convenience.Migrations.shohintanka2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  fullName: Convenience.Migrations.shohintanka2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  nameWithType: shohintanka2.Down(MigrationBuilder)
+- uid: Convenience.Migrations.shohintanka2.Down*
+  name: Down
+  href: api/Convenience.Migrations.shohintanka2.html#Convenience_Migrations_shohintanka2_Down_
+  commentId: Overload:Convenience.Migrations.shohintanka2.Down
+  isSpec: "True"
+  fullName: Convenience.Migrations.shohintanka2.Down
+  nameWithType: shohintanka2.Down
+- uid: Convenience.Migrations.shohintanka2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  name: Up(MigrationBuilder)
+  href: api/Convenience.Migrations.shohintanka2.html#Convenience_Migrations_shohintanka2_Up_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_
+  commentId: M:Convenience.Migrations.shohintanka2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  fullName: Convenience.Migrations.shohintanka2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  nameWithType: shohintanka2.Up(MigrationBuilder)
+- uid: Convenience.Migrations.shohintanka2.Up*
+  name: Up
+  href: api/Convenience.Migrations.shohintanka2.html#Convenience_Migrations_shohintanka2_Up_
+  commentId: Overload:Convenience.Migrations.shohintanka2.Up
+  isSpec: "True"
+  fullName: Convenience.Migrations.shohintanka2.Up
+  nameWithType: shohintanka2.Up
 - uid: Convenience.Migrations.tentozaiko
   name: tentozaiko
   href: api/Convenience.Migrations.tentozaiko.html
@@ -3350,12 +3907,70 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.DataModels.ChumonJissekiMeisai.Version
   nameWithType: ChumonJissekiMeisai.Version
+- uid: Convenience.Models.DataModels.KaikeiHeader
+  name: KaikeiHeader
+  href: api/Convenience.Models.DataModels.KaikeiHeader.html
+  commentId: T:Convenience.Models.DataModels.KaikeiHeader
+  fullName: Convenience.Models.DataModels.KaikeiHeader
+  nameWithType: KaikeiHeader
+- uid: Convenience.Models.DataModels.KaikeiHeader.KaikeiJissekis
+  name: KaikeiJissekis
+  href: api/Convenience.Models.DataModels.KaikeiHeader.html#Convenience_Models_DataModels_KaikeiHeader_KaikeiJissekis
+  commentId: P:Convenience.Models.DataModels.KaikeiHeader.KaikeiJissekis
+  fullName: Convenience.Models.DataModels.KaikeiHeader.KaikeiJissekis
+  nameWithType: KaikeiHeader.KaikeiJissekis
+- uid: Convenience.Models.DataModels.KaikeiHeader.KaikeiJissekis*
+  name: KaikeiJissekis
+  href: api/Convenience.Models.DataModels.KaikeiHeader.html#Convenience_Models_DataModels_KaikeiHeader_KaikeiJissekis_
+  commentId: Overload:Convenience.Models.DataModels.KaikeiHeader.KaikeiJissekis
+  isSpec: "True"
+  fullName: Convenience.Models.DataModels.KaikeiHeader.KaikeiJissekis
+  nameWithType: KaikeiHeader.KaikeiJissekis
+- uid: Convenience.Models.DataModels.KaikeiHeader.UriageDatetime
+  name: UriageDatetime
+  href: api/Convenience.Models.DataModels.KaikeiHeader.html#Convenience_Models_DataModels_KaikeiHeader_UriageDatetime
+  commentId: P:Convenience.Models.DataModels.KaikeiHeader.UriageDatetime
+  fullName: Convenience.Models.DataModels.KaikeiHeader.UriageDatetime
+  nameWithType: KaikeiHeader.UriageDatetime
+- uid: Convenience.Models.DataModels.KaikeiHeader.UriageDatetime*
+  name: UriageDatetime
+  href: api/Convenience.Models.DataModels.KaikeiHeader.html#Convenience_Models_DataModels_KaikeiHeader_UriageDatetime_
+  commentId: Overload:Convenience.Models.DataModels.KaikeiHeader.UriageDatetime
+  isSpec: "True"
+  fullName: Convenience.Models.DataModels.KaikeiHeader.UriageDatetime
+  nameWithType: KaikeiHeader.UriageDatetime
+- uid: Convenience.Models.DataModels.KaikeiHeader.UriageDatetimeId
+  name: UriageDatetimeId
+  href: api/Convenience.Models.DataModels.KaikeiHeader.html#Convenience_Models_DataModels_KaikeiHeader_UriageDatetimeId
+  commentId: P:Convenience.Models.DataModels.KaikeiHeader.UriageDatetimeId
+  fullName: Convenience.Models.DataModels.KaikeiHeader.UriageDatetimeId
+  nameWithType: KaikeiHeader.UriageDatetimeId
+- uid: Convenience.Models.DataModels.KaikeiHeader.UriageDatetimeId*
+  name: UriageDatetimeId
+  href: api/Convenience.Models.DataModels.KaikeiHeader.html#Convenience_Models_DataModels_KaikeiHeader_UriageDatetimeId_
+  commentId: Overload:Convenience.Models.DataModels.KaikeiHeader.UriageDatetimeId
+  isSpec: "True"
+  fullName: Convenience.Models.DataModels.KaikeiHeader.UriageDatetimeId
+  nameWithType: KaikeiHeader.UriageDatetimeId
 - uid: Convenience.Models.DataModels.KaikeiJisseki
   name: KaikeiJisseki
   href: api/Convenience.Models.DataModels.KaikeiJisseki.html
   commentId: T:Convenience.Models.DataModels.KaikeiJisseki
   fullName: Convenience.Models.DataModels.KaikeiJisseki
   nameWithType: KaikeiJisseki
+- uid: Convenience.Models.DataModels.KaikeiJisseki.KaikeiHeader
+  name: KaikeiHeader
+  href: api/Convenience.Models.DataModels.KaikeiJisseki.html#Convenience_Models_DataModels_KaikeiJisseki_KaikeiHeader
+  commentId: P:Convenience.Models.DataModels.KaikeiJisseki.KaikeiHeader
+  fullName: Convenience.Models.DataModels.KaikeiJisseki.KaikeiHeader
+  nameWithType: KaikeiJisseki.KaikeiHeader
+- uid: Convenience.Models.DataModels.KaikeiJisseki.KaikeiHeader*
+  name: KaikeiHeader
+  href: api/Convenience.Models.DataModels.KaikeiJisseki.html#Convenience_Models_DataModels_KaikeiJisseki_KaikeiHeader_
+  commentId: Overload:Convenience.Models.DataModels.KaikeiJisseki.KaikeiHeader
+  isSpec: "True"
+  fullName: Convenience.Models.DataModels.KaikeiJisseki.KaikeiHeader
+  nameWithType: KaikeiJisseki.KaikeiHeader
 - uid: Convenience.Models.DataModels.KaikeiJisseki.ShohiZeiritsu
   name: ShohiZeiritsu
   href: api/Convenience.Models.DataModels.KaikeiJisseki.html#Convenience_Models_DataModels_KaikeiJisseki_ShohiZeiritsu
@@ -3395,6 +4010,32 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.DataModels.KaikeiJisseki.ShohinMaster
   nameWithType: KaikeiJisseki.ShohinMaster
+- uid: Convenience.Models.DataModels.KaikeiJisseki.ShohinTanka
+  name: ShohinTanka
+  href: api/Convenience.Models.DataModels.KaikeiJisseki.html#Convenience_Models_DataModels_KaikeiJisseki_ShohinTanka
+  commentId: P:Convenience.Models.DataModels.KaikeiJisseki.ShohinTanka
+  fullName: Convenience.Models.DataModels.KaikeiJisseki.ShohinTanka
+  nameWithType: KaikeiJisseki.ShohinTanka
+- uid: Convenience.Models.DataModels.KaikeiJisseki.ShohinTanka*
+  name: ShohinTanka
+  href: api/Convenience.Models.DataModels.KaikeiJisseki.html#Convenience_Models_DataModels_KaikeiJisseki_ShohinTanka_
+  commentId: Overload:Convenience.Models.DataModels.KaikeiJisseki.ShohinTanka
+  isSpec: "True"
+  fullName: Convenience.Models.DataModels.KaikeiJisseki.ShohinTanka
+  nameWithType: KaikeiJisseki.ShohinTanka
+- uid: Convenience.Models.DataModels.KaikeiJisseki.TentoZaiko
+  name: TentoZaiko
+  href: api/Convenience.Models.DataModels.KaikeiJisseki.html#Convenience_Models_DataModels_KaikeiJisseki_TentoZaiko
+  commentId: P:Convenience.Models.DataModels.KaikeiJisseki.TentoZaiko
+  fullName: Convenience.Models.DataModels.KaikeiJisseki.TentoZaiko
+  nameWithType: KaikeiJisseki.TentoZaiko
+- uid: Convenience.Models.DataModels.KaikeiJisseki.TentoZaiko*
+  name: TentoZaiko
+  href: api/Convenience.Models.DataModels.KaikeiJisseki.html#Convenience_Models_DataModels_KaikeiJisseki_TentoZaiko_
+  commentId: Overload:Convenience.Models.DataModels.KaikeiJisseki.TentoZaiko
+  isSpec: "True"
+  fullName: Convenience.Models.DataModels.KaikeiJisseki.TentoZaiko
+  nameWithType: KaikeiJisseki.TentoZaiko
 - uid: Convenience.Models.DataModels.KaikeiJisseki.UriageDatetime
   name: UriageDatetime
   href: api/Convenience.Models.DataModels.KaikeiJisseki.html#Convenience_Models_DataModels_KaikeiJisseki_UriageDatetime
@@ -3408,19 +4049,32 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.DataModels.KaikeiJisseki.UriageDatetime
   nameWithType: KaikeiJisseki.UriageDatetime
-- uid: Convenience.Models.DataModels.KaikeiJisseki.UriageKingakuSu
-  name: UriageKingakuSu
-  href: api/Convenience.Models.DataModels.KaikeiJisseki.html#Convenience_Models_DataModels_KaikeiJisseki_UriageKingakuSu
-  commentId: P:Convenience.Models.DataModels.KaikeiJisseki.UriageKingakuSu
-  fullName: Convenience.Models.DataModels.KaikeiJisseki.UriageKingakuSu
-  nameWithType: KaikeiJisseki.UriageKingakuSu
-- uid: Convenience.Models.DataModels.KaikeiJisseki.UriageKingakuSu*
-  name: UriageKingakuSu
-  href: api/Convenience.Models.DataModels.KaikeiJisseki.html#Convenience_Models_DataModels_KaikeiJisseki_UriageKingakuSu_
-  commentId: Overload:Convenience.Models.DataModels.KaikeiJisseki.UriageKingakuSu
+- uid: Convenience.Models.DataModels.KaikeiJisseki.UriageDatetimeId
+  name: UriageDatetimeId
+  href: api/Convenience.Models.DataModels.KaikeiJisseki.html#Convenience_Models_DataModels_KaikeiJisseki_UriageDatetimeId
+  commentId: P:Convenience.Models.DataModels.KaikeiJisseki.UriageDatetimeId
+  fullName: Convenience.Models.DataModels.KaikeiJisseki.UriageDatetimeId
+  nameWithType: KaikeiJisseki.UriageDatetimeId
+- uid: Convenience.Models.DataModels.KaikeiJisseki.UriageDatetimeId*
+  name: UriageDatetimeId
+  href: api/Convenience.Models.DataModels.KaikeiJisseki.html#Convenience_Models_DataModels_KaikeiJisseki_UriageDatetimeId_
+  commentId: Overload:Convenience.Models.DataModels.KaikeiJisseki.UriageDatetimeId
   isSpec: "True"
-  fullName: Convenience.Models.DataModels.KaikeiJisseki.UriageKingakuSu
-  nameWithType: KaikeiJisseki.UriageKingakuSu
+  fullName: Convenience.Models.DataModels.KaikeiJisseki.UriageDatetimeId
+  nameWithType: KaikeiJisseki.UriageDatetimeId
+- uid: Convenience.Models.DataModels.KaikeiJisseki.UriageKingaku
+  name: UriageKingaku
+  href: api/Convenience.Models.DataModels.KaikeiJisseki.html#Convenience_Models_DataModels_KaikeiJisseki_UriageKingaku
+  commentId: P:Convenience.Models.DataModels.KaikeiJisseki.UriageKingaku
+  fullName: Convenience.Models.DataModels.KaikeiJisseki.UriageKingaku
+  nameWithType: KaikeiJisseki.UriageKingaku
+- uid: Convenience.Models.DataModels.KaikeiJisseki.UriageKingaku*
+  name: UriageKingaku
+  href: api/Convenience.Models.DataModels.KaikeiJisseki.html#Convenience_Models_DataModels_KaikeiJisseki_UriageKingaku_
+  commentId: Overload:Convenience.Models.DataModels.KaikeiJisseki.UriageKingaku
+  isSpec: "True"
+  fullName: Convenience.Models.DataModels.KaikeiJisseki.UriageKingaku
+  nameWithType: KaikeiJisseki.UriageKingaku
 - uid: Convenience.Models.DataModels.KaikeiJisseki.UriageSu
   name: UriageSu
   href: api/Convenience.Models.DataModels.KaikeiJisseki.html#Convenience_Models_DataModels_KaikeiJisseki_UriageSu
@@ -3978,6 +4632,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.DataModels.ShohinMaster.ShohinName
   nameWithType: ShohinMaster.ShohinName
+- uid: Convenience.Models.DataModels.ShohinMaster.ShohinTanka
+  name: ShohinTanka
+  href: api/Convenience.Models.DataModels.ShohinMaster.html#Convenience_Models_DataModels_ShohinMaster_ShohinTanka
+  commentId: P:Convenience.Models.DataModels.ShohinMaster.ShohinTanka
+  fullName: Convenience.Models.DataModels.ShohinMaster.ShohinTanka
+  nameWithType: ShohinMaster.ShohinTanka
+- uid: Convenience.Models.DataModels.ShohinMaster.ShohinTanka*
+  name: ShohinTanka
+  href: api/Convenience.Models.DataModels.ShohinMaster.html#Convenience_Models_DataModels_ShohinMaster_ShohinTanka_
+  commentId: Overload:Convenience.Models.DataModels.ShohinMaster.ShohinTanka
+  isSpec: "True"
+  fullName: Convenience.Models.DataModels.ShohinMaster.ShohinTanka
+  nameWithType: ShohinMaster.ShohinTanka
 - uid: Convenience.Models.DataModels.ShohinMaster.TentoZaiko
   name: TentoZaiko
   href: api/Convenience.Models.DataModels.ShohinMaster.html#Convenience_Models_DataModels_ShohinMaster_TentoZaiko
@@ -4621,6 +5288,157 @@ references:
   commentId: F:Convenience.Models.Interfaces.IDbContext.KeyWordInAppConfig
   fullName: Convenience.Models.Interfaces.IDbContext.KeyWordInAppConfig
   nameWithType: IDbContext.KeyWordInAppConfig
+- uid: Convenience.Models.Interfaces.IKaikei
+  name: IKaikei
+  href: api/Convenience.Models.Interfaces.IKaikei.html
+  commentId: T:Convenience.Models.Interfaces.IKaikei
+  fullName: Convenience.Models.Interfaces.IKaikei
+  nameWithType: IKaikei
+- uid: Convenience.Models.Interfaces.IKaikei.KaikeiAddcommodity(Convenience.Models.DataModels.KaikeiJisseki)
+  name: KaikeiAddcommodity(KaikeiJisseki)
+  href: api/Convenience.Models.Interfaces.IKaikei.html#Convenience_Models_Interfaces_IKaikei_KaikeiAddcommodity_Convenience_Models_DataModels_KaikeiJisseki_
+  commentId: M:Convenience.Models.Interfaces.IKaikei.KaikeiAddcommodity(Convenience.Models.DataModels.KaikeiJisseki)
+  fullName: Convenience.Models.Interfaces.IKaikei.KaikeiAddcommodity(Convenience.Models.DataModels.KaikeiJisseki)
+  nameWithType: IKaikei.KaikeiAddcommodity(KaikeiJisseki)
+- uid: Convenience.Models.Interfaces.IKaikei.KaikeiAddcommodity*
+  name: KaikeiAddcommodity
+  href: api/Convenience.Models.Interfaces.IKaikei.html#Convenience_Models_Interfaces_IKaikei_KaikeiAddcommodity_
+  commentId: Overload:Convenience.Models.Interfaces.IKaikei.KaikeiAddcommodity
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IKaikei.KaikeiAddcommodity
+  nameWithType: IKaikei.KaikeiAddcommodity
+- uid: Convenience.Models.Interfaces.IKaikei.KaikeiHeader
+  name: KaikeiHeader
+  href: api/Convenience.Models.Interfaces.IKaikei.html#Convenience_Models_Interfaces_IKaikei_KaikeiHeader
+  commentId: P:Convenience.Models.Interfaces.IKaikei.KaikeiHeader
+  fullName: Convenience.Models.Interfaces.IKaikei.KaikeiHeader
+  nameWithType: IKaikei.KaikeiHeader
+- uid: Convenience.Models.Interfaces.IKaikei.KaikeiHeader*
+  name: KaikeiHeader
+  href: api/Convenience.Models.Interfaces.IKaikei.html#Convenience_Models_Interfaces_IKaikei_KaikeiHeader_
+  commentId: Overload:Convenience.Models.Interfaces.IKaikei.KaikeiHeader
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IKaikei.KaikeiHeader
+  nameWithType: IKaikei.KaikeiHeader
+- uid: Convenience.Models.Interfaces.IKaikei.KaikeiSakusei(System.DateTime)
+  name: KaikeiSakusei(DateTime)
+  href: api/Convenience.Models.Interfaces.IKaikei.html#Convenience_Models_Interfaces_IKaikei_KaikeiSakusei_System_DateTime_
+  commentId: M:Convenience.Models.Interfaces.IKaikei.KaikeiSakusei(System.DateTime)
+  name.vb: KaikeiSakusei(Date)
+  fullName: Convenience.Models.Interfaces.IKaikei.KaikeiSakusei(System.DateTime)
+  fullName.vb: Convenience.Models.Interfaces.IKaikei.KaikeiSakusei(Date)
+  nameWithType: IKaikei.KaikeiSakusei(DateTime)
+  nameWithType.vb: IKaikei.KaikeiSakusei(Date)
+- uid: Convenience.Models.Interfaces.IKaikei.KaikeiSakusei*
+  name: KaikeiSakusei
+  href: api/Convenience.Models.Interfaces.IKaikei.html#Convenience_Models_Interfaces_IKaikei_KaikeiSakusei_
+  commentId: Overload:Convenience.Models.Interfaces.IKaikei.KaikeiSakusei
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IKaikei.KaikeiSakusei
+  nameWithType: IKaikei.KaikeiSakusei
+- uid: Convenience.Models.Interfaces.IKaikei.KaikeiToiawase(System.String)
+  name: KaikeiToiawase(string)
+  href: api/Convenience.Models.Interfaces.IKaikei.html#Convenience_Models_Interfaces_IKaikei_KaikeiToiawase_System_String_
+  commentId: M:Convenience.Models.Interfaces.IKaikei.KaikeiToiawase(System.String)
+  name.vb: KaikeiToiawase(String)
+  fullName: Convenience.Models.Interfaces.IKaikei.KaikeiToiawase(string)
+  fullName.vb: Convenience.Models.Interfaces.IKaikei.KaikeiToiawase(String)
+  nameWithType: IKaikei.KaikeiToiawase(string)
+  nameWithType.vb: IKaikei.KaikeiToiawase(String)
+- uid: Convenience.Models.Interfaces.IKaikei.KaikeiToiawase*
+  name: KaikeiToiawase
+  href: api/Convenience.Models.Interfaces.IKaikei.html#Convenience_Models_Interfaces_IKaikei_KaikeiToiawase_
+  commentId: Overload:Convenience.Models.Interfaces.IKaikei.KaikeiToiawase
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IKaikei.KaikeiToiawase
+  nameWithType: IKaikei.KaikeiToiawase
+- uid: Convenience.Models.Interfaces.IKaikei.KaikeiUpdate(Convenience.Models.DataModels.KaikeiHeader)
+  name: KaikeiUpdate(KaikeiHeader)
+  href: api/Convenience.Models.Interfaces.IKaikei.html#Convenience_Models_Interfaces_IKaikei_KaikeiUpdate_Convenience_Models_DataModels_KaikeiHeader_
+  commentId: M:Convenience.Models.Interfaces.IKaikei.KaikeiUpdate(Convenience.Models.DataModels.KaikeiHeader)
+  fullName: Convenience.Models.Interfaces.IKaikei.KaikeiUpdate(Convenience.Models.DataModels.KaikeiHeader)
+  nameWithType: IKaikei.KaikeiUpdate(KaikeiHeader)
+- uid: Convenience.Models.Interfaces.IKaikei.KaikeiUpdate*
+  name: KaikeiUpdate
+  href: api/Convenience.Models.Interfaces.IKaikei.html#Convenience_Models_Interfaces_IKaikei_KaikeiUpdate_
+  commentId: Overload:Convenience.Models.Interfaces.IKaikei.KaikeiUpdate
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IKaikei.KaikeiUpdate
+  nameWithType: IKaikei.KaikeiUpdate
+- uid: Convenience.Models.Interfaces.IKaikeiService
+  name: IKaikeiService
+  href: api/Convenience.Models.Interfaces.IKaikeiService.html
+  commentId: T:Convenience.Models.Interfaces.IKaikeiService
+  fullName: Convenience.Models.Interfaces.IKaikeiService
+  nameWithType: IKaikeiService
+- uid: Convenience.Models.Interfaces.IKaikeiService.GetShohinName(System.String)
+  name: GetShohinName(string)
+  href: api/Convenience.Models.Interfaces.IKaikeiService.html#Convenience_Models_Interfaces_IKaikeiService_GetShohinName_System_String_
+  commentId: M:Convenience.Models.Interfaces.IKaikeiService.GetShohinName(System.String)
+  name.vb: GetShohinName(String)
+  fullName: Convenience.Models.Interfaces.IKaikeiService.GetShohinName(string)
+  fullName.vb: Convenience.Models.Interfaces.IKaikeiService.GetShohinName(String)
+  nameWithType: IKaikeiService.GetShohinName(string)
+  nameWithType.vb: IKaikeiService.GetShohinName(String)
+- uid: Convenience.Models.Interfaces.IKaikeiService.GetShohinName*
+  name: GetShohinName
+  href: api/Convenience.Models.Interfaces.IKaikeiService.html#Convenience_Models_Interfaces_IKaikeiService_GetShohinName_
+  commentId: Overload:Convenience.Models.Interfaces.IKaikeiService.GetShohinName
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IKaikeiService.GetShohinName
+  nameWithType: IKaikeiService.GetShohinName
+- uid: Convenience.Models.Interfaces.IKaikeiService.KaikeiAdd(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  name: KaikeiAdd(KaikeiViewModel)
+  href: api/Convenience.Models.Interfaces.IKaikeiService.html#Convenience_Models_Interfaces_IKaikeiService_KaikeiAdd_Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_
+  commentId: M:Convenience.Models.Interfaces.IKaikeiService.KaikeiAdd(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  fullName: Convenience.Models.Interfaces.IKaikeiService.KaikeiAdd(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  nameWithType: IKaikeiService.KaikeiAdd(KaikeiViewModel)
+- uid: Convenience.Models.Interfaces.IKaikeiService.KaikeiAdd*
+  name: KaikeiAdd
+  href: api/Convenience.Models.Interfaces.IKaikeiService.html#Convenience_Models_Interfaces_IKaikeiService_KaikeiAdd_
+  commentId: Overload:Convenience.Models.Interfaces.IKaikeiService.KaikeiAdd
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IKaikeiService.KaikeiAdd
+  nameWithType: IKaikeiService.KaikeiAdd
+- uid: Convenience.Models.Interfaces.IKaikeiService.KaikeiCommit(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  name: KaikeiCommit(KaikeiViewModel)
+  href: api/Convenience.Models.Interfaces.IKaikeiService.html#Convenience_Models_Interfaces_IKaikeiService_KaikeiCommit_Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_
+  commentId: M:Convenience.Models.Interfaces.IKaikeiService.KaikeiCommit(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  fullName: Convenience.Models.Interfaces.IKaikeiService.KaikeiCommit(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  nameWithType: IKaikeiService.KaikeiCommit(KaikeiViewModel)
+- uid: Convenience.Models.Interfaces.IKaikeiService.KaikeiCommit*
+  name: KaikeiCommit
+  href: api/Convenience.Models.Interfaces.IKaikeiService.html#Convenience_Models_Interfaces_IKaikeiService_KaikeiCommit_
+  commentId: Overload:Convenience.Models.Interfaces.IKaikeiService.KaikeiCommit
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IKaikeiService.KaikeiCommit
+  nameWithType: IKaikeiService.KaikeiCommit
+- uid: Convenience.Models.Interfaces.IKaikeiService.KaikeiSetting(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  name: KaikeiSetting(KaikeiViewModel)
+  href: api/Convenience.Models.Interfaces.IKaikeiService.html#Convenience_Models_Interfaces_IKaikeiService_KaikeiSetting_Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_
+  commentId: M:Convenience.Models.Interfaces.IKaikeiService.KaikeiSetting(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  fullName: Convenience.Models.Interfaces.IKaikeiService.KaikeiSetting(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  nameWithType: IKaikeiService.KaikeiSetting(KaikeiViewModel)
+- uid: Convenience.Models.Interfaces.IKaikeiService.KaikeiSetting*
+  name: KaikeiSetting
+  href: api/Convenience.Models.Interfaces.IKaikeiService.html#Convenience_Models_Interfaces_IKaikeiService_KaikeiSetting_
+  commentId: Overload:Convenience.Models.Interfaces.IKaikeiService.KaikeiSetting
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IKaikeiService.KaikeiSetting
+  nameWithType: IKaikeiService.KaikeiSetting
+- uid: Convenience.Models.Interfaces.IKaikeiService.SetKaikeiViewModel
+  name: SetKaikeiViewModel()
+  href: api/Convenience.Models.Interfaces.IKaikeiService.html#Convenience_Models_Interfaces_IKaikeiService_SetKaikeiViewModel
+  commentId: M:Convenience.Models.Interfaces.IKaikeiService.SetKaikeiViewModel
+  fullName: Convenience.Models.Interfaces.IKaikeiService.SetKaikeiViewModel()
+  nameWithType: IKaikeiService.SetKaikeiViewModel()
+- uid: Convenience.Models.Interfaces.IKaikeiService.SetKaikeiViewModel*
+  name: SetKaikeiViewModel
+  href: api/Convenience.Models.Interfaces.IKaikeiService.html#Convenience_Models_Interfaces_IKaikeiService_SetKaikeiViewModel_
+  commentId: Overload:Convenience.Models.Interfaces.IKaikeiService.SetKaikeiViewModel
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IKaikeiService.SetKaikeiViewModel
+  nameWithType: IKaikeiService.SetKaikeiViewModel
 - uid: Convenience.Models.Interfaces.ISharedTools
   name: ISharedTools
   href: api/Convenience.Models.Interfaces.ISharedTools.html
@@ -5350,6 +6168,140 @@ references:
   fullName.vb: Convenience.Models.Properties.DataPositionMismatchException.New
   nameWithType: DataPositionMismatchException.DataPositionMismatchException
   nameWithType.vb: DataPositionMismatchException.New
+- uid: Convenience.Models.Properties.Kaikei
+  name: Kaikei
+  href: api/Convenience.Models.Properties.Kaikei.html
+  commentId: T:Convenience.Models.Properties.Kaikei
+  fullName: Convenience.Models.Properties.Kaikei
+  nameWithType: Kaikei
+- uid: Convenience.Models.Properties.Kaikei.#ctor(Convenience.Data.ConvenienceContext)
+  name: Kaikei(ConvenienceContext)
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei__ctor_Convenience_Data_ConvenienceContext_
+  commentId: M:Convenience.Models.Properties.Kaikei.#ctor(Convenience.Data.ConvenienceContext)
+  name.vb: New(ConvenienceContext)
+  fullName: Convenience.Models.Properties.Kaikei.Kaikei(Convenience.Data.ConvenienceContext)
+  fullName.vb: Convenience.Models.Properties.Kaikei.New(Convenience.Data.ConvenienceContext)
+  nameWithType: Kaikei.Kaikei(ConvenienceContext)
+  nameWithType.vb: Kaikei.New(ConvenienceContext)
+- uid: Convenience.Models.Properties.Kaikei.#ctor*
+  name: Kaikei
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei__ctor_
+  commentId: Overload:Convenience.Models.Properties.Kaikei.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Convenience.Models.Properties.Kaikei.Kaikei
+  fullName.vb: Convenience.Models.Properties.Kaikei.New
+  nameWithType: Kaikei.Kaikei
+  nameWithType.vb: Kaikei.New
+- uid: Convenience.Models.Properties.Kaikei.KaikeiAddcommodity(Convenience.Models.DataModels.KaikeiJisseki)
+  name: KaikeiAddcommodity(KaikeiJisseki)
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_KaikeiAddcommodity_Convenience_Models_DataModels_KaikeiJisseki_
+  commentId: M:Convenience.Models.Properties.Kaikei.KaikeiAddcommodity(Convenience.Models.DataModels.KaikeiJisseki)
+  fullName: Convenience.Models.Properties.Kaikei.KaikeiAddcommodity(Convenience.Models.DataModels.KaikeiJisseki)
+  nameWithType: Kaikei.KaikeiAddcommodity(KaikeiJisseki)
+- uid: Convenience.Models.Properties.Kaikei.KaikeiAddcommodity*
+  name: KaikeiAddcommodity
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_KaikeiAddcommodity_
+  commentId: Overload:Convenience.Models.Properties.Kaikei.KaikeiAddcommodity
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.Kaikei.KaikeiAddcommodity
+  nameWithType: Kaikei.KaikeiAddcommodity
+- uid: Convenience.Models.Properties.Kaikei.KaikeiHeader
+  name: KaikeiHeader
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_KaikeiHeader
+  commentId: P:Convenience.Models.Properties.Kaikei.KaikeiHeader
+  fullName: Convenience.Models.Properties.Kaikei.KaikeiHeader
+  nameWithType: Kaikei.KaikeiHeader
+- uid: Convenience.Models.Properties.Kaikei.KaikeiHeader*
+  name: KaikeiHeader
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_KaikeiHeader_
+  commentId: Overload:Convenience.Models.Properties.Kaikei.KaikeiHeader
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.Kaikei.KaikeiHeader
+  nameWithType: Kaikei.KaikeiHeader
+- uid: Convenience.Models.Properties.Kaikei.KaikeiSakusei(System.DateTime)
+  name: KaikeiSakusei(DateTime)
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_KaikeiSakusei_System_DateTime_
+  commentId: M:Convenience.Models.Properties.Kaikei.KaikeiSakusei(System.DateTime)
+  name.vb: KaikeiSakusei(Date)
+  fullName: Convenience.Models.Properties.Kaikei.KaikeiSakusei(System.DateTime)
+  fullName.vb: Convenience.Models.Properties.Kaikei.KaikeiSakusei(Date)
+  nameWithType: Kaikei.KaikeiSakusei(DateTime)
+  nameWithType.vb: Kaikei.KaikeiSakusei(Date)
+- uid: Convenience.Models.Properties.Kaikei.KaikeiSakusei*
+  name: KaikeiSakusei
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_KaikeiSakusei_
+  commentId: Overload:Convenience.Models.Properties.Kaikei.KaikeiSakusei
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.Kaikei.KaikeiSakusei
+  nameWithType: Kaikei.KaikeiSakusei
+- uid: Convenience.Models.Properties.Kaikei.KaikeiToiawase(System.String)
+  name: KaikeiToiawase(string)
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_KaikeiToiawase_System_String_
+  commentId: M:Convenience.Models.Properties.Kaikei.KaikeiToiawase(System.String)
+  name.vb: KaikeiToiawase(String)
+  fullName: Convenience.Models.Properties.Kaikei.KaikeiToiawase(string)
+  fullName.vb: Convenience.Models.Properties.Kaikei.KaikeiToiawase(String)
+  nameWithType: Kaikei.KaikeiToiawase(string)
+  nameWithType.vb: Kaikei.KaikeiToiawase(String)
+- uid: Convenience.Models.Properties.Kaikei.KaikeiToiawase*
+  name: KaikeiToiawase
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_KaikeiToiawase_
+  commentId: Overload:Convenience.Models.Properties.Kaikei.KaikeiToiawase
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.Kaikei.KaikeiToiawase
+  nameWithType: Kaikei.KaikeiToiawase
+- uid: Convenience.Models.Properties.Kaikei.KaikeiUpdate(Convenience.Models.DataModels.KaikeiHeader)
+  name: KaikeiUpdate(KaikeiHeader)
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_KaikeiUpdate_Convenience_Models_DataModels_KaikeiHeader_
+  commentId: M:Convenience.Models.Properties.Kaikei.KaikeiUpdate(Convenience.Models.DataModels.KaikeiHeader)
+  fullName: Convenience.Models.Properties.Kaikei.KaikeiUpdate(Convenience.Models.DataModels.KaikeiHeader)
+  nameWithType: Kaikei.KaikeiUpdate(KaikeiHeader)
+- uid: Convenience.Models.Properties.Kaikei.KaikeiUpdate*
+  name: KaikeiUpdate
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_KaikeiUpdate_
+  commentId: Overload:Convenience.Models.Properties.Kaikei.KaikeiUpdate
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.Kaikei.KaikeiUpdate
+  nameWithType: Kaikei.KaikeiUpdate
+- uid: Convenience.Models.Properties.Kaikei.UriageDatetimeIdHatsuban(System.DateTime)
+  name: UriageDatetimeIdHatsuban(DateTime)
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_UriageDatetimeIdHatsuban_System_DateTime_
+  commentId: M:Convenience.Models.Properties.Kaikei.UriageDatetimeIdHatsuban(System.DateTime)
+  name.vb: UriageDatetimeIdHatsuban(Date)
+  fullName: Convenience.Models.Properties.Kaikei.UriageDatetimeIdHatsuban(System.DateTime)
+  fullName.vb: Convenience.Models.Properties.Kaikei.UriageDatetimeIdHatsuban(Date)
+  nameWithType: Kaikei.UriageDatetimeIdHatsuban(DateTime)
+  nameWithType.vb: Kaikei.UriageDatetimeIdHatsuban(Date)
+- uid: Convenience.Models.Properties.Kaikei.UriageDatetimeIdHatsuban*
+  name: UriageDatetimeIdHatsuban
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_UriageDatetimeIdHatsuban_
+  commentId: Overload:Convenience.Models.Properties.Kaikei.UriageDatetimeIdHatsuban
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.Kaikei.UriageDatetimeIdHatsuban
+  nameWithType: Kaikei.UriageDatetimeIdHatsuban
+- uid: Convenience.Models.Properties.Kaikei.ZaikoConnection(System.String,System.DateTime,System.Decimal,Convenience.Models.DataModels.TentoZaiko)
+  name: ZaikoConnection(string, DateTime, decimal, TentoZaiko?)
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_ZaikoConnection_System_String_System_DateTime_System_Decimal_Convenience_Models_DataModels_TentoZaiko_
+  commentId: M:Convenience.Models.Properties.Kaikei.ZaikoConnection(System.String,System.DateTime,System.Decimal,Convenience.Models.DataModels.TentoZaiko)
+  name.vb: ZaikoConnection(String, Date, Decimal, TentoZaiko)
+  fullName: Convenience.Models.Properties.Kaikei.ZaikoConnection(string, System.DateTime, decimal, Convenience.Models.DataModels.TentoZaiko?)
+  fullName.vb: Convenience.Models.Properties.Kaikei.ZaikoConnection(String, Date, Decimal, Convenience.Models.DataModels.TentoZaiko)
+  nameWithType: Kaikei.ZaikoConnection(string, DateTime, decimal, TentoZaiko?)
+  nameWithType.vb: Kaikei.ZaikoConnection(String, Date, Decimal, TentoZaiko)
+- uid: Convenience.Models.Properties.Kaikei.ZaikoConnection*
+  name: ZaikoConnection
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_ZaikoConnection_
+  commentId: Overload:Convenience.Models.Properties.Kaikei.ZaikoConnection
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.Kaikei.ZaikoConnection
+  nameWithType: Kaikei.ZaikoConnection
+- uid: Convenience.Models.Properties.Kaikei._context
+  name: _context
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei__context
+  commentId: F:Convenience.Models.Properties.Kaikei._context
+  fullName: Convenience.Models.Properties.Kaikei._context
+  nameWithType: Kaikei._context
 - uid: Convenience.Models.Properties.Message
   name: Message
   href: api/Convenience.Models.Properties.Message.html
@@ -6164,6 +7116,201 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Services.ChumonService.chumon
   nameWithType: ChumonService.chumon
+- uid: Convenience.Models.Services.KaikeiService
+  name: KaikeiService
+  href: api/Convenience.Models.Services.KaikeiService.html
+  commentId: T:Convenience.Models.Services.KaikeiService
+  fullName: Convenience.Models.Services.KaikeiService
+  nameWithType: KaikeiService
+- uid: Convenience.Models.Services.KaikeiService.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IKaikei,Microsoft.AspNetCore.Mvc.ViewFeatures.ITempDataDictionaryFactory,Microsoft.AspNetCore.Mvc.Infrastructure.IActionContextAccessor)
+  name: KaikeiService(ConvenienceContext, IKaikei, ITempDataDictionaryFactory, IActionContextAccessor)
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IKaikei_Microsoft_AspNetCore_Mvc_ViewFeatures_ITempDataDictionaryFactory_Microsoft_AspNetCore_Mvc_Infrastructure_IActionContextAccessor_
+  commentId: M:Convenience.Models.Services.KaikeiService.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IKaikei,Microsoft.AspNetCore.Mvc.ViewFeatures.ITempDataDictionaryFactory,Microsoft.AspNetCore.Mvc.Infrastructure.IActionContextAccessor)
+  name.vb: New(ConvenienceContext, IKaikei, ITempDataDictionaryFactory, IActionContextAccessor)
+  fullName: Convenience.Models.Services.KaikeiService.KaikeiService(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IKaikei, Microsoft.AspNetCore.Mvc.ViewFeatures.ITempDataDictionaryFactory, Microsoft.AspNetCore.Mvc.Infrastructure.IActionContextAccessor)
+  fullName.vb: Convenience.Models.Services.KaikeiService.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IKaikei, Microsoft.AspNetCore.Mvc.ViewFeatures.ITempDataDictionaryFactory, Microsoft.AspNetCore.Mvc.Infrastructure.IActionContextAccessor)
+  nameWithType: KaikeiService.KaikeiService(ConvenienceContext, IKaikei, ITempDataDictionaryFactory, IActionContextAccessor)
+  nameWithType.vb: KaikeiService.New(ConvenienceContext, IKaikei, ITempDataDictionaryFactory, IActionContextAccessor)
+- uid: Convenience.Models.Services.KaikeiService.#ctor*
+  name: KaikeiService
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService__ctor_
+  commentId: Overload:Convenience.Models.Services.KaikeiService.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Convenience.Models.Services.KaikeiService.KaikeiService
+  fullName.vb: Convenience.Models.Services.KaikeiService.New
+  nameWithType: KaikeiService.KaikeiService
+  nameWithType.vb: KaikeiService.New
+- uid: Convenience.Models.Services.KaikeiService.GetShohinName(System.String)
+  name: GetShohinName(string)
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_GetShohinName_System_String_
+  commentId: M:Convenience.Models.Services.KaikeiService.GetShohinName(System.String)
+  name.vb: GetShohinName(String)
+  fullName: Convenience.Models.Services.KaikeiService.GetShohinName(string)
+  fullName.vb: Convenience.Models.Services.KaikeiService.GetShohinName(String)
+  nameWithType: KaikeiService.GetShohinName(string)
+  nameWithType.vb: KaikeiService.GetShohinName(String)
+- uid: Convenience.Models.Services.KaikeiService.GetShohinName*
+  name: GetShohinName
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_GetShohinName_
+  commentId: Overload:Convenience.Models.Services.KaikeiService.GetShohinName
+  isSpec: "True"
+  fullName: Convenience.Models.Services.KaikeiService.GetShohinName
+  nameWithType: KaikeiService.GetShohinName
+- uid: Convenience.Models.Services.KaikeiService.GetViewModelToTempData
+  name: GetViewModelToTempData()
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_GetViewModelToTempData
+  commentId: M:Convenience.Models.Services.KaikeiService.GetViewModelToTempData
+  fullName: Convenience.Models.Services.KaikeiService.GetViewModelToTempData()
+  nameWithType: KaikeiService.GetViewModelToTempData()
+- uid: Convenience.Models.Services.KaikeiService.GetViewModelToTempData*
+  name: GetViewModelToTempData
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_GetViewModelToTempData_
+  commentId: Overload:Convenience.Models.Services.KaikeiService.GetViewModelToTempData
+  isSpec: "True"
+  fullName: Convenience.Models.Services.KaikeiService.GetViewModelToTempData
+  nameWithType: KaikeiService.GetViewModelToTempData
+- uid: Convenience.Models.Services.KaikeiService.KaikeiAdd(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  name: KaikeiAdd(KaikeiViewModel)
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_KaikeiAdd_Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_
+  commentId: M:Convenience.Models.Services.KaikeiService.KaikeiAdd(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  fullName: Convenience.Models.Services.KaikeiService.KaikeiAdd(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  nameWithType: KaikeiService.KaikeiAdd(KaikeiViewModel)
+- uid: Convenience.Models.Services.KaikeiService.KaikeiAdd*
+  name: KaikeiAdd
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_KaikeiAdd_
+  commentId: Overload:Convenience.Models.Services.KaikeiService.KaikeiAdd
+  isSpec: "True"
+  fullName: Convenience.Models.Services.KaikeiService.KaikeiAdd
+  nameWithType: KaikeiService.KaikeiAdd
+- uid: Convenience.Models.Services.KaikeiService.KaikeiCommit(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  name: KaikeiCommit(KaikeiViewModel)
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_KaikeiCommit_Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_
+  commentId: M:Convenience.Models.Services.KaikeiService.KaikeiCommit(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  fullName: Convenience.Models.Services.KaikeiService.KaikeiCommit(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  nameWithType: KaikeiService.KaikeiCommit(KaikeiViewModel)
+- uid: Convenience.Models.Services.KaikeiService.KaikeiCommit*
+  name: KaikeiCommit
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_KaikeiCommit_
+  commentId: Overload:Convenience.Models.Services.KaikeiService.KaikeiCommit
+  isSpec: "True"
+  fullName: Convenience.Models.Services.KaikeiService.KaikeiCommit
+  nameWithType: KaikeiService.KaikeiCommit
+- uid: Convenience.Models.Services.KaikeiService.KaikeiSetting(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  name: KaikeiSetting(KaikeiViewModel)
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_KaikeiSetting_Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_
+  commentId: M:Convenience.Models.Services.KaikeiService.KaikeiSetting(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  fullName: Convenience.Models.Services.KaikeiService.KaikeiSetting(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  nameWithType: KaikeiService.KaikeiSetting(KaikeiViewModel)
+- uid: Convenience.Models.Services.KaikeiService.KaikeiSetting*
+  name: KaikeiSetting
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_KaikeiSetting_
+  commentId: Overload:Convenience.Models.Services.KaikeiService.KaikeiSetting
+  isSpec: "True"
+  fullName: Convenience.Models.Services.KaikeiService.KaikeiSetting
+  nameWithType: KaikeiService.KaikeiSetting
+- uid: Convenience.Models.Services.KaikeiService.KaikeiViewModel
+  name: KaikeiViewModel
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_KaikeiViewModel
+  commentId: P:Convenience.Models.Services.KaikeiService.KaikeiViewModel
+  fullName: Convenience.Models.Services.KaikeiService.KaikeiViewModel
+  nameWithType: KaikeiService.KaikeiViewModel
+- uid: Convenience.Models.Services.KaikeiService.KaikeiViewModel*
+  name: KaikeiViewModel
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_KaikeiViewModel_
+  commentId: Overload:Convenience.Models.Services.KaikeiService.KaikeiViewModel
+  isSpec: "True"
+  fullName: Convenience.Models.Services.KaikeiService.KaikeiViewModel
+  nameWithType: KaikeiService.KaikeiViewModel
+- uid: Convenience.Models.Services.KaikeiService.SetKaikeiViewModel
+  name: SetKaikeiViewModel()
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_SetKaikeiViewModel
+  commentId: M:Convenience.Models.Services.KaikeiService.SetKaikeiViewModel
+  fullName: Convenience.Models.Services.KaikeiService.SetKaikeiViewModel()
+  nameWithType: KaikeiService.SetKaikeiViewModel()
+- uid: Convenience.Models.Services.KaikeiService.SetKaikeiViewModel*
+  name: SetKaikeiViewModel
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_SetKaikeiViewModel_
+  commentId: Overload:Convenience.Models.Services.KaikeiService.SetKaikeiViewModel
+  isSpec: "True"
+  fullName: Convenience.Models.Services.KaikeiService.SetKaikeiViewModel
+  nameWithType: KaikeiService.SetKaikeiViewModel
+- uid: Convenience.Models.Services.KaikeiService.SetKeyInputList(Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching)
+  name: SetKeyInputList(UriageDateTimeAndIdMatching)
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_SetKeyInputList_Convenience_Models_ViewModels_Kaikei_UriageDateTimeAndIdMatching_
+  commentId: M:Convenience.Models.Services.KaikeiService.SetKeyInputList(Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching)
+  fullName: Convenience.Models.Services.KaikeiService.SetKeyInputList(Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching)
+  nameWithType: KaikeiService.SetKeyInputList(UriageDateTimeAndIdMatching)
+- uid: Convenience.Models.Services.KaikeiService.SetKeyInputList(System.Int32,System.DateTime)
+  name: SetKeyInputList(int, DateTime)
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_SetKeyInputList_System_Int32_System_DateTime_
+  commentId: M:Convenience.Models.Services.KaikeiService.SetKeyInputList(System.Int32,System.DateTime)
+  name.vb: SetKeyInputList(Integer, Date)
+  fullName: Convenience.Models.Services.KaikeiService.SetKeyInputList(int, System.DateTime)
+  fullName.vb: Convenience.Models.Services.KaikeiService.SetKeyInputList(Integer, Date)
+  nameWithType: KaikeiService.SetKeyInputList(int, DateTime)
+  nameWithType.vb: KaikeiService.SetKeyInputList(Integer, Date)
+- uid: Convenience.Models.Services.KaikeiService.SetKeyInputList*
+  name: SetKeyInputList
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_SetKeyInputList_
+  commentId: Overload:Convenience.Models.Services.KaikeiService.SetKeyInputList
+  isSpec: "True"
+  fullName: Convenience.Models.Services.KaikeiService.SetKeyInputList
+  nameWithType: KaikeiService.SetKeyInputList
+- uid: Convenience.Models.Services.KaikeiService.SetSelectListItem(System.Collections.Generic.IList{Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching})
+  name: SetSelectListItem(IList<UriageDateTimeAndIdMatching>)
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_SetSelectListItem_System_Collections_Generic_IList_Convenience_Models_ViewModels_Kaikei_UriageDateTimeAndIdMatching__
+  commentId: M:Convenience.Models.Services.KaikeiService.SetSelectListItem(System.Collections.Generic.IList{Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching})
+  name.vb: SetSelectListItem(IList(Of UriageDateTimeAndIdMatching))
+  fullName: Convenience.Models.Services.KaikeiService.SetSelectListItem(System.Collections.Generic.IList<Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching>)
+  fullName.vb: Convenience.Models.Services.KaikeiService.SetSelectListItem(System.Collections.Generic.IList(Of Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching))
+  nameWithType: KaikeiService.SetSelectListItem(IList<UriageDateTimeAndIdMatching>)
+  nameWithType.vb: KaikeiService.SetSelectListItem(IList(Of UriageDateTimeAndIdMatching))
+- uid: Convenience.Models.Services.KaikeiService.SetSelectListItem*
+  name: SetSelectListItem
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_SetSelectListItem_
+  commentId: Overload:Convenience.Models.Services.KaikeiService.SetSelectListItem
+  isSpec: "True"
+  fullName: Convenience.Models.Services.KaikeiService.SetSelectListItem
+  nameWithType: KaikeiService.SetSelectListItem
+- uid: Convenience.Models.Services.KaikeiService.SetViewModelToTempData(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  name: SetViewModelToTempData(KaikeiViewModel)
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_SetViewModelToTempData_Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_
+  commentId: M:Convenience.Models.Services.KaikeiService.SetViewModelToTempData(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  fullName: Convenience.Models.Services.KaikeiService.SetViewModelToTempData(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
+  nameWithType: KaikeiService.SetViewModelToTempData(KaikeiViewModel)
+- uid: Convenience.Models.Services.KaikeiService.SetViewModelToTempData*
+  name: SetViewModelToTempData
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_SetViewModelToTempData_
+  commentId: Overload:Convenience.Models.Services.KaikeiService.SetViewModelToTempData
+  isSpec: "True"
+  fullName: Convenience.Models.Services.KaikeiService.SetViewModelToTempData
+  nameWithType: KaikeiService.SetViewModelToTempData
+- uid: Convenience.Models.Services.KaikeiService._context
+  name: _context
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService__context
+  commentId: F:Convenience.Models.Services.KaikeiService._context
+  fullName: Convenience.Models.Services.KaikeiService._context
+  nameWithType: KaikeiService._context
+- uid: Convenience.Models.Services.KaikeiService._kaikei
+  name: _kaikei
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService__kaikei
+  commentId: P:Convenience.Models.Services.KaikeiService._kaikei
+  fullName: Convenience.Models.Services.KaikeiService._kaikei
+  nameWithType: KaikeiService._kaikei
+- uid: Convenience.Models.Services.KaikeiService._kaikei*
+  name: _kaikei
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService__kaikei_
+  commentId: Overload:Convenience.Models.Services.KaikeiService._kaikei
+  isSpec: "True"
+  fullName: Convenience.Models.Services.KaikeiService._kaikei
+  nameWithType: KaikeiService._kaikei
+- uid: Convenience.Models.Services.KaikeiService._tempData
+  name: _tempData
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService__tempData
+  commentId: F:Convenience.Models.Services.KaikeiService._tempData
+  fullName: Convenience.Models.Services.KaikeiService._tempData
+  nameWithType: KaikeiService._tempData
 - uid: Convenience.Models.Services.ShiireService
   name: ShiireService
   href: api/Convenience.Models.Services.ShiireService.html
@@ -6304,15 +7451,15 @@ references:
   commentId: T:Convenience.Models.Services.TentoHaraidashiService
   fullName: Convenience.Models.Services.TentoHaraidashiService
   nameWithType: TentoHaraidashiService
-- uid: Convenience.Models.Services.TentoHaraidashiService.#ctor(Convenience.Data.ConvenienceContext)
-  name: TentoHaraidashiService(ConvenienceContext)
-  href: api/Convenience.Models.Services.TentoHaraidashiService.html#Convenience_Models_Services_TentoHaraidashiService__ctor_Convenience_Data_ConvenienceContext_
-  commentId: M:Convenience.Models.Services.TentoHaraidashiService.#ctor(Convenience.Data.ConvenienceContext)
-  name.vb: New(ConvenienceContext)
-  fullName: Convenience.Models.Services.TentoHaraidashiService.TentoHaraidashiService(Convenience.Data.ConvenienceContext)
-  fullName.vb: Convenience.Models.Services.TentoHaraidashiService.New(Convenience.Data.ConvenienceContext)
-  nameWithType: TentoHaraidashiService.TentoHaraidashiService(ConvenienceContext)
-  nameWithType.vb: TentoHaraidashiService.New(ConvenienceContext)
+- uid: Convenience.Models.Services.TentoHaraidashiService.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.ITentoHaraidashi)
+  name: TentoHaraidashiService(ConvenienceContext, ITentoHaraidashi)
+  href: api/Convenience.Models.Services.TentoHaraidashiService.html#Convenience_Models_Services_TentoHaraidashiService__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_ITentoHaraidashi_
+  commentId: M:Convenience.Models.Services.TentoHaraidashiService.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.ITentoHaraidashi)
+  name.vb: New(ConvenienceContext, ITentoHaraidashi)
+  fullName: Convenience.Models.Services.TentoHaraidashiService.TentoHaraidashiService(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.ITentoHaraidashi)
+  fullName.vb: Convenience.Models.Services.TentoHaraidashiService.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.ITentoHaraidashi)
+  nameWithType: TentoHaraidashiService.TentoHaraidashiService(ConvenienceContext, ITentoHaraidashi)
+  nameWithType.vb: TentoHaraidashiService.New(ConvenienceContext, ITentoHaraidashi)
 - uid: Convenience.Models.Services.TentoHaraidashiService.#ctor*
   name: TentoHaraidashiService
   href: api/Convenience.Models.Services.TentoHaraidashiService.html#Convenience_Models_Services_TentoHaraidashiService__ctor_
@@ -6368,19 +7515,6 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Services.TentoHaraidashiService.SetTentoHaraidashiViewModel
   nameWithType: TentoHaraidashiService.SetTentoHaraidashiViewModel
-- uid: Convenience.Models.Services.TentoHaraidashiService.TentoHaraidashi
-  name: TentoHaraidashi
-  href: api/Convenience.Models.Services.TentoHaraidashiService.html#Convenience_Models_Services_TentoHaraidashiService_TentoHaraidashi
-  commentId: P:Convenience.Models.Services.TentoHaraidashiService.TentoHaraidashi
-  fullName: Convenience.Models.Services.TentoHaraidashiService.TentoHaraidashi
-  nameWithType: TentoHaraidashiService.TentoHaraidashi
-- uid: Convenience.Models.Services.TentoHaraidashiService.TentoHaraidashi*
-  name: TentoHaraidashi
-  href: api/Convenience.Models.Services.TentoHaraidashiService.html#Convenience_Models_Services_TentoHaraidashiService_TentoHaraidashi_
-  commentId: Overload:Convenience.Models.Services.TentoHaraidashiService.TentoHaraidashi
-  isSpec: "True"
-  fullName: Convenience.Models.Services.TentoHaraidashiService.TentoHaraidashi
-  nameWithType: TentoHaraidashiService.TentoHaraidashi
 - uid: Convenience.Models.Services.TentoHaraidashiService.TentoHaraidashiCommit(Convenience.Models.ViewModels.TentoHaraidashi.TentoHaraidashiViewModel)
   name: TentoHaraidashiCommit(TentoHaraidashiViewModel)
   href: api/Convenience.Models.Services.TentoHaraidashiService.html#Convenience_Models_Services_TentoHaraidashiService_TentoHaraidashiCommit_Convenience_Models_ViewModels_TentoHaraidashi_TentoHaraidashiViewModel_
@@ -6439,6 +7573,19 @@ references:
   commentId: F:Convenience.Models.Services.TentoHaraidashiService._context
   fullName: Convenience.Models.Services.TentoHaraidashiService._context
   nameWithType: TentoHaraidashiService._context
+- uid: Convenience.Models.Services.TentoHaraidashiService._tentoHaraidashi
+  name: _tentoHaraidashi
+  href: api/Convenience.Models.Services.TentoHaraidashiService.html#Convenience_Models_Services_TentoHaraidashiService__tentoHaraidashi
+  commentId: P:Convenience.Models.Services.TentoHaraidashiService._tentoHaraidashi
+  fullName: Convenience.Models.Services.TentoHaraidashiService._tentoHaraidashi
+  nameWithType: TentoHaraidashiService._tentoHaraidashi
+- uid: Convenience.Models.Services.TentoHaraidashiService._tentoHaraidashi*
+  name: _tentoHaraidashi
+  href: api/Convenience.Models.Services.TentoHaraidashiService.html#Convenience_Models_Services_TentoHaraidashiService__tentoHaraidashi_
+  commentId: Overload:Convenience.Models.Services.TentoHaraidashiService._tentoHaraidashi
+  isSpec: "True"
+  fullName: Convenience.Models.Services.TentoHaraidashiService._tentoHaraidashi
+  nameWithType: TentoHaraidashiService._tentoHaraidashi
 - uid: Convenience.Models.Services.ZaikoService
   name: ZaikoService
   href: api/Convenience.Models.Services.ZaikoService.html
@@ -6597,6 +7744,207 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.ViewModels.Chumon.ChumonViewModel.Remark
   nameWithType: ChumonViewModel.Remark
+- uid: Convenience.Models.ViewModels.Kaikei
+  name: Convenience.Models.ViewModels.Kaikei
+  href: api/Convenience.Models.ViewModels.Kaikei.html
+  commentId: N:Convenience.Models.ViewModels.Kaikei
+  fullName: Convenience.Models.ViewModels.Kaikei
+  nameWithType: Convenience.Models.ViewModels.Kaikei
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd
+  name: KaikeiJissekiforAdd
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd.html
+  commentId: T:Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd
+  nameWithType: KaikeiJissekiforAdd
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd.ShohinName
+  name: ShohinName
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd.html#Convenience_Models_ViewModels_Kaikei_KaikeiJissekiforAdd_ShohinName
+  commentId: P:Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd.ShohinName
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd.ShohinName
+  nameWithType: KaikeiJissekiforAdd.ShohinName
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd.ShohinName*
+  name: ShohinName
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd.html#Convenience_Models_ViewModels_Kaikei_KaikeiJissekiforAdd_ShohinName_
+  commentId: Overload:Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd.ShohinName
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd.ShohinName
+  nameWithType: KaikeiJissekiforAdd.ShohinName
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel
+  name: KaikeiViewModel
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html
+  commentId: T:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel
+  nameWithType: KaikeiViewModel
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.#ctor
+  name: KaikeiViewModel()
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html#Convenience_Models_ViewModels_Kaikei_KaikeiViewModel__ctor
+  commentId: M:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.#ctor
+  name.vb: New()
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiViewModel()
+  fullName.vb: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.New()
+  nameWithType: KaikeiViewModel.KaikeiViewModel()
+  nameWithType.vb: KaikeiViewModel.New()
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.#ctor*
+  name: KaikeiViewModel
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html#Convenience_Models_ViewModels_Kaikei_KaikeiViewModel__ctor_
+  commentId: Overload:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiViewModel
+  fullName.vb: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.New
+  nameWithType: KaikeiViewModel.KaikeiViewModel
+  nameWithType.vb: KaikeiViewModel.New
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.IsNormal
+  name: IsNormal
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html#Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_IsNormal
+  commentId: P:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.IsNormal
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.IsNormal
+  nameWithType: KaikeiViewModel.IsNormal
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.IsNormal*
+  name: IsNormal
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html#Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_IsNormal_
+  commentId: Overload:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.IsNormal
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.IsNormal
+  nameWithType: KaikeiViewModel.IsNormal
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiDateAndId
+  name: KaikeiDateAndId
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html#Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_KaikeiDateAndId
+  commentId: P:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiDateAndId
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiDateAndId
+  nameWithType: KaikeiViewModel.KaikeiDateAndId
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiDateAndId*
+  name: KaikeiDateAndId
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html#Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_KaikeiDateAndId_
+  commentId: Overload:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiDateAndId
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiDateAndId
+  nameWithType: KaikeiViewModel.KaikeiDateAndId
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiHeader
+  name: KaikeiHeader
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html#Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_KaikeiHeader
+  commentId: P:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiHeader
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiHeader
+  nameWithType: KaikeiViewModel.KaikeiHeader
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiHeader*
+  name: KaikeiHeader
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html#Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_KaikeiHeader_
+  commentId: Overload:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiHeader
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiHeader
+  nameWithType: KaikeiViewModel.KaikeiHeader
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiHeaderList
+  name: KaikeiHeaderList
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html#Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_KaikeiHeaderList
+  commentId: P:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiHeaderList
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiHeaderList
+  nameWithType: KaikeiViewModel.KaikeiHeaderList
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiHeaderList*
+  name: KaikeiHeaderList
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html#Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_KaikeiHeaderList_
+  commentId: Overload:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiHeaderList
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiHeaderList
+  nameWithType: KaikeiViewModel.KaikeiHeaderList
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiJissekiforAdd
+  name: KaikeiJissekiforAdd
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html#Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_KaikeiJissekiforAdd
+  commentId: P:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiJissekiforAdd
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiJissekiforAdd
+  nameWithType: KaikeiViewModel.KaikeiJissekiforAdd
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiJissekiforAdd*
+  name: KaikeiJissekiforAdd
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html#Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_KaikeiJissekiforAdd_
+  commentId: Overload:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiJissekiforAdd
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.KaikeiJissekiforAdd
+  nameWithType: KaikeiViewModel.KaikeiJissekiforAdd
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.Remark
+  name: Remark
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html#Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_Remark
+  commentId: P:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.Remark
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.Remark
+  nameWithType: KaikeiViewModel.Remark
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.Remark*
+  name: Remark
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html#Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_Remark_
+  commentId: Overload:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.Remark
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.Remark
+  nameWithType: KaikeiViewModel.Remark
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.ShohinList
+  name: ShohinList
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html#Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_ShohinList
+  commentId: P:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.ShohinList
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.ShohinList
+  nameWithType: KaikeiViewModel.ShohinList
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.ShohinList*
+  name: ShohinList
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html#Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_ShohinList_
+  commentId: Overload:Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.ShohinList
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.ShohinList
+  nameWithType: KaikeiViewModel.ShohinList
+- uid: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching
+  name: UriageDateTimeAndIdMatching
+  href: api/Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.html
+  commentId: T:Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching
+  fullName: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching
+  nameWithType: UriageDateTimeAndIdMatching
+- uid: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.#ctor
+  name: UriageDateTimeAndIdMatching()
+  href: api/Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.html#Convenience_Models_ViewModels_Kaikei_UriageDateTimeAndIdMatching__ctor
+  commentId: M:Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.#ctor
+  name.vb: New()
+  fullName: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.UriageDateTimeAndIdMatching()
+  fullName.vb: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.New()
+  nameWithType: UriageDateTimeAndIdMatching.UriageDateTimeAndIdMatching()
+  nameWithType.vb: UriageDateTimeAndIdMatching.New()
+- uid: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.#ctor(System.DateTime,System.String)
+  name: UriageDateTimeAndIdMatching(DateTime, string)
+  href: api/Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.html#Convenience_Models_ViewModels_Kaikei_UriageDateTimeAndIdMatching__ctor_System_DateTime_System_String_
+  commentId: M:Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.#ctor(System.DateTime,System.String)
+  name.vb: New(Date, String)
+  fullName: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.UriageDateTimeAndIdMatching(System.DateTime, string)
+  fullName.vb: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.New(Date, String)
+  nameWithType: UriageDateTimeAndIdMatching.UriageDateTimeAndIdMatching(DateTime, string)
+  nameWithType.vb: UriageDateTimeAndIdMatching.New(Date, String)
+- uid: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.#ctor*
+  name: UriageDateTimeAndIdMatching
+  href: api/Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.html#Convenience_Models_ViewModels_Kaikei_UriageDateTimeAndIdMatching__ctor_
+  commentId: Overload:Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.UriageDateTimeAndIdMatching
+  fullName.vb: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.New
+  nameWithType: UriageDateTimeAndIdMatching.UriageDateTimeAndIdMatching
+  nameWithType.vb: UriageDateTimeAndIdMatching.New
+- uid: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.UriageDatetime
+  name: UriageDatetime
+  href: api/Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.html#Convenience_Models_ViewModels_Kaikei_UriageDateTimeAndIdMatching_UriageDatetime
+  commentId: P:Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.UriageDatetime
+  fullName: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.UriageDatetime
+  nameWithType: UriageDateTimeAndIdMatching.UriageDatetime
+- uid: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.UriageDatetime*
+  name: UriageDatetime
+  href: api/Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.html#Convenience_Models_ViewModels_Kaikei_UriageDateTimeAndIdMatching_UriageDatetime_
+  commentId: Overload:Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.UriageDatetime
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.UriageDatetime
+  nameWithType: UriageDateTimeAndIdMatching.UriageDatetime
+- uid: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.UriageDatetimeId
+  name: UriageDatetimeId
+  href: api/Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.html#Convenience_Models_ViewModels_Kaikei_UriageDateTimeAndIdMatching_UriageDatetimeId
+  commentId: P:Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.UriageDatetimeId
+  fullName: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.UriageDatetimeId
+  nameWithType: UriageDateTimeAndIdMatching.UriageDatetimeId
+- uid: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.UriageDatetimeId*
+  name: UriageDatetimeId
+  href: api/Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.html#Convenience_Models_ViewModels_Kaikei_UriageDateTimeAndIdMatching_UriageDatetimeId_
+  commentId: Overload:Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.UriageDatetimeId
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.UriageDatetimeId
+  nameWithType: UriageDateTimeAndIdMatching.UriageDatetimeId
 - uid: Convenience.Models.ViewModels.Shiire
   name: Convenience.Models.ViewModels.Shiire
   href: api/Convenience.Models.ViewModels.Shiire.html

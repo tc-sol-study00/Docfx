@@ -103,7 +103,7 @@ Class KaikeiJisseki  <a class="header-action link-secondary" title="View source"
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Table(&quot;kaikei_jisseki&quot;)]
-[PrimaryKey(&quot;ShohinId&quot;, new string[] { &quot;UriageDatetime&quot; })]
+[PrimaryKey(&quot;UriageDatetimeId&quot;, new string[] { &quot;ShohinId&quot;, &quot;UriageDatetime&quot; })]
 public class KaikeiJisseki</code></pre>
   </div>
 
@@ -119,6 +119,12 @@ public class KaikeiJisseki</code></pre>
   </dl>
 
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd.html">KaikeiJissekiforAdd</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
@@ -155,11 +161,43 @@ public class KaikeiJisseki</code></pre>
 </h2>
 
 
+  <a id="Convenience_Models_DataModels_KaikeiJisseki_KaikeiHeader_" data-uid="Convenience.Models.DataModels.KaikeiJisseki.KaikeiHeader*"></a>
+
+  <h3 id="Convenience_Models_DataModels_KaikeiJisseki_KaikeiHeader" data-uid="Convenience.Models.DataModels.KaikeiJisseki.KaikeiHeader">
+  KaikeiHeader
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;UriageDatetimeId&quot;)]
+public virtual KaikeiHeader KaikeiHeader { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Convenience.Models.DataModels.KaikeiHeader.html">KaikeiHeader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Convenience_Models_DataModels_KaikeiJisseki_ShohiZeiritsu_" data-uid="Convenience.Models.DataModels.KaikeiJisseki.ShohiZeiritsu*"></a>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_ShohiZeiritsu" data-uid="Convenience.Models.DataModels.KaikeiJisseki.ShohiZeiritsu">
   ShohiZeiritsu
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -193,7 +231,7 @@ public decimal ShohiZeiritsu { get; set; }</code></pre>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_ShohinId" data-uid="Convenience.Models.DataModels.KaikeiJisseki.ShohinId">
   ShohinId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -227,7 +265,7 @@ public string ShohinId { get; set; }</code></pre>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_ShohinMaster" data-uid="Convenience.Models.DataModels.KaikeiJisseki.ShohinMaster">
   ShohinMaster
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -255,11 +293,76 @@ public virtual ShohinMaster ShohinMaster { get; set; }</code></pre>
 
 
 
+  <a id="Convenience_Models_DataModels_KaikeiJisseki_ShohinTanka_" data-uid="Convenience.Models.DataModels.KaikeiJisseki.ShohinTanka*"></a>
+
+  <h3 id="Convenience_Models_DataModels_KaikeiJisseki_ShohinTanka" data-uid="Convenience.Models.DataModels.KaikeiJisseki.ShohinTanka">
+  ShohinTanka
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Column(&quot;shohin_tanka&quot;)]
+[Required]
+[Precision(15, 2)]
+public decimal ShohinTanka { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Convenience_Models_DataModels_KaikeiJisseki_TentoZaiko_" data-uid="Convenience.Models.DataModels.KaikeiJisseki.TentoZaiko*"></a>
+
+  <h3 id="Convenience_Models_DataModels_KaikeiJisseki_TentoZaiko" data-uid="Convenience.Models.DataModels.KaikeiJisseki.TentoZaiko">
+  TentoZaiko
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TentoZaiko TentoZaiko { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Convenience.Models.DataModels.TentoZaiko.html">TentoZaiko</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Convenience_Models_DataModels_KaikeiJisseki_UriageDatetime_" data-uid="Convenience.Models.DataModels.KaikeiJisseki.UriageDatetime*"></a>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_UriageDatetime" data-uid="Convenience.Models.DataModels.KaikeiJisseki.UriageDatetime">
   UriageDatetime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -289,11 +392,45 @@ public DateTime UriageDatetime { get; set; }</code></pre>
 
 
 
-  <a id="Convenience_Models_DataModels_KaikeiJisseki_UriageKingakuSu_" data-uid="Convenience.Models.DataModels.KaikeiJisseki.UriageKingakuSu*"></a>
+  <a id="Convenience_Models_DataModels_KaikeiJisseki_UriageDatetimeId_" data-uid="Convenience.Models.DataModels.KaikeiJisseki.UriageDatetimeId*"></a>
 
-  <h3 id="Convenience_Models_DataModels_KaikeiJisseki_UriageKingakuSu" data-uid="Convenience.Models.DataModels.KaikeiJisseki.UriageKingakuSu">
-  UriageKingakuSu
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Models_DataModels_KaikeiJisseki_UriageDatetimeId" data-uid="Convenience.Models.DataModels.KaikeiJisseki.UriageDatetimeId">
+  UriageDatetimeId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Column(&quot;uriage_datetimeid&quot;)]
+[MaxLength(20)]
+[Required]
+public string UriageDatetimeId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Convenience_Models_DataModels_KaikeiJisseki_UriageKingaku_" data-uid="Convenience.Models.DataModels.KaikeiJisseki.UriageKingaku*"></a>
+
+  <h3 id="Convenience_Models_DataModels_KaikeiJisseki_UriageKingaku" data-uid="Convenience.Models.DataModels.KaikeiJisseki.UriageKingaku">
+  UriageKingaku
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -303,7 +440,7 @@ public DateTime UriageDatetime { get; set; }</code></pre>
     <pre><code class="lang-csharp hljs">[Column(&quot;uriage_kingaku&quot;)]
 [Required]
 [Precision(15, 2)]
-public decimal UriageKingakuSu { get; set; }</code></pre>
+public decimal UriageKingaku { get; set; }</code></pre>
   </div>
 
 
@@ -327,7 +464,7 @@ public decimal UriageKingakuSu { get; set; }</code></pre>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_UriageSu" data-uid="Convenience.Models.DataModels.KaikeiJisseki.UriageSu">
   UriageSu
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -361,7 +498,7 @@ public decimal UriageSu { get; set; }</code></pre>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_ZeikomiKingaku" data-uid="Convenience.Models.DataModels.KaikeiJisseki.ZeikomiKingaku">
   ZeikomiKingaku
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

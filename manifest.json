@@ -52,6 +52,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/AspNetCoreGeneratedDocument.Views_Shared_Error.yml",
       "output": {
         ".html": {
@@ -182,6 +192,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Controllers.KaikeiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Controllers.KaikeiController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Controllers.ShiireController.yml",
       "output": {
         ".html": {
@@ -262,6 +282,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Migrations.Kaikei.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Migrations.Kaikei.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Migrations.changetonull.yml",
       "output": {
         ".html": {
@@ -286,6 +316,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Migrations.shiireTimeStamp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Migrations.shohintanka.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Migrations.shohintanka.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Migrations.shohintanka2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Migrations.shohintanka2.html"
         }
       },
       "version": ""
@@ -326,6 +376,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.DataModels.ChumonJissekiMeisai.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.DataModels.KaikeiHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.DataModels.KaikeiHeader.html"
         }
       },
       "version": ""
@@ -466,6 +526,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Interfaces.IDbContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IKaikei.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IKaikei.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IKaikeiService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IKaikeiService.html"
         }
       },
       "version": ""
@@ -622,6 +702,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Kaikei.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Kaikei.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Properties.Message.ErrDef.yml",
       "output": {
         ".html": {
@@ -752,6 +842,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Services.KaikeiService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Services.KaikeiService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Services.ShiireService.yml",
       "output": {
         ".html": {
@@ -816,6 +916,46 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.ViewModels.Chumon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.Kaikei.KaikeiViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.Kaikei.UriageDateTimeAndIdMatching.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.Kaikei.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.Kaikei.html"
         }
       },
       "version": ""

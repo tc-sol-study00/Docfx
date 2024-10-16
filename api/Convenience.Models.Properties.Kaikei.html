@@ -353,7 +353,7 @@ Class Kaikei  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Convenience_Models_Properties_Kaikei_KaikeiToiawase_System_String_" data-uid="Convenience.Models.Properties.Kaikei.KaikeiToiawase(System.String)">
   KaikeiToiawase(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Kaikei.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Kaikei.cs/#L185"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>会計問い合わせ(ソート指示なし）</p>
@@ -392,7 +392,7 @@ Class Kaikei  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Convenience_Models_Properties_Kaikei_KaikeiToiawase__1_System_String_System_Linq_Expressions_Expression_System_Func_Convenience_Models_DataModels_KaikeiJisseki___0___" data-uid="Convenience.Models.Properties.Kaikei.KaikeiToiawase``1(System.String,System.Linq.Expressions.Expression{System.Func{Convenience.Models.DataModels.KaikeiJisseki,``0}})">
   KaikeiToiawase&lt;T&gt;(string, Expression&lt;Func&lt;KaikeiJisseki, T&gt;&gt;?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Kaikei.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Kaikei.cs/#L196"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>会計問い合わせ</p>
@@ -440,7 +440,7 @@ Class Kaikei  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Convenience_Models_Properties_Kaikei_KaikeiUpdate_Convenience_Models_DataModels_KaikeiHeader_" data-uid="Convenience.Models.Properties.Kaikei.KaikeiUpdate(Convenience.Models.DataModels.KaikeiHeader)">
   KaikeiUpdate(KaikeiHeader)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Kaikei.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Kaikei.cs/#L226"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>会計ヘッダー＋実績のＤＢ更新</p>
@@ -479,7 +479,7 @@ Class Kaikei  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Convenience_Models_Properties_Kaikei_ShohizeiKeisan_Convenience_Models_Interfaces_IKaikeiJissekiForAdd_Convenience_Models_DataModels_KaikeiJisseki_" data-uid="Convenience.Models.Properties.Kaikei.ShohizeiKeisan(Convenience.Models.Interfaces.IKaikeiJissekiForAdd,Convenience.Models.DataModels.KaikeiJisseki)">
   ShohizeiKeisan(IKaikeiJissekiForAdd, KaikeiJisseki)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Kaikei.cs/#L376"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Kaikei.cs/#L353"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>消費税計算</p>
@@ -487,7 +487,7 @@ Class Kaikei  <a class="header-action link-secondary" title="View source" href="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private KaikeiJisseki ShohizeiKeisan(IKaikeiJissekiForAdd inKaikeiJisseki, KaikeiJisseki outKaikeiJisseki)</code></pre>
+    <pre><code class="lang-csharp hljs">private Task&lt;KaikeiJisseki&gt; ShohizeiKeisan(IKaikeiJissekiForAdd inKaikeiJisseki, KaikeiJisseki outKaikeiJisseki)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -502,7 +502,7 @@ Class Kaikei  <a class="header-action link-secondary" title="View source" href="
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.DataModels.KaikeiJisseki.html">KaikeiJisseki</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.DataModels.KaikeiJisseki.html">KaikeiJisseki</a>&gt;</dt>
     <dd><p>消費税関連で計算されたものの反映先（会計実績）</p>
 </dd>
   </dl>
@@ -537,7 +537,7 @@ Class Kaikei  <a class="header-action link-secondary" title="View source" href="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private string UriageDatetimeIdHatsuban(DateTime argCurrentDateTime)</code></pre>
+    <pre><code class="lang-csharp hljs">private Task&lt;string&gt; UriageDatetimeIdHatsuban(DateTime argCurrentDateTime)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -549,7 +549,7 @@ Class Kaikei  <a class="header-action link-secondary" title="View source" href="
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
     <dd><p>会計コード(yyyyMMdd-HH-001～999、HHは店頭払出日時の時間部分</p>
 </dd>
   </dl>
@@ -568,7 +568,7 @@ Class Kaikei  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Convenience_Models_Properties_Kaikei_ZaikoConnection_System_String_System_DateTime_System_Decimal_Convenience_Models_DataModels_TentoZaiko_" data-uid="Convenience.Models.Properties.Kaikei.ZaikoConnection(System.String,System.DateTime,System.Decimal,Convenience.Models.DataModels.TentoZaiko)">
   ZaikoConnection(string, DateTime, decimal, TentoZaiko?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Kaikei.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Kaikei.cs/#L324"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>店頭在庫から売上分を差し引く</p>

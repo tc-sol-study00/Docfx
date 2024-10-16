@@ -888,45 +888,7 @@ Class ChumonController  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Convenience_Controllers_ChumonController_ChumonMeisai_Convenience_Models_ViewModels_Chumon_ChumonViewModel_" data-uid="Convenience.Controllers.ChumonController.ChumonMeisai(Convenience.Models.ViewModels.Chumon.ChumonViewModel)">
   ChumonMeisai(ChumonViewModel)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ChumonController.cs/#L72"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>商品注文２枚目の初期表示（表示データは、postを受けたKeyInputメソッドで行う）</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IActionResult&gt; ChumonMeisai(ChumonViewModel inChumonViewModel)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>inChumonViewModel</code> <a class="xref" href="Convenience.Models.ViewModels.Chumon.ChumonViewModel.html">ChumonViewModel</a></dt>
-    <dd><p>初期表示する注文明細ビューデータ</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Convenience_Controllers_ChumonController_ChumonMeisai_" data-uid="Convenience.Controllers.ChumonController.ChumonMeisai*"></a>
-
-  <h3 id="Convenience_Controllers_ChumonController_ChumonMeisai_System_Int32_Convenience_Models_ViewModels_Chumon_ChumonViewModel_" data-uid="Convenience.Controllers.ChumonController.ChumonMeisai(System.Int32,Convenience.Models.ViewModels.Chumon.ChumonViewModel)">
-  ChumonMeisai(int, ChumonViewModel)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ChumonController.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ChumonController.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>商品注文２枚目のPost後の処理</p>
@@ -936,13 +898,11 @@ Class ChumonController  <a class="header-action link-secondary" title="View sour
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpPost]
 [ValidateAntiForgeryToken]
-public Task&lt;IActionResult&gt; ChumonMeisai(int id, ChumonViewModel inChumonViewModel)</code></pre>
+public Task&lt;IActionResult&gt; ChumonMeisai(ChumonViewModel inChumonViewModel)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
     <dt><code>inChumonViewModel</code> <a class="xref" href="Convenience.Models.ViewModels.Chumon.ChumonViewModel.html">ChumonViewModel</a></dt>
     <dd><p>注文明細ビューモデル</p>
 </dd>
@@ -969,21 +929,27 @@ public Task&lt;IActionResult&gt; ChumonMeisai(int id, ChumonViewModel inChumonVi
 
 
 
-  <a id="Convenience_Controllers_ChumonController_KeyInput_" data-uid="Convenience.Controllers.ChumonController.KeyInput*"></a>
+  <a id="Convenience_Controllers_ChumonController_ChumonMeisai_" data-uid="Convenience.Controllers.ChumonController.ChumonMeisai*"></a>
 
-  <h3 id="Convenience_Controllers_ChumonController_KeyInput" data-uid="Convenience.Controllers.ChumonController.KeyInput">
-  KeyInput()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ChumonController.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Controllers_ChumonController_ChumonMeisai_System_String_" data-uid="Convenience.Controllers.ChumonController.ChumonMeisai(System.String)">
+  ChumonMeisai(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ChumonController.cs/#L85"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>商品注文１枚目の初期表示処理</p>
+  <div class="markdown level1 summary"><p>商品注文２枚目の初期表示（表示データは、postを受けたKeyInputメソッドで行う）</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IActionResult&gt; KeyInput()</code></pre>
+    <pre><code class="lang-csharp hljs">[HttpGet]
+public Task&lt;IActionResult&gt; ChumonMeisai(string id)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
@@ -1005,7 +971,7 @@ public Task&lt;IActionResult&gt; ChumonMeisai(int id, ChumonViewModel inChumonVi
 
   <h3 id="Convenience_Controllers_ChumonController_KeyInput_Convenience_Models_ViewModels_Chumon_ChumonKeysViewModel_" data-uid="Convenience.Controllers.ChumonController.KeyInput(Convenience.Models.ViewModels.Chumon.ChumonKeysViewModel)">
   KeyInput(ChumonKeysViewModel)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ChumonController.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ChumonController.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>商品注文１枚目のPost受信後処理</p>
@@ -1046,22 +1012,27 @@ public Task&lt;IActionResult&gt; KeyInput(ChumonKeysViewModel inChumonKeysViewMo
 
 
 
-  <a id="Convenience_Controllers_ChumonController_Result_" data-uid="Convenience.Controllers.ChumonController.Result*"></a>
+  <a id="Convenience_Controllers_ChumonController_KeyInput_" data-uid="Convenience.Controllers.ChumonController.KeyInput*"></a>
 
-  <h3 id="Convenience_Controllers_ChumonController_Result" data-uid="Convenience.Controllers.ChumonController.Result">
-  Result()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ChumonController.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Controllers_ChumonController_KeyInput_System_String_" data-uid="Convenience.Controllers.ChumonController.KeyInput(System.String)">
+  KeyInput(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ChumonController.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>商品注文２枚目のPostデータコミット後の再表示</p>
+  <div class="markdown level1 summary"><p>商品注文１枚目の初期表示処理</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpGet]
-public Task&lt;IActionResult&gt; Result()</code></pre>
+public Task&lt;IActionResult&gt; KeyInput(string id)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">

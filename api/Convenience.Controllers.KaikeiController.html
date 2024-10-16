@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class KaikeiController | Convenience ">
       
-      <meta name="description" content="注文コントローラ">
+      <meta name="description" content="会計コントローラ">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Controllers_KaikeiController" data-uid="Convenience.Controllers.KaikeiController" class="text-break">
-Class KaikeiController  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L14"><i class="bi bi-code-slash"></i></a>
+Class KaikeiController  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,13 @@ Class KaikeiController  <a class="header-action link-secondary" title="View sour
   <dl><dt>Assembly</dt><dd>Convenience.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>注文コントローラ</p>
+  <div class="markdown summary"><p>会計コントローラ</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class KaikeiController : Controller, IActionFilter, IAsyncActionFilter, IFilterMetadata, IDisposable, ISharedTools</code></pre>
+    <pre><code class="lang-csharp hljs">[ResponseCache(NoStore = true, Location = ResponseCacheLocation.None)]
+public class KaikeiController : Controller, IActionFilter, IAsyncActionFilter, IFilterMetadata, IDisposable, ISharedTools</code></pre>
   </div>
 
 
@@ -751,7 +752,7 @@ Class KaikeiController  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Convenience_Controllers_KaikeiController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IKaikeiService_" data-uid="Convenience.Controllers.KaikeiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IKaikeiService)">
   KaikeiController(ConvenienceContext, IKaikeiService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>コンストラクター</p>
@@ -789,7 +790,7 @@ Class KaikeiController  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Convenience_Controllers_KaikeiController_IndexName" data-uid="Convenience.Controllers.KaikeiController.IndexName">
   IndexName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>サービスクラス引継ぎ用キーワード</p>
@@ -820,7 +821,7 @@ Class KaikeiController  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Convenience_Controllers_KaikeiController_KaikeiViewModel" data-uid="Convenience.Controllers.KaikeiController.KaikeiViewModel">
   KaikeiViewModel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ビュー・モデル</p>
@@ -851,7 +852,7 @@ Class KaikeiController  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Convenience_Controllers_KaikeiController__context" data-uid="Convenience.Controllers.KaikeiController._context">
   _context
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>DBコンテキスト</p>
@@ -882,7 +883,7 @@ Class KaikeiController  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Convenience_Controllers_KaikeiController__kaikeiService" data-uid="Convenience.Controllers.KaikeiController._kaikeiService">
   _kaikeiService
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>会計サービスクラス（ＤＩ用）</p>
@@ -918,7 +919,7 @@ Class KaikeiController  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Convenience_Controllers_KaikeiController_Addkaikei_Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_" data-uid="Convenience.Controllers.KaikeiController.Addkaikei(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)">
   Addkaikei(KaikeiViewModel)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>商品注文２枚目のPost受信後処理</p>
@@ -963,7 +964,7 @@ public Task&lt;IActionResult&gt; Addkaikei(KaikeiViewModel argKaikeiViewModel)</
 
   <h3 id="Convenience_Controllers_KaikeiController_GetShohinName_System_String_" data-uid="Convenience.Controllers.KaikeiController.GetShohinName(System.String)">
   GetShohinName(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L189"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>商品名称問い合わせよう</p>
@@ -1002,7 +1003,7 @@ public Task&lt;IActionResult&gt; GetShohinName(string ShohinId)</code></pre>
 
   <h3 id="Convenience_Controllers_KaikeiController_Kaikei_Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_" data-uid="Convenience.Controllers.KaikeiController.Kaikei(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)">
   Kaikei(KaikeiViewModel)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L116"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1041,7 +1042,7 @@ public Task&lt;IActionResult&gt; Kaikei(KaikeiViewModel argKaikeiViewModel)</cod
 
   <h3 id="Convenience_Controllers_KaikeiController_KeyInput" data-uid="Convenience.Controllers.KaikeiController.KeyInput">
   KeyInput()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>商品注文１枚目の初期表示処理</p>
@@ -1073,7 +1074,7 @@ public Task&lt;IActionResult&gt; Kaikei(KaikeiViewModel argKaikeiViewModel)</cod
 
   <h3 id="Convenience_Controllers_KaikeiController_KeyInput_Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_" data-uid="Convenience.Controllers.KaikeiController.KeyInput(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)">
   KeyInput(KaikeiViewModel)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>商品注文２枚目の初期表示</p>
@@ -1112,7 +1113,7 @@ public Task&lt;IActionResult&gt; KeyInput(KaikeiViewModel argKaikeiViewModel)</c
 
   <h3 id="Convenience_Controllers_KaikeiController_Result_System_String_" data-uid="Convenience.Controllers.KaikeiController.Result(System.String)">
   Result(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>PRG用</p>
@@ -1151,7 +1152,7 @@ public Task&lt;IActionResult&gt; Result(string id)</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L14" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/KaikeiController.cs/#L15" class="edit-link">Edit this page</a>
         </div>
 
 

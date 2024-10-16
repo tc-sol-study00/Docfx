@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Models_Interfaces_IKaikei" data-uid="Convenience.Models.Interfaces.IKaikei" class="text-break">
-Interface IKaikei  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IKaikei.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Interface IKaikei  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IKaikei.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -158,8 +158,8 @@ Interface IKaikei  <a class="header-action link-secondary" title="View source" h
 
   <a id="Convenience_Models_Interfaces_IKaikei_KaikeiAddcommodity_" data-uid="Convenience.Models.Interfaces.IKaikei.KaikeiAddcommodity*"></a>
 
-  <h3 id="Convenience_Models_Interfaces_IKaikei_KaikeiAddcommodity_Convenience_Models_DataModels_KaikeiJisseki_" data-uid="Convenience.Models.Interfaces.IKaikei.KaikeiAddcommodity(Convenience.Models.DataModels.KaikeiJisseki)">
-  KaikeiAddcommodity(KaikeiJisseki)
+  <h3 id="Convenience_Models_Interfaces_IKaikei_KaikeiAddcommodity_Convenience_Models_Interfaces_IKaikeiJissekiForAdd_" data-uid="Convenience.Models.Interfaces.IKaikei.KaikeiAddcommodity(Convenience.Models.Interfaces.IKaikeiJissekiForAdd)">
+  KaikeiAddcommodity(IKaikeiJissekiForAdd)
   <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IKaikei.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -168,12 +168,12 @@ Interface IKaikei  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;IList&lt;KaikeiJisseki&gt;&gt; KaikeiAddcommodity(KaikeiJisseki argKaikeiJisseki)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IList&lt;KaikeiJisseki&gt;&gt; KaikeiAddcommodity(IKaikeiJissekiForAdd argKaikeiJisseki)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>argKaikeiJisseki</code> <a class="xref" href="Convenience.Models.DataModels.KaikeiJisseki.html">KaikeiJisseki</a></dt>
+    <dt><code>argKaikeiJisseki</code> <a class="xref" href="Convenience.Models.Interfaces.IKaikeiJissekiForAdd.html">IKaikeiJissekiForAdd</a></dt>
     <dd></dd>
   </dl>
 
@@ -242,10 +242,11 @@ Interface IKaikei  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Convenience_Models_Interfaces_IKaikei_KaikeiToiawase_System_String_" data-uid="Convenience.Models.Interfaces.IKaikei.KaikeiToiawase(System.String)">
   KaikeiToiawase(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IKaikei.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IKaikei.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>会計問い合わせ(ソート指示なし）</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -255,15 +256,65 @@ Interface IKaikei  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>argTentoHaraidashiId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>店頭払出コード</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.DataModels.KaikeiHeader.html">KaikeiHeader</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>会計実績ヘッダー＋実績</p>
+</dd>
   </dl>
 
+
+
+
+
+
+
+
+
+
+
+  <a id="Convenience_Models_Interfaces_IKaikei_KaikeiToiawase_" data-uid="Convenience.Models.Interfaces.IKaikei.KaikeiToiawase*"></a>
+
+  <h3 id="Convenience_Models_Interfaces_IKaikei_KaikeiToiawase__1_System_String_System_Linq_Expressions_Expression_System_Func_Convenience_Models_DataModels_KaikeiJisseki___0___" data-uid="Convenience.Models.Interfaces.IKaikei.KaikeiToiawase``1(System.String,System.Linq.Expressions.Expression{System.Func{Convenience.Models.DataModels.KaikeiJisseki,``0}})">
+  KaikeiToiawase&lt;T&gt;(string, Expression&lt;Func&lt;KaikeiJisseki, T&gt;&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IKaikei.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>会計問い合わせ</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;KaikeiHeader?&gt; KaikeiToiawase&lt;T&gt;(string argTentoHaraidashiId, Expression&lt;Func&lt;KaikeiJisseki, T&gt;&gt;? orderexpression)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>argTentoHaraidashiId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>店頭払出コード</p>
+</dd>
+    <dt><code>orderexpression</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Convenience.Models.DataModels.KaikeiJisseki.html">KaikeiJisseki</a>, T&gt;&gt;</dt>
+    <dd><p>ソート指示用ラムダ式</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.DataModels.KaikeiHeader.html">KaikeiHeader</a>&gt;</dt>
+    <dd><p>会計実績ヘッダー＋実績</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>ソート指示された項目のタイプ</p>
+</dd>
+  </dl>
 
 
 
@@ -278,7 +329,7 @@ Interface IKaikei  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Convenience_Models_Interfaces_IKaikei_KaikeiUpdate_Convenience_Models_DataModels_KaikeiHeader_" data-uid="Convenience.Models.Interfaces.IKaikei.KaikeiUpdate(Convenience.Models.DataModels.KaikeiHeader)">
   KaikeiUpdate(KaikeiHeader)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IKaikei.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IKaikei.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>会計ヘッダー＋実績のＤＢ更新</p>
@@ -317,7 +368,7 @@ Interface IKaikei  <a class="header-action link-secondary" title="View source" h
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IKaikei.cs/#L5" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IKaikei.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 

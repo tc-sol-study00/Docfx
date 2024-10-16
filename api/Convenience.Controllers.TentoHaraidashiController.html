@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class TentoHaraidashiController | Convenience ">
       
-      <meta name="description" content="注文コントローラ">
+      <meta name="description" content="店頭払出コントローラ">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -97,12 +97,13 @@ Class TentoHaraidashiController  <a class="header-action link-secondary" title="
   <dl><dt>Assembly</dt><dd>Convenience.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>注文コントローラ</p>
+  <div class="markdown summary"><p>店頭払出コントローラ</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TentoHaraidashiController : Controller, IActionFilter, IAsyncActionFilter, IFilterMetadata, IDisposable, ISharedTools</code></pre>
+    <pre><code class="lang-csharp hljs">[ResponseCache(NoStore = true, Location = ResponseCacheLocation.None)]
+public class TentoHaraidashiController : Controller, IActionFilter, IAsyncActionFilter, IFilterMetadata, IDisposable, ISharedTools</code></pre>
   </div>
 
 
@@ -751,7 +752,7 @@ Class TentoHaraidashiController  <a class="header-action link-secondary" title="
 
   <h3 id="Convenience_Controllers_TentoHaraidashiController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_ITentoHaraidashiService_" data-uid="Convenience.Controllers.TentoHaraidashiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.ITentoHaraidashiService)">
   TentoHaraidashiController(ConvenienceContext, ITentoHaraidashiService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>コンストラクター</p>
@@ -789,7 +790,7 @@ Class TentoHaraidashiController  <a class="header-action link-secondary" title="
 
   <h3 id="Convenience_Controllers_TentoHaraidashiController_IndexName" data-uid="Convenience.Controllers.TentoHaraidashiController.IndexName">
   IndexName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>サービスクラス引継ぎ用キーワード</p>
@@ -820,7 +821,7 @@ Class TentoHaraidashiController  <a class="header-action link-secondary" title="
 
   <h3 id="Convenience_Controllers_TentoHaraidashiController__context" data-uid="Convenience.Controllers.TentoHaraidashiController._context">
   _context
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>DBコンテキスト</p>
@@ -851,7 +852,7 @@ Class TentoHaraidashiController  <a class="header-action link-secondary" title="
 
   <h3 id="Convenience_Controllers_TentoHaraidashiController__tentoHaraidashiService" data-uid="Convenience.Controllers.TentoHaraidashiController._tentoHaraidashiService">
   _tentoHaraidashiService
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>注文サービスクラス（ＤＩ用）</p>
@@ -882,7 +883,7 @@ Class TentoHaraidashiController  <a class="header-action link-secondary" title="
 
   <h3 id="Convenience_Controllers_TentoHaraidashiController_tentoHaraidashiViewModel" data-uid="Convenience.Controllers.TentoHaraidashiController.tentoHaraidashiViewModel">
   tentoHaraidashiViewModel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ビュー・モデル</p>
@@ -916,41 +917,9 @@ Class TentoHaraidashiController  <a class="header-action link-secondary" title="
 
   <a id="Convenience_Controllers_TentoHaraidashiController_KeyInput_" data-uid="Convenience.Controllers.TentoHaraidashiController.KeyInput*"></a>
 
-  <h3 id="Convenience_Controllers_TentoHaraidashiController_KeyInput" data-uid="Convenience.Controllers.TentoHaraidashiController.KeyInput">
-  KeyInput()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L50"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>商品注文１枚目の初期表示処理</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IActionResult&gt; KeyInput()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Convenience_Controllers_TentoHaraidashiController_KeyInput_" data-uid="Convenience.Controllers.TentoHaraidashiController.KeyInput*"></a>
-
   <h3 id="Convenience_Controllers_TentoHaraidashiController_KeyInput_Convenience_Models_ViewModels_TentoHaraidashi_TentoHaraidashiViewModel_" data-uid="Convenience.Controllers.TentoHaraidashiController.KeyInput(Convenience.Models.ViewModels.TentoHaraidashi.TentoHaraidashiViewModel)">
   KeyInput(TentoHaraidashiViewModel)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -984,22 +953,27 @@ public Task&lt;IActionResult&gt; KeyInput(TentoHaraidashiViewModel argTentoHarai
 
 
 
-  <a id="Convenience_Controllers_TentoHaraidashiController_Result_" data-uid="Convenience.Controllers.TentoHaraidashiController.Result*"></a>
+  <a id="Convenience_Controllers_TentoHaraidashiController_KeyInput_" data-uid="Convenience.Controllers.TentoHaraidashiController.KeyInput*"></a>
 
-  <h3 id="Convenience_Controllers_TentoHaraidashiController_Result" data-uid="Convenience.Controllers.TentoHaraidashiController.Result">
-  Result()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Controllers_TentoHaraidashiController_KeyInput_System_String_" data-uid="Convenience.Controllers.TentoHaraidashiController.KeyInput(System.String)">
+  KeyInput(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>店頭払出画面２枚目の初期表示（店頭払出画面２枚目のPost後処理よりredirect）</p>
+  <div class="markdown level1 summary"><p>商品注文１枚目の初期表示処理</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpGet]
-public Task&lt;IActionResult&gt; Result()</code></pre>
+public Task&lt;IActionResult&gt; KeyInput(string id)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
@@ -1021,7 +995,7 @@ public Task&lt;IActionResult&gt; Result()</code></pre>
 
   <h3 id="Convenience_Controllers_TentoHaraidashiController_TentoHaraidashi_Convenience_Models_ViewModels_TentoHaraidashi_TentoHaraidashiViewModel_" data-uid="Convenience.Controllers.TentoHaraidashiController.TentoHaraidashi(Convenience.Models.ViewModels.TentoHaraidashi.TentoHaraidashiViewModel)">
   TentoHaraidashi(TentoHaraidashiViewModel)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>商品注文２枚目のPost受信後処理</p>
@@ -1058,6 +1032,44 @@ public Task&lt;IActionResult&gt; TentoHaraidashi(TentoHaraidashiViewModel argTen
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
     <dd></dd>
   </dl>
+
+
+
+  <a id="Convenience_Controllers_TentoHaraidashiController_TentoHaraidashi_" data-uid="Convenience.Controllers.TentoHaraidashiController.TentoHaraidashi*"></a>
+
+  <h3 id="Convenience_Controllers_TentoHaraidashiController_TentoHaraidashi_System_String_" data-uid="Convenience.Controllers.TentoHaraidashiController.TentoHaraidashi(System.String)">
+  TentoHaraidashi(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoHaraidashiController.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>店頭払出画面２枚目の初期表示（店頭払出画面２枚目のPost後処理よりredirect）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+public Task&lt;IActionResult&gt; TentoHaraidashi(string id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
 
 
 

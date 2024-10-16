@@ -312,6 +312,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Migrations.kaikeiseq.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Migrations.kaikeiseq.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Migrations.kaikeiseqToNotNull.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Migrations.kaikeiseqToNotNull.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Migrations.naigaiclass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Migrations.naigaiclass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Migrations.shiireTimeStamp.yml",
       "output": {
         ".html": {
@@ -362,6 +392,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Migrations.zeiritsu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Migrations.zeiritsu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.DataModels.ChumonJisseki.yml",
       "output": {
         ".html": {
@@ -396,6 +436,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.DataModels.KaikeiJisseki.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.DataModels.NaigaiClassMaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.DataModels.NaigaiClassMaster.html"
         }
       },
       "version": ""
@@ -536,6 +586,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Interfaces.IKaikei.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IKaikeiJissekiForAdd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IKaikeiJissekiForAdd.html"
         }
       },
       "version": ""
@@ -922,10 +982,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd.yml",
+      "source_relative_path": "api/Convenience.Models.ViewModels.Kaikei.KaikeiJissekiForAdd.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd.html"
+          "relative_path": "api/Convenience.Models.ViewModels.Kaikei.KaikeiJissekiForAdd.html"
         }
       },
       "version": ""

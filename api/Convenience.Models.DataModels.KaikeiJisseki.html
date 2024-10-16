@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Models_DataModels_KaikeiJisseki" data-uid="Convenience.Models.DataModels.KaikeiJisseki" class="text-break">
-Class KaikeiJisseki  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L14"><i class="bi bi-code-slash"></i></a>
+Class KaikeiJisseki  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -104,7 +104,7 @@ Class KaikeiJisseki  <a class="header-action link-secondary" title="View source"
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Table(&quot;kaikei_jisseki&quot;)]
 [PrimaryKey(&quot;UriageDatetimeId&quot;, new string[] { &quot;ShohinId&quot;, &quot;UriageDatetime&quot; })]
-public class KaikeiJisseki</code></pre>
+public class KaikeiJisseki : IKaikeiJissekiForAdd</code></pre>
   </div>
 
 
@@ -118,13 +118,13 @@ public class KaikeiJisseki</code></pre>
     </dd>
   </dl>
 
-
-  <dl class="typelist derived">
-    <dt>Derived</dt>
+  <dl class="typelist implements">
+    <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="Convenience.Models.ViewModels.Kaikei.KaikeiJissekiforAdd.html">KaikeiJissekiforAdd</a></div>
+      <div><a class="xref" href="Convenience.Models.Interfaces.IKaikeiJissekiForAdd.html">IKaikeiJissekiForAdd</a></div>
     </dd>
   </dl>
+
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
@@ -165,7 +165,7 @@ public class KaikeiJisseki</code></pre>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_KaikeiHeader" data-uid="Convenience.Models.DataModels.KaikeiJisseki.KaikeiHeader">
   KaikeiHeader
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -173,7 +173,7 @@ public class KaikeiJisseki</code></pre>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ForeignKey(&quot;UriageDatetimeId&quot;)]
-public virtual KaikeiHeader KaikeiHeader { get; set; }</code></pre>
+public KaikeiHeader KaikeiHeader { get; set; }</code></pre>
   </div>
 
 
@@ -193,11 +193,110 @@ public virtual KaikeiHeader KaikeiHeader { get; set; }</code></pre>
 
 
 
+  <a id="Convenience_Models_DataModels_KaikeiJisseki_KaikeiSeq_" data-uid="Convenience.Models.DataModels.KaikeiJisseki.KaikeiSeq*"></a>
+
+  <h3 id="Convenience_Models_DataModels_KaikeiJisseki_KaikeiSeq" data-uid="Convenience.Models.DataModels.KaikeiJisseki.KaikeiSeq">
+  KaikeiSeq
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Column(&quot;kaikei_seq&quot;)]
+[Required]
+public int KaikeiSeq { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Convenience_Models_DataModels_KaikeiJisseki_NaigaiClass_" data-uid="Convenience.Models.DataModels.KaikeiJisseki.NaigaiClass*"></a>
+
+  <h3 id="Convenience_Models_DataModels_KaikeiJisseki_NaigaiClass" data-uid="Convenience.Models.DataModels.KaikeiJisseki.NaigaiClass">
+  NaigaiClass
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Column(&quot;naigai_class&quot;)]
+[Required]
+[MaxLength(1)]
+public string NaigaiClass { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Convenience_Models_DataModels_KaikeiJisseki_NaigaiClassMaster_" data-uid="Convenience.Models.DataModels.KaikeiJisseki.NaigaiClassMaster*"></a>
+
+  <h3 id="Convenience_Models_DataModels_KaikeiJisseki_NaigaiClassMaster" data-uid="Convenience.Models.DataModels.KaikeiJisseki.NaigaiClassMaster">
+  NaigaiClassMaster
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;NaigaiClass&quot;)]
+public NaigaiClassMaster NaigaiClassMaster { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Convenience.Models.DataModels.NaigaiClassMaster.html">NaigaiClassMaster</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Convenience_Models_DataModels_KaikeiJisseki_ShohiZeiritsu_" data-uid="Convenience.Models.DataModels.KaikeiJisseki.ShohiZeiritsu*"></a>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_ShohiZeiritsu" data-uid="Convenience.Models.DataModels.KaikeiJisseki.ShohiZeiritsu">
   ShohiZeiritsu
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -231,7 +330,7 @@ public decimal ShohiZeiritsu { get; set; }</code></pre>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_ShohinId" data-uid="Convenience.Models.DataModels.KaikeiJisseki.ShohinId">
   ShohinId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -265,7 +364,7 @@ public string ShohinId { get; set; }</code></pre>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_ShohinMaster" data-uid="Convenience.Models.DataModels.KaikeiJisseki.ShohinMaster">
   ShohinMaster
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -273,7 +372,7 @@ public string ShohinId { get; set; }</code></pre>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ForeignKey(&quot;ShohinId&quot;)]
-public virtual ShohinMaster ShohinMaster { get; set; }</code></pre>
+public ShohinMaster ShohinMaster { get; set; }</code></pre>
   </div>
 
 
@@ -297,7 +396,7 @@ public virtual ShohinMaster ShohinMaster { get; set; }</code></pre>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_ShohinTanka" data-uid="Convenience.Models.DataModels.KaikeiJisseki.ShohinTanka">
   ShohinTanka
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -331,7 +430,7 @@ public decimal ShohinTanka { get; set; }</code></pre>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_TentoZaiko" data-uid="Convenience.Models.DataModels.KaikeiJisseki.TentoZaiko">
   TentoZaiko
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -362,7 +461,7 @@ public decimal ShohinTanka { get; set; }</code></pre>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_UriageDatetime" data-uid="Convenience.Models.DataModels.KaikeiJisseki.UriageDatetime">
   UriageDatetime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -396,7 +495,7 @@ public DateTime UriageDatetime { get; set; }</code></pre>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_UriageDatetimeId" data-uid="Convenience.Models.DataModels.KaikeiJisseki.UriageDatetimeId">
   UriageDatetimeId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -430,7 +529,7 @@ public string UriageDatetimeId { get; set; }</code></pre>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_UriageKingaku" data-uid="Convenience.Models.DataModels.KaikeiJisseki.UriageKingaku">
   UriageKingaku
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -464,7 +563,7 @@ public decimal UriageKingaku { get; set; }</code></pre>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_UriageSu" data-uid="Convenience.Models.DataModels.KaikeiJisseki.UriageSu">
   UriageSu
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -498,7 +597,7 @@ public decimal UriageSu { get; set; }</code></pre>
 
   <h3 id="Convenience_Models_DataModels_KaikeiJisseki_ZeikomiKingaku" data-uid="Convenience.Models.DataModels.KaikeiJisseki.ZeikomiKingaku">
   ZeikomiKingaku
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -532,7 +631,7 @@ public decimal ZeikomiKingaku { get; set; }</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L14" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/DataModels/KaikeiJisseki.cs/#L16" class="edit-link">Edit this page</a>
         </div>
 
 

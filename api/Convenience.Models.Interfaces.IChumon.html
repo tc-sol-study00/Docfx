@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Models_Interfaces_IChumon" data-uid="Convenience.Models.Interfaces.IChumon" class="text-break">
-Interface IChumon  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumon.cs/#L8"><i class="bi bi-code-slash"></i></a>
+Interface IChumon  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumon.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -125,7 +125,7 @@ Interface IChumon  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Convenience_Models_Interfaces_IChumon_ChumonJisseki" data-uid="Convenience.Models.Interfaces.IChumon.ChumonJisseki">
   ChumonJisseki
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumon.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumon.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>注文実績プロパティ</p>
@@ -133,7 +133,7 @@ Interface IChumon  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ChumonJisseki ChumonJisseki { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">ChumonJisseki? ChumonJisseki { get; set; }</code></pre>
   </div>
 
 
@@ -161,7 +161,7 @@ Interface IChumon  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Convenience_Models_Interfaces_IChumon_ChumonSakusei_System_String_System_DateOnly_" data-uid="Convenience.Models.Interfaces.IChumon.ChumonSakusei(System.String,System.DateOnly)">
   ChumonSakusei(string, DateOnly)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumon.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumon.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>注文作成</p>
@@ -214,7 +214,7 @@ Interface IChumon  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Convenience_Models_Interfaces_IChumon_ChumonToiawase_System_String_System_DateOnly_" data-uid="Convenience.Models.Interfaces.IChumon.ChumonToiawase(System.String,System.DateOnly)">
   ChumonToiawase(string, DateOnly)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumon.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumon.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>注文更新用問い合わせ</p>
@@ -222,7 +222,7 @@ Interface IChumon  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;ChumonJisseki&gt; ChumonToiawase(string inShireSakiId, DateOnly inChumonDate)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;ChumonJisseki?&gt; ChumonToiawase(string inShireSakiId, DateOnly inChumonDate)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -260,7 +260,7 @@ Interface IChumon  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="Convenience_Models_Interfaces_IChumon_ChumonUpdate_Convenience_Models_DataModels_ChumonJisseki_" data-uid="Convenience.Models.Interfaces.IChumon.ChumonUpdate(Convenience.Models.DataModels.ChumonJisseki)">
   ChumonUpdate(ChumonJisseki)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumon.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumon.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>注文実績＋注文明細更新</p>
@@ -295,11 +295,52 @@ Interface IChumon  <a class="header-action link-secondary" title="View source" h
 
 
 
+  <a id="Convenience_Models_Interfaces_IChumon_ShiireSakiList_" data-uid="Convenience.Models.Interfaces.IChumon.ShiireSakiList*"></a>
+
+  <h3 id="Convenience_Models_Interfaces_IChumon_ShiireSakiList__1_System_Linq_Expressions_Expression_System_Func_Convenience_Models_DataModels_ShiireSakiMaster___0___" data-uid="Convenience.Models.Interfaces.IChumon.ShiireSakiList``1(System.Linq.Expressions.Expression{System.Func{Convenience.Models.DataModels.ShiireSakiMaster,``0}})">
+  ShiireSakiList&lt;T&gt;(Expression&lt;Func&lt;ShiireSakiMaster, T&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumon.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryable&lt;ShiireSakiMaster&gt; ShiireSakiList&lt;T&gt;(Expression&lt;Func&lt;ShiireSakiMaster, T&gt;&gt; orderExpression)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>orderExpression</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShiireSakiMaster.html">ShiireSakiMaster</a>, T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShiireSakiMaster.html">ShiireSakiMaster</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumon.cs/#L8" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IChumon.cs/#L9" class="edit-link">Edit this page</a>
         </div>
 
 

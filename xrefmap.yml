@@ -2715,15 +2715,15 @@ references:
   commentId: T:Convenience.Controllers.HomeController
   fullName: Convenience.Controllers.HomeController
   nameWithType: HomeController
-- uid: Convenience.Controllers.HomeController.#ctor(Microsoft.Extensions.Logging.ILogger{Convenience.Controllers.HomeController})
-  name: HomeController(ILogger<HomeController>)
-  href: api/Convenience.Controllers.HomeController.html#Convenience_Controllers_HomeController__ctor_Microsoft_Extensions_Logging_ILogger_Convenience_Controllers_HomeController__
-  commentId: M:Convenience.Controllers.HomeController.#ctor(Microsoft.Extensions.Logging.ILogger{Convenience.Controllers.HomeController})
-  name.vb: New(ILogger(Of HomeController))
-  fullName: Convenience.Controllers.HomeController.HomeController(Microsoft.Extensions.Logging.ILogger<Convenience.Controllers.HomeController>)
-  fullName.vb: Convenience.Controllers.HomeController.New(Microsoft.Extensions.Logging.ILogger(Of Convenience.Controllers.HomeController))
-  nameWithType: HomeController.HomeController(ILogger<HomeController>)
-  nameWithType.vb: HomeController.New(ILogger(Of HomeController))
+- uid: Convenience.Controllers.HomeController.#ctor
+  name: HomeController()
+  href: api/Convenience.Controllers.HomeController.html#Convenience_Controllers_HomeController__ctor
+  commentId: M:Convenience.Controllers.HomeController.#ctor
+  name.vb: New()
+  fullName: Convenience.Controllers.HomeController.HomeController()
+  fullName.vb: Convenience.Controllers.HomeController.New()
+  nameWithType: HomeController.HomeController()
+  nameWithType.vb: HomeController.New()
 - uid: Convenience.Controllers.HomeController.#ctor*
   name: HomeController
   href: api/Convenience.Controllers.HomeController.html#Convenience_Controllers_HomeController__ctor_
@@ -2776,12 +2776,6 @@ references:
   isSpec: "True"
   fullName: Convenience.Controllers.HomeController.Privacy
   nameWithType: HomeController.Privacy
-- uid: Convenience.Controllers.HomeController._logger
-  name: _logger
-  href: api/Convenience.Controllers.HomeController.html#Convenience_Controllers_HomeController__logger
-  commentId: F:Convenience.Controllers.HomeController._logger
-  fullName: Convenience.Controllers.HomeController._logger
-  nameWithType: HomeController._logger
 - uid: Convenience.Controllers.KaikeiController
   name: KaikeiController
   href: api/Convenience.Controllers.KaikeiController.html
@@ -2855,12 +2849,6 @@ references:
   isSpec: "True"
   fullName: Convenience.Controllers.KaikeiController.Kaikei
   nameWithType: KaikeiController.Kaikei
-- uid: Convenience.Controllers.KaikeiController.KaikeiViewModel
-  name: KaikeiViewModel
-  href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController_KaikeiViewModel
-  commentId: F:Convenience.Controllers.KaikeiController.KaikeiViewModel
-  fullName: Convenience.Controllers.KaikeiController.KaikeiViewModel
-  nameWithType: KaikeiController.KaikeiViewModel
 - uid: Convenience.Controllers.KaikeiController.KeyInput
   name: KeyInput()
   href: api/Convenience.Controllers.KaikeiController.html#Convenience_Controllers_KaikeiController_KeyInput
@@ -3100,15 +3088,15 @@ references:
   commentId: T:Convenience.Controllers.ZaikoController
   fullName: Convenience.Controllers.ZaikoController
   nameWithType: ZaikoController
-- uid: Convenience.Controllers.ZaikoController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IZaikoService)
-  name: ZaikoController(ConvenienceContext, IZaikoService)
-  href: api/Convenience.Controllers.ZaikoController.html#Convenience_Controllers_ZaikoController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IZaikoService_
-  commentId: M:Convenience.Controllers.ZaikoController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IZaikoService)
-  name.vb: New(ConvenienceContext, IZaikoService)
-  fullName: Convenience.Controllers.ZaikoController.ZaikoController(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IZaikoService)
-  fullName.vb: Convenience.Controllers.ZaikoController.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IZaikoService)
-  nameWithType: ZaikoController.ZaikoController(ConvenienceContext, IZaikoService)
-  nameWithType.vb: ZaikoController.New(ConvenienceContext, IZaikoService)
+- uid: Convenience.Controllers.ZaikoController.#ctor(Convenience.Models.Interfaces.IZaikoService)
+  name: ZaikoController(IZaikoService)
+  href: api/Convenience.Controllers.ZaikoController.html#Convenience_Controllers_ZaikoController__ctor_Convenience_Models_Interfaces_IZaikoService_
+  commentId: M:Convenience.Controllers.ZaikoController.#ctor(Convenience.Models.Interfaces.IZaikoService)
+  name.vb: New(IZaikoService)
+  fullName: Convenience.Controllers.ZaikoController.ZaikoController(Convenience.Models.Interfaces.IZaikoService)
+  fullName.vb: Convenience.Controllers.ZaikoController.New(Convenience.Models.Interfaces.IZaikoService)
+  nameWithType: ZaikoController.ZaikoController(IZaikoService)
+  nameWithType.vb: ZaikoController.New(IZaikoService)
 - uid: Convenience.Controllers.ZaikoController.#ctor*
   name: ZaikoController
   href: api/Convenience.Controllers.ZaikoController.html#Convenience_Controllers_ZaikoController__ctor_
@@ -3138,12 +3126,6 @@ references:
   isSpec: "True"
   fullName: Convenience.Controllers.ZaikoController.Index
   nameWithType: ZaikoController.Index
-- uid: Convenience.Controllers.ZaikoController._context
-  name: _context
-  href: api/Convenience.Controllers.ZaikoController.html#Convenience_Controllers_ZaikoController__context
-  commentId: F:Convenience.Controllers.ZaikoController._context
-  fullName: Convenience.Controllers.ZaikoController._context
-  nameWithType: ZaikoController._context
 - uid: Convenience.Controllers.ZaikoController.zaikoService
   name: zaikoService
   href: api/Convenience.Controllers.ZaikoController.html#Convenience_Controllers_ZaikoController_zaikoService
@@ -5536,6 +5518,22 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Interfaces.IChumon.ChumonUpdate
   nameWithType: IChumon.ChumonUpdate
+- uid: Convenience.Models.Interfaces.IChumon.ShiireSakiList*
+  name: ShiireSakiList
+  href: api/Convenience.Models.Interfaces.IChumon.html#Convenience_Models_Interfaces_IChumon_ShiireSakiList_
+  commentId: Overload:Convenience.Models.Interfaces.IChumon.ShiireSakiList
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IChumon.ShiireSakiList
+  nameWithType: IChumon.ShiireSakiList
+- uid: Convenience.Models.Interfaces.IChumon.ShiireSakiList``1(System.Linq.Expressions.Expression{System.Func{Convenience.Models.DataModels.ShiireSakiMaster,``0}})
+  name: ShiireSakiList<T>(Expression<Func<ShiireSakiMaster, T>>)
+  href: api/Convenience.Models.Interfaces.IChumon.html#Convenience_Models_Interfaces_IChumon_ShiireSakiList__1_System_Linq_Expressions_Expression_System_Func_Convenience_Models_DataModels_ShiireSakiMaster___0___
+  commentId: M:Convenience.Models.Interfaces.IChumon.ShiireSakiList``1(System.Linq.Expressions.Expression{System.Func{Convenience.Models.DataModels.ShiireSakiMaster,``0}})
+  name.vb: ShiireSakiList(Of T)(Expression(Of Func(Of ShiireSakiMaster, T)))
+  fullName: Convenience.Models.Interfaces.IChumon.ShiireSakiList<T>(System.Linq.Expressions.Expression<System.Func<Convenience.Models.DataModels.ShiireSakiMaster, T>>)
+  fullName.vb: Convenience.Models.Interfaces.IChumon.ShiireSakiList(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of Convenience.Models.DataModels.ShiireSakiMaster, T)))
+  nameWithType: IChumon.ShiireSakiList<T>(Expression<Func<ShiireSakiMaster, T>>)
+  nameWithType.vb: IChumon.ShiireSakiList(Of T)(Expression(Of Func(Of ShiireSakiMaster, T)))
 - uid: Convenience.Models.Interfaces.IChumonService
   name: IChumonService
   href: api/Convenience.Models.Interfaces.IChumonService.html
@@ -6128,6 +6126,22 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiHeader
   nameWithType: ITentoHaraidashi.TentoHaraidashiHeader
+- uid: Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiHeaderList(System.Linq.Expressions.Expression{System.Func{Convenience.Models.DataModels.TentoHaraidashiHeader,System.Boolean}})
+  name: TentoHaraidashiHeaderList(Expression<Func<TentoHaraidashiHeader, bool>>)
+  href: api/Convenience.Models.Interfaces.ITentoHaraidashi.html#Convenience_Models_Interfaces_ITentoHaraidashi_TentoHaraidashiHeaderList_System_Linq_Expressions_Expression_System_Func_Convenience_Models_DataModels_TentoHaraidashiHeader_System_Boolean___
+  commentId: M:Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiHeaderList(System.Linq.Expressions.Expression{System.Func{Convenience.Models.DataModels.TentoHaraidashiHeader,System.Boolean}})
+  name.vb: TentoHaraidashiHeaderList(Expression(Of Func(Of TentoHaraidashiHeader, Boolean)))
+  fullName: Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiHeaderList(System.Linq.Expressions.Expression<System.Func<Convenience.Models.DataModels.TentoHaraidashiHeader, bool>>)
+  fullName.vb: Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiHeaderList(System.Linq.Expressions.Expression(Of System.Func(Of Convenience.Models.DataModels.TentoHaraidashiHeader, Boolean)))
+  nameWithType: ITentoHaraidashi.TentoHaraidashiHeaderList(Expression<Func<TentoHaraidashiHeader, bool>>)
+  nameWithType.vb: ITentoHaraidashi.TentoHaraidashiHeaderList(Expression(Of Func(Of TentoHaraidashiHeader, Boolean)))
+- uid: Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiHeaderList*
+  name: TentoHaraidashiHeaderList
+  href: api/Convenience.Models.Interfaces.ITentoHaraidashi.html#Convenience_Models_Interfaces_ITentoHaraidashi_TentoHaraidashiHeaderList_
+  commentId: Overload:Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiHeaderList
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiHeaderList
+  nameWithType: ITentoHaraidashi.TentoHaraidashiHeaderList
 - uid: Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiSakusei(System.DateTime)
   name: TentoHaraidashiSakusei(DateTime)
   href: api/Convenience.Models.Interfaces.ITentoHaraidashi.html#Convenience_Models_Interfaces_ITentoHaraidashi_TentoHaraidashiSakusei_System_DateTime_
@@ -6504,6 +6518,22 @@ references:
   commentId: F:Convenience.Models.Properties.Chumon.OverrideProc
   fullName: Convenience.Models.Properties.Chumon.OverrideProc
   nameWithType: Chumon.OverrideProc
+- uid: Convenience.Models.Properties.Chumon.ShiireSakiList*
+  name: ShiireSakiList
+  href: api/Convenience.Models.Properties.Chumon.html#Convenience_Models_Properties_Chumon_ShiireSakiList_
+  commentId: Overload:Convenience.Models.Properties.Chumon.ShiireSakiList
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.Chumon.ShiireSakiList
+  nameWithType: Chumon.ShiireSakiList
+- uid: Convenience.Models.Properties.Chumon.ShiireSakiList``1(System.Linq.Expressions.Expression{System.Func{Convenience.Models.DataModels.ShiireSakiMaster,``0}})
+  name: ShiireSakiList<T>(Expression<Func<ShiireSakiMaster, T>>)
+  href: api/Convenience.Models.Properties.Chumon.html#Convenience_Models_Properties_Chumon_ShiireSakiList__1_System_Linq_Expressions_Expression_System_Func_Convenience_Models_DataModels_ShiireSakiMaster___0___
+  commentId: M:Convenience.Models.Properties.Chumon.ShiireSakiList``1(System.Linq.Expressions.Expression{System.Func{Convenience.Models.DataModels.ShiireSakiMaster,``0}})
+  name.vb: ShiireSakiList(Of T)(Expression(Of Func(Of ShiireSakiMaster, T)))
+  fullName: Convenience.Models.Properties.Chumon.ShiireSakiList<T>(System.Linq.Expressions.Expression<System.Func<Convenience.Models.DataModels.ShiireSakiMaster, T>>)
+  fullName.vb: Convenience.Models.Properties.Chumon.ShiireSakiList(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of Convenience.Models.DataModels.ShiireSakiMaster, T)))
+  nameWithType: Chumon.ShiireSakiList<T>(Expression<Func<ShiireSakiMaster, T>>)
+  nameWithType.vb: Chumon.ShiireSakiList(Of T)(Expression(Of Func(Of ShiireSakiMaster, T)))
 - uid: Convenience.Models.Properties.Chumon._context
   name: _context
   href: api/Convenience.Models.Properties.Chumon.html#Convenience_Models_Properties_Chumon__context
@@ -6807,6 +6837,12 @@ references:
   commentId: F:Convenience.Models.Properties.Message.ErrDef.NormalUpdate
   fullName: Convenience.Models.Properties.Message.ErrDef.NormalUpdate
   nameWithType: Message.ErrDef.NormalUpdate
+- uid: Convenience.Models.Properties.Message.ErrDef.NothingChumonJisseki
+  name: NothingChumonJisseki
+  href: api/Convenience.Models.Properties.Message.ErrDef.html#Convenience_Models_Properties_Message_ErrDef_NothingChumonJisseki
+  commentId: F:Convenience.Models.Properties.Message.ErrDef.NothingChumonJisseki
+  fullName: Convenience.Models.Properties.Message.ErrDef.NothingChumonJisseki
+  nameWithType: Message.ErrDef.NothingChumonJisseki
 - uid: Convenience.Models.Properties.Message.ErrDef.OtherError
   name: OtherError
   href: api/Convenience.Models.Properties.Message.ErrDef.html#Convenience_Models_Properties_Message_ErrDef_OtherError
@@ -6998,6 +7034,34 @@ references:
   commentId: T:Convenience.Models.Properties.Shiire.ChumonList
   fullName: Convenience.Models.Properties.Shiire.ChumonList
   nameWithType: Shiire.ChumonList
+- uid: Convenience.Models.Properties.Shiire.ChumonList.#ctor
+  name: ChumonList()
+  href: api/Convenience.Models.Properties.Shiire.ChumonList.html#Convenience_Models_Properties_Shiire_ChumonList__ctor
+  commentId: M:Convenience.Models.Properties.Shiire.ChumonList.#ctor
+  name.vb: New()
+  fullName: Convenience.Models.Properties.Shiire.ChumonList.ChumonList()
+  fullName.vb: Convenience.Models.Properties.Shiire.ChumonList.New()
+  nameWithType: Shiire.ChumonList.ChumonList()
+  nameWithType.vb: Shiire.ChumonList.New()
+- uid: Convenience.Models.Properties.Shiire.ChumonList.#ctor(System.String,System.Decimal)
+  name: ChumonList(string, decimal)
+  href: api/Convenience.Models.Properties.Shiire.ChumonList.html#Convenience_Models_Properties_Shiire_ChumonList__ctor_System_String_System_Decimal_
+  commentId: M:Convenience.Models.Properties.Shiire.ChumonList.#ctor(System.String,System.Decimal)
+  name.vb: New(String, Decimal)
+  fullName: Convenience.Models.Properties.Shiire.ChumonList.ChumonList(string, decimal)
+  fullName.vb: Convenience.Models.Properties.Shiire.ChumonList.New(String, Decimal)
+  nameWithType: Shiire.ChumonList.ChumonList(string, decimal)
+  nameWithType.vb: Shiire.ChumonList.New(String, Decimal)
+- uid: Convenience.Models.Properties.Shiire.ChumonList.#ctor*
+  name: ChumonList
+  href: api/Convenience.Models.Properties.Shiire.ChumonList.html#Convenience_Models_Properties_Shiire_ChumonList__ctor_
+  commentId: Overload:Convenience.Models.Properties.Shiire.ChumonList.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Convenience.Models.Properties.Shiire.ChumonList.ChumonList
+  fullName.vb: Convenience.Models.Properties.Shiire.ChumonList.New
+  nameWithType: Shiire.ChumonList.ChumonList
+  nameWithType.vb: Shiire.ChumonList.New
 - uid: Convenience.Models.Properties.Shiire.ChumonList.ChumonId
   name: ChumonId
   href: api/Convenience.Models.Properties.Shiire.ChumonList.html#Convenience_Models_Properties_Shiire_ChumonList_ChumonId
@@ -7126,6 +7190,25 @@ references:
   commentId: T:Convenience.Models.Properties.Shiire.ShiireUkeireReturnSet
   fullName: Convenience.Models.Properties.Shiire.ShiireUkeireReturnSet
   nameWithType: Shiire.ShiireUkeireReturnSet
+- uid: Convenience.Models.Properties.Shiire.ShiireUkeireReturnSet.#ctor
+  name: ShiireUkeireReturnSet()
+  href: api/Convenience.Models.Properties.Shiire.ShiireUkeireReturnSet.html#Convenience_Models_Properties_Shiire_ShiireUkeireReturnSet__ctor
+  commentId: M:Convenience.Models.Properties.Shiire.ShiireUkeireReturnSet.#ctor
+  name.vb: New()
+  fullName: Convenience.Models.Properties.Shiire.ShiireUkeireReturnSet.ShiireUkeireReturnSet()
+  fullName.vb: Convenience.Models.Properties.Shiire.ShiireUkeireReturnSet.New()
+  nameWithType: Shiire.ShiireUkeireReturnSet.ShiireUkeireReturnSet()
+  nameWithType.vb: Shiire.ShiireUkeireReturnSet.New()
+- uid: Convenience.Models.Properties.Shiire.ShiireUkeireReturnSet.#ctor*
+  name: ShiireUkeireReturnSet
+  href: api/Convenience.Models.Properties.Shiire.ShiireUkeireReturnSet.html#Convenience_Models_Properties_Shiire_ShiireUkeireReturnSet__ctor_
+  commentId: Overload:Convenience.Models.Properties.Shiire.ShiireUkeireReturnSet.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Convenience.Models.Properties.Shiire.ShiireUkeireReturnSet.ShiireUkeireReturnSet
+  fullName.vb: Convenience.Models.Properties.Shiire.ShiireUkeireReturnSet.New
+  nameWithType: Shiire.ShiireUkeireReturnSet.ShiireUkeireReturnSet
+  nameWithType.vb: Shiire.ShiireUkeireReturnSet.New
 - uid: Convenience.Models.Properties.Shiire.ShiireUkeireReturnSet.ShiireJissekis
   name: ShiireJissekis
   href: api/Convenience.Models.Properties.Shiire.ShiireUkeireReturnSet.html#Convenience_Models_Properties_Shiire_ShiireUkeireReturnSet_ShiireJissekis
@@ -7283,6 +7366,22 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiHeader
   nameWithType: TentoHaraidashi.TentoHaraidashiHeader
+- uid: Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiHeaderList(System.Linq.Expressions.Expression{System.Func{Convenience.Models.DataModels.TentoHaraidashiHeader,System.Boolean}})
+  name: TentoHaraidashiHeaderList(Expression<Func<TentoHaraidashiHeader, bool>>)
+  href: api/Convenience.Models.Properties.TentoHaraidashi.html#Convenience_Models_Properties_TentoHaraidashi_TentoHaraidashiHeaderList_System_Linq_Expressions_Expression_System_Func_Convenience_Models_DataModels_TentoHaraidashiHeader_System_Boolean___
+  commentId: M:Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiHeaderList(System.Linq.Expressions.Expression{System.Func{Convenience.Models.DataModels.TentoHaraidashiHeader,System.Boolean}})
+  name.vb: TentoHaraidashiHeaderList(Expression(Of Func(Of TentoHaraidashiHeader, Boolean)))
+  fullName: Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiHeaderList(System.Linq.Expressions.Expression<System.Func<Convenience.Models.DataModels.TentoHaraidashiHeader, bool>>)
+  fullName.vb: Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiHeaderList(System.Linq.Expressions.Expression(Of System.Func(Of Convenience.Models.DataModels.TentoHaraidashiHeader, Boolean)))
+  nameWithType: TentoHaraidashi.TentoHaraidashiHeaderList(Expression<Func<TentoHaraidashiHeader, bool>>)
+  nameWithType.vb: TentoHaraidashi.TentoHaraidashiHeaderList(Expression(Of Func(Of TentoHaraidashiHeader, Boolean)))
+- uid: Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiHeaderList*
+  name: TentoHaraidashiHeaderList
+  href: api/Convenience.Models.Properties.TentoHaraidashi.html#Convenience_Models_Properties_TentoHaraidashi_TentoHaraidashiHeaderList_
+  commentId: Overload:Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiHeaderList
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiHeaderList
+  nameWithType: TentoHaraidashi.TentoHaraidashiHeaderList
 - uid: Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiSakusei(System.DateTime)
   name: TentoHaraidashiSakusei(DateTime)
   href: api/Convenience.Models.Properties.TentoHaraidashi.html#Convenience_Models_Properties_TentoHaraidashi_TentoHaraidashiSakusei_System_DateTime_
@@ -7609,6 +7708,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Services.KaikeiService.GetViewModelToTempData
   nameWithType: KaikeiService.GetViewModelToTempData
+- uid: Convenience.Models.Services.KaikeiService.Kaikei
+  name: Kaikei
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_Kaikei
+  commentId: P:Convenience.Models.Services.KaikeiService.Kaikei
+  fullName: Convenience.Models.Services.KaikeiService.Kaikei
+  nameWithType: KaikeiService.Kaikei
+- uid: Convenience.Models.Services.KaikeiService.Kaikei*
+  name: Kaikei
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_Kaikei_
+  commentId: Overload:Convenience.Models.Services.KaikeiService.Kaikei
+  isSpec: "True"
+  fullName: Convenience.Models.Services.KaikeiService.Kaikei
+  nameWithType: KaikeiService.Kaikei
 - uid: Convenience.Models.Services.KaikeiService.KaikeiAdd(Convenience.Models.ViewModels.Kaikei.KaikeiViewModel)
   name: KaikeiAdd(KaikeiViewModel)
   href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_KaikeiAdd_Convenience_Models_ViewModels_Kaikei_KaikeiViewModel_
@@ -7731,25 +7843,18 @@ references:
   commentId: F:Convenience.Models.Services.KaikeiService._context
   fullName: Convenience.Models.Services.KaikeiService._context
   nameWithType: KaikeiService._context
-- uid: Convenience.Models.Services.KaikeiService._kaikei
-  name: _kaikei
-  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService__kaikei
-  commentId: P:Convenience.Models.Services.KaikeiService._kaikei
-  fullName: Convenience.Models.Services.KaikeiService._kaikei
-  nameWithType: KaikeiService._kaikei
-- uid: Convenience.Models.Services.KaikeiService._kaikei*
-  name: _kaikei
-  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService__kaikei_
-  commentId: Overload:Convenience.Models.Services.KaikeiService._kaikei
-  isSpec: "True"
-  fullName: Convenience.Models.Services.KaikeiService._kaikei
-  nameWithType: KaikeiService._kaikei
 - uid: Convenience.Models.Services.KaikeiService._tempData
   name: _tempData
   href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService__tempData
   commentId: F:Convenience.Models.Services.KaikeiService._tempData
   fullName: Convenience.Models.Services.KaikeiService._tempData
   nameWithType: KaikeiService._tempData
+- uid: Convenience.Models.Services.KaikeiService.tempDataIndex
+  name: tempDataIndex
+  href: api/Convenience.Models.Services.KaikeiService.html#Convenience_Models_Services_KaikeiService_tempDataIndex
+  commentId: F:Convenience.Models.Services.KaikeiService.tempDataIndex
+  fullName: Convenience.Models.Services.KaikeiService.tempDataIndex
+  nameWithType: KaikeiService.tempDataIndex
 - uid: Convenience.Models.Services.ShiireService
   name: ShiireService
   href: api/Convenience.Models.Services.ShiireService.html
@@ -7954,6 +8059,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Services.TentoHaraidashiService.SetTentoHaraidashiViewModel
   nameWithType: TentoHaraidashiService.SetTentoHaraidashiViewModel
+- uid: Convenience.Models.Services.TentoHaraidashiService.TentoHaraidashi
+  name: TentoHaraidashi
+  href: api/Convenience.Models.Services.TentoHaraidashiService.html#Convenience_Models_Services_TentoHaraidashiService_TentoHaraidashi
+  commentId: P:Convenience.Models.Services.TentoHaraidashiService.TentoHaraidashi
+  fullName: Convenience.Models.Services.TentoHaraidashiService.TentoHaraidashi
+  nameWithType: TentoHaraidashiService.TentoHaraidashi
+- uid: Convenience.Models.Services.TentoHaraidashiService.TentoHaraidashi*
+  name: TentoHaraidashi
+  href: api/Convenience.Models.Services.TentoHaraidashiService.html#Convenience_Models_Services_TentoHaraidashiService_TentoHaraidashi_
+  commentId: Overload:Convenience.Models.Services.TentoHaraidashiService.TentoHaraidashi
+  isSpec: "True"
+  fullName: Convenience.Models.Services.TentoHaraidashiService.TentoHaraidashi
+  nameWithType: TentoHaraidashiService.TentoHaraidashi
 - uid: Convenience.Models.Services.TentoHaraidashiService.TentoHaraidashiCommit(Convenience.Models.ViewModels.TentoHaraidashi.TentoHaraidashiViewModel)
   name: TentoHaraidashiCommit(TentoHaraidashiViewModel)
   href: api/Convenience.Models.Services.TentoHaraidashiService.html#Convenience_Models_Services_TentoHaraidashiService_TentoHaraidashiCommit_Convenience_Models_ViewModels_TentoHaraidashi_TentoHaraidashiViewModel_
@@ -8012,19 +8130,6 @@ references:
   commentId: F:Convenience.Models.Services.TentoHaraidashiService._context
   fullName: Convenience.Models.Services.TentoHaraidashiService._context
   nameWithType: TentoHaraidashiService._context
-- uid: Convenience.Models.Services.TentoHaraidashiService._tentoHaraidashi
-  name: _tentoHaraidashi
-  href: api/Convenience.Models.Services.TentoHaraidashiService.html#Convenience_Models_Services_TentoHaraidashiService__tentoHaraidashi
-  commentId: P:Convenience.Models.Services.TentoHaraidashiService._tentoHaraidashi
-  fullName: Convenience.Models.Services.TentoHaraidashiService._tentoHaraidashi
-  nameWithType: TentoHaraidashiService._tentoHaraidashi
-- uid: Convenience.Models.Services.TentoHaraidashiService._tentoHaraidashi*
-  name: _tentoHaraidashi
-  href: api/Convenience.Models.Services.TentoHaraidashiService.html#Convenience_Models_Services_TentoHaraidashiService__tentoHaraidashi_
-  commentId: Overload:Convenience.Models.Services.TentoHaraidashiService._tentoHaraidashi
-  isSpec: "True"
-  fullName: Convenience.Models.Services.TentoHaraidashiService._tentoHaraidashi
-  nameWithType: TentoHaraidashiService._tentoHaraidashi
 - uid: Convenience.Models.Services.ZaikoService
   name: ZaikoService
   href: api/Convenience.Models.Services.ZaikoService.html
@@ -8223,6 +8328,19 @@ references:
   fullName.vb: Convenience.Models.ViewModels.Kaikei.KaikeiJissekiForAdd.New
   nameWithType: KaikeiJissekiForAdd.KaikeiJissekiForAdd
   nameWithType.vb: KaikeiJissekiForAdd.New
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiJissekiForAdd.Initial
+  name: Initial()
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiJissekiForAdd.html#Convenience_Models_ViewModels_Kaikei_KaikeiJissekiForAdd_Initial
+  commentId: M:Convenience.Models.ViewModels.Kaikei.KaikeiJissekiForAdd.Initial
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiJissekiForAdd.Initial()
+  nameWithType: KaikeiJissekiForAdd.Initial()
+- uid: Convenience.Models.ViewModels.Kaikei.KaikeiJissekiForAdd.Initial*
+  name: Initial
+  href: api/Convenience.Models.ViewModels.Kaikei.KaikeiJissekiForAdd.html#Convenience_Models_ViewModels_Kaikei_KaikeiJissekiForAdd_Initial_
+  commentId: Overload:Convenience.Models.ViewModels.Kaikei.KaikeiJissekiForAdd.Initial
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.Kaikei.KaikeiJissekiForAdd.Initial
+  nameWithType: KaikeiJissekiForAdd.Initial
 - uid: Convenience.Models.ViewModels.Kaikei.KaikeiJissekiForAdd.NaigaiClass
   name: NaigaiClass
   href: api/Convenience.Models.ViewModels.Kaikei.KaikeiJissekiForAdd.html#Convenience_Models_ViewModels_Kaikei_KaikeiJissekiForAdd_NaigaiClass
@@ -9084,19 +9202,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.ZaikoListLine.SokoZaikoSu
   nameWithType: ZaikoViewModel.ZaikoListLine.SokoZaikoSu
-- uid: Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.zaikoListLine
-  name: zaikoListLine
-  href: api/Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.html#Convenience_Models_ViewModels_Zaiko_ZaikoViewModel_zaikoListLine
-  commentId: P:Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.zaikoListLine
-  fullName: Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.zaikoListLine
-  nameWithType: ZaikoViewModel.zaikoListLine
-- uid: Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.zaikoListLine*
-  name: zaikoListLine
-  href: api/Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.html#Convenience_Models_ViewModels_Zaiko_ZaikoViewModel_zaikoListLine_
-  commentId: Overload:Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.zaikoListLine
+- uid: Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.ZaikoListLines
+  name: ZaikoListLines
+  href: api/Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.html#Convenience_Models_ViewModels_Zaiko_ZaikoViewModel_ZaikoListLines
+  commentId: P:Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.ZaikoListLines
+  fullName: Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.ZaikoListLines
+  nameWithType: ZaikoViewModel.ZaikoListLines
+- uid: Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.ZaikoListLines*
+  name: ZaikoListLines
+  href: api/Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.html#Convenience_Models_ViewModels_Zaiko_ZaikoViewModel_ZaikoListLines_
+  commentId: Overload:Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.ZaikoListLines
   isSpec: "True"
-  fullName: Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.zaikoListLine
-  nameWithType: ZaikoViewModel.zaikoListLine
+  fullName: Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.ZaikoListLines
+  nameWithType: ZaikoViewModel.ZaikoListLines
 - uid: Convenience.Properties
   name: Convenience.Properties
   href: api/Convenience.Properties.html

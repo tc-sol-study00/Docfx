@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/tc-sol-study00/Convenience/new/main/apiSpec/new?filename=Convenience_Models_Services_ChumonService.md&amp;value=---%0Auid%3A%20Convenience.Models.Services.ChumonService%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Models_Services_ChumonService" data-uid="Convenience.Models.Services.ChumonService" class="text-break">
-Class ChumonService  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonService.cs/#L16"><i class="bi bi-code-slash"></i></a>
+Class ChumonService  
   </h1>
 
   <div class="facts text-secondary">
@@ -476,6 +476,45 @@ Class ChumonService  <a class="header-action link-secondary" title="View source"
 
 
 
+  <a id="Convenience_Models_Services_ChumonService_ChumonRegex_" data-uid="Convenience.Models.Services.ChumonService.ChumonRegex*"></a>
+
+  <h3 id="Convenience_Models_Services_ChumonService_ChumonRegex" data-uid="Convenience.Models.Services.ChumonService.ChumonRegex">
+  ChumonRegex()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonService.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[GeneratedRegex(&quot;^[0-9]{8}-[0-9]{3}$&quot;)]
+private static Regex ChumonRegex()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.regex">Regex</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Convenience_Models_Services_ChumonService_ChumonRegex_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Pattern explanation:<br><pre><code class="lang-csharp">○ Match if at the beginning of the string.
+○ Match '0' through '9' exactly 8 times.
+○ Match '-'.
+○ Match '0' through '9' exactly 3 times.
+○ Match if at the end of the string or if before an ending newline.</code></pre>
+</div>
+
+
+
+
   <a id="Convenience_Models_Services_ChumonService_ChumonSetting_" data-uid="Convenience.Models.Services.ChumonService.ChumonSetting*"></a>
 
   <h3 id="Convenience_Models_Services_ChumonService_ChumonSetting_Convenience_Models_ViewModels_Chumon_ChumonKeysViewModel_" data-uid="Convenience.Models.Services.ChumonService.ChumonSetting(Convenience.Models.ViewModels.Chumon.ChumonKeysViewModel)">
@@ -552,7 +591,6 @@ Class ChumonService  <a class="header-action link-secondary" title="View source"
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonService.cs/#L16" class="edit-link">Edit this page</a>
         </div>
 
 

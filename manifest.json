@@ -1181,6 +1181,56 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Text.RegularExpressions.Generated.ChumonRegex_0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Text.RegularExpressions.Generated.ChumonRegex_0.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Text.RegularExpressions.Generated.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Text.RegularExpressions.Generated.Utilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Text.RegularExpressions.Generated.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Text.RegularExpressions.Generated.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {

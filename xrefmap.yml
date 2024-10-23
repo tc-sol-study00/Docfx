@@ -6174,6 +6174,22 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiToiawase
   nameWithType: ITentoHaraidashi.TentoHaraidashiToiawase
+- uid: Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiUpdate(System.Collections.Generic.IEnumerable{Convenience.Models.DataModels.TentoHaraidashiJisseki})
+  name: TentoHaraidashiUpdate(IEnumerable<TentoHaraidashiJisseki>)
+  href: api/Convenience.Models.Interfaces.ITentoHaraidashi.html#Convenience_Models_Interfaces_ITentoHaraidashi_TentoHaraidashiUpdate_System_Collections_Generic_IEnumerable_Convenience_Models_DataModels_TentoHaraidashiJisseki__
+  commentId: M:Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiUpdate(System.Collections.Generic.IEnumerable{Convenience.Models.DataModels.TentoHaraidashiJisseki})
+  name.vb: TentoHaraidashiUpdate(IEnumerable(Of TentoHaraidashiJisseki))
+  fullName: Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiUpdate(System.Collections.Generic.IEnumerable<Convenience.Models.DataModels.TentoHaraidashiJisseki>)
+  fullName.vb: Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiUpdate(System.Collections.Generic.IEnumerable(Of Convenience.Models.DataModels.TentoHaraidashiJisseki))
+  nameWithType: ITentoHaraidashi.TentoHaraidashiUpdate(IEnumerable<TentoHaraidashiJisseki>)
+  nameWithType.vb: ITentoHaraidashi.TentoHaraidashiUpdate(IEnumerable(Of TentoHaraidashiJisseki))
+- uid: Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiUpdate*
+  name: TentoHaraidashiUpdate
+  href: api/Convenience.Models.Interfaces.ITentoHaraidashi.html#Convenience_Models_Interfaces_ITentoHaraidashi_TentoHaraidashiUpdate_
+  commentId: Overload:Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiUpdate
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.ITentoHaraidashi.TentoHaraidashiUpdate
+  nameWithType: ITentoHaraidashi.TentoHaraidashiUpdate
 - uid: Convenience.Models.Interfaces.ITentoHaraidashiService
   name: ITentoHaraidashiService
   href: api/Convenience.Models.Interfaces.ITentoHaraidashiService.html
@@ -7414,6 +7430,22 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiToiawase
   nameWithType: TentoHaraidashi.TentoHaraidashiToiawase
+- uid: Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiUpdate(System.Collections.Generic.IEnumerable{Convenience.Models.DataModels.TentoHaraidashiJisseki})
+  name: TentoHaraidashiUpdate(IEnumerable<TentoHaraidashiJisseki>)
+  href: api/Convenience.Models.Properties.TentoHaraidashi.html#Convenience_Models_Properties_TentoHaraidashi_TentoHaraidashiUpdate_System_Collections_Generic_IEnumerable_Convenience_Models_DataModels_TentoHaraidashiJisseki__
+  commentId: M:Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiUpdate(System.Collections.Generic.IEnumerable{Convenience.Models.DataModels.TentoHaraidashiJisseki})
+  name.vb: TentoHaraidashiUpdate(IEnumerable(Of TentoHaraidashiJisseki))
+  fullName: Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiUpdate(System.Collections.Generic.IEnumerable<Convenience.Models.DataModels.TentoHaraidashiJisseki>)
+  fullName.vb: Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiUpdate(System.Collections.Generic.IEnumerable(Of Convenience.Models.DataModels.TentoHaraidashiJisseki))
+  nameWithType: TentoHaraidashi.TentoHaraidashiUpdate(IEnumerable<TentoHaraidashiJisseki>)
+  nameWithType.vb: TentoHaraidashi.TentoHaraidashiUpdate(IEnumerable(Of TentoHaraidashiJisseki))
+- uid: Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiUpdate*
+  name: TentoHaraidashiUpdate
+  href: api/Convenience.Models.Properties.TentoHaraidashi.html#Convenience_Models_Properties_TentoHaraidashi_TentoHaraidashiUpdate_
+  commentId: Overload:Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiUpdate
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiUpdate
+  nameWithType: TentoHaraidashi.TentoHaraidashiUpdate
 - uid: Convenience.Models.Properties.TentoHaraidashi._context
   name: _context
   href: api/Convenience.Models.Properties.TentoHaraidashi.html#Convenience_Models_Properties_TentoHaraidashi__context
@@ -7590,6 +7622,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Services.ChumonService.ChumonKeysViewModel
   nameWithType: ChumonService.ChumonKeysViewModel
+- uid: Convenience.Models.Services.ChumonService.ChumonRegex
+  name: ChumonRegex()
+  href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService_ChumonRegex
+  commentId: M:Convenience.Models.Services.ChumonService.ChumonRegex
+  fullName: Convenience.Models.Services.ChumonService.ChumonRegex()
+  nameWithType: ChumonService.ChumonRegex()
+- uid: Convenience.Models.Services.ChumonService.ChumonRegex*
+  name: ChumonRegex
+  href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService_ChumonRegex_
+  commentId: Overload:Convenience.Models.Services.ChumonService.ChumonRegex
+  isSpec: "True"
+  fullName: Convenience.Models.Services.ChumonService.ChumonRegex
+  nameWithType: ChumonService.ChumonRegex
 - uid: Convenience.Models.Services.ChumonService.ChumonSetting(Convenience.Models.ViewModels.Chumon.ChumonKeysViewModel)
   name: ChumonSetting(ChumonKeysViewModel)
   href: api/Convenience.Models.Services.ChumonService.html#Convenience_Models_Services_ChumonService_ChumonSetting_Convenience_Models_ViewModels_Chumon_ChumonKeysViewModel_
@@ -9309,3 +9354,131 @@ references:
   isSpec: "True"
   fullName: Convenience.Views.Shiire.ShiireKeyInputModel.OnGet
   nameWithType: ShiireKeyInputModel.OnGet
+- uid: System.Text.RegularExpressions.Generated
+  name: System.Text.RegularExpressions.Generated
+  href: api/System.Text.RegularExpressions.Generated.html
+  commentId: N:System.Text.RegularExpressions.Generated
+  fullName: System.Text.RegularExpressions.Generated
+  nameWithType: System.Text.RegularExpressions.Generated
+- uid: System.Text.RegularExpressions.Generated.ChumonRegex_0
+  name: ChumonRegex_0
+  href: api/System.Text.RegularExpressions.Generated.ChumonRegex_0.html
+  commentId: T:System.Text.RegularExpressions.Generated.ChumonRegex_0
+  fullName: System.Text.RegularExpressions.Generated.ChumonRegex_0
+  nameWithType: ChumonRegex_0
+- uid: System.Text.RegularExpressions.Generated.ChumonRegex_0.#ctor
+  name: ChumonRegex_0()
+  href: api/System.Text.RegularExpressions.Generated.ChumonRegex_0.html#System_Text_RegularExpressions_Generated_ChumonRegex_0__ctor
+  commentId: M:System.Text.RegularExpressions.Generated.ChumonRegex_0.#ctor
+  name.vb: New()
+  fullName: System.Text.RegularExpressions.Generated.ChumonRegex_0.ChumonRegex_0()
+  fullName.vb: System.Text.RegularExpressions.Generated.ChumonRegex_0.New()
+  nameWithType: ChumonRegex_0.ChumonRegex_0()
+  nameWithType.vb: ChumonRegex_0.New()
+- uid: System.Text.RegularExpressions.Generated.ChumonRegex_0.#ctor*
+  name: ChumonRegex_0
+  href: api/System.Text.RegularExpressions.Generated.ChumonRegex_0.html#System_Text_RegularExpressions_Generated_ChumonRegex_0__ctor_
+  commentId: Overload:System.Text.RegularExpressions.Generated.ChumonRegex_0.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: System.Text.RegularExpressions.Generated.ChumonRegex_0.ChumonRegex_0
+  fullName.vb: System.Text.RegularExpressions.Generated.ChumonRegex_0.New
+  nameWithType: ChumonRegex_0.ChumonRegex_0
+  nameWithType.vb: ChumonRegex_0.New
+- uid: System.Text.RegularExpressions.Generated.ChumonRegex_0.Instance
+  name: Instance
+  href: api/System.Text.RegularExpressions.Generated.ChumonRegex_0.html#System_Text_RegularExpressions_Generated_ChumonRegex_0_Instance
+  commentId: F:System.Text.RegularExpressions.Generated.ChumonRegex_0.Instance
+  fullName: System.Text.RegularExpressions.Generated.ChumonRegex_0.Instance
+  nameWithType: ChumonRegex_0.Instance
+- uid: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory
+  name: ChumonRegex_0.RunnerFactory
+  href: api/System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.html
+  commentId: T:System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory
+  fullName: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory
+  nameWithType: ChumonRegex_0.RunnerFactory
+- uid: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.CreateInstance
+  name: CreateInstance()
+  href: api/System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.html#System_Text_RegularExpressions_Generated_ChumonRegex_0_RunnerFactory_CreateInstance
+  commentId: M:System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.CreateInstance
+  fullName: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.CreateInstance()
+  nameWithType: ChumonRegex_0.RunnerFactory.CreateInstance()
+- uid: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.CreateInstance*
+  name: CreateInstance
+  href: api/System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.html#System_Text_RegularExpressions_Generated_ChumonRegex_0_RunnerFactory_CreateInstance_
+  commentId: Overload:System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.CreateInstance
+  isSpec: "True"
+  fullName: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.CreateInstance
+  nameWithType: ChumonRegex_0.RunnerFactory.CreateInstance
+- uid: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner
+  name: ChumonRegex_0.RunnerFactory.Runner
+  href: api/System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.html
+  commentId: T:System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner
+  fullName: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner
+  nameWithType: ChumonRegex_0.RunnerFactory.Runner
+- uid: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})
+  name: Scan(ReadOnlySpan<char>)
+  href: api/System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.html#System_Text_RegularExpressions_Generated_ChumonRegex_0_RunnerFactory_Runner_Scan_System_ReadOnlySpan_System_Char__
+  commentId: M:System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})
+  name.vb: Scan(ReadOnlySpan(Of Char))
+  fullName: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.Scan(System.ReadOnlySpan<char>)
+  fullName.vb: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.Scan(System.ReadOnlySpan(Of Char))
+  nameWithType: ChumonRegex_0.RunnerFactory.Runner.Scan(ReadOnlySpan<char>)
+  nameWithType.vb: ChumonRegex_0.RunnerFactory.Runner.Scan(ReadOnlySpan(Of Char))
+- uid: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.Scan*
+  name: Scan
+  href: api/System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.html#System_Text_RegularExpressions_Generated_ChumonRegex_0_RunnerFactory_Runner_Scan_
+  commentId: Overload:System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.Scan
+  isSpec: "True"
+  fullName: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.Scan
+  nameWithType: ChumonRegex_0.RunnerFactory.Runner.Scan
+- uid: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})
+  name: TryFindNextPossibleStartingPosition(ReadOnlySpan<char>)
+  href: api/System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.html#System_Text_RegularExpressions_Generated_ChumonRegex_0_RunnerFactory_Runner_TryFindNextPossibleStartingPosition_System_ReadOnlySpan_System_Char__
+  commentId: M:System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})
+  name.vb: TryFindNextPossibleStartingPosition(ReadOnlySpan(Of Char))
+  fullName: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan<char>)
+  fullName.vb: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan(Of Char))
+  nameWithType: ChumonRegex_0.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(ReadOnlySpan<char>)
+  nameWithType.vb: ChumonRegex_0.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(ReadOnlySpan(Of Char))
+- uid: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.TryFindNextPossibleStartingPosition*
+  name: TryFindNextPossibleStartingPosition
+  href: api/System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.html#System_Text_RegularExpressions_Generated_ChumonRegex_0_RunnerFactory_Runner_TryFindNextPossibleStartingPosition_
+  commentId: Overload:System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.TryFindNextPossibleStartingPosition
+  isSpec: "True"
+  fullName: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.TryFindNextPossibleStartingPosition
+  nameWithType: ChumonRegex_0.RunnerFactory.Runner.TryFindNextPossibleStartingPosition
+- uid: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})
+  name: TryMatchAtCurrentPosition(ReadOnlySpan<char>)
+  href: api/System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.html#System_Text_RegularExpressions_Generated_ChumonRegex_0_RunnerFactory_Runner_TryMatchAtCurrentPosition_System_ReadOnlySpan_System_Char__
+  commentId: M:System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})
+  name.vb: TryMatchAtCurrentPosition(ReadOnlySpan(Of Char))
+  fullName: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan<char>)
+  fullName.vb: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan(Of Char))
+  nameWithType: ChumonRegex_0.RunnerFactory.Runner.TryMatchAtCurrentPosition(ReadOnlySpan<char>)
+  nameWithType.vb: ChumonRegex_0.RunnerFactory.Runner.TryMatchAtCurrentPosition(ReadOnlySpan(Of Char))
+- uid: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.TryMatchAtCurrentPosition*
+  name: TryMatchAtCurrentPosition
+  href: api/System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.html#System_Text_RegularExpressions_Generated_ChumonRegex_0_RunnerFactory_Runner_TryMatchAtCurrentPosition_
+  commentId: Overload:System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.TryMatchAtCurrentPosition
+  isSpec: "True"
+  fullName: System.Text.RegularExpressions.Generated.ChumonRegex_0.RunnerFactory.Runner.TryMatchAtCurrentPosition
+  nameWithType: ChumonRegex_0.RunnerFactory.Runner.TryMatchAtCurrentPosition
+- uid: System.Text.RegularExpressions.Generated.Utilities
+  name: Utilities
+  href: api/System.Text.RegularExpressions.Generated.Utilities.html
+  commentId: T:System.Text.RegularExpressions.Generated.Utilities
+  fullName: System.Text.RegularExpressions.Generated.Utilities
+  nameWithType: Utilities
+- uid: System.Text.RegularExpressions.Generated.Utilities.s_defaultTimeout
+  name: s_defaultTimeout
+  href: api/System.Text.RegularExpressions.Generated.Utilities.html#System_Text_RegularExpressions_Generated_Utilities_s_defaultTimeout
+  commentId: F:System.Text.RegularExpressions.Generated.Utilities.s_defaultTimeout
+  fullName: System.Text.RegularExpressions.Generated.Utilities.s_defaultTimeout
+  nameWithType: Utilities.s_defaultTimeout
+- uid: System.Text.RegularExpressions.Generated.Utilities.s_hasTimeout
+  name: s_hasTimeout
+  href: api/System.Text.RegularExpressions.Generated.Utilities.html#System_Text_RegularExpressions_Generated_Utilities_s_hasTimeout
+  commentId: F:System.Text.RegularExpressions.Generated.Utilities.s_hasTimeout
+  fullName: System.Text.RegularExpressions.Generated.Utilities.s_hasTimeout
+  nameWithType: Utilities.s_hasTimeout

@@ -364,6 +364,104 @@ Interface IKaikei  <a class="header-action link-secondary" title="View source" h
 
 
 
+  <a id="Convenience_Models_Interfaces_IKaikei_ShohizeiKeisan_" data-uid="Convenience.Models.Interfaces.IKaikei.ShohizeiKeisan*"></a>
+
+  <h3 id="Convenience_Models_Interfaces_IKaikei_ShohizeiKeisan_Convenience_Models_Interfaces_IKaikeiJissekiForAdd_Convenience_Models_DataModels_KaikeiJisseki_" data-uid="Convenience.Models.Interfaces.IKaikei.ShohizeiKeisan(Convenience.Models.Interfaces.IKaikeiJissekiForAdd,Convenience.Models.DataModels.KaikeiJisseki)">
+  ShohizeiKeisan(IKaikeiJissekiForAdd, KaikeiJisseki)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IKaikei.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>消費税計算</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">KaikeiJisseki ShohizeiKeisan(IKaikeiJissekiForAdd inKaikeiJisseki, KaikeiJisseki outKaikeiJisseki)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inKaikeiJisseki</code> <a class="xref" href="Convenience.Models.Interfaces.IKaikeiJissekiForAdd.html">IKaikeiJissekiForAdd</a></dt>
+    <dd><p>会計実績</p>
+</dd>
+    <dt><code>outKaikeiJisseki</code> <a class="xref" href="Convenience.Models.DataModels.KaikeiJisseki.html">KaikeiJisseki</a></dt>
+    <dd><p>消費税関連で計算されたものの反映先（会計実績）</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Convenience.Models.DataModels.KaikeiJisseki.html">KaikeiJisseki</a></dt>
+    <dd><p>消費税関連で計算されたものの反映先（会計実績）</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Convenience_Models_Interfaces_IKaikei_ShohizeiKeisan_Convenience_Models_Interfaces_IKaikeiJissekiForAdd_Convenience_Models_DataModels_KaikeiJisseki__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>（条件）売上金額が第一引数側にセットされていること</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.invaliddataexception">InvalidDataException</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="Convenience_Models_Interfaces_IKaikei_ZaikoConnection_" data-uid="Convenience.Models.Interfaces.IKaikei.ZaikoConnection*"></a>
+
+  <h3 id="Convenience_Models_Interfaces_IKaikei_ZaikoConnection_System_String_System_DateTime_System_Decimal_Convenience_Models_DataModels_TentoZaiko_" data-uid="Convenience.Models.Interfaces.IKaikei.ZaikoConnection(System.String,System.DateTime,System.Decimal,Convenience.Models.DataModels.TentoZaiko)">
+  ZaikoConnection(string, DateTime, decimal, TentoZaiko?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IKaikei.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>店頭在庫から売上分を差し引く</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TentoZaiko? ZaikoConnection(string argShohinId, DateTime argUriageDateTime, decimal argDiffUriageSu, TentoZaiko? argTentoZaiko)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>argShohinId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>商品コード</p>
+</dd>
+    <dt><code>argUriageDateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>売上日時</p>
+</dd>
+    <dt><code>argDiffUriageSu</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd><p>差し引く個数</p>
+</dd>
+    <dt><code>argTentoZaiko</code> <a class="xref" href="Convenience.Models.DataModels.TentoZaiko.html">TentoZaiko</a></dt>
+    <dd><p>店頭在庫</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Convenience.Models.DataModels.TentoZaiko.html">TentoZaiko</a></dt>
+    <dd><p>店頭在庫</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 

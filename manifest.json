@@ -312,6 +312,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Migrations.kaikeijissekiprimarykry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Migrations.kaikeijissekiprimarykry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Migrations.kaikeiseq.yml",
       "output": {
         ".html": {
@@ -712,6 +722,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.AutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.AutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Properties.Chumon.DelegateOverrideProc.yml",
       "output": {
         ".html": {
@@ -746,6 +766,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Properties.DataCountMismatchException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.DataModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.DataModel.html"
         }
       },
       "version": ""
@@ -856,6 +886,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Properties.Shiire.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Study.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Study.html"
         }
       },
       "version": ""

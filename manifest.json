@@ -722,20 +722,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.AutoMapperProfile.AutoMapperSharedProfile.yml",
+      "source_relative_path": "api/Convenience.Models.Properties.AutoMapperSharedProfile.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Convenience.Models.Properties.AutoMapperProfile.AutoMapperSharedProfile.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.AutoMapperProfile.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.AutoMapperProfile.html"
+          "relative_path": "api/Convenience.Models.Properties.AutoMapperSharedProfile.html"
         }
       },
       "version": ""
@@ -756,6 +746,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Properties.Chumon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.ChumonChumonJissekiToDTOAutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.ChumonChumonJissekiToDTOAutoMapperProfile.html"
         }
       },
       "version": ""
@@ -806,6 +806,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Properties.Kaikei.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.KaikeiAddLineToTempDataAutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.KaikeiAddLineToTempDataAutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.KaikeiPostToDTOAutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.KaikeiPostToDTOAutoMapperProfile.html"
         }
       },
       "version": ""
@@ -902,6 +922,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.ShiirePostToDTOAutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.ShiirePostToDTOAutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Properties.Study.yml",
       "output": {
         ".html": {
@@ -916,6 +956,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Properties.TentoHaraidashi.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.TentoHaraidashiPostToDTOAutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.TentoHaraidashiPostToDTOAutoMapperProfile.html"
         }
       },
       "version": ""

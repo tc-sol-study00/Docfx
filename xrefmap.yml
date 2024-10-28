@@ -6995,6 +6995,12 @@ references:
   commentId: F:Convenience.Models.Properties.Kaikei._context
   fullName: Convenience.Models.Properties.Kaikei._context
   nameWithType: Kaikei._context
+- uid: Convenience.Models.Properties.Kaikei._mapper
+  name: _mapper
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei__mapper
+  commentId: F:Convenience.Models.Properties.Kaikei._mapper
+  fullName: Convenience.Models.Properties.Kaikei._mapper
+  nameWithType: Kaikei._mapper
 - uid: Convenience.Models.Properties.KaikeiAddLineToTempDataAutoMapperProfile
   name: KaikeiAddLineToTempDataAutoMapperProfile
   href: api/Convenience.Models.Properties.KaikeiAddLineToTempDataAutoMapperProfile.html

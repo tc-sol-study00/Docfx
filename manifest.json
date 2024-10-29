@@ -762,6 +762,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Properties.ChumonJissekiSetupException.yml",
       "output": {
         ".html": {

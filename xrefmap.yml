@@ -6640,6 +6640,22 @@ references:
   commentId: T:Convenience.Models.Properties.Chumon.DelegateOverrideProc
   fullName: Convenience.Models.Properties.Chumon.DelegateOverrideProc
   nameWithType: Chumon.DelegateOverrideProc
+- uid: Convenience.Models.Properties.Chumon.IsExistCheck*
+  name: IsExistCheck
+  href: api/Convenience.Models.Properties.Chumon.html#Convenience_Models_Properties_Chumon_IsExistCheck_
+  commentId: Overload:Convenience.Models.Properties.Chumon.IsExistCheck
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.Chumon.IsExistCheck
+  nameWithType: Chumon.IsExistCheck
+- uid: Convenience.Models.Properties.Chumon.IsExistCheck``1(``0)
+  name: IsExistCheck<T>(T?)
+  href: api/Convenience.Models.Properties.Chumon.html#Convenience_Models_Properties_Chumon_IsExistCheck__1___0_
+  commentId: M:Convenience.Models.Properties.Chumon.IsExistCheck``1(``0)
+  name.vb: IsExistCheck(Of T)(T)
+  fullName: Convenience.Models.Properties.Chumon.IsExistCheck<T>(T?)
+  fullName.vb: Convenience.Models.Properties.Chumon.IsExistCheck(Of T)(T)
+  nameWithType: Chumon.IsExistCheck<T>(T?)
+  nameWithType.vb: Chumon.IsExistCheck(Of T)(T)
 - uid: Convenience.Models.Properties.Chumon.OverrideProc
   name: OverrideProc
   href: api/Convenience.Models.Properties.Chumon.html#Convenience_Models_Properties_Chumon_OverrideProc
@@ -6693,6 +6709,31 @@ references:
   fullName.vb: Convenience.Models.Properties.ChumonChumonJissekiToDTOAutoMapperProfile.New
   nameWithType: ChumonChumonJissekiToDTOAutoMapperProfile.ChumonChumonJissekiToDTOAutoMapperProfile
   nameWithType.vb: ChumonChumonJissekiToDTOAutoMapperProfile.New
+- uid: Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile
+  name: ChumonCreateChumonJissekiToDTOAutoMapperProfile
+  href: api/Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile.html
+  commentId: T:Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile
+  fullName: Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile
+  nameWithType: ChumonCreateChumonJissekiToDTOAutoMapperProfile
+- uid: Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile.#ctor
+  name: ChumonCreateChumonJissekiToDTOAutoMapperProfile()
+  href: api/Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile.html#Convenience_Models_Properties_ChumonCreateChumonJissekiToDTOAutoMapperProfile__ctor
+  commentId: M:Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile.#ctor
+  name.vb: New()
+  fullName: Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile.ChumonCreateChumonJissekiToDTOAutoMapperProfile()
+  fullName.vb: Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile.New()
+  nameWithType: ChumonCreateChumonJissekiToDTOAutoMapperProfile.ChumonCreateChumonJissekiToDTOAutoMapperProfile()
+  nameWithType.vb: ChumonCreateChumonJissekiToDTOAutoMapperProfile.New()
+- uid: Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile.#ctor*
+  name: ChumonCreateChumonJissekiToDTOAutoMapperProfile
+  href: api/Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile.html#Convenience_Models_Properties_ChumonCreateChumonJissekiToDTOAutoMapperProfile__ctor_
+  commentId: Overload:Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile.ChumonCreateChumonJissekiToDTOAutoMapperProfile
+  fullName.vb: Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile.New
+  nameWithType: ChumonCreateChumonJissekiToDTOAutoMapperProfile.ChumonCreateChumonJissekiToDTOAutoMapperProfile
+  nameWithType.vb: ChumonCreateChumonJissekiToDTOAutoMapperProfile.New
 - uid: Convenience.Models.Properties.ChumonJissekiSetupException
   name: ChumonJissekiSetupException
   href: api/Convenience.Models.Properties.ChumonJissekiSetupException.html
@@ -6864,6 +6905,22 @@ references:
   fullName.vb: Convenience.Models.Properties.Kaikei.New
   nameWithType: Kaikei.Kaikei
   nameWithType.vb: Kaikei.New
+- uid: Convenience.Models.Properties.Kaikei.IsExistCheck*
+  name: IsExistCheck
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_IsExistCheck_
+  commentId: Overload:Convenience.Models.Properties.Kaikei.IsExistCheck
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.Kaikei.IsExistCheck
+  nameWithType: Kaikei.IsExistCheck
+- uid: Convenience.Models.Properties.Kaikei.IsExistCheck``1(``0)
+  name: IsExistCheck<T>(T?)
+  href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_IsExistCheck__1___0_
+  commentId: M:Convenience.Models.Properties.Kaikei.IsExistCheck``1(``0)
+  name.vb: IsExistCheck(Of T)(T)
+  fullName: Convenience.Models.Properties.Kaikei.IsExistCheck<T>(T?)
+  fullName.vb: Convenience.Models.Properties.Kaikei.IsExistCheck(Of T)(T)
+  nameWithType: Kaikei.IsExistCheck<T>(T?)
+  nameWithType.vb: Kaikei.IsExistCheck(Of T)(T)
 - uid: Convenience.Models.Properties.Kaikei.KaikeiAddcommodity(Convenience.Models.Interfaces.IKaikeiJissekiForAdd)
   name: KaikeiAddcommodity(IKaikeiJissekiForAdd)
   href: api/Convenience.Models.Properties.Kaikei.html#Convenience_Models_Properties_Kaikei_KaikeiAddcommodity_Convenience_Models_Interfaces_IKaikeiJissekiForAdd_
@@ -7410,6 +7467,22 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Properties.Shiire.ChuumonZanZaikoSuChousei
   nameWithType: Shiire.ChuumonZanZaikoSuChousei
+- uid: Convenience.Models.Properties.Shiire.IsExistCheck*
+  name: IsExistCheck
+  href: api/Convenience.Models.Properties.Shiire.html#Convenience_Models_Properties_Shiire_IsExistCheck_
+  commentId: Overload:Convenience.Models.Properties.Shiire.IsExistCheck
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.Shiire.IsExistCheck
+  nameWithType: Shiire.IsExistCheck
+- uid: Convenience.Models.Properties.Shiire.IsExistCheck``1(``0)
+  name: IsExistCheck<T>(T?)
+  href: api/Convenience.Models.Properties.Shiire.html#Convenience_Models_Properties_Shiire_IsExistCheck__1___0_
+  commentId: M:Convenience.Models.Properties.Shiire.IsExistCheck``1(``0)
+  name.vb: IsExistCheck(Of T)(T)
+  fullName: Convenience.Models.Properties.Shiire.IsExistCheck<T>(T?)
+  fullName.vb: Convenience.Models.Properties.Shiire.IsExistCheck(Of T)(T)
+  nameWithType: Shiire.IsExistCheck<T>(T?)
+  nameWithType.vb: Shiire.IsExistCheck(Of T)(T)
 - uid: Convenience.Models.Properties.Shiire.NextSeq(System.String,System.DateOnly)
   name: NextSeq(string, DateOnly)
   href: api/Convenience.Models.Properties.Shiire.html#Convenience_Models_Properties_Shiire_NextSeq_System_String_System_DateOnly_
@@ -7724,6 +7797,22 @@ references:
   fullName.vb: Convenience.Models.Properties.TentoHaraidashi.New
   nameWithType: TentoHaraidashi.TentoHaraidashi
   nameWithType.vb: TentoHaraidashi.New
+- uid: Convenience.Models.Properties.TentoHaraidashi.IsExistCheck*
+  name: IsExistCheck
+  href: api/Convenience.Models.Properties.TentoHaraidashi.html#Convenience_Models_Properties_TentoHaraidashi_IsExistCheck_
+  commentId: Overload:Convenience.Models.Properties.TentoHaraidashi.IsExistCheck
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.TentoHaraidashi.IsExistCheck
+  nameWithType: TentoHaraidashi.IsExistCheck
+- uid: Convenience.Models.Properties.TentoHaraidashi.IsExistCheck``1(``0)
+  name: IsExistCheck<T>(T?)
+  href: api/Convenience.Models.Properties.TentoHaraidashi.html#Convenience_Models_Properties_TentoHaraidashi_IsExistCheck__1___0_
+  commentId: M:Convenience.Models.Properties.TentoHaraidashi.IsExistCheck``1(``0)
+  name.vb: IsExistCheck(Of T)(T)
+  fullName: Convenience.Models.Properties.TentoHaraidashi.IsExistCheck<T>(T?)
+  fullName.vb: Convenience.Models.Properties.TentoHaraidashi.IsExistCheck(Of T)(T)
+  nameWithType: TentoHaraidashi.IsExistCheck<T>(T?)
+  nameWithType.vb: TentoHaraidashi.IsExistCheck(Of T)(T)
 - uid: Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiHatsuban(System.DateTime)
   name: TentoHaraidashiHatsuban(DateTime)
   href: api/Convenience.Models.Properties.TentoHaraidashi.html#Convenience_Models_Properties_TentoHaraidashi_TentoHaraidashiHatsuban_System_DateTime_

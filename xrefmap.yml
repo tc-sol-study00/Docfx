@@ -7671,15 +7671,15 @@ references:
   commentId: T:Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile
   fullName: Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile
   nameWithType: ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile
-- uid: Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.#ctor(Convenience.Models.Interfaces.IShiire,System.DateOnly,System.UInt32,System.DateTime)
-  name: ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile(IShiire, DateOnly, uint, DateTime)
-  href: api/Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.html#Convenience_Models_Properties_ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile__ctor_Convenience_Models_Interfaces_IShiire_System_DateOnly_System_UInt32_System_DateTime_
-  commentId: M:Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.#ctor(Convenience.Models.Interfaces.IShiire,System.DateOnly,System.UInt32,System.DateTime)
-  name.vb: New(IShiire, DateOnly, UInteger, Date)
-  fullName: Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile(Convenience.Models.Interfaces.IShiire, System.DateOnly, uint, System.DateTime)
-  fullName.vb: Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.New(Convenience.Models.Interfaces.IShiire, System.DateOnly, UInteger, Date)
-  nameWithType: ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile(IShiire, DateOnly, uint, DateTime)
-  nameWithType.vb: ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.New(IShiire, DateOnly, UInteger, Date)
+- uid: Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.#ctor
+  name: ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile()
+  href: api/Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.html#Convenience_Models_Properties_ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile__ctor
+  commentId: M:Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.#ctor
+  name.vb: New()
+  fullName: Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile()
+  fullName.vb: Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.New()
+  nameWithType: ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile()
+  nameWithType.vb: ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.New()
 - uid: Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.#ctor*
   name: ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile
   href: api/Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.html#Convenience_Models_Properties_ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile__ctor_

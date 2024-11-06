@@ -102,7 +102,7 @@ Class TentoHaraidashi  <a class="header-action link-secondary" title="View sourc
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TentoHaraidashi : ITentoHaraidashi</code></pre>
+    <pre><code class="lang-csharp hljs">public class TentoHaraidashi : ITentoHaraidashi, ISharedTools</code></pre>
   </div>
 
 
@@ -120,6 +120,7 @@ Class TentoHaraidashi  <a class="header-action link-secondary" title="View sourc
     <dt>Implements</dt>
     <dd>
       <div><a class="xref" href="Convenience.Models.Interfaces.ITentoHaraidashi.html">ITentoHaraidashi</a></div>
+      <div><a class="xref" href="Convenience.Models.Interfaces.ISharedTools.html">ISharedTools</a></div>
     </dd>
   </dl>
 
@@ -163,7 +164,7 @@ Class TentoHaraidashi  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Convenience_Models_Properties_TentoHaraidashi__ctor_Convenience_Data_ConvenienceContext_" data-uid="Convenience.Models.Properties.TentoHaraidashi.#ctor(Convenience.Data.ConvenienceContext)">
   TentoHaraidashi(ConvenienceContext)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/TentoHaraidashi.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/TentoHaraidashi.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>コンストラクタ</p>
@@ -226,37 +227,6 @@ Class TentoHaraidashi  <a class="header-action link-secondary" title="View sourc
 
 
 
-
-  <h3 id="Convenience_Models_Properties_TentoHaraidashi__mapper" data-uid="Convenience.Models.Properties.TentoHaraidashi._mapper">
-  _mapper
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/TentoHaraidashi.cs/#L31"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>AutoMapper</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private IMapper _mapper</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">IMapper</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="properties">Properties
 </h2>
 
@@ -298,52 +268,11 @@ Class TentoHaraidashi  <a class="header-action link-secondary" title="View sourc
 </h2>
 
 
-  <a id="Convenience_Models_Properties_TentoHaraidashi_IsExistCheck_" data-uid="Convenience.Models.Properties.TentoHaraidashi.IsExistCheck*"></a>
-
-  <h3 id="Convenience_Models_Properties_TentoHaraidashi_IsExistCheck__1___0_" data-uid="Convenience.Models.Properties.TentoHaraidashi.IsExistCheck``1(``0)">
-  IsExistCheck&lt;T&gt;(T?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/TentoHaraidashi.cs/#L204"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private static bool IsExistCheck&lt;T&gt;(T? checkdata)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>checkdata</code> <span class="xref">T</span></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
   <a id="Convenience_Models_Properties_TentoHaraidashi_TentoHaraidashiHatsuban_" data-uid="Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiHatsuban*"></a>
 
   <h3 id="Convenience_Models_Properties_TentoHaraidashi_TentoHaraidashiHatsuban_System_DateTime_" data-uid="Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiHatsuban(System.DateTime)">
   TentoHaraidashiHatsuban(DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/TentoHaraidashi.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/TentoHaraidashi.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>店頭払出コード発番</p>
@@ -418,7 +347,7 @@ Class TentoHaraidashi  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Convenience_Models_Properties_TentoHaraidashi_TentoHaraidashiSakusei_System_DateTime_" data-uid="Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiSakusei(System.DateTime)">
   TentoHaraidashiSakusei(DateTime)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/TentoHaraidashi.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/TentoHaraidashi.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>倉庫在庫から店頭払出実績（ヘッダー＋実績）を作成する</p>
@@ -460,7 +389,7 @@ Class TentoHaraidashi  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Convenience_Models_Properties_TentoHaraidashi_TentoHaraidashiToiawase_System_String_" data-uid="Convenience.Models.Properties.TentoHaraidashi.TentoHaraidashiToiawase(System.String)">
   TentoHaraidashiToiawase(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/TentoHaraidashi.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/TentoHaraidashi.cs/#L134"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>店頭払出問い合わせ</p>

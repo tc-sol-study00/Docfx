@@ -12,6 +12,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/AspNetCoreGeneratedDocument.Views_ChumonJisseki_Index.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AspNetCoreGeneratedDocument.Views_ChumonJisseki_Index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/AspNetCoreGeneratedDocument.Views_Chumon_ChumonMeisai.yml",
       "output": {
         ".html": {
@@ -52,6 +62,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/AspNetCoreGeneratedDocument.Views_KaikeiJisseki_Index.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AspNetCoreGeneratedDocument.Views_KaikeiJisseki_Index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/AspNetCoreGeneratedDocument.Views_Kaikei_Kaikei.yml",
       "output": {
         ".html": {
@@ -86,6 +106,16 @@
       "output": {
         ".html": {
           "relative_path": "api/AspNetCoreGeneratedDocument.Views_Shared__ValidationScriptsPartial.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AspNetCoreGeneratedDocument.Views_ShiireJisseki_Index.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AspNetCoreGeneratedDocument.Views_ShiireJisseki_Index.html"
         }
       },
       "version": ""
@@ -192,6 +222,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Controllers.ChumonJissekiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Controllers.ChumonJissekiController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Controllers.HomeController.yml",
       "output": {
         ".html": {
@@ -212,10 +252,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Controllers.KaikeiJissekiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Controllers.KaikeiJissekiController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Controllers.ShiireController.yml",
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Controllers.ShiireController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Controllers.ShiireJissekiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Controllers.ShiireJissekiController.html"
         }
       },
       "version": ""
@@ -592,6 +652,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IChumonJissekiService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IChumonJissekiService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Interfaces.IChumonService.yml",
       "output": {
         ".html": {
@@ -632,6 +702,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IKaikeiJissekiService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IKaikeiJissekiService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Interfaces.IKaikeiService.yml",
       "output": {
         ".html": {
@@ -656,6 +736,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Interfaces.IShiire.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IShiireJissekiService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IShiireJissekiService.html"
         }
       },
       "version": ""
@@ -802,6 +892,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.ChumonJissekiPostdataToChumonJissekiViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.ChumonJissekiPostdataToChumonJissekiViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Properties.ChumonJissekiSetupException.yml",
       "output": {
         ".html": {
@@ -846,6 +946,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Properties.KaikeiAddLineToTempDataAutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.KaikeiJissekiPostdataToKaikeiJissekiViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.KaikeiJissekiPostdataToKaikeiJissekiViewModel.html"
         }
       },
       "version": ""
@@ -962,6 +1072,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.ShiireJissekiPostdataToShiireJissekiViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.ShiireJissekiPostdataToShiireJissekiViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Properties.ShiirePostToDTOAutoMapperProfile.yml",
       "output": {
         ".html": {
@@ -1022,6 +1142,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Services.ChumonJissekiService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Services.ChumonJissekiService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Services.ChumonService.yml",
       "output": {
         ".html": {
@@ -1032,10 +1162,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Services.KaikeiJissekiService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Services.KaikeiJissekiService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Services.KaikeiService.yml",
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Services.KaikeiService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Services.ShiireJissekiService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Services.ShiireJissekiService.html"
         }
       },
       "version": ""
@@ -1122,6 +1272,106 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.Comparisons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.Comparisons.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.SortAreaClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.SortAreaClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.ViewModels.Kaikei.KaikeiJissekiForAdd.yml",
       "output": {
         ".html": {
@@ -1162,6 +1412,106 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.KaikeiJissekiLineClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.KaikeiJissekiLineClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.KeyAreaClass.Comparisons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.KeyAreaClass.Comparisons.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.KeyAreaClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.KeyAreaClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.ViewModels.Shiire.ShiireKeysViewModel.yml",
       "output": {
         ".html": {
@@ -1186,6 +1536,106 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.ViewModels.Shiire.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.DataAreaClass.ShiireJissekiLineClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.DataAreaClass.ShiireJissekiLineClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.DataAreaClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.DataAreaClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.KeyAreaClass.Comparisons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.KeyAreaClass.Comparisons.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.KeyAreaClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.KeyAreaClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.SortAreaClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.SortAreaClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.html"
         }
       },
       "version": ""

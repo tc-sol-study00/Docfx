@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class TentoZaikoController | Convenience ">
       
-      <meta name="description" content="店頭払出コントローラ">
+      <meta name="description" content="店頭在庫検索コントローラ">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -97,7 +97,7 @@ Class TentoZaikoController  <a class="header-action link-secondary" title="View 
   <dl><dt>Assembly</dt><dd>Convenience.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>店頭払出コントローラ</p>
+  <div class="markdown summary"><p>店頭在庫検索コントローラ</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -769,7 +769,8 @@ public class TentoZaikoController : Controller, IActionFilter, IAsyncActionFilte
     <dd><p>DBコンテキスト</p>
 </dd>
     <dt><code>tentoZaikoService</code> <a class="xref" href="Convenience.Models.Interfaces.ITentoZaikoService.html">ITentoZaikoService</a></dt>
-    <dd></dd>
+    <dd><p>店頭在庫検索サービスクラスＤＩ注入用</p>
+</dd>
   </dl>
 
 
@@ -881,43 +882,12 @@ public class TentoZaikoController : Controller, IActionFilter, IAsyncActionFilte
 
 
 
-  <h3 id="Convenience_Controllers_TentoZaikoController_tentoHaraidashiViewModel" data-uid="Convenience.Controllers.TentoZaikoController.tentoHaraidashiViewModel">
-  tentoHaraidashiViewModel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L36"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>ビュー・モデル</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private TentoZaikoViewModel tentoHaraidashiViewModel</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.html">TentoZaikoViewModel</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
   <h3 id="Convenience_Controllers_TentoZaikoController_tentoZaikoService" data-uid="Convenience.Controllers.TentoZaikoController.tentoZaikoService">
   tentoZaikoService
   <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>注文サービスクラス（ＤＩ用）</p>
+  <div class="markdown level1 summary"><p>店頭在庫検索サービスクラス（ＤＩ用）</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -942,15 +912,46 @@ public class TentoZaikoController : Controller, IActionFilter, IAsyncActionFilte
 
 
 
+
+  <h3 id="Convenience_Controllers_TentoZaikoController_tentoZaikoViewModel" data-uid="Convenience.Controllers.TentoZaikoController.tentoZaikoViewModel">
+  tentoZaikoViewModel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>ビュー・モデル</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly TentoZaikoViewModel tentoZaikoViewModel</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.html">TentoZaikoViewModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
 
   <a id="Convenience_Controllers_TentoZaikoController_Index_" data-uid="Convenience.Controllers.TentoZaikoController.Index*"></a>
 
-  <h3 id="Convenience_Controllers_TentoZaikoController_Index_System_String_" data-uid="Convenience.Controllers.TentoZaikoController.Index(System.String)">
-  Index(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Controllers_TentoZaikoController_Index" data-uid="Convenience.Controllers.TentoZaikoController.Index">
+  Index()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>店頭在庫検索１枚目の初期表示処理</p>
@@ -959,14 +960,9 @@ public class TentoZaikoController : Controller, IActionFilter, IAsyncActionFilte
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpGet]
-public Task&lt;IActionResult&gt; Index(string id)</code></pre>
+public Task&lt;IActionResult&gt; Index()</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
@@ -989,10 +985,11 @@ public Task&lt;IActionResult&gt; Index(string id)</code></pre>
 
   <h3 id="Convenience_Controllers_TentoZaikoController_ProcessResult_Convenience_Models_ViewModels_TentoZaiko_TentoZaikoViewModel_System_Int32_System_Int32_" data-uid="Convenience.Controllers.TentoZaikoController.ProcessResult(Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel,System.Int32,System.Int32)">
   ProcessResult(TentoZaikoViewModel, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>検索データ作成</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1002,11 +999,14 @@ public Task&lt;IActionResult&gt; Index(string id)</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>tentoZaikoViewModel</code> <a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.html">TentoZaikoViewModel</a></dt>
-    <dd></dd>
+    <dd><p>店頭在庫ビューモデル</p>
+</dd>
     <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>ページ番号</p>
+</dd>
     <dt><code>pageSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>行数/ページ</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -1029,7 +1029,7 @@ public Task&lt;IActionResult&gt; Index(string id)</code></pre>
 
   <h3 id="Convenience_Controllers_TentoZaikoController_Result_Convenience_Models_ViewModels_TentoZaiko_TentoZaikoViewModel_System_Int32_" data-uid="Convenience.Controllers.TentoZaikoController.Result(Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel,System.Int32)">
   Result(TentoZaikoViewModel, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>店頭在庫検索キー入力後</p>
@@ -1045,7 +1045,8 @@ public Task&lt;IActionResult&gt; Result(TentoZaikoViewModel postedTentoZaikoView
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>postedTentoZaikoViewModel</code> <a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.html">TentoZaikoViewModel</a></dt>
-    <dd></dd>
+    <dd><p>店頭在庫ビューモデル(post)</p>
+</dd>
     <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
@@ -1071,10 +1072,11 @@ public Task&lt;IActionResult&gt; Result(TentoZaikoViewModel postedTentoZaikoView
 
   <h3 id="Convenience_Controllers_TentoZaikoController_Result_System_Int32_" data-uid="Convenience.Controllers.TentoZaikoController.Result(System.Int32)">
   Result(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>検索結果</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1085,13 +1087,15 @@ public Task&lt;IActionResult&gt; Result(int page)</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>ページ番号</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>店頭在庫検索ビュー</p>
+</dd>
   </dl>
 
 

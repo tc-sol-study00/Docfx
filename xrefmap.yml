@@ -9530,15 +9530,6 @@ references:
   fullName.vb: Convenience.Models.Services.ChumonJissekiService.CombineExpressions(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean)), System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean)))
   nameWithType: ChumonJissekiService.CombineExpressions<T>(Expression<Func<T, bool>>, Expression<Func<T, bool>>)
   nameWithType.vb: ChumonJissekiService.CombineExpressions(Of T)(Expression(Of Func(Of T, Boolean)), Expression(Of Func(Of T, Boolean)))
-- uid: Convenience.Models.Services.ChumonJissekiService.SearchItemRecognizer(Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem[],System.Linq.IQueryable{Convenience.Models.DataModels.ChumonJissekiMeisai})
-  name: SearchItemRecognizer(SelecteWhereItem[], IQueryable<ChumonJissekiMeisai>)
-  href: api/Convenience.Models.Services.ChumonJissekiService.html#Convenience_Models_Services_ChumonJissekiService_SearchItemRecognizer_Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_KeywordAreaClass_KeyAreaClass_SelecteWhereItem___System_Linq_IQueryable_Convenience_Models_DataModels_ChumonJissekiMeisai__
-  commentId: M:Convenience.Models.Services.ChumonJissekiService.SearchItemRecognizer(Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem[],System.Linq.IQueryable{Convenience.Models.DataModels.ChumonJissekiMeisai})
-  name.vb: SearchItemRecognizer(SelecteWhereItem(), IQueryable(Of ChumonJissekiMeisai))
-  fullName: Convenience.Models.Services.ChumonJissekiService.SearchItemRecognizer(Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem[], System.Linq.IQueryable<Convenience.Models.DataModels.ChumonJissekiMeisai>)
-  fullName.vb: Convenience.Models.Services.ChumonJissekiService.SearchItemRecognizer(Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem(), System.Linq.IQueryable(Of Convenience.Models.DataModels.ChumonJissekiMeisai))
-  nameWithType: ChumonJissekiService.SearchItemRecognizer(ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem[], IQueryable<ChumonJissekiMeisai>)
-  nameWithType.vb: ChumonJissekiService.SearchItemRecognizer(ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem(), IQueryable(Of ChumonJissekiMeisai))
 - uid: Convenience.Models.Services.ChumonJissekiService.SearchItemRecognizer*
   name: SearchItemRecognizer
   href: api/Convenience.Models.Services.ChumonJissekiService.html#Convenience_Models_Services_ChumonJissekiService_SearchItemRecognizer_
@@ -9546,6 +9537,15 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Services.ChumonJissekiService.SearchItemRecognizer
   nameWithType: ChumonJissekiService.SearchItemRecognizer
+- uid: Convenience.Models.Services.ChumonJissekiService.SearchItemRecognizer``1(Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem[],System.Collections.Generic.IEnumerable{``0})
+  name: SearchItemRecognizer<T>(SelecteWhereItem[], IEnumerable<T>)
+  href: api/Convenience.Models.Services.ChumonJissekiService.html#Convenience_Models_Services_ChumonJissekiService_SearchItemRecognizer__1_Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_KeywordAreaClass_KeyAreaClass_SelecteWhereItem___System_Collections_Generic_IEnumerable___0__
+  commentId: M:Convenience.Models.Services.ChumonJissekiService.SearchItemRecognizer``1(Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem[],System.Collections.Generic.IEnumerable{``0})
+  name.vb: SearchItemRecognizer(Of T)(SelecteWhereItem(), IEnumerable(Of T))
+  fullName: Convenience.Models.Services.ChumonJissekiService.SearchItemRecognizer<T>(Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem[], System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Convenience.Models.Services.ChumonJissekiService.SearchItemRecognizer(Of T)(Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem(), System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ChumonJissekiService.SearchItemRecognizer<T>(ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem[], IEnumerable<T>)
+  nameWithType.vb: ChumonJissekiService.SearchItemRecognizer(Of T)(ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem(), IEnumerable(Of T))
 - uid: Convenience.Models.Services.ChumonJissekiService.SetSortKey(Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec[],System.Collections.Generic.IEnumerable{Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass})
   name: SetSortKey(SortEventRec[], IEnumerable<ChumonJissekiLineClass>)
   href: api/Convenience.Models.Services.ChumonJissekiService.html#Convenience_Models_Services_ChumonJissekiService_SetSortKey_Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_KeywordAreaClass_SortAreaClass_SortEventRec___System_Collections_Generic_IEnumerable_Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_DataAreaClass_ChumonJissekiLineClass__
@@ -10770,6 +10770,19 @@ references:
   fullName.vb: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.New
   nameWithType: ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.ChumonJissekiLineClass
   nameWithType.vb: ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.New
+- uid: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.ChumonDate
+  name: ChumonDate
+  href: api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.html#Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_DataAreaClass_ChumonJissekiLineClass_ChumonDate
+  commentId: P:Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.ChumonDate
+  fullName: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.ChumonDate
+  nameWithType: ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.ChumonDate
+- uid: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.ChumonDate*
+  name: ChumonDate
+  href: api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.html#Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_DataAreaClass_ChumonJissekiLineClass_ChumonDate_
+  commentId: Overload:Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.ChumonDate
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.ChumonDate
+  nameWithType: ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.ChumonDate
 - uid: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.ChumonKingaku
   name: ChumonKingaku
   href: api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.html#Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_DataAreaClass_ChumonJissekiLineClass_ChumonKingaku
@@ -11030,6 +11043,34 @@ references:
   commentId: T:Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem
   fullName: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem
   nameWithType: ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem
+- uid: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.#ctor
+  name: SelecteWhereItem()
+  href: api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.html#Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_KeywordAreaClass_KeyAreaClass_SelecteWhereItem__ctor
+  commentId: M:Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.#ctor
+  name.vb: New()
+  fullName: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.SelecteWhereItem()
+  fullName.vb: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.New()
+  nameWithType: ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.SelecteWhereItem()
+  nameWithType.vb: ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.New()
+- uid: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.#ctor(System.String,System.String,System.String)
+  name: SelecteWhereItem(string, string, string)
+  href: api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.html#Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_KeywordAreaClass_KeyAreaClass_SelecteWhereItem__ctor_System_String_System_String_System_String_
+  commentId: M:Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.SelecteWhereItem(string, string, string)
+  fullName.vb: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.New(String, String, String)
+  nameWithType: ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.SelecteWhereItem(string, string, string)
+  nameWithType.vb: ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.New(String, String, String)
+- uid: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.#ctor*
+  name: SelecteWhereItem
+  href: api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.html#Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_KeywordAreaClass_KeyAreaClass_SelecteWhereItem__ctor_
+  commentId: Overload:Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.SelecteWhereItem
+  fullName.vb: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.New
+  nameWithType: ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.SelecteWhereItem
+  nameWithType.vb: ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.New
 - uid: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.ComparisonOperator
   name: ComparisonOperator
   href: api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.html#Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_KeywordAreaClass_KeyAreaClass_SelecteWhereItem_ComparisonOperator

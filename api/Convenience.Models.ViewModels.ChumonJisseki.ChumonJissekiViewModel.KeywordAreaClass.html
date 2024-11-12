@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class ChumonJissekiViewModel.KeywordAreaClass | Convenience ">
       
-      
+      <meta name="description" content="ソートキー・検索キーエリア管理用クラス">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_KeywordAreaClass" data-uid="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass" class="text-break">
-Class ChumonJissekiViewModel.KeywordAreaClass  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ChumonJisseki/ChumonJissekiViewModel.cs/#L26"><i class="bi bi-code-slash"></i></a>
+Class ChumonJissekiViewModel.KeywordAreaClass  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ChumonJisseki/ChumonJissekiViewModel.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,11 +97,12 @@ Class ChumonJissekiViewModel.KeywordAreaClass  <a class="header-action link-seco
   <dl><dt>Assembly</dt><dd>Convenience.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>ソートキー・検索キーエリア管理用クラス</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ChumonJissekiViewModel.KeywordAreaClass : ChumonJisseki</code></pre>
+    <pre><code class="lang-csharp hljs">public class ChumonJissekiViewModel.KeywordAreaClass : IRetrivalViewModel&lt;ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass&gt;.IKeywordAreaClass</code></pre>
   </div>
 
 
@@ -111,34 +112,21 @@ Class ChumonJissekiViewModel.KeywordAreaClass  <a class="header-action link-seco
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html">ChumonJisseki</a></div>
       <div><span class="xref">ChumonJissekiViewModel.KeywordAreaClass</span></div>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.html">IRetrivalViewModel</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.html">ChumonJissekiViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.html">DataAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.html">ChumonJissekiLineClass</a>&gt;.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.html">IKeywordAreaClass</a></div>
+    </dd>
+  </dl>
 
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html#Convenience_Models_DataModels_ChumonJisseki_ChumonId">ChumonJisseki.ChumonId</a>
-    </div>
-    <div>
-      <a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html#Convenience_Models_DataModels_ChumonJisseki_ShiireSakiId">ChumonJisseki.ShiireSakiId</a>
-    </div>
-    <div>
-      <a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html#Convenience_Models_DataModels_ChumonJisseki_ChumonDate">ChumonJisseki.ChumonDate</a>
-    </div>
-    <div>
-      <a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html#Convenience_Models_DataModels_ChumonJisseki_ShiireSakiMaster">ChumonJisseki.ShiireSakiMaster</a>
-    </div>
-    <div>
-      <a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html#Convenience_Models_DataModels_ChumonJisseki_ChumonJissekiMeisais">ChumonJisseki.ChumonJissekiMeisais</a>
-    </div>
-    <div>
-      <a class="xref" href="Convenience.Models.DataModels.ChumonJisseki.html#Convenience_Models_DataModels_ChumonJisseki_Version">ChumonJisseki.Version</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -175,10 +163,12 @@ Class ChumonJissekiViewModel.KeywordAreaClass  <a class="header-action link-seco
 
   <h3 id="Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_KeywordAreaClass__ctor" data-uid="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.#ctor">
   KeywordAreaClass()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ChumonJisseki/ChumonJissekiViewModel.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ChumonJisseki/ChumonJissekiViewModel.cs/#L57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>コンストラクター
+ソートキーエリア・検索キーエリア管理用オブジェクト初期化</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -205,14 +195,15 @@ Class ChumonJissekiViewModel.KeywordAreaClass  <a class="header-action link-seco
 
   <h3 id="Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_KeywordAreaClass_KeyArea" data-uid="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyArea">
   KeyArea
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ChumonJisseki/ChumonJissekiViewModel.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ChumonJisseki/ChumonJissekiViewModel.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>検索キーエリア管理用</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass KeyArea { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IRetrivalViewModel&lt;ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass&gt;.IKeywordAreaClass.IKeyAreaClass KeyArea { get; set; }</code></pre>
   </div>
 
 
@@ -221,7 +212,7 @@ Class ChumonJissekiViewModel.KeywordAreaClass  <a class="header-action link-seco
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.html">ChumonJissekiViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.html">KeywordAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.html">KeyAreaClass</a></dt>
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.html">IRetrivalViewModel</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.html">ChumonJissekiViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.html">DataAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.html">ChumonJissekiLineClass</a>&gt;.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.html">IKeywordAreaClass</a>.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.IKeyAreaClass.html">IKeyAreaClass</a></dt>
     <dd></dd>
   </dl>
 
@@ -236,14 +227,15 @@ Class ChumonJissekiViewModel.KeywordAreaClass  <a class="header-action link-seco
 
   <h3 id="Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_KeywordAreaClass_SortArea" data-uid="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.SortArea">
   SortArea
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ChumonJisseki/ChumonJissekiViewModel.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ChumonJisseki/ChumonJissekiViewModel.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>ソートキーエリア管理用</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ChumonJissekiViewModel.KeywordAreaClass.SortAreaClass SortArea { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IRetrivalViewModel&lt;ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass&gt;.IKeywordAreaClass.ISortAreaClass SortArea { get; set; }</code></pre>
   </div>
 
 
@@ -252,7 +244,7 @@ Class ChumonJissekiViewModel.KeywordAreaClass  <a class="header-action link-seco
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.html">ChumonJissekiViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.html">KeywordAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.SortAreaClass.html">SortAreaClass</a></dt>
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.html">IRetrivalViewModel</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.html">ChumonJissekiViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.html">DataAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.html">ChumonJissekiLineClass</a>&gt;.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.html">IKeywordAreaClass</a>.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.ISortAreaClass.html">ISortAreaClass</a></dt>
     <dd></dd>
   </dl>
 
@@ -267,7 +259,7 @@ Class ChumonJissekiViewModel.KeywordAreaClass  <a class="header-action link-seco
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ChumonJisseki/ChumonJissekiViewModel.cs/#L26" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ChumonJisseki/ChumonJissekiViewModel.cs/#L43" class="edit-link">Edit this page</a>
         </div>
 
 

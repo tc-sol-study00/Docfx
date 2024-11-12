@@ -642,6 +642,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.Comparisons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.Comparisons.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Interfaces.IChumon.yml",
       "output": {
         ".html": {
@@ -716,6 +726,86 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Interfaces.IKaikeiService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IRetrivalService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IRetrivalService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IRetrivalViewModel-1.IDataAreaClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IRetrivalViewModel-1.IDataAreaClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.IKeyAreaClass.SelecteWhereItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.IKeyAreaClass.SelecteWhereItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.IKeyAreaClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.IKeyAreaClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.ISortAreaClass.SortEventRec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.ISortAreaClass.SortEventRec.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.ISortAreaClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.ISortAreaClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IRetrivalViewModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IRetrivalViewModel-1.html"
         }
       },
       "version": ""
@@ -1292,40 +1382,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.Comparisons.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.Comparisons.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.yml",
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.html"
         }
       },
       "version": ""
@@ -1432,40 +1492,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.KeyAreaClass.Comparisons.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.KeyAreaClass.Comparisons.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.KeyAreaClass.yml",
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.KeyAreaClass.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.html"
         }
       },
       "version": ""
@@ -1562,40 +1592,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.KeyAreaClass.Comparisons.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.KeyAreaClass.Comparisons.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.KeyAreaClass.yml",
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.KeyAreaClass.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.html"
         }
       },
       "version": ""
@@ -1692,40 +1692,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass.KeyAreaClass.Comparisons.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass.KeyAreaClass.Comparisons.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass.KeyAreaClass.yml",
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass.KeyAreaClass.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.html"
         }
       },
       "version": ""

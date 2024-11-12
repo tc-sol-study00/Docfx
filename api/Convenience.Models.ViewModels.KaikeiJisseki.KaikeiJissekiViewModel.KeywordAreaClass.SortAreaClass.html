@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass | Convenience ">
       
-      
+      <meta name="description" content="コンストラクター ソートキーエリア・検索キーエリア管理用オブジェクト初期化">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_KeywordAreaClass_SortAreaClass" data-uid="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass" class="text-break">
-Class KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/KaikeiJisseki/KaikeiJissekiViewModel.cs/#L34"><i class="bi bi-code-slash"></i></a>
+Class KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/KaikeiJisseki/KaikeiJissekiViewModel.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,11 +97,13 @@ Class KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass  <a class="header-ac
   <dl><dt>Assembly</dt><dd>Convenience.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>コンストラクター
+ソートキーエリア・検索キーエリア管理用オブジェクト初期化</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass</code></pre>
+    <pre><code class="lang-csharp hljs">public class KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass : IRetrivalViewModel&lt;KaikeiJissekiViewModel.DataAreaClass.KaikeiJissekiLineClass&gt;.IKeywordAreaClass.ISortAreaClass</code></pre>
   </div>
 
 
@@ -115,6 +117,12 @@ Class KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass  <a class="header-ac
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.html">IRetrivalViewModel</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.html">KaikeiJissekiViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.html">DataAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.KaikeiJissekiLineClass.html">KaikeiJissekiLineClass</a>&gt;.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.html">IKeywordAreaClass</a>.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.ISortAreaClass.html">ISortAreaClass</a></div>
+    </dd>
+  </dl>
 
 
   <dl class="typelist inheritedMembers">
@@ -156,10 +164,11 @@ Class KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass  <a class="header-ac
 
   <h3 id="Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_KeywordAreaClass_SortAreaClass__ctor" data-uid="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.#ctor">
   SortAreaClass()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/KaikeiJisseki/KaikeiJissekiViewModel.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/KaikeiJisseki/KaikeiJissekiViewModel.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>ソートキーエリア管理用クラス</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -178,41 +187,6 @@ Class KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass  <a class="header-ac
 
 
 
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_KeywordAreaClass_SortAreaClass_LineCountForSelectorOfOrder" data-uid="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.LineCountForSelectorOfOrder">
-  LineCountForSelectorOfOrder
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/KaikeiJisseki/KaikeiJissekiViewModel.cs/#L44"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Where入力行数</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private const int LineCountForSelectorOfOrder = 6</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="properties">Properties
 </h2>
 
@@ -221,14 +195,15 @@ Class KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass  <a class="header-ac
 
   <h3 id="Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_KeywordAreaClass_SortAreaClass_KeyEventList" data-uid="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.KeyEventList">
   KeyEventList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/KaikeiJisseki/KaikeiJissekiViewModel.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/KaikeiJisseki/KaikeiJissekiViewModel.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>ソートキー指示データ管理用</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec[] KeyEventList { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IRetrivalViewModel&lt;KaikeiJissekiViewModel.DataAreaClass.KaikeiJissekiLineClass&gt;.IKeywordAreaClass.ISortAreaClass.SortEventRec[] KeyEventList { get; set; }</code></pre>
   </div>
 
 
@@ -237,7 +212,7 @@ Class KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass  <a class="header-ac
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.html">SortEventRec</a>[]</dt>
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.ISortAreaClass.SortEventRec.html">SortEventRec</a>[]</dt>
     <dd></dd>
   </dl>
 
@@ -252,10 +227,11 @@ Class KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass  <a class="header-ac
 
   <h3 id="Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_KeywordAreaClass_SortAreaClass_KeyList" data-uid="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.KeyList">
   KeyList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/KaikeiJisseki/KaikeiJissekiViewModel.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/KaikeiJisseki/KaikeiJissekiViewModel.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>ソートキー一覧表示用</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -280,11 +256,84 @@ public SelectList KeyList { get; set; }</code></pre>
 
 
 
+  <a id="Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_KeywordAreaClass_SortAreaClass_LineCountForSelectorOfOrder_" data-uid="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.LineCountForSelectorOfOrder*"></a>
+
+  <h3 id="Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_KeywordAreaClass_SortAreaClass_LineCountForSelectorOfOrder" data-uid="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.LineCountForSelectorOfOrder">
+  LineCountForSelectorOfOrder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/KaikeiJisseki/KaikeiJissekiViewModel.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>ソートキー入力最大行数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LineCountForSelectorOfOrder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_KeywordAreaClass_SortAreaClass_GetDefaltSortForSort_" data-uid="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.GetDefaltSortForSort*"></a>
+
+  <h3 id="Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_KeywordAreaClass_SortAreaClass_GetDefaltSortForSort_System_Int32_" data-uid="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.GetDefaltSortForSort(System.Int32)">
+  GetDefaltSortForSort(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/KaikeiJisseki/KaikeiJissekiViewModel.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>ソートキー指示データ初期データセット</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRetrivalViewModel&lt;KaikeiJissekiViewModel.DataAreaClass.KaikeiJissekiLineClass&gt;.IKeywordAreaClass.ISortAreaClass.SortEventRec GetDefaltSortForSort(int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.html">IRetrivalViewModel</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.html">KaikeiJissekiViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.html">DataAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.KaikeiJissekiLineClass.html">KaikeiJissekiLineClass</a>&gt;.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.html">IKeywordAreaClass</a>.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.ISortAreaClass.html">ISortAreaClass</a>.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.ISortAreaClass.SortEventRec.html">SortEventRec</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/KaikeiJisseki/KaikeiJissekiViewModel.cs/#L34" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/KaikeiJisseki/KaikeiJissekiViewModel.cs/#L58" class="edit-link">Edit this page</a>
         </div>
 
 

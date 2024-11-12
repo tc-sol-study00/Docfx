@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class TentoZaikoViewModel.KeywordAreaClass | Convenience ">
       
-      
+      <meta name="description" content="ソートキー・検索キーエリア管理用クラス">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Models_ViewModels_TentoZaiko_TentoZaikoViewModel_KeywordAreaClass" data-uid="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass" class="text-break">
-Class TentoZaikoViewModel.KeywordAreaClass  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L23"><i class="bi bi-code-slash"></i></a>
+Class TentoZaikoViewModel.KeywordAreaClass  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,11 +97,12 @@ Class TentoZaikoViewModel.KeywordAreaClass  <a class="header-action link-seconda
   <dl><dt>Assembly</dt><dd>Convenience.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>ソートキー・検索キーエリア管理用クラス</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TentoZaikoViewModel.KeywordAreaClass</code></pre>
+    <pre><code class="lang-csharp hljs">public class TentoZaikoViewModel.KeywordAreaClass : IRetrivalViewModel&lt;TentoZaikoViewModel.DataAreaClass.TentoZaIkoLine&gt;.IKeywordAreaClass</code></pre>
   </div>
 
 
@@ -115,6 +116,12 @@ Class TentoZaikoViewModel.KeywordAreaClass  <a class="header-action link-seconda
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.html">IRetrivalViewModel</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.html">TentoZaikoViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.html">DataAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.TentoZaIkoLine.html">TentoZaIkoLine</a>&gt;.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.html">IKeywordAreaClass</a></div>
+    </dd>
+  </dl>
 
 
   <dl class="typelist inheritedMembers">
@@ -156,10 +163,12 @@ Class TentoZaikoViewModel.KeywordAreaClass  <a class="header-action link-seconda
 
   <h3 id="Convenience_Models_ViewModels_TentoZaiko_TentoZaikoViewModel_KeywordAreaClass__ctor" data-uid="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass.#ctor">
   KeywordAreaClass()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>コンストラクター
+ソートキーエリア・検索キーエリア管理用オブジェクト初期化</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -186,14 +195,15 @@ Class TentoZaikoViewModel.KeywordAreaClass  <a class="header-action link-seconda
 
   <h3 id="Convenience_Models_ViewModels_TentoZaiko_TentoZaikoViewModel_KeywordAreaClass_KeyArea" data-uid="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass.KeyArea">
   KeyArea
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>検索キーエリア管理用</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TentoZaikoViewModel.KeywordAreaClass.KeyAreaClass KeyArea { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IRetrivalViewModel&lt;TentoZaikoViewModel.DataAreaClass.TentoZaIkoLine&gt;.IKeywordAreaClass.IKeyAreaClass KeyArea { get; set; }</code></pre>
   </div>
 
 
@@ -202,7 +212,7 @@ Class TentoZaikoViewModel.KeywordAreaClass  <a class="header-action link-seconda
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.html">TentoZaikoViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass.html">KeywordAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass.KeyAreaClass.html">KeyAreaClass</a></dt>
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.html">IRetrivalViewModel</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.html">TentoZaikoViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.html">DataAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.TentoZaIkoLine.html">TentoZaIkoLine</a>&gt;.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.html">IKeywordAreaClass</a>.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.IKeyAreaClass.html">IKeyAreaClass</a></dt>
     <dd></dd>
   </dl>
 
@@ -217,14 +227,15 @@ Class TentoZaikoViewModel.KeywordAreaClass  <a class="header-action link-seconda
 
   <h3 id="Convenience_Models_ViewModels_TentoZaiko_TentoZaikoViewModel_KeywordAreaClass_SortArea" data-uid="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass.SortArea">
   SortArea
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>ソートキーエリア管理用</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TentoZaikoViewModel.KeywordAreaClass.SortAreaClass SortArea { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IRetrivalViewModel&lt;TentoZaikoViewModel.DataAreaClass.TentoZaIkoLine&gt;.IKeywordAreaClass.ISortAreaClass SortArea { get; set; }</code></pre>
   </div>
 
 
@@ -233,7 +244,7 @@ Class TentoZaikoViewModel.KeywordAreaClass  <a class="header-action link-seconda
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.html">TentoZaikoViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass.html">KeywordAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass.SortAreaClass.html">SortAreaClass</a></dt>
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.html">IRetrivalViewModel</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.html">TentoZaikoViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.html">DataAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.TentoZaIkoLine.html">TentoZaIkoLine</a>&gt;.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.html">IKeywordAreaClass</a>.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.ISortAreaClass.html">ISortAreaClass</a></dt>
     <dd></dd>
   </dl>
 
@@ -248,7 +259,7 @@ Class TentoZaikoViewModel.KeywordAreaClass  <a class="header-action link-seconda
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L23" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L44" class="edit-link">Edit this page</a>
         </div>
 
 

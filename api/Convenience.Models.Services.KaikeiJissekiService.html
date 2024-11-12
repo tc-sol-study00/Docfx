@@ -102,7 +102,7 @@ Class KaikeiJissekiService  <a class="header-action link-secondary" title="View 
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class KaikeiJissekiService : IKaikeiJissekiService, ISharedTools</code></pre>
+    <pre><code class="lang-csharp hljs">public class KaikeiJissekiService : IKaikeiJissekiService, IRetrivalService, ISharedTools</code></pre>
   </div>
 
 
@@ -120,6 +120,7 @@ Class KaikeiJissekiService  <a class="header-action link-secondary" title="View 
     <dt>Implements</dt>
     <dd>
       <div><a class="xref" href="Convenience.Models.Interfaces.IKaikeiJissekiService.html">IKaikeiJissekiService</a></div>
+      <div><a class="xref" href="Convenience.Models.Interfaces.IRetrivalService.html">IRetrivalService</a></div>
       <div><a class="xref" href="Convenience.Models.Interfaces.ISharedTools.html">ISharedTools</a></div>
     </dd>
   </dl>
@@ -232,109 +233,6 @@ Class KaikeiJissekiService  <a class="header-action link-secondary" title="View 
 </h2>
 
 
-  <a id="Convenience_Models_Services_KaikeiJissekiService_BuildComparison_" data-uid="Convenience.Models.Services.KaikeiJissekiService.BuildComparison*"></a>
-
-  <h3 id="Convenience_Models_Services_KaikeiJissekiService_BuildComparison__1_System_String_System_String_System_Object_" data-uid="Convenience.Models.Services.KaikeiJissekiService.BuildComparison``1(System.String,System.String,System.Object)">
-  BuildComparison&lt;T&gt;(string, string, object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L212"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Where系ラムダ式を作る</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private static Expression&lt;Func&lt;T, bool&gt;&gt; BuildComparison&lt;T&gt;(string propertyName, string strComparisonType, object value)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>左辺</p>
-</dd>
-    <dt><code>strComparisonType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>比較演算子に対する指示</p>
-</dd>
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd><p>右辺</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
-    <dd><p>Where系ラムダ式</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-  <a id="Convenience_Models_Services_KaikeiJissekiService_CombineExpressions_" data-uid="Convenience.Models.Services.KaikeiJissekiService.CombineExpressions*"></a>
-
-  <h3 id="Convenience_Models_Services_KaikeiJissekiService_CombineExpressions__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___System_Linq_Expressions_Expression_System_Func___0_System_Boolean___" data-uid="Convenience.Models.Services.KaikeiJissekiService.CombineExpressions``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
-  CombineExpressions&lt;T&gt;(Expression&lt;Func&lt;T, bool&gt;&gt;, Expression&lt;Func&lt;T, bool&gt;&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L194"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>複数のWhere系ラムダ式をAndで結ぶ</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private static Expression&lt;Func&lt;T, bool&gt;&gt; CombineExpressions&lt;T&gt;(Expression&lt;Func&lt;T, bool&gt;&gt; expr1, Expression&lt;Func&lt;T, bool&gt;&gt; expr2)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>expr1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
-    <dd><p>式に追加される先</p>
-</dd>
-    <dt><code>expr2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
-    <dd><p>式に追加する元</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
-    <dd><p>Andで式に追加された先</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>lambaの対象タイプ</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
   <a id="Convenience_Models_Services_KaikeiJissekiService_KaikeiJissekiRetrival_" data-uid="Convenience.Models.Services.KaikeiJissekiService.KaikeiJissekiRetrival*"></a>
 
   <h3 id="Convenience_Models_Services_KaikeiJissekiService_KaikeiJissekiRetrival_Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_" data-uid="Convenience.Models.Services.KaikeiJissekiService.KaikeiJissekiRetrival(Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel)">
@@ -374,34 +272,44 @@ Class KaikeiJissekiService  <a class="header-action link-secondary" title="View 
 
 
 
-  <a id="Convenience_Models_Services_KaikeiJissekiService_SearchItemRecognizer_" data-uid="Convenience.Models.Services.KaikeiJissekiService.SearchItemRecognizer*"></a>
+  <a id="Convenience_Models_Services_KaikeiJissekiService_WhereLambda1_" data-uid="Convenience.Models.Services.KaikeiJissekiService.WhereLambda1*"></a>
 
-  <h3 id="Convenience_Models_Services_KaikeiJissekiService_SearchItemRecognizer_Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_KeywordAreaClass_KeyAreaClass_SelecteWhereItem___System_Linq_IQueryable_Convenience_Models_DataModels_KaikeiJisseki__" data-uid="Convenience.Models.Services.KaikeiJissekiService.SearchItemRecognizer(Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem[],System.Linq.IQueryable{Convenience.Models.DataModels.KaikeiJisseki})">
-  SearchItemRecognizer(SelecteWhereItem[], IQueryable&lt;KaikeiJisseki&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Models_Services_KaikeiJissekiService_WhereLambda1__1_System_String_System_String_System_String_" data-uid="Convenience.Models.Services.KaikeiJissekiService.WhereLambda1``1(System.String,System.String,System.String)">
+  WhereLambda1&lt;T&gt;(string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>検索指示項目を認識しラムダ式を作る</p>
+  <div class="markdown level1 summary"><p>注文実績明細に対する条件ラムダ式</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private static IQueryable&lt;KaikeiJisseki&gt; SearchItemRecognizer(KaikeiJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem[] argSelecteWhereItemArray, IQueryable&lt;KaikeiJisseki&gt; kaikeiJissekis)</code></pre>
+    <pre><code class="lang-csharp hljs">public Expression&lt;Func&lt;T, bool&gt;&gt;? WhereLambda1&lt;T&gt;(string leftSide, string comparison, string rightSide)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>argSelecteWhereItemArray</code> <a class="xref" href="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.html">SelecteWhereItem</a>[]</dt>
-    <dd><p>検索指示項目</p>
+    <dt><code>leftSide</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>左辺</p>
 </dd>
-    <dt><code>kaikeiJissekis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="Convenience.Models.DataModels.KaikeiJisseki.html">KaikeiJisseki</a>&gt;</dt>
-    <dd><p>会計実績クエリ</p>
+    <dt><code>comparison</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>比較演算子</p>
+</dd>
+    <dt><code>rightSide</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>右辺</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="Convenience.Models.DataModels.KaikeiJisseki.html">KaikeiJisseki</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd><p>ラムダ式</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
     <dd></dd>
   </dl>
 
@@ -414,38 +322,41 @@ Class KaikeiJissekiService  <a class="header-action link-secondary" title="View 
 
 
 
+  <a id="Convenience_Models_Services_KaikeiJissekiService_WhereLambda2_" data-uid="Convenience.Models.Services.KaikeiJissekiService.WhereLambda2*"></a>
 
-  <a id="Convenience_Models_Services_KaikeiJissekiService_SetSortKey_" data-uid="Convenience.Models.Services.KaikeiJissekiService.SetSortKey*"></a>
-
-  <h3 id="Convenience_Models_Services_KaikeiJissekiService_SetSortKey_Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_KeywordAreaClass_SortAreaClass_SortEventRec___System_Collections_Generic_IEnumerable_Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_DataAreaClass_KaikeiJissekiLineClass__" data-uid="Convenience.Models.Services.KaikeiJissekiService.SetSortKey(Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec[],System.Collections.Generic.IEnumerable{Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.KaikeiJissekiLineClass})">
-  SetSortKey(SortEventRec[], IEnumerable&lt;KaikeiJissekiLineClass&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Models_Services_KaikeiJissekiService_WhereLambda2__1_System_String_System_String_System_String_" data-uid="Convenience.Models.Services.KaikeiJissekiService.WhereLambda2``1(System.String,System.String,System.String)">
+  WhereLambda2&lt;T&gt;(string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L129"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>画面で指示されたソート指示を元に表情報に対しソートする</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private static IEnumerable&lt;KaikeiJissekiViewModel.DataAreaClass.KaikeiJissekiLineClass&gt; SetSortKey(KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec[] argSortEventRec, IEnumerable&lt;KaikeiJissekiViewModel.DataAreaClass.KaikeiJissekiLineClass&gt; argKaikeijissekis)</code></pre>
+    <pre><code class="lang-csharp hljs">public Expression&lt;Func&lt;T, bool&gt;&gt;? WhereLambda2&lt;T&gt;(string leftSide, string comparison, string rightSide)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>argSortEventRec</code> <a class="xref" href="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.html">SortEventRec</a>[]</dt>
-    <dd><p>ソート指示部</p>
-</dd>
-    <dt><code>argKaikeijissekis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.html">KaikeiJissekiViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.html">DataAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.KaikeiJissekiLineClass.html">KaikeiJissekiLineClass</a>&gt;</dt>
-    <dd><p>ソート対象となる表示用会計実績データ</p>
-</dd>
+    <dt><code>leftSide</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>comparison</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rightSide</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.html">KaikeiJissekiViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.html">DataAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.KaikeiJissekiLineClass.html">KaikeiJissekiLineClass</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
 
 
 

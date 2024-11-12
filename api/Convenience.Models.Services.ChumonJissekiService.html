@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Models_Services_ChumonJissekiService" data-uid="Convenience.Models.Services.ChumonJissekiService" class="text-break">
-Class ChumonJissekiService  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonJissekiService.cs/#L21"><i class="bi bi-code-slash"></i></a>
+Class ChumonJissekiService  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonJissekiService.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class ChumonJissekiService  <a class="header-action link-secondary" title="View 
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ChumonJissekiService : IChumonJissekiService, ISharedTools</code></pre>
+    <pre><code class="lang-csharp hljs">public class ChumonJissekiService : IChumonJissekiService, IRetrivalService, ISharedTools</code></pre>
   </div>
 
 
@@ -120,6 +120,7 @@ Class ChumonJissekiService  <a class="header-action link-secondary" title="View 
     <dt>Implements</dt>
     <dd>
       <div><a class="xref" href="Convenience.Models.Interfaces.IChumonJissekiService.html">IChumonJissekiService</a></div>
+      <div><a class="xref" href="Convenience.Models.Interfaces.IRetrivalService.html">IRetrivalService</a></div>
       <div><a class="xref" href="Convenience.Models.Interfaces.ISharedTools.html">ISharedTools</a></div>
     </dd>
   </dl>
@@ -164,7 +165,7 @@ Class ChumonJissekiService  <a class="header-action link-secondary" title="View 
 
   <h3 id="Convenience_Models_Services_ChumonJissekiService__ctor_Convenience_Data_ConvenienceContext_" data-uid="Convenience.Models.Services.ChumonJissekiService.#ctor(Convenience.Data.ConvenienceContext)">
   ChumonJissekiService(ConvenienceContext)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonJissekiService.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonJissekiService.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>コンストラクタ</p>
@@ -200,7 +201,7 @@ Class ChumonJissekiService  <a class="header-action link-secondary" title="View 
 
   <h3 id="Convenience_Models_Services_ChumonJissekiService__context" data-uid="Convenience.Models.Services.ChumonJissekiService._context">
   _context
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonJissekiService.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonJissekiService.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>DBコンテクスト</p>
@@ -232,66 +233,11 @@ Class ChumonJissekiService  <a class="header-action link-secondary" title="View 
 </h2>
 
 
-  <a id="Convenience_Models_Services_ChumonJissekiService_BuildComparison_" data-uid="Convenience.Models.Services.ChumonJissekiService.BuildComparison*"></a>
-
-  <h3 id="Convenience_Models_Services_ChumonJissekiService_BuildComparison__1_System_String_System_String_System_Object_" data-uid="Convenience.Models.Services.ChumonJissekiService.BuildComparison``1(System.String,System.String,System.Object)">
-  BuildComparison&lt;T&gt;(string, string, object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonJissekiService.cs/#L265"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Where系ラムダ式を作る</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private static Expression&lt;Func&lt;T, bool&gt;&gt; BuildComparison&lt;T&gt;(string propertyName, string strComparisonType, object value)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>左辺</p>
-</dd>
-    <dt><code>strComparisonType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>比較演算子に対する指示</p>
-</dd>
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd><p>右辺</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
-    <dd><p>Where系ラムダ式</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
   <a id="Convenience_Models_Services_ChumonJissekiService_ChumonJissekiRetrival_" data-uid="Convenience.Models.Services.ChumonJissekiService.ChumonJissekiRetrival*"></a>
 
   <h3 id="Convenience_Models_Services_ChumonJissekiService_ChumonJissekiRetrival_Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_" data-uid="Convenience.Models.Services.ChumonJissekiService.ChumonJissekiRetrival(Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel)">
   ChumonJissekiRetrival(ChumonJissekiViewModel)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonJissekiService.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonJissekiService.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>注文実績検索</p>
@@ -326,83 +272,38 @@ Class ChumonJissekiService  <a class="header-action link-secondary" title="View 
 
 
 
-  <a id="Convenience_Models_Services_ChumonJissekiService_CombineExpressions_" data-uid="Convenience.Models.Services.ChumonJissekiService.CombineExpressions*"></a>
+  <a id="Convenience_Models_Services_ChumonJissekiService_WhereLambda1_" data-uid="Convenience.Models.Services.ChumonJissekiService.WhereLambda1*"></a>
 
-  <h3 id="Convenience_Models_Services_ChumonJissekiService_CombineExpressions__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___System_Linq_Expressions_Expression_System_Func___0_System_Boolean___" data-uid="Convenience.Models.Services.ChumonJissekiService.CombineExpressions``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
-  CombineExpressions&lt;T&gt;(Expression&lt;Func&lt;T, bool&gt;&gt;, Expression&lt;Func&lt;T, bool&gt;&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonJissekiService.cs/#L247"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Models_Services_ChumonJissekiService_WhereLambda1__1_System_String_System_String_System_String_" data-uid="Convenience.Models.Services.ChumonJissekiService.WhereLambda1``1(System.String,System.String,System.String)">
+  WhereLambda1&lt;T&gt;(string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonJissekiService.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>複数のWhere系ラムダ式をAndで結ぶ</p>
+  <div class="markdown level1 summary"><p>注文実績明細に対する条件ラムダ式</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private static Expression&lt;Func&lt;T, bool&gt;&gt; CombineExpressions&lt;T&gt;(Expression&lt;Func&lt;T, bool&gt;&gt; expr1, Expression&lt;Func&lt;T, bool&gt;&gt; expr2)</code></pre>
+    <pre><code class="lang-csharp hljs">public Expression&lt;Func&lt;T, bool&gt;&gt;? WhereLambda1&lt;T&gt;(string leftSide, string comparison, string rightSide)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>expr1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
-    <dd><p>式に追加される先</p>
+    <dt><code>leftSide</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>左辺</p>
 </dd>
-    <dt><code>expr2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
-    <dd><p>式に追加する元</p>
+    <dt><code>comparison</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>比較演算子</p>
+</dd>
+    <dt><code>rightSide</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>右辺</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
-    <dd><p>Andで式に追加された先</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd><p>lambaの対象タイプ</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <a id="Convenience_Models_Services_ChumonJissekiService_SearchItemRecognizer_" data-uid="Convenience.Models.Services.ChumonJissekiService.SearchItemRecognizer*"></a>
-
-  <h3 id="Convenience_Models_Services_ChumonJissekiService_SearchItemRecognizer__1_Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_KeywordAreaClass_KeyAreaClass_SelecteWhereItem___System_Collections_Generic_IEnumerable___0__" data-uid="Convenience.Models.Services.ChumonJissekiService.SearchItemRecognizer``1(Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem[],System.Collections.Generic.IEnumerable{``0})">
-  SearchItemRecognizer&lt;T&gt;(SelecteWhereItem[], IEnumerable&lt;T&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonJissekiService.cs/#L143"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>検索指示項目を認識しラムダ式を作る</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private static IEnumerable&lt;T&gt; SearchItemRecognizer&lt;T&gt;(ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem[] argSelecteWhereItemArray, IEnumerable&lt;T&gt; Meisais)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>argSelecteWhereItemArray</code> <a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.KeyAreaClass.SelecteWhereItem.html">SelecteWhereItem</a>[]</dt>
-    <dd><p>検索指示項目</p>
-</dd>
-    <dt><code>Meisais</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
-    <dd><p>注文実績クエリ</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
-    <dd><p>ラムダ式で処理された検索結果（注文実績明細が渡されたら遅延実行）</p>
+    <dd><p>ラムダ式</p>
 </dd>
   </dl>
 
@@ -421,37 +322,41 @@ Class ChumonJissekiService  <a class="header-action link-secondary" title="View 
 
 
 
-  <a id="Convenience_Models_Services_ChumonJissekiService_SetSortKey_" data-uid="Convenience.Models.Services.ChumonJissekiService.SetSortKey*"></a>
+  <a id="Convenience_Models_Services_ChumonJissekiService_WhereLambda2_" data-uid="Convenience.Models.Services.ChumonJissekiService.WhereLambda2*"></a>
 
-  <h3 id="Convenience_Models_Services_ChumonJissekiService_SetSortKey_Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_KeywordAreaClass_SortAreaClass_SortEventRec___System_Collections_Generic_IEnumerable_Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_DataAreaClass_ChumonJissekiLineClass__" data-uid="Convenience.Models.Services.ChumonJissekiService.SetSortKey(Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec[],System.Collections.Generic.IEnumerable{Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass})">
-  SetSortKey(SortEventRec[], IEnumerable&lt;ChumonJissekiLineClass&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonJissekiService.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Models_Services_ChumonJissekiService_WhereLambda2__1_System_String_System_String_System_String_" data-uid="Convenience.Models.Services.ChumonJissekiService.WhereLambda2``1(System.String,System.String,System.String)">
+  WhereLambda2&lt;T&gt;(string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonJissekiService.cs/#L157"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>画面で指示されたソート指示を元に表情報に対しソートする</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private static IEnumerable&lt;ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass&gt; SetSortKey(ChumonJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec[] argSortEventRec, IEnumerable&lt;ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass&gt; argChumonJissekis)</code></pre>
+    <pre><code class="lang-csharp hljs">public Expression&lt;Func&lt;T, bool&gt;&gt;? WhereLambda2&lt;T&gt;(string leftSide, string comparison, string rightSide)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>argSortEventRec</code> <a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordAreaClass.SortAreaClass.SortEventRec.html">SortEventRec</a>[]</dt>
-    <dd><p>ソート指示部</p>
-</dd>
-    <dt><code>argChumonJissekis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.html">ChumonJissekiViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.html">DataAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.html">ChumonJissekiLineClass</a>&gt;</dt>
-    <dd><p>ソート対象となる表示用注文実績データ</p>
-</dd>
+    <dt><code>leftSide</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>comparison</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>rightSide</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.html">ChumonJissekiViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.html">DataAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.ChumonJissekiLineClass.html">ChumonJissekiLineClass</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -466,7 +371,7 @@ Class ChumonJissekiService  <a class="header-action link-secondary" title="View 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonJissekiService.cs/#L21" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ChumonJissekiService.cs/#L16" class="edit-link">Edit this page</a>
         </div>
 
 

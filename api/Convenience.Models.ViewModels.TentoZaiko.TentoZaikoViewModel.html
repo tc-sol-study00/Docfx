@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Models_ViewModels_TentoZaiko_TentoZaikoViewModel" data-uid="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel" class="text-break">
-Class TentoZaikoViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L14"><i class="bi bi-code-slash"></i></a>
+Class TentoZaikoViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class TentoZaikoViewModel  <a class="header-action link-secondary" title="View s
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TentoZaikoViewModel</code></pre>
+    <pre><code class="lang-csharp hljs">public class TentoZaikoViewModel : IRetrivalViewModel&lt;TentoZaikoViewModel.DataAreaClass.TentoZaIkoLine&gt;, ISharedTools</code></pre>
   </div>
 
 
@@ -116,6 +116,13 @@ Class TentoZaikoViewModel  <a class="header-action link-secondary" title="View s
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.html">IRetrivalViewModel</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.html">TentoZaikoViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.html">DataAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.TentoZaIkoLine.html">TentoZaIkoLine</a>&gt;</div>
+      <div><a class="xref" href="Convenience.Models.Interfaces.ISharedTools.html">ISharedTools</a></div>
+    </dd>
+  </dl>
 
 
   <dl class="typelist inheritedMembers">
@@ -157,10 +164,12 @@ Class TentoZaikoViewModel  <a class="header-action link-secondary" title="View s
 
   <h3 id="Convenience_Models_ViewModels_TentoZaiko_TentoZaikoViewModel__ctor" data-uid="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.#ctor">
   TentoZaikoViewModel()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>コンストラクタ
+ソート・検索キーエリア管理用オブジェクト初期化</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -187,14 +196,15 @@ Class TentoZaikoViewModel  <a class="header-action link-secondary" title="View s
 
   <h3 id="Convenience_Models_ViewModels_TentoZaiko_TentoZaikoViewModel_DataArea" data-uid="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataArea">
   DataArea
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>データ表示管理用</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TentoZaikoViewModel.DataAreaClass DataArea { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IRetrivalViewModel&lt;TentoZaikoViewModel.DataAreaClass.TentoZaIkoLine&gt;.IDataAreaClass DataArea { get; set; }</code></pre>
   </div>
 
 
@@ -203,7 +213,7 @@ Class TentoZaikoViewModel  <a class="header-action link-secondary" title="View s
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.html">TentoZaikoViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.html">DataAreaClass</a></dt>
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.html">IRetrivalViewModel</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.html">TentoZaikoViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.html">DataAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.TentoZaIkoLine.html">TentoZaIkoLine</a>&gt;.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IDataAreaClass.html">IDataAreaClass</a></dt>
     <dd></dd>
   </dl>
 
@@ -218,14 +228,15 @@ Class TentoZaikoViewModel  <a class="header-action link-secondary" title="View s
 
   <h3 id="Convenience_Models_ViewModels_TentoZaiko_TentoZaikoViewModel_KeywordArea" data-uid="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordArea">
   KeywordArea
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>ソートキー・検索キーエリア管理用</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TentoZaikoViewModel.KeywordAreaClass KeywordArea { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IRetrivalViewModel&lt;TentoZaikoViewModel.DataAreaClass.TentoZaIkoLine&gt;.IKeywordAreaClass KeywordArea { get; set; }</code></pre>
   </div>
 
 
@@ -234,7 +245,7 @@ Class TentoZaikoViewModel  <a class="header-action link-secondary" title="View s
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.html">TentoZaikoViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.KeywordAreaClass.html">KeywordAreaClass</a></dt>
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.html">IRetrivalViewModel</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.html">TentoZaikoViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.html">DataAreaClass</a>.<a class="xref" href="Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.TentoZaIkoLine.html">TentoZaIkoLine</a>&gt;.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.html">IKeywordAreaClass</a></dt>
     <dd></dd>
   </dl>
 
@@ -249,7 +260,7 @@ Class TentoZaikoViewModel  <a class="header-action link-secondary" title="View s
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L14" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/TentoZaiko/TentoZaIkoViewModel.cs/#L21" class="edit-link">Edit this page</a>
         </div>
 
 

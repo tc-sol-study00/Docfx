@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Models_Services_KaikeiJissekiService" data-uid="Convenience.Models.Services.KaikeiJissekiService" class="text-break">
-Class KaikeiJissekiService  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L16"><i class="bi bi-code-slash"></i></a>
+Class KaikeiJissekiService  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class KaikeiJissekiService  <a class="header-action link-secondary" title="View 
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class KaikeiJissekiService : IKaikeiJissekiService, IRetrivalService, ISharedTools</code></pre>
+    <pre><code class="lang-csharp hljs">public class KaikeiJissekiService : IKaikeiJissekiService, IRetrivalService, ITotalSummaryRetrival, ISharedTools</code></pre>
   </div>
 
 
@@ -121,6 +121,7 @@ Class KaikeiJissekiService  <a class="header-action link-secondary" title="View 
     <dd>
       <div><a class="xref" href="Convenience.Models.Interfaces.IKaikeiJissekiService.html">IKaikeiJissekiService</a></div>
       <div><a class="xref" href="Convenience.Models.Interfaces.IRetrivalService.html">IRetrivalService</a></div>
+      <div><a class="xref" href="Convenience.Models.Interfaces.ITotalSummaryRetrival.html">ITotalSummaryRetrival</a></div>
       <div><a class="xref" href="Convenience.Models.Interfaces.ISharedTools.html">ISharedTools</a></div>
     </dd>
   </dl>
@@ -165,7 +166,7 @@ Class KaikeiJissekiService  <a class="header-action link-secondary" title="View 
 
   <h3 id="Convenience_Models_Services_KaikeiJissekiService__ctor_Convenience_Data_ConvenienceContext_" data-uid="Convenience.Models.Services.KaikeiJissekiService.#ctor(Convenience.Data.ConvenienceContext)">
   KaikeiJissekiService(ConvenienceContext)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>コンストラクタ</p>
@@ -201,7 +202,7 @@ Class KaikeiJissekiService  <a class="header-action link-secondary" title="View 
 
   <h3 id="Convenience_Models_Services_KaikeiJissekiService__context" data-uid="Convenience.Models.Services.KaikeiJissekiService._context">
   _context
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>DBコンテクスト</p>
@@ -237,7 +238,7 @@ Class KaikeiJissekiService  <a class="header-action link-secondary" title="View 
 
   <h3 id="Convenience_Models_Services_KaikeiJissekiService_KaikeiJissekiRetrival_Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_" data-uid="Convenience.Models.Services.KaikeiJissekiService.KaikeiJissekiRetrival(Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel)">
   KaikeiJissekiRetrival(KaikeiJissekiViewModel)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>会計実績検索</p>
@@ -276,7 +277,7 @@ Class KaikeiJissekiService  <a class="header-action link-secondary" title="View 
 
   <h3 id="Convenience_Models_Services_KaikeiJissekiService_WhereLambda1__1_System_String_System_String_System_String_" data-uid="Convenience.Models.Services.KaikeiJissekiService.WhereLambda1``1(System.String,System.String,System.String)">
   WhereLambda1&lt;T&gt;(string, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L105"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>注文実績明細に対する条件ラムダ式</p>
@@ -326,7 +327,7 @@ Class KaikeiJissekiService  <a class="header-action link-secondary" title="View 
 
   <h3 id="Convenience_Models_Services_KaikeiJissekiService_WhereLambda2__1_System_String_System_String_System_String_" data-uid="Convenience.Models.Services.KaikeiJissekiService.WhereLambda2``1(System.String,System.String,System.String)">
   WhereLambda2&lt;T&gt;(string, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -371,7 +372,7 @@ Class KaikeiJissekiService  <a class="header-action link-secondary" title="View 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L16" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/KaikeiJissekiService.cs/#L17" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface IRetrivalViewModel&lt;T&gt; | Convenience </title>
+      <title>Interface ITotalSummaryRetrival | Convenience </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface IRetrivalViewModel&lt;T&gt; | Convenience ">
+      <meta name="title" content="Interface ITotalSummaryRetrival | Convenience ">
       
-      <meta name="description" content="注文実績検索ビューモデル用インターフェース">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/tc-sol-study00/Convenience/new/main/apiSpec/new?filename=Convenience_Models_Interfaces_IRetrivalViewModel_1.md&amp;value=---%0Auid%3A%20Convenience.Models.Interfaces.IRetrivalViewModel%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/tc-sol-study00/Convenience/new/main/apiSpec/new?filename=Convenience_Models_Interfaces_ITotalSummaryRetrival.md&amp;value=---%0Auid%3A%20Convenience.Models.Interfaces.ITotalSummaryRetrival%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Convenience.Models.Interfaces.IRetrivalViewModel`1">
+        <article data-uid="Convenience.Models.Interfaces.ITotalSummaryRetrival">
 
 
 
-  <h1 id="Convenience_Models_Interfaces_IRetrivalViewModel_1" data-uid="Convenience.Models.Interfaces.IRetrivalViewModel`1" class="text-break">
-Interface IRetrivalViewModel&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IRetrivalViewModel.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Convenience_Models_Interfaces_ITotalSummaryRetrival" data-uid="Convenience.Models.Interfaces.ITotalSummaryRetrival" class="text-break">
+Interface ITotalSummaryRetrival  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/ITotalSummaryRetrival.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,21 +97,15 @@ Interface IRetrivalViewModel&lt;T&gt;  <a class="header-action link-secondary" t
   <dl><dt>Assembly</dt><dd>Convenience.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>注文実績検索ビューモデル用インターフェース</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IRetrivalViewModel&lt;T&gt; : ISharedTools</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ITotalSummaryRetrival : ISharedTools</code></pre>
   </div>
 
 
 
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -138,32 +132,33 @@ Interface IRetrivalViewModel&lt;T&gt;  <a class="header-action link-secondary" t
 
 
 
-  <h2 class="section" id="properties">Properties
+  <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="Convenience_Models_Interfaces_IRetrivalViewModel_1_DataArea_" data-uid="Convenience.Models.Interfaces.IRetrivalViewModel`1.DataArea*"></a>
+  <a id="Convenience_Models_Interfaces_ITotalSummaryRetrival_IsNumericType_" data-uid="Convenience.Models.Interfaces.ITotalSummaryRetrival.IsNumericType*"></a>
 
-  <h3 id="Convenience_Models_Interfaces_IRetrivalViewModel_1_DataArea" data-uid="Convenience.Models.Interfaces.IRetrivalViewModel`1.DataArea">
-  DataArea
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IRetrivalViewModel.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Models_Interfaces_ITotalSummaryRetrival_IsNumericType_System_Type_" data-uid="Convenience.Models.Interfaces.ITotalSummaryRetrival.IsNumericType(System.Type)">
+  IsNumericType(Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/ITotalSummaryRetrival.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>データ表示管理用</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IRetrivalViewModel&lt;T&gt;.IDataAreaClass DataArea { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">private static bool IsNumericType(Type type)</code></pre>
   </div>
 
-
-
-
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.html">IRetrivalViewModel</a>&lt;T&gt;.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IDataAreaClass.html">IDataAreaClass</a></dt>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
   </dl>
 
@@ -174,30 +169,46 @@ Interface IRetrivalViewModel&lt;T&gt;  <a class="header-action link-secondary" t
 
 
 
-  <a id="Convenience_Models_Interfaces_IRetrivalViewModel_1_KeywordArea_" data-uid="Convenience.Models.Interfaces.IRetrivalViewModel`1.KeywordArea*"></a>
 
-  <h3 id="Convenience_Models_Interfaces_IRetrivalViewModel_1_KeywordArea" data-uid="Convenience.Models.Interfaces.IRetrivalViewModel`1.KeywordArea">
-  KeywordArea
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IRetrivalViewModel.cs/#L32"><i class="bi bi-code-slash"></i></a>
+
+
+  <a id="Convenience_Models_Interfaces_ITotalSummaryRetrival_TotalSummary_" data-uid="Convenience.Models.Interfaces.ITotalSummaryRetrival.TotalSummary*"></a>
+
+  <h3 id="Convenience_Models_Interfaces_ITotalSummaryRetrival_TotalSummary__1_System_Collections_Generic_IEnumerable___0____0_System_String_" data-uid="Convenience.Models.Interfaces.ITotalSummaryRetrival.TotalSummary``1(System.Collections.Generic.IEnumerable{``0},``0,System.String)">
+  TotalSummary&lt;T&gt;(IEnumerable&lt;T&gt;, T, string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/ITotalSummaryRetrival.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>ソートキー・検索キーエリア管理用</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IRetrivalViewModel&lt;T&gt;.IKeywordAreaClass KeywordArea { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">T TotalSummary&lt;T&gt;(IEnumerable&lt;T&gt; argDatas, T argOutDatas, string? aCountProperty)</code></pre>
   </div>
 
-
-
-
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.html">IRetrivalViewModel</a>&lt;T&gt;.<a class="xref" href="Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.html">IKeywordAreaClass</a></dt>
+    <dt><code>argDatas</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>argOutDatas</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>aCountProperty</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
 
 
 
@@ -210,7 +221,7 @@ Interface IRetrivalViewModel&lt;T&gt;  <a class="header-action link-secondary" t
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IRetrivalViewModel.cs/#L28" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/ITotalSummaryRetrival.cs/#L5" class="edit-link">Edit this page</a>
         </div>
 
 

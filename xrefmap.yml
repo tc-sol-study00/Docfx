@@ -7569,6 +7569,23 @@ references:
   fullName.vb: Convenience.Models.Interfaces.IRetrivalViewModel(Of T).IDataAreaClass.Lines
   nameWithType: IRetrivalViewModel<T>.IDataAreaClass.Lines
   nameWithType.vb: IRetrivalViewModel(Of T).IDataAreaClass.Lines
+- uid: Convenience.Models.Interfaces.IRetrivalViewModel`1.IDataAreaClass.SummaryLine
+  name: SummaryLine
+  href: api/Convenience.Models.Interfaces.IRetrivalViewModel-1.IDataAreaClass.html#Convenience_Models_Interfaces_IRetrivalViewModel_1_IDataAreaClass_SummaryLine
+  commentId: P:Convenience.Models.Interfaces.IRetrivalViewModel`1.IDataAreaClass.SummaryLine
+  fullName: Convenience.Models.Interfaces.IRetrivalViewModel<T>.IDataAreaClass.SummaryLine
+  fullName.vb: Convenience.Models.Interfaces.IRetrivalViewModel(Of T).IDataAreaClass.SummaryLine
+  nameWithType: IRetrivalViewModel<T>.IDataAreaClass.SummaryLine
+  nameWithType.vb: IRetrivalViewModel(Of T).IDataAreaClass.SummaryLine
+- uid: Convenience.Models.Interfaces.IRetrivalViewModel`1.IDataAreaClass.SummaryLine*
+  name: SummaryLine
+  href: api/Convenience.Models.Interfaces.IRetrivalViewModel-1.IDataAreaClass.html#Convenience_Models_Interfaces_IRetrivalViewModel_1_IDataAreaClass_SummaryLine_
+  commentId: Overload:Convenience.Models.Interfaces.IRetrivalViewModel`1.IDataAreaClass.SummaryLine
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IRetrivalViewModel<T>.IDataAreaClass.SummaryLine
+  fullName.vb: Convenience.Models.Interfaces.IRetrivalViewModel(Of T).IDataAreaClass.SummaryLine
+  nameWithType: IRetrivalViewModel<T>.IDataAreaClass.SummaryLine
+  nameWithType.vb: IRetrivalViewModel(Of T).IDataAreaClass.SummaryLine
 - uid: Convenience.Models.Interfaces.IRetrivalViewModel`1.IKeywordAreaClass
   name: IRetrivalViewModel<T>.IKeywordAreaClass
   href: api/Convenience.Models.Interfaces.IRetrivalViewModel-1.IKeywordAreaClass.html
@@ -8446,6 +8463,41 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Interfaces.ITentoZaikoService.TentoZaikoRetrival
   nameWithType: ITentoZaikoService.TentoZaikoRetrival
+- uid: Convenience.Models.Interfaces.ITotalSummaryRetrival
+  name: ITotalSummaryRetrival
+  href: api/Convenience.Models.Interfaces.ITotalSummaryRetrival.html
+  commentId: T:Convenience.Models.Interfaces.ITotalSummaryRetrival
+  fullName: Convenience.Models.Interfaces.ITotalSummaryRetrival
+  nameWithType: ITotalSummaryRetrival
+- uid: Convenience.Models.Interfaces.ITotalSummaryRetrival.IsNumericType(System.Type)
+  name: IsNumericType(Type)
+  href: api/Convenience.Models.Interfaces.ITotalSummaryRetrival.html#Convenience_Models_Interfaces_ITotalSummaryRetrival_IsNumericType_System_Type_
+  commentId: M:Convenience.Models.Interfaces.ITotalSummaryRetrival.IsNumericType(System.Type)
+  fullName: Convenience.Models.Interfaces.ITotalSummaryRetrival.IsNumericType(System.Type)
+  nameWithType: ITotalSummaryRetrival.IsNumericType(Type)
+- uid: Convenience.Models.Interfaces.ITotalSummaryRetrival.IsNumericType*
+  name: IsNumericType
+  href: api/Convenience.Models.Interfaces.ITotalSummaryRetrival.html#Convenience_Models_Interfaces_ITotalSummaryRetrival_IsNumericType_
+  commentId: Overload:Convenience.Models.Interfaces.ITotalSummaryRetrival.IsNumericType
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.ITotalSummaryRetrival.IsNumericType
+  nameWithType: ITotalSummaryRetrival.IsNumericType
+- uid: Convenience.Models.Interfaces.ITotalSummaryRetrival.TotalSummary*
+  name: TotalSummary
+  href: api/Convenience.Models.Interfaces.ITotalSummaryRetrival.html#Convenience_Models_Interfaces_ITotalSummaryRetrival_TotalSummary_
+  commentId: Overload:Convenience.Models.Interfaces.ITotalSummaryRetrival.TotalSummary
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.ITotalSummaryRetrival.TotalSummary
+  nameWithType: ITotalSummaryRetrival.TotalSummary
+- uid: Convenience.Models.Interfaces.ITotalSummaryRetrival.TotalSummary``1(System.Collections.Generic.IEnumerable{``0},``0,System.String)
+  name: TotalSummary<T>(IEnumerable<T>, T, string?)
+  href: api/Convenience.Models.Interfaces.ITotalSummaryRetrival.html#Convenience_Models_Interfaces_ITotalSummaryRetrival_TotalSummary__1_System_Collections_Generic_IEnumerable___0____0_System_String_
+  commentId: M:Convenience.Models.Interfaces.ITotalSummaryRetrival.TotalSummary``1(System.Collections.Generic.IEnumerable{``0},``0,System.String)
+  name.vb: TotalSummary(Of T)(IEnumerable(Of T), T, String)
+  fullName: Convenience.Models.Interfaces.ITotalSummaryRetrival.TotalSummary<T>(System.Collections.Generic.IEnumerable<T>, T, string?)
+  fullName.vb: Convenience.Models.Interfaces.ITotalSummaryRetrival.TotalSummary(Of T)(System.Collections.Generic.IEnumerable(Of T), T, String)
+  nameWithType: ITotalSummaryRetrival.TotalSummary<T>(IEnumerable<T>, T, string?)
+  nameWithType.vb: ITotalSummaryRetrival.TotalSummary(Of T)(IEnumerable(Of T), T, String)
 - uid: Convenience.Models.Interfaces.IZaiko
   name: IZaiko
   href: api/Convenience.Models.Interfaces.IZaiko.html
@@ -11381,6 +11433,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.Lines
   nameWithType: ChumonJissekiViewModel.DataAreaClass.Lines
+- uid: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.SummaryLine
+  name: SummaryLine
+  href: api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.html#Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_DataAreaClass_SummaryLine
+  commentId: P:Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.SummaryLine
+  fullName: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.SummaryLine
+  nameWithType: ChumonJissekiViewModel.DataAreaClass.SummaryLine
+- uid: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.SummaryLine*
+  name: SummaryLine
+  href: api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.html#Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_DataAreaClass_SummaryLine_
+  commentId: Overload:Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.SummaryLine
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.DataAreaClass.SummaryLine
+  nameWithType: ChumonJissekiViewModel.DataAreaClass.SummaryLine
 - uid: Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.KeywordArea
   name: KeywordArea
   href: api/Convenience.Models.ViewModels.ChumonJisseki.ChumonJissekiViewModel.html#Convenience_Models_ViewModels_ChumonJisseki_ChumonJissekiViewModel_KeywordArea
@@ -12093,6 +12158,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.Lines
   nameWithType: KaikeiJissekiViewModel.DataAreaClass.Lines
+- uid: Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.SummaryLine
+  name: SummaryLine
+  href: api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.html#Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_DataAreaClass_SummaryLine
+  commentId: P:Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.SummaryLine
+  fullName: Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.SummaryLine
+  nameWithType: KaikeiJissekiViewModel.DataAreaClass.SummaryLine
+- uid: Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.SummaryLine*
+  name: SummaryLine
+  href: api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.html#Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_DataAreaClass_SummaryLine_
+  commentId: Overload:Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.SummaryLine
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.DataAreaClass.SummaryLine
+  nameWithType: KaikeiJissekiViewModel.DataAreaClass.SummaryLine
 - uid: Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.KeywordArea
   name: KeywordArea
   href: api/Convenience.Models.ViewModels.KaikeiJisseki.KaikeiJissekiViewModel.html#Convenience_Models_ViewModels_KaikeiJisseki_KaikeiJissekiViewModel_KeywordArea
@@ -12637,6 +12715,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.DataAreaClass.ShiireJissekiLineClass.ShohinName
   nameWithType: ShiireJissekiViewModel.DataAreaClass.ShiireJissekiLineClass.ShohinName
+- uid: Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.DataAreaClass.SummaryLine
+  name: SummaryLine
+  href: api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.DataAreaClass.html#Convenience_Models_ViewModels_ShiireJisseki_ShiireJissekiViewModel_DataAreaClass_SummaryLine
+  commentId: P:Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.DataAreaClass.SummaryLine
+  fullName: Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.DataAreaClass.SummaryLine
+  nameWithType: ShiireJissekiViewModel.DataAreaClass.SummaryLine
+- uid: Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.DataAreaClass.SummaryLine*
+  name: SummaryLine
+  href: api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.DataAreaClass.html#Convenience_Models_ViewModels_ShiireJisseki_ShiireJissekiViewModel_DataAreaClass_SummaryLine_
+  commentId: Overload:Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.DataAreaClass.SummaryLine
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.DataAreaClass.SummaryLine
+  nameWithType: ShiireJissekiViewModel.DataAreaClass.SummaryLine
 - uid: Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.KeywordArea
   name: KeywordArea
   href: api/Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel.html#Convenience_Models_ViewModels_ShiireJisseki_ShiireJissekiViewModel_KeywordArea
@@ -13093,6 +13184,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.Lines
   nameWithType: TentoZaikoViewModel.DataAreaClass.Lines
+- uid: Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.SummaryLine
+  name: SummaryLine
+  href: api/Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.html#Convenience_Models_ViewModels_TentoZaiko_TentoZaikoViewModel_DataAreaClass_SummaryLine
+  commentId: P:Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.SummaryLine
+  fullName: Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.SummaryLine
+  nameWithType: TentoZaikoViewModel.DataAreaClass.SummaryLine
+- uid: Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.SummaryLine*
+  name: SummaryLine
+  href: api/Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.html#Convenience_Models_ViewModels_TentoZaiko_TentoZaikoViewModel_DataAreaClass_SummaryLine_
+  commentId: Overload:Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.SummaryLine
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.SummaryLine
+  nameWithType: TentoZaikoViewModel.DataAreaClass.SummaryLine
 - uid: Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.TentoZaIkoLine
   name: TentoZaikoViewModel.DataAreaClass.TentoZaIkoLine
   href: api/Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel.DataAreaClass.TentoZaIkoLine.html
@@ -13578,6 +13682,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.SelecteWhereItemArray
   nameWithType: ZaikoViewModel.SelecteWhereItemArray
+- uid: Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.ZaikoLine
+  name: ZaikoLine
+  href: api/Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.html#Convenience_Models_ViewModels_Zaiko_ZaikoViewModel_ZaikoLine
+  commentId: P:Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.ZaikoLine
+  fullName: Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.ZaikoLine
+  nameWithType: ZaikoViewModel.ZaikoLine
+- uid: Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.ZaikoLine*
+  name: ZaikoLine
+  href: api/Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.html#Convenience_Models_ViewModels_Zaiko_ZaikoViewModel_ZaikoLine_
+  commentId: Overload:Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.ZaikoLine
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.ZaikoLine
+  nameWithType: ZaikoViewModel.ZaikoLine
 - uid: Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.ZaikoListLine
   name: ZaikoViewModel.ZaikoListLine
   href: api/Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.ZaikoListLine.html

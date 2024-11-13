@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Models_Interfaces_IZaikoService" data-uid="Convenience.Models.Interfaces.IZaikoService" class="text-break">
-Interface IZaikoService  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IZaikoService.cs/#L8"><i class="bi bi-code-slash"></i></a>
+Interface IZaikoService  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IZaikoService.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -125,7 +125,7 @@ Interface IZaikoService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Convenience_Models_Interfaces_IZaikoService_KeyInput_Convenience_Models_ViewModels_Zaiko_ZaikoViewModel_KeyEventRec___Convenience_Models_ViewModels_Zaiko_ZaikoViewModel_SelecteWhereItem___" data-uid="Convenience.Models.Interfaces.IZaikoService.KeyInput(Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.KeyEventRec[],Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.SelecteWhereItem[])">
   KeyInput(KeyEventRec[], SelecteWhereItem[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IZaikoService.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IZaikoService.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>検索キー画面の情報取得</p>
@@ -133,7 +133,7 @@ Interface IZaikoService  <a class="header-action link-secondary" title="View sou
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;IList&lt;ZaikoViewModel.ZaikoListLine&gt;&gt; KeyInput(ZaikoViewModel.KeyEventRec[] keydata, ZaikoViewModel.SelecteWhereItem[] selecteWhereItemArray)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;ZaikoViewModel&gt; KeyInput(ZaikoViewModel.KeyEventRec[] keydata, ZaikoViewModel.SelecteWhereItem[] selecteWhereItemArray)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -146,7 +146,7 @@ Interface IZaikoService  <a class="header-action link-secondary" title="View sou
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.html">ZaikoViewModel</a>.<a class="xref" href="Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.ZaikoListLine.html">ZaikoListLine</a>&gt;&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.Zaiko.ZaikoViewModel.html">ZaikoViewModel</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -164,7 +164,7 @@ Interface IZaikoService  <a class="header-action link-secondary" title="View sou
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IZaikoService.cs/#L8" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IZaikoService.cs/#L9" class="edit-link">Edit this page</a>
         </div>
 
 

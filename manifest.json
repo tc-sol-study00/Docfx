@@ -122,6 +122,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/AspNetCoreGeneratedDocument.Views_ShiireMaster_Index.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AspNetCoreGeneratedDocument.Views_ShiireMaster_Index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/AspNetCoreGeneratedDocument.Views_Shiire_Shiire.yml",
       "output": {
         ".html": {
@@ -136,6 +146,16 @@
       "output": {
         ".html": {
           "relative_path": "api/AspNetCoreGeneratedDocument.Views_Shiire_ShiireKeyInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AspNetCoreGeneratedDocument.Views_ShohinMaster_Index.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AspNetCoreGeneratedDocument.Views_ShohinMaster_Index.html"
         }
       },
       "version": ""
@@ -276,6 +296,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Controllers.ShiireJissekiController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Controllers.ShiireMasterController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Controllers.ShiireMasterController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Controllers.ShohinMasterController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Controllers.ShohinMasterController.html"
         }
       },
       "version": ""
@@ -726,6 +766,46 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Interfaces.IKaikeiService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IDeleteFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IDeleteFlag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IPostMasterData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IPostMasterData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.html"
         }
       },
       "version": ""
@@ -1292,10 +1372,50 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Services.ShiireMasterService.PostMasterData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Services.ShiireMasterService.PostMasterData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Services.ShiireMasterService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Services.ShiireMasterService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Services.ShiireService.yml",
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Services.ShiireService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Services.ShohinMasterService.PostMasterData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Services.ShohinMasterService.PostMasterData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Services.ShohinMasterService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Services.ShohinMasterService.html"
         }
       },
       "version": ""
@@ -1646,6 +1766,46 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.ViewModels.ShiireJisseki.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireMaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ShiireMaster.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ShohinMaster.ShohinMasterViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ShohinMaster.ShohinMasterViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ShohinMaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ShohinMaster.html"
         }
       },
       "version": ""

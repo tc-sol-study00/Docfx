@@ -782,6 +782,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationSelectList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationSelectList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.yml",
       "output": {
         ".html": {

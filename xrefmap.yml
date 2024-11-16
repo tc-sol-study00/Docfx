@@ -6817,6 +6817,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.DataModels.ShiireSakiMaster.ChumonJissekis
   nameWithType: ShiireSakiMaster.ChumonJissekis
+- uid: Convenience.Models.DataModels.ShiireSakiMaster.OrderKey
+  name: OrderKey
+  href: api/Convenience.Models.DataModels.ShiireSakiMaster.html#Convenience_Models_DataModels_ShiireSakiMaster_OrderKey
+  commentId: P:Convenience.Models.DataModels.ShiireSakiMaster.OrderKey
+  fullName: Convenience.Models.DataModels.ShiireSakiMaster.OrderKey
+  nameWithType: ShiireSakiMaster.OrderKey
+- uid: Convenience.Models.DataModels.ShiireSakiMaster.OrderKey*
+  name: OrderKey
+  href: api/Convenience.Models.DataModels.ShiireSakiMaster.html#Convenience_Models_DataModels_ShiireSakiMaster_OrderKey_
+  commentId: Overload:Convenience.Models.DataModels.ShiireSakiMaster.OrderKey
+  isSpec: "True"
+  fullName: Convenience.Models.DataModels.ShiireSakiMaster.OrderKey
+  nameWithType: ShiireSakiMaster.OrderKey
 - uid: Convenience.Models.DataModels.ShiireSakiMaster.ShiireSakiBusho
   name: ShiireSakiBusho
   href: api/Convenience.Models.DataModels.ShiireSakiMaster.html#Convenience_Models_DataModels_ShiireSakiMaster_ShiireSakiBusho
@@ -6895,6 +6908,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.DataModels.ShiireSakiMaster.Tatemonomei
   nameWithType: ShiireSakiMaster.Tatemonomei
+- uid: Convenience.Models.DataModels.ShiireSakiMaster.Text
+  name: Text
+  href: api/Convenience.Models.DataModels.ShiireSakiMaster.html#Convenience_Models_DataModels_ShiireSakiMaster_Text
+  commentId: P:Convenience.Models.DataModels.ShiireSakiMaster.Text
+  fullName: Convenience.Models.DataModels.ShiireSakiMaster.Text
+  nameWithType: ShiireSakiMaster.Text
+- uid: Convenience.Models.DataModels.ShiireSakiMaster.Text*
+  name: Text
+  href: api/Convenience.Models.DataModels.ShiireSakiMaster.html#Convenience_Models_DataModels_ShiireSakiMaster_Text_
+  commentId: Overload:Convenience.Models.DataModels.ShiireSakiMaster.Text
+  isSpec: "True"
+  fullName: Convenience.Models.DataModels.ShiireSakiMaster.Text
+  nameWithType: ShiireSakiMaster.Text
 - uid: Convenience.Models.DataModels.ShiireSakiMaster.Todoufuken
   name: Todoufuken
   href: api/Convenience.Models.DataModels.ShiireSakiMaster.html#Convenience_Models_DataModels_ShiireSakiMaster_Todoufuken
@@ -6908,6 +6934,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.DataModels.ShiireSakiMaster.Todoufuken
   nameWithType: ShiireSakiMaster.Todoufuken
+- uid: Convenience.Models.DataModels.ShiireSakiMaster.Value
+  name: Value
+  href: api/Convenience.Models.DataModels.ShiireSakiMaster.html#Convenience_Models_DataModels_ShiireSakiMaster_Value
+  commentId: P:Convenience.Models.DataModels.ShiireSakiMaster.Value
+  fullName: Convenience.Models.DataModels.ShiireSakiMaster.Value
+  nameWithType: ShiireSakiMaster.Value
+- uid: Convenience.Models.DataModels.ShiireSakiMaster.Value*
+  name: Value
+  href: api/Convenience.Models.DataModels.ShiireSakiMaster.html#Convenience_Models_DataModels_ShiireSakiMaster_Value_
+  commentId: Overload:Convenience.Models.DataModels.ShiireSakiMaster.Value
+  isSpec: "True"
+  fullName: Convenience.Models.DataModels.ShiireSakiMaster.Value
+  nameWithType: ShiireSakiMaster.Value
 - uid: Convenience.Models.DataModels.ShiireSakiMaster.YubinBango
   name: YubinBango
   href: api/Convenience.Models.DataModels.ShiireSakiMaster.html#Convenience_Models_DataModels_ShiireSakiMaster_YubinBango
@@ -6927,6 +6966,19 @@ references:
   commentId: T:Convenience.Models.DataModels.ShohinMaster
   fullName: Convenience.Models.DataModels.ShohinMaster
   nameWithType: ShohinMaster
+- uid: Convenience.Models.DataModels.ShohinMaster.OrderKey
+  name: OrderKey
+  href: api/Convenience.Models.DataModels.ShohinMaster.html#Convenience_Models_DataModels_ShohinMaster_OrderKey
+  commentId: P:Convenience.Models.DataModels.ShohinMaster.OrderKey
+  fullName: Convenience.Models.DataModels.ShohinMaster.OrderKey
+  nameWithType: ShohinMaster.OrderKey
+- uid: Convenience.Models.DataModels.ShohinMaster.OrderKey*
+  name: OrderKey
+  href: api/Convenience.Models.DataModels.ShohinMaster.html#Convenience_Models_DataModels_ShohinMaster_OrderKey_
+  commentId: Overload:Convenience.Models.DataModels.ShohinMaster.OrderKey
+  isSpec: "True"
+  fullName: Convenience.Models.DataModels.ShohinMaster.OrderKey
+  nameWithType: ShohinMaster.OrderKey
 - uid: Convenience.Models.DataModels.ShohinMaster.ShiireMasters
   name: ShiireMasters
   href: api/Convenience.Models.DataModels.ShohinMaster.html#Convenience_Models_DataModels_ShohinMaster_ShiireMasters
@@ -7018,6 +7070,32 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.DataModels.ShohinMaster.TentoZaiko
   nameWithType: ShohinMaster.TentoZaiko
+- uid: Convenience.Models.DataModels.ShohinMaster.Text
+  name: Text
+  href: api/Convenience.Models.DataModels.ShohinMaster.html#Convenience_Models_DataModels_ShohinMaster_Text
+  commentId: P:Convenience.Models.DataModels.ShohinMaster.Text
+  fullName: Convenience.Models.DataModels.ShohinMaster.Text
+  nameWithType: ShohinMaster.Text
+- uid: Convenience.Models.DataModels.ShohinMaster.Text*
+  name: Text
+  href: api/Convenience.Models.DataModels.ShohinMaster.html#Convenience_Models_DataModels_ShohinMaster_Text_
+  commentId: Overload:Convenience.Models.DataModels.ShohinMaster.Text
+  isSpec: "True"
+  fullName: Convenience.Models.DataModels.ShohinMaster.Text
+  nameWithType: ShohinMaster.Text
+- uid: Convenience.Models.DataModels.ShohinMaster.Value
+  name: Value
+  href: api/Convenience.Models.DataModels.ShohinMaster.html#Convenience_Models_DataModels_ShohinMaster_Value
+  commentId: P:Convenience.Models.DataModels.ShohinMaster.Value
+  fullName: Convenience.Models.DataModels.ShohinMaster.Value
+  nameWithType: ShohinMaster.Value
+- uid: Convenience.Models.DataModels.ShohinMaster.Value*
+  name: Value
+  href: api/Convenience.Models.DataModels.ShohinMaster.html#Convenience_Models_DataModels_ShohinMaster_Value_
+  commentId: Overload:Convenience.Models.DataModels.ShohinMaster.Value
+  isSpec: "True"
+  fullName: Convenience.Models.DataModels.ShohinMaster.Value
+  nameWithType: ShohinMaster.Value
 - uid: Convenience.Models.DataModels.SokoZaiko
   name: SokoZaiko
   href: api/Convenience.Models.DataModels.SokoZaiko.html
@@ -9005,6 +9083,51 @@ references:
   fullName.vb: Convenience.Models.Interfaces.IRetrivalViewModel(Of T).KeywordArea
   nameWithType: IRetrivalViewModel<T>.KeywordArea
   nameWithType.vb: IRetrivalViewModel(Of T).KeywordArea
+- uid: Convenience.Models.Interfaces.ISelectList
+  name: ISelectList
+  href: api/Convenience.Models.Interfaces.ISelectList.html
+  commentId: T:Convenience.Models.Interfaces.ISelectList
+  fullName: Convenience.Models.Interfaces.ISelectList
+  nameWithType: ISelectList
+- uid: Convenience.Models.Interfaces.ISelectList.OrderKey
+  name: OrderKey
+  href: api/Convenience.Models.Interfaces.ISelectList.html#Convenience_Models_Interfaces_ISelectList_OrderKey
+  commentId: P:Convenience.Models.Interfaces.ISelectList.OrderKey
+  fullName: Convenience.Models.Interfaces.ISelectList.OrderKey
+  nameWithType: ISelectList.OrderKey
+- uid: Convenience.Models.Interfaces.ISelectList.OrderKey*
+  name: OrderKey
+  href: api/Convenience.Models.Interfaces.ISelectList.html#Convenience_Models_Interfaces_ISelectList_OrderKey_
+  commentId: Overload:Convenience.Models.Interfaces.ISelectList.OrderKey
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.ISelectList.OrderKey
+  nameWithType: ISelectList.OrderKey
+- uid: Convenience.Models.Interfaces.ISelectList.Text
+  name: Text
+  href: api/Convenience.Models.Interfaces.ISelectList.html#Convenience_Models_Interfaces_ISelectList_Text
+  commentId: P:Convenience.Models.Interfaces.ISelectList.Text
+  fullName: Convenience.Models.Interfaces.ISelectList.Text
+  nameWithType: ISelectList.Text
+- uid: Convenience.Models.Interfaces.ISelectList.Text*
+  name: Text
+  href: api/Convenience.Models.Interfaces.ISelectList.html#Convenience_Models_Interfaces_ISelectList_Text_
+  commentId: Overload:Convenience.Models.Interfaces.ISelectList.Text
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.ISelectList.Text
+  nameWithType: ISelectList.Text
+- uid: Convenience.Models.Interfaces.ISelectList.Value
+  name: Value
+  href: api/Convenience.Models.Interfaces.ISelectList.html#Convenience_Models_Interfaces_ISelectList_Value
+  commentId: P:Convenience.Models.Interfaces.ISelectList.Value
+  fullName: Convenience.Models.Interfaces.ISelectList.Value
+  nameWithType: ISelectList.Value
+- uid: Convenience.Models.Interfaces.ISelectList.Value*
+  name: Value
+  href: api/Convenience.Models.Interfaces.ISelectList.html#Convenience_Models_Interfaces_ISelectList_Value_
+  commentId: Overload:Convenience.Models.Interfaces.ISelectList.Value
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.ISelectList.Value
+  nameWithType: ISelectList.Value
 - uid: Convenience.Models.Interfaces.ISharedTools
   name: ISharedTools
   href: api/Convenience.Models.Interfaces.ISharedTools.html

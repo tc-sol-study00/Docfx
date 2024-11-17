@@ -82,6 +82,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/AspNetCoreGeneratedDocument.Views_NaigaiClassMaster_Index.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AspNetCoreGeneratedDocument.Views_NaigaiClassMaster_Index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/AspNetCoreGeneratedDocument.Views_Shared_Error.yml",
       "output": {
         ".html": {
@@ -126,6 +136,16 @@
       "output": {
         ".html": {
           "relative_path": "api/AspNetCoreGeneratedDocument.Views_ShiireMaster_Index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AspNetCoreGeneratedDocument.Views_ShiireSakiMaster_Index.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AspNetCoreGeneratedDocument.Views_ShiireSakiMaster_Index.html"
         }
       },
       "version": ""
@@ -282,6 +302,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Controllers.NaigaiClassMasterController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Controllers.NaigaiClassMasterController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Controllers.ShiireController.yml",
       "output": {
         ".html": {
@@ -306,6 +336,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Controllers.ShiireMasterController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Controllers.ShiireSakiMasterController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Controllers.ShiireSakiMasterController.html"
         }
       },
       "version": ""
@@ -1382,6 +1422,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Services.NaigaiClassMasterService.PostMasterData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Services.NaigaiClassMasterService.PostMasterData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Services.NaigaiClassMasterService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Services.NaigaiClassMasterService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Services.ShiireJissekiService.yml",
       "output": {
         ".html": {
@@ -1406,6 +1466,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Services.ShiireMasterService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Services.ShiireSakiMasterService.PostMasterData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Services.ShiireSakiMasterService.PostMasterData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Services.ShiireSakiMasterService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Services.ShiireSakiMasterService.html"
         }
       },
       "version": ""
@@ -1692,6 +1772,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.NaigaiClassMaster.NaigaiClassMasterViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.NaigaiClassMaster.NaigaiClassMasterViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.NaigaiClassMaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.NaigaiClassMaster.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.ViewModels.Shiire.ShiireKeysViewModel.yml",
       "output": {
         ".html": {
@@ -1806,6 +1906,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.ViewModels.ShiireMaster.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireSakiMaster.ShiireSakiMasterViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ShiireSakiMaster.ShiireSakiMasterViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.ViewModels.ShiireSakiMaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.ViewModels.ShiireSakiMaster.html"
         }
       },
       "version": ""

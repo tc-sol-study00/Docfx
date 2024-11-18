@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Models_ViewModels_ShiireMaster_ShiireMasterViewModel" data-uid="Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel" class="text-break">
-Class ShiireMasterViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L11"><i class="bi bi-code-slash"></i></a>
+Class ShiireMasterViewModel  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class ShiireMasterViewModel  <a class="header-action link-secondary" title="View
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ShiireMasterViewModel : IMasterRegistrationService&lt;ShiireMaster, ShiireMasterService.PostMasterData, ShiireMasterViewModel&gt;.IMasterRegistrationViewModel, IMasterRegistrationService&lt;ShiireMaster, ShiireMasterService.PostMasterData, ShiireMasterViewModel&gt;.IMasterRegistrationSelectList</code></pre>
+    <pre><code class="lang-csharp hljs">public class ShiireMasterViewModel : IMasterRegistrationViewModel&lt;ShiireMasterService.PostMasterData&gt;, IMasterRegistrationService&lt;ShiireMaster, ShiireMasterService.PostMasterData, ShiireMasterViewModel&gt;.IMasterRegistrationSelectList</code></pre>
   </div>
 
 
@@ -119,7 +119,7 @@ Class ShiireMasterViewModel  <a class="header-action link-secondary" title="View
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.html">IMasterRegistrationService</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShiireMaster.html">ShiireMaster</a>, <a class="xref" href="Convenience.Models.Services.ShiireMasterService.html">ShiireMasterService</a>.<a class="xref" href="Convenience.Models.Services.ShiireMasterService.PostMasterData.html">PostMasterData</a>, <a class="xref" href="Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.html">ShiireMasterViewModel</a>&gt;.<a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.html">IMasterRegistrationViewModel</a></div>
+      <div><a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationViewModel-1.html">IMasterRegistrationViewModel</a>&lt;<a class="xref" href="Convenience.Models.Services.ShiireMasterService.html">ShiireMasterService</a>.<a class="xref" href="Convenience.Models.Services.ShiireMasterService.PostMasterData.html">PostMasterData</a>&gt;</div>
       <div><a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.html">IMasterRegistrationService</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShiireMaster.html">ShiireMaster</a>, <a class="xref" href="Convenience.Models.Services.ShiireMasterService.html">ShiireMasterService</a>.<a class="xref" href="Convenience.Models.Services.ShiireMasterService.PostMasterData.html">PostMasterData</a>, <a class="xref" href="Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.html">ShiireMasterViewModel</a>&gt;.<a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationSelectList.html">IMasterRegistrationSelectList</a></div>
     </dd>
   </dl>
@@ -164,7 +164,7 @@ Class ShiireMasterViewModel  <a class="header-action link-secondary" title="View
 
   <h3 id="Convenience_Models_ViewModels_ShiireMaster_ShiireMasterViewModel__ctor" data-uid="Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.#ctor">
   ShiireMasterViewModel()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>デフォルトコンストラクタ（初期化）</p>
@@ -191,7 +191,7 @@ Class ShiireMasterViewModel  <a class="header-action link-secondary" title="View
 
   <h3 id="Convenience_Models_ViewModels_ShiireMaster_ShiireMasterViewModel__ctor_Convenience_Data_ConvenienceContext_" data-uid="Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.#ctor(Convenience.Data.ConvenienceContext)">
   ShiireMasterViewModel(ConvenienceContext)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>依存性注入に対応したコンストラクタ（データベースコンテキストを受け取る）</p>
@@ -227,7 +227,7 @@ Class ShiireMasterViewModel  <a class="header-action link-secondary" title="View
 
   <h3 id="Convenience_Models_ViewModels_ShiireMaster_ShiireMasterViewModel_my" data-uid="Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.my">
   my
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -262,7 +262,7 @@ Class ShiireMasterViewModel  <a class="header-action link-secondary" title="View
 
   <h3 id="Convenience_Models_ViewModels_ShiireMaster_ShiireMasterViewModel_IsNormal" data-uid="Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.IsNormal">
   IsNormal
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>処理が正常かどうか（正常 = true）</p>
@@ -294,7 +294,7 @@ Class ShiireMasterViewModel  <a class="header-action link-secondary" title="View
 
   <h3 id="Convenience_Models_ViewModels_ShiireMaster_ShiireMasterViewModel_PostMasterDatas" data-uid="Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.PostMasterDatas">
   PostMasterDatas
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Postされたマスタデータ</p>
@@ -326,7 +326,7 @@ Class ShiireMasterViewModel  <a class="header-action link-secondary" title="View
 
   <h3 id="Convenience_Models_ViewModels_ShiireMaster_ShiireMasterViewModel_Remark" data-uid="Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.Remark">
   Remark
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>処理結果（データベース反映結果）に関する表示内容</p>
@@ -358,7 +358,7 @@ Class ShiireMasterViewModel  <a class="header-action link-secondary" title="View
 
   <h3 id="Convenience_Models_ViewModels_ShiireMaster_ShiireMasterViewModel_ShiireSakiList" data-uid="Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.ShiireSakiList">
   ShiireSakiList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>仕入先リスト（選択リストアイテム）</p>
@@ -390,7 +390,7 @@ Class ShiireMasterViewModel  <a class="header-action link-secondary" title="View
 
   <h3 id="Convenience_Models_ViewModels_ShiireMaster_ShiireMasterViewModel_ShohinList" data-uid="Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.ShohinList">
   ShohinList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>商品リスト（選択リストアイテム）</p>
@@ -422,7 +422,7 @@ Class ShiireMasterViewModel  <a class="header-action link-secondary" title="View
 
   <h3 id="Convenience_Models_ViewModels_ShiireMaster_ShiireMasterViewModel__context" data-uid="Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel._context">
   _context
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>データベースコンテキスト（注：JSONシリアライズ対象外）</p>
@@ -451,11 +451,46 @@ public ConvenienceContext _context { get; set; }</code></pre>
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Convenience_Models_ViewModels_ShiireMaster_ShiireMasterViewModel_InitialAsync_" data-uid="Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.InitialAsync*"></a>
+
+  <h3 id="Convenience_Models_ViewModels_ShiireMaster_ShiireMasterViewModel_InitialAsync" data-uid="Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.InitialAsync">
+  InitialAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task InitialAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L11" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/ViewModels/ShiireMaster/ShiireMasterViewModel.cs/#L12" class="edit-link">Edit this page</a>
         </div>
 
 

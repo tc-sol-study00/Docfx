@@ -102,7 +102,7 @@ Class NaigaiClassMasterService  <a class="header-action link-secondary" title="V
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NaigaiClassMasterService : IMasterRegistrationService&lt;NaigaiClassMaster, NaigaiClassMasterService.PostMasterData, NaigaiClassMasterViewModel&gt;, ISharedTools</code></pre>
+    <pre><code class="lang-csharp hljs">public class NaigaiClassMasterService : INaigaiClassMasterService, IMasterRegistrationService&lt;NaigaiClassMaster, NaigaiClassMasterService.PostMasterData, NaigaiClassMasterViewModel&gt;, ISharedTools</code></pre>
   </div>
 
 
@@ -119,6 +119,7 @@ Class NaigaiClassMasterService  <a class="header-action link-secondary" title="V
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="Convenience.Models.Interfaces.INaigaiClassMasterService.html">INaigaiClassMasterService</a></div>
       <div><a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.html">IMasterRegistrationService</a>&lt;<a class="xref" href="Convenience.Models.DataModels.NaigaiClassMaster.html">NaigaiClassMaster</a>, <a class="xref" href="Convenience.Models.Services.NaigaiClassMasterService.html">NaigaiClassMasterService</a>.<a class="xref" href="Convenience.Models.Services.NaigaiClassMasterService.PostMasterData.html">PostMasterData</a>, <a class="xref" href="Convenience.Models.ViewModels.NaigaiClassMaster.NaigaiClassMasterViewModel.html">NaigaiClassMasterViewModel</a>&gt;</div>
       <div><a class="xref" href="Convenience.Models.Interfaces.ISharedTools.html">ISharedTools</a></div>
     </dd>
@@ -207,7 +208,7 @@ Class NaigaiClassMasterService  <a class="header-action link-secondary" title="V
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private readonly IMasterRegistrationService&lt;NaigaiClassMaster, NaigaiClassMasterService.PostMasterData, NaigaiClassMasterViewModel&gt; my</code></pre>
+    <pre><code class="lang-csharp hljs">private readonly INaigaiClassMasterService my</code></pre>
   </div>
 
 
@@ -215,7 +216,7 @@ Class NaigaiClassMasterService  <a class="header-action link-secondary" title="V
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.html">IMasterRegistrationService</a>&lt;<a class="xref" href="Convenience.Models.DataModels.NaigaiClassMaster.html">NaigaiClassMaster</a>, <a class="xref" href="Convenience.Models.Services.NaigaiClassMasterService.html">NaigaiClassMasterService</a>.<a class="xref" href="Convenience.Models.Services.NaigaiClassMasterService.PostMasterData.html">PostMasterData</a>, <a class="xref" href="Convenience.Models.ViewModels.NaigaiClassMaster.NaigaiClassMasterViewModel.html">NaigaiClassMasterViewModel</a>&gt;</dt>
+    <dt><a class="xref" href="Convenience.Models.Interfaces.INaigaiClassMasterService.html">INaigaiClassMasterService</a></dt>
     <dd></dd>
   </dl>
 
@@ -275,7 +276,7 @@ Class NaigaiClassMasterService  <a class="header-action link-secondary" title="V
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IMasterRegistrationService&lt;NaigaiClassMaster, NaigaiClassMasterService.PostMasterData, NaigaiClassMasterViewModel&gt;.IMasterRegistrationViewModel MasterRegisiationViewModel { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IMasterRegistrationViewModel&lt;NaigaiClassMasterService.PostMasterData&gt; MasterRegisiationViewModel { get; set; }</code></pre>
   </div>
 
 
@@ -284,7 +285,7 @@ Class NaigaiClassMasterService  <a class="header-action link-secondary" title="V
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.html">IMasterRegistrationService</a>&lt;<a class="xref" href="Convenience.Models.DataModels.NaigaiClassMaster.html">NaigaiClassMaster</a>, <a class="xref" href="Convenience.Models.Services.NaigaiClassMasterService.html">NaigaiClassMasterService</a>.<a class="xref" href="Convenience.Models.Services.NaigaiClassMasterService.PostMasterData.html">PostMasterData</a>, <a class="xref" href="Convenience.Models.ViewModels.NaigaiClassMaster.NaigaiClassMasterViewModel.html">NaigaiClassMasterViewModel</a>&gt;.<a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.html">IMasterRegistrationViewModel</a></dt>
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationViewModel-1.html">IMasterRegistrationViewModel</a>&lt;<a class="xref" href="Convenience.Models.Services.NaigaiClassMasterService.html">NaigaiClassMasterService</a>.<a class="xref" href="Convenience.Models.Services.NaigaiClassMasterService.PostMasterData.html">PostMasterData</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -414,13 +415,13 @@ Class NaigaiClassMasterService  <a class="header-action link-secondary" title="V
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NaigaiClassMasterViewModel MakeViewModel()</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;NaigaiClassMasterViewModel&gt; MakeViewModel()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.ViewModels.NaigaiClassMaster.NaigaiClassMasterViewModel.html">NaigaiClassMasterViewModel</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.NaigaiClassMaster.NaigaiClassMasterViewModel.html">NaigaiClassMasterViewModel</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -522,13 +523,13 @@ Class NaigaiClassMasterService  <a class="header-action link-secondary" title="V
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IList&lt;NaigaiClassMaster&gt; QueryMasterData()</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IList&lt;NaigaiClassMaster&gt;&gt; QueryMasterData()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Convenience.Models.DataModels.NaigaiClassMaster.html">NaigaiClassMaster</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Convenience.Models.DataModels.NaigaiClassMaster.html">NaigaiClassMaster</a>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -554,7 +555,7 @@ Class NaigaiClassMasterService  <a class="header-action link-secondary" title="V
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NaigaiClassMasterViewModel UpdateMasterData(NaigaiClassMasterViewModel argMasterRegistrationViewModel)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;NaigaiClassMasterViewModel&gt; UpdateMasterData(NaigaiClassMasterViewModel argMasterRegistrationViewModel)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -565,7 +566,7 @@ Class NaigaiClassMasterService  <a class="header-action link-secondary" title="V
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.ViewModels.NaigaiClassMaster.NaigaiClassMasterViewModel.html">NaigaiClassMasterViewModel</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.NaigaiClassMaster.NaigaiClassMasterViewModel.html">NaigaiClassMasterViewModel</a>&gt;</dt>
     <dd></dd>
   </dl>
 

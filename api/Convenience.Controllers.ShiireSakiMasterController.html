@@ -749,8 +749,8 @@ Class ShiireSakiMasterController  <a class="header-action link-secondary" title=
 
   <a id="Convenience_Controllers_ShiireSakiMasterController__ctor_" data-uid="Convenience.Controllers.ShiireSakiMasterController.#ctor*"></a>
 
-  <h3 id="Convenience_Controllers_ShiireSakiMasterController__ctor_Convenience_Data_ConvenienceContext_" data-uid="Convenience.Controllers.ShiireSakiMasterController.#ctor(Convenience.Data.ConvenienceContext)">
-  ShiireSakiMasterController(ConvenienceContext)
+  <h3 id="Convenience_Controllers_ShiireSakiMasterController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IShiireSakiMasterService_" data-uid="Convenience.Controllers.ShiireSakiMasterController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShiireSakiMasterService)">
+  ShiireSakiMasterController(ConvenienceContext, IShiireSakiMasterService)
   <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireSakiMasterController.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -759,7 +759,7 @@ Class ShiireSakiMasterController  <a class="header-action link-secondary" title=
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ShiireSakiMasterController(ConvenienceContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public ShiireSakiMasterController(ConvenienceContext context, IShiireSakiMasterService shiireSakiMasterService)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -767,6 +767,8 @@ Class ShiireSakiMasterController  <a class="header-action link-secondary" title=
     <dt><code>context</code> <a class="xref" href="Convenience.Data.ConvenienceContext.html">ConvenienceContext</a></dt>
     <dd><p>データベースコンテキストのインスタンス</p>
 </dd>
+    <dt><code>shiireSakiMasterService</code> <a class="xref" href="Convenience.Models.Interfaces.IShiireSakiMasterService.html">IShiireSakiMasterService</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -857,7 +859,7 @@ Class ShiireSakiMasterController  <a class="header-action link-secondary" title=
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private readonly ShiireSakiMasterService shiireSakiMasterService</code></pre>
+    <pre><code class="lang-csharp hljs">private readonly IShiireSakiMasterService shiireSakiMasterService</code></pre>
   </div>
 
 
@@ -865,7 +867,7 @@ Class ShiireSakiMasterController  <a class="header-action link-secondary" title=
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.Services.ShiireSakiMasterService.html">ShiireSakiMasterService</a></dt>
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IShiireSakiMasterService.html">IShiireSakiMasterService</a></dt>
     <dd></dd>
   </dl>
 

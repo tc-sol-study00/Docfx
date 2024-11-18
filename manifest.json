@@ -772,6 +772,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IDeleteFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IDeleteFlag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Interfaces.IKaikei.yml",
       "output": {
         ".html": {
@@ -812,16 +822,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IDeleteFlag.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IDeleteFlag.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationSelectList.yml",
       "output": {
         ".html": {
@@ -832,30 +832,40 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IPostMasterData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IPostMasterData.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.yml",
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationService-3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationViewModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IMasterRegistrationViewModel-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.INaigaiClassMasterService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.INaigaiClassMasterService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IPostMasterData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IPostMasterData.html"
         }
       },
       "version": ""
@@ -982,10 +992,40 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IShiireMasterService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IShiireMasterService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IShiireSakiMasterService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IShiireSakiMasterService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Interfaces.IShiireService.yml",
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Interfaces.IShiireService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IShohinMasterService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IShohinMasterService.html"
         }
       },
       "version": ""

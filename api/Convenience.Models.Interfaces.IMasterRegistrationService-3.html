@@ -196,7 +196,7 @@ Interface IMasterRegistrationService&lt;TKeepMasterData, TPostMasterData, TMaste
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IMasterRegistrationService&lt;TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel&gt;.IMasterRegistrationViewModel MasterRegisiationViewModel { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">IMasterRegistrationViewModel&lt;TPostMasterData&gt; MasterRegisiationViewModel { get; set; }</code></pre>
   </div>
 
 
@@ -205,7 +205,7 @@ Interface IMasterRegistrationService&lt;TKeepMasterData, TPostMasterData, TMaste
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.html">IMasterRegistrationService</a>&lt;TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel&gt;.<a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.html">IMasterRegistrationViewModel</a></dt>
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationViewModel-1.html">IMasterRegistrationViewModel</a>&lt;TPostMasterData&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -335,13 +335,13 @@ Interface IMasterRegistrationService&lt;TKeepMasterData, TPostMasterData, TMaste
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IMasterRegistrationService&lt;TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel&gt;.IMasterRegistrationViewModel DefaultMakeViewModel()</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IMasterRegistrationViewModel&lt;TPostMasterData&gt;&gt; DefaultMakeViewModel()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.html">IMasterRegistrationService</a>&lt;TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel&gt;.<a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.html">IMasterRegistrationViewModel</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationViewModel-1.html">IMasterRegistrationViewModel</a>&lt;TPostMasterData&gt;&gt;</dt>
     <dd><p>生成されたビューモデル</p>
 </dd>
   </dl>
@@ -358,8 +358,8 @@ Interface IMasterRegistrationService&lt;TKeepMasterData, TPostMasterData, TMaste
 
   <a id="Convenience_Models_Interfaces_IMasterRegistrationService_3_DefaultUpdateMasterData_" data-uid="Convenience.Models.Interfaces.IMasterRegistrationService`3.DefaultUpdateMasterData*"></a>
 
-  <h3 id="Convenience_Models_Interfaces_IMasterRegistrationService_3_DefaultUpdateMasterData_Convenience_Models_Interfaces_IMasterRegistrationService__0__1__2__IMasterRegistrationViewModel_" data-uid="Convenience.Models.Interfaces.IMasterRegistrationService`3.DefaultUpdateMasterData(Convenience.Models.Interfaces.IMasterRegistrationService{`0,`1,`2}.IMasterRegistrationViewModel)">
-  DefaultUpdateMasterData(IMasterRegistrationViewModel)
+  <h3 id="Convenience_Models_Interfaces_IMasterRegistrationService_3_DefaultUpdateMasterData_Convenience_Models_Interfaces_IMasterRegistrationViewModel__1__" data-uid="Convenience.Models.Interfaces.IMasterRegistrationService`3.DefaultUpdateMasterData(Convenience.Models.Interfaces.IMasterRegistrationViewModel{`1})">
+  DefaultUpdateMasterData(IMasterRegistrationViewModel&lt;TPostMasterData&gt;)
   <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IMasterRegistrationService.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -368,18 +368,18 @@ Interface IMasterRegistrationService&lt;TKeepMasterData, TPostMasterData, TMaste
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IMasterRegistrationService&lt;TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel&gt;.IMasterRegistrationViewModel DefaultUpdateMasterData(IMasterRegistrationService&lt;TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel&gt;.IMasterRegistrationViewModel argMasterRegistrationViewModel)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IMasterRegistrationViewModel&lt;TPostMasterData&gt;&gt; DefaultUpdateMasterData(IMasterRegistrationViewModel&lt;TPostMasterData&gt; argMasterRegistrationViewModel)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>argMasterRegistrationViewModel</code> <a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.html">IMasterRegistrationService</a>&lt;TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel&gt;.<a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.html">IMasterRegistrationViewModel</a></dt>
+    <dt><code>argMasterRegistrationViewModel</code> <a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationViewModel-1.html">IMasterRegistrationViewModel</a>&lt;TPostMasterData&gt;</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.html">IMasterRegistrationService</a>&lt;TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel&gt;.<a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.html">IMasterRegistrationViewModel</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationViewModel-1.html">IMasterRegistrationViewModel</a>&lt;TPostMasterData&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -395,7 +395,7 @@ Interface IMasterRegistrationService&lt;TKeepMasterData, TPostMasterData, TMaste
 
   <a id="Convenience_Models_Interfaces_IMasterRegistrationService_3_DeleteData_" data-uid="Convenience.Models.Interfaces.IMasterRegistrationService`3.DeleteData*"></a>
 
-  <h3 id="Convenience_Models_Interfaces_IMasterRegistrationService_3_DeleteData__1_System_Collections_Generic_IEnumerable_Convenience_Models_Interfaces_IMasterRegistrationService__0__1__2__IPostMasterData__" data-uid="Convenience.Models.Interfaces.IMasterRegistrationService`3.DeleteData``1(System.Collections.Generic.IEnumerable{Convenience.Models.Interfaces.IMasterRegistrationService{`0,`1,`2}.IPostMasterData})">
+  <h3 id="Convenience_Models_Interfaces_IMasterRegistrationService_3_DeleteData__1_System_Collections_Generic_IEnumerable_Convenience_Models_Interfaces_IPostMasterData__" data-uid="Convenience.Models.Interfaces.IMasterRegistrationService`3.DeleteData``1(System.Collections.Generic.IEnumerable{Convenience.Models.Interfaces.IPostMasterData})">
   DeleteData&lt;T&gt;(IEnumerable&lt;IPostMasterData&gt;)
   <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IMasterRegistrationService.cs/#L122"><i class="bi bi-code-slash"></i></a>
   </h3>
@@ -405,12 +405,12 @@ Interface IMasterRegistrationService&lt;TKeepMasterData, TPostMasterData, TMaste
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IList&lt;T&gt; DeleteData&lt;T&gt;(IEnumerable&lt;IMasterRegistrationService&lt;TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel&gt;.IPostMasterData&gt; indatas)</code></pre>
+    <pre><code class="lang-csharp hljs">IList&lt;T&gt; DeleteData&lt;T&gt;(IEnumerable&lt;IPostMasterData&gt; indatas)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>indatas</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.html">IMasterRegistrationService</a>&lt;TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel&gt;.<a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.IPostMasterData.html">IPostMasterData</a>&gt;</dt>
+    <dt><code>indatas</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Convenience.Models.Interfaces.IPostMasterData.html">IPostMasterData</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -489,13 +489,13 @@ Interface IMasterRegistrationService&lt;TKeepMasterData, TPostMasterData, TMaste
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">TMasterRegistrationViewModel MakeViewModel()</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;TMasterRegistrationViewModel&gt; MakeViewModel()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><span class="xref">TMasterRegistrationViewModel</span></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TMasterRegistrationViewModel&gt;</dt>
     <dd><p>生成されたビューモデル</p>
 </dd>
   </dl>
@@ -596,13 +596,13 @@ Interface IMasterRegistrationService&lt;TKeepMasterData, TPostMasterData, TMaste
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IList&lt;TKeepMasterData&gt; QueryMasterData()</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IList&lt;TKeepMasterData&gt;&gt; QueryMasterData()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;TKeepMasterData&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;TKeepMasterData&gt;&gt;</dt>
     <dd><p>取得されたマスタデータ</p>
 </dd>
   </dl>
@@ -629,7 +629,7 @@ Interface IMasterRegistrationService&lt;TKeepMasterData, TPostMasterData, TMaste
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">TMasterRegistrationViewModel UpdateMasterData(TMasterRegistrationViewModel arg3)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;TMasterRegistrationViewModel&gt; UpdateMasterData(TMasterRegistrationViewModel arg3)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -641,7 +641,7 @@ Interface IMasterRegistrationService&lt;TKeepMasterData, TPostMasterData, TMaste
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><span class="xref">TMasterRegistrationViewModel</span></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TMasterRegistrationViewModel&gt;</dt>
     <dd><p>更新されたビューモデル</p>
 </dd>
   </dl>

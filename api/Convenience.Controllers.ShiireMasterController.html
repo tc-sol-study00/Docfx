@@ -749,8 +749,8 @@ Class ShiireMasterController  <a class="header-action link-secondary" title="Vie
 
   <a id="Convenience_Controllers_ShiireMasterController__ctor_" data-uid="Convenience.Controllers.ShiireMasterController.#ctor*"></a>
 
-  <h3 id="Convenience_Controllers_ShiireMasterController__ctor_Convenience_Data_ConvenienceContext_" data-uid="Convenience.Controllers.ShiireMasterController.#ctor(Convenience.Data.ConvenienceContext)">
-  ShiireMasterController(ConvenienceContext)
+  <h3 id="Convenience_Controllers_ShiireMasterController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IShiireMasterService_" data-uid="Convenience.Controllers.ShiireMasterController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShiireMasterService)">
+  ShiireMasterController(ConvenienceContext, IShiireMasterService)
   <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireMasterController.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -759,7 +759,7 @@ Class ShiireMasterController  <a class="header-action link-secondary" title="Vie
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ShiireMasterController(ConvenienceContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public ShiireMasterController(ConvenienceContext context, IShiireMasterService shiireMasterService)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -767,6 +767,8 @@ Class ShiireMasterController  <a class="header-action link-secondary" title="Vie
     <dt><code>context</code> <a class="xref" href="Convenience.Data.ConvenienceContext.html">ConvenienceContext</a></dt>
     <dd><p>データベースコンテキストのインスタンス</p>
 </dd>
+    <dt><code>shiireMasterService</code> <a class="xref" href="Convenience.Models.Interfaces.IShiireMasterService.html">IShiireMasterService</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -857,7 +859,7 @@ Class ShiireMasterController  <a class="header-action link-secondary" title="Vie
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private readonly ShiireMasterService shiireMasterService</code></pre>
+    <pre><code class="lang-csharp hljs">private readonly IShiireMasterService shiireMasterService</code></pre>
   </div>
 
 
@@ -865,7 +867,7 @@ Class ShiireMasterController  <a class="header-action link-secondary" title="Vie
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.Services.ShiireMasterService.html">ShiireMasterService</a></dt>
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IShiireMasterService.html">IShiireMasterService</a></dt>
     <dd></dd>
   </dl>
 

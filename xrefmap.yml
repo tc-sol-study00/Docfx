@@ -4964,15 +4964,15 @@ references:
   commentId: T:Convenience.Controllers.NaigaiClassMasterController
   fullName: Convenience.Controllers.NaigaiClassMasterController
   nameWithType: NaigaiClassMasterController
-- uid: Convenience.Controllers.NaigaiClassMasterController.#ctor(Convenience.Data.ConvenienceContext)
-  name: NaigaiClassMasterController(ConvenienceContext)
-  href: api/Convenience.Controllers.NaigaiClassMasterController.html#Convenience_Controllers_NaigaiClassMasterController__ctor_Convenience_Data_ConvenienceContext_
-  commentId: M:Convenience.Controllers.NaigaiClassMasterController.#ctor(Convenience.Data.ConvenienceContext)
-  name.vb: New(ConvenienceContext)
-  fullName: Convenience.Controllers.NaigaiClassMasterController.NaigaiClassMasterController(Convenience.Data.ConvenienceContext)
-  fullName.vb: Convenience.Controllers.NaigaiClassMasterController.New(Convenience.Data.ConvenienceContext)
-  nameWithType: NaigaiClassMasterController.NaigaiClassMasterController(ConvenienceContext)
-  nameWithType.vb: NaigaiClassMasterController.New(ConvenienceContext)
+- uid: Convenience.Controllers.NaigaiClassMasterController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.INaigaiClassMasterService)
+  name: NaigaiClassMasterController(ConvenienceContext, INaigaiClassMasterService)
+  href: api/Convenience.Controllers.NaigaiClassMasterController.html#Convenience_Controllers_NaigaiClassMasterController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_INaigaiClassMasterService_
+  commentId: M:Convenience.Controllers.NaigaiClassMasterController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.INaigaiClassMasterService)
+  name.vb: New(ConvenienceContext, INaigaiClassMasterService)
+  fullName: Convenience.Controllers.NaigaiClassMasterController.NaigaiClassMasterController(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.INaigaiClassMasterService)
+  fullName.vb: Convenience.Controllers.NaigaiClassMasterController.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.INaigaiClassMasterService)
+  nameWithType: NaigaiClassMasterController.NaigaiClassMasterController(ConvenienceContext, INaigaiClassMasterService)
+  nameWithType.vb: NaigaiClassMasterController.New(ConvenienceContext, INaigaiClassMasterService)
 - uid: Convenience.Controllers.NaigaiClassMasterController.#ctor*
   name: NaigaiClassMasterController
   href: api/Convenience.Controllers.NaigaiClassMasterController.html#Convenience_Controllers_NaigaiClassMasterController__ctor_
@@ -5247,15 +5247,15 @@ references:
   commentId: T:Convenience.Controllers.ShiireMasterController
   fullName: Convenience.Controllers.ShiireMasterController
   nameWithType: ShiireMasterController
-- uid: Convenience.Controllers.ShiireMasterController.#ctor(Convenience.Data.ConvenienceContext)
-  name: ShiireMasterController(ConvenienceContext)
-  href: api/Convenience.Controllers.ShiireMasterController.html#Convenience_Controllers_ShiireMasterController__ctor_Convenience_Data_ConvenienceContext_
-  commentId: M:Convenience.Controllers.ShiireMasterController.#ctor(Convenience.Data.ConvenienceContext)
-  name.vb: New(ConvenienceContext)
-  fullName: Convenience.Controllers.ShiireMasterController.ShiireMasterController(Convenience.Data.ConvenienceContext)
-  fullName.vb: Convenience.Controllers.ShiireMasterController.New(Convenience.Data.ConvenienceContext)
-  nameWithType: ShiireMasterController.ShiireMasterController(ConvenienceContext)
-  nameWithType.vb: ShiireMasterController.New(ConvenienceContext)
+- uid: Convenience.Controllers.ShiireMasterController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShiireMasterService)
+  name: ShiireMasterController(ConvenienceContext, IShiireMasterService)
+  href: api/Convenience.Controllers.ShiireMasterController.html#Convenience_Controllers_ShiireMasterController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IShiireMasterService_
+  commentId: M:Convenience.Controllers.ShiireMasterController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShiireMasterService)
+  name.vb: New(ConvenienceContext, IShiireMasterService)
+  fullName: Convenience.Controllers.ShiireMasterController.ShiireMasterController(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IShiireMasterService)
+  fullName.vb: Convenience.Controllers.ShiireMasterController.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IShiireMasterService)
+  nameWithType: ShiireMasterController.ShiireMasterController(ConvenienceContext, IShiireMasterService)
+  nameWithType.vb: ShiireMasterController.New(ConvenienceContext, IShiireMasterService)
 - uid: Convenience.Controllers.ShiireMasterController.#ctor*
   name: ShiireMasterController
   href: api/Convenience.Controllers.ShiireMasterController.html#Convenience_Controllers_ShiireMasterController__ctor_
@@ -5328,15 +5328,15 @@ references:
   commentId: T:Convenience.Controllers.ShiireSakiMasterController
   fullName: Convenience.Controllers.ShiireSakiMasterController
   nameWithType: ShiireSakiMasterController
-- uid: Convenience.Controllers.ShiireSakiMasterController.#ctor(Convenience.Data.ConvenienceContext)
-  name: ShiireSakiMasterController(ConvenienceContext)
-  href: api/Convenience.Controllers.ShiireSakiMasterController.html#Convenience_Controllers_ShiireSakiMasterController__ctor_Convenience_Data_ConvenienceContext_
-  commentId: M:Convenience.Controllers.ShiireSakiMasterController.#ctor(Convenience.Data.ConvenienceContext)
-  name.vb: New(ConvenienceContext)
-  fullName: Convenience.Controllers.ShiireSakiMasterController.ShiireSakiMasterController(Convenience.Data.ConvenienceContext)
-  fullName.vb: Convenience.Controllers.ShiireSakiMasterController.New(Convenience.Data.ConvenienceContext)
-  nameWithType: ShiireSakiMasterController.ShiireSakiMasterController(ConvenienceContext)
-  nameWithType.vb: ShiireSakiMasterController.New(ConvenienceContext)
+- uid: Convenience.Controllers.ShiireSakiMasterController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShiireSakiMasterService)
+  name: ShiireSakiMasterController(ConvenienceContext, IShiireSakiMasterService)
+  href: api/Convenience.Controllers.ShiireSakiMasterController.html#Convenience_Controllers_ShiireSakiMasterController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IShiireSakiMasterService_
+  commentId: M:Convenience.Controllers.ShiireSakiMasterController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShiireSakiMasterService)
+  name.vb: New(ConvenienceContext, IShiireSakiMasterService)
+  fullName: Convenience.Controllers.ShiireSakiMasterController.ShiireSakiMasterController(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IShiireSakiMasterService)
+  fullName.vb: Convenience.Controllers.ShiireSakiMasterController.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IShiireSakiMasterService)
+  nameWithType: ShiireSakiMasterController.ShiireSakiMasterController(ConvenienceContext, IShiireSakiMasterService)
+  nameWithType.vb: ShiireSakiMasterController.New(ConvenienceContext, IShiireSakiMasterService)
 - uid: Convenience.Controllers.ShiireSakiMasterController.#ctor*
   name: ShiireSakiMasterController
   href: api/Convenience.Controllers.ShiireSakiMasterController.html#Convenience_Controllers_ShiireSakiMasterController__ctor_
@@ -5409,15 +5409,15 @@ references:
   commentId: T:Convenience.Controllers.ShohinMasterController
   fullName: Convenience.Controllers.ShohinMasterController
   nameWithType: ShohinMasterController
-- uid: Convenience.Controllers.ShohinMasterController.#ctor(Convenience.Data.ConvenienceContext)
-  name: ShohinMasterController(ConvenienceContext)
-  href: api/Convenience.Controllers.ShohinMasterController.html#Convenience_Controllers_ShohinMasterController__ctor_Convenience_Data_ConvenienceContext_
-  commentId: M:Convenience.Controllers.ShohinMasterController.#ctor(Convenience.Data.ConvenienceContext)
-  name.vb: New(ConvenienceContext)
-  fullName: Convenience.Controllers.ShohinMasterController.ShohinMasterController(Convenience.Data.ConvenienceContext)
-  fullName.vb: Convenience.Controllers.ShohinMasterController.New(Convenience.Data.ConvenienceContext)
-  nameWithType: ShohinMasterController.ShohinMasterController(ConvenienceContext)
-  nameWithType.vb: ShohinMasterController.New(ConvenienceContext)
+- uid: Convenience.Controllers.ShohinMasterController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShohinMasterService)
+  name: ShohinMasterController(ConvenienceContext, IShohinMasterService)
+  href: api/Convenience.Controllers.ShohinMasterController.html#Convenience_Controllers_ShohinMasterController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IShohinMasterService_
+  commentId: M:Convenience.Controllers.ShohinMasterController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShohinMasterService)
+  name.vb: New(ConvenienceContext, IShohinMasterService)
+  fullName: Convenience.Controllers.ShohinMasterController.ShohinMasterController(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IShohinMasterService)
+  fullName.vb: Convenience.Controllers.ShohinMasterController.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IShohinMasterService)
+  nameWithType: ShohinMasterController.ShohinMasterController(ConvenienceContext, IShohinMasterService)
+  nameWithType.vb: ShohinMasterController.New(ConvenienceContext, IShohinMasterService)
 - uid: Convenience.Controllers.ShohinMasterController.#ctor*
   name: ShohinMasterController
   href: api/Convenience.Controllers.ShohinMasterController.html#Convenience_Controllers_ShohinMasterController__ctor_
@@ -8411,6 +8411,25 @@ references:
   commentId: F:Convenience.Models.Interfaces.IDbContext.KeyWordInAppConfig
   fullName: Convenience.Models.Interfaces.IDbContext.KeyWordInAppConfig
   nameWithType: IDbContext.KeyWordInAppConfig
+- uid: Convenience.Models.Interfaces.IDeleteFlag
+  name: IDeleteFlag
+  href: api/Convenience.Models.Interfaces.IDeleteFlag.html
+  commentId: T:Convenience.Models.Interfaces.IDeleteFlag
+  fullName: Convenience.Models.Interfaces.IDeleteFlag
+  nameWithType: IDeleteFlag
+- uid: Convenience.Models.Interfaces.IDeleteFlag.DeleteFlag
+  name: DeleteFlag
+  href: api/Convenience.Models.Interfaces.IDeleteFlag.html#Convenience_Models_Interfaces_IDeleteFlag_DeleteFlag
+  commentId: P:Convenience.Models.Interfaces.IDeleteFlag.DeleteFlag
+  fullName: Convenience.Models.Interfaces.IDeleteFlag.DeleteFlag
+  nameWithType: IDeleteFlag.DeleteFlag
+- uid: Convenience.Models.Interfaces.IDeleteFlag.DeleteFlag*
+  name: DeleteFlag
+  href: api/Convenience.Models.Interfaces.IDeleteFlag.html#Convenience_Models_Interfaces_IDeleteFlag_DeleteFlag_
+  commentId: Overload:Convenience.Models.Interfaces.IDeleteFlag.DeleteFlag
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IDeleteFlag.DeleteFlag
+  nameWithType: IDeleteFlag.DeleteFlag
 - uid: Convenience.Models.Interfaces.IKaikei
   name: IKaikei
   href: api/Convenience.Models.Interfaces.IKaikei.html
@@ -8747,14 +8766,15 @@ references:
   fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).DefaultMakeViewModel
   nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.DefaultMakeViewModel
   nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).DefaultMakeViewModel
-- uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.DefaultUpdateMasterData(Convenience.Models.Interfaces.IMasterRegistrationService{`0,`1,`2}.IMasterRegistrationViewModel)
-  name: DefaultUpdateMasterData(IMasterRegistrationViewModel)
-  href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.html#Convenience_Models_Interfaces_IMasterRegistrationService_3_DefaultUpdateMasterData_Convenience_Models_Interfaces_IMasterRegistrationService__0__1__2__IMasterRegistrationViewModel_
-  commentId: M:Convenience.Models.Interfaces.IMasterRegistrationService`3.DefaultUpdateMasterData(Convenience.Models.Interfaces.IMasterRegistrationService{`0,`1,`2}.IMasterRegistrationViewModel)
-  fullName: Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.DefaultUpdateMasterData(Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel)
-  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).DefaultUpdateMasterData(Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel)
-  nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.DefaultUpdateMasterData(IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel)
-  nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).DefaultUpdateMasterData(IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel)
+- uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.DefaultUpdateMasterData(Convenience.Models.Interfaces.IMasterRegistrationViewModel{`1})
+  name: DefaultUpdateMasterData(IMasterRegistrationViewModel<TPostMasterData>)
+  href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.html#Convenience_Models_Interfaces_IMasterRegistrationService_3_DefaultUpdateMasterData_Convenience_Models_Interfaces_IMasterRegistrationViewModel__1__
+  commentId: M:Convenience.Models.Interfaces.IMasterRegistrationService`3.DefaultUpdateMasterData(Convenience.Models.Interfaces.IMasterRegistrationViewModel{`1})
+  name.vb: DefaultUpdateMasterData(IMasterRegistrationViewModel(Of TPostMasterData))
+  fullName: Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.DefaultUpdateMasterData(Convenience.Models.Interfaces.IMasterRegistrationViewModel<TPostMasterData>)
+  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).DefaultUpdateMasterData(Convenience.Models.Interfaces.IMasterRegistrationViewModel(Of TPostMasterData))
+  nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.DefaultUpdateMasterData(IMasterRegistrationViewModel<TPostMasterData>)
+  nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).DefaultUpdateMasterData(IMasterRegistrationViewModel(Of TPostMasterData))
 - uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.DefaultUpdateMasterData*
   name: DefaultUpdateMasterData
   href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.html#Convenience_Models_Interfaces_IMasterRegistrationService_3_DefaultUpdateMasterData_
@@ -8773,41 +8793,15 @@ references:
   fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).DeleteData
   nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.DeleteData
   nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).DeleteData
-- uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.DeleteData``1(System.Collections.Generic.IEnumerable{Convenience.Models.Interfaces.IMasterRegistrationService{`0,`1,`2}.IPostMasterData})
+- uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.DeleteData``1(System.Collections.Generic.IEnumerable{Convenience.Models.Interfaces.IPostMasterData})
   name: DeleteData<T>(IEnumerable<IPostMasterData>)
-  href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.html#Convenience_Models_Interfaces_IMasterRegistrationService_3_DeleteData__1_System_Collections_Generic_IEnumerable_Convenience_Models_Interfaces_IMasterRegistrationService__0__1__2__IPostMasterData__
-  commentId: M:Convenience.Models.Interfaces.IMasterRegistrationService`3.DeleteData``1(System.Collections.Generic.IEnumerable{Convenience.Models.Interfaces.IMasterRegistrationService{`0,`1,`2}.IPostMasterData})
+  href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.html#Convenience_Models_Interfaces_IMasterRegistrationService_3_DeleteData__1_System_Collections_Generic_IEnumerable_Convenience_Models_Interfaces_IPostMasterData__
+  commentId: M:Convenience.Models.Interfaces.IMasterRegistrationService`3.DeleteData``1(System.Collections.Generic.IEnumerable{Convenience.Models.Interfaces.IPostMasterData})
   name.vb: DeleteData(Of T)(IEnumerable(Of IPostMasterData))
-  fullName: Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.DeleteData<T>(System.Collections.Generic.IEnumerable<Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IPostMasterData>)
-  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).DeleteData(Of T)(System.Collections.Generic.IEnumerable(Of Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IPostMasterData))
-  nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.DeleteData<T>(IEnumerable<IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IPostMasterData>)
-  nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).DeleteData(Of T)(IEnumerable(Of IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IPostMasterData))
-- uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.IDeleteFlag
-  name: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IDeleteFlag
-  href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IDeleteFlag.html
-  commentId: T:Convenience.Models.Interfaces.IMasterRegistrationService`3.IDeleteFlag
-  name.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IDeleteFlag
-  fullName: Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IDeleteFlag
-  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IDeleteFlag
-  nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IDeleteFlag
-  nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IDeleteFlag
-- uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.IDeleteFlag.DeleteFlag
-  name: DeleteFlag
-  href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IDeleteFlag.html#Convenience_Models_Interfaces_IMasterRegistrationService_3_IDeleteFlag_DeleteFlag
-  commentId: P:Convenience.Models.Interfaces.IMasterRegistrationService`3.IDeleteFlag.DeleteFlag
-  fullName: Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IDeleteFlag.DeleteFlag
-  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IDeleteFlag.DeleteFlag
-  nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IDeleteFlag.DeleteFlag
-  nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IDeleteFlag.DeleteFlag
-- uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.IDeleteFlag.DeleteFlag*
-  name: DeleteFlag
-  href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IDeleteFlag.html#Convenience_Models_Interfaces_IMasterRegistrationService_3_IDeleteFlag_DeleteFlag_
-  commentId: Overload:Convenience.Models.Interfaces.IMasterRegistrationService`3.IDeleteFlag.DeleteFlag
-  isSpec: "True"
-  fullName: Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IDeleteFlag.DeleteFlag
-  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IDeleteFlag.DeleteFlag
-  nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IDeleteFlag.DeleteFlag
-  nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IDeleteFlag.DeleteFlag
+  fullName: Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.DeleteData<T>(System.Collections.Generic.IEnumerable<Convenience.Models.Interfaces.IPostMasterData>)
+  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).DeleteData(Of T)(System.Collections.Generic.IEnumerable(Of Convenience.Models.Interfaces.IPostMasterData))
+  nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.DeleteData<T>(IEnumerable<IPostMasterData>)
+  nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).DeleteData(Of T)(IEnumerable(Of IPostMasterData))
 - uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.IMasterRegistrationSelectList
   name: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationSelectList
   href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationSelectList.html
@@ -8852,75 +8846,6 @@ references:
   fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationSelectList._context
   nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationSelectList._context
   nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationSelectList._context
-- uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.IMasterRegistrationViewModel
-  name: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel
-  href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.html
-  commentId: T:Convenience.Models.Interfaces.IMasterRegistrationService`3.IMasterRegistrationViewModel
-  name.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel
-  fullName: Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel
-  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel
-  nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel
-  nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel
-- uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.IMasterRegistrationViewModel.IsNormal
-  name: IsNormal
-  href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.html#Convenience_Models_Interfaces_IMasterRegistrationService_3_IMasterRegistrationViewModel_IsNormal
-  commentId: P:Convenience.Models.Interfaces.IMasterRegistrationService`3.IMasterRegistrationViewModel.IsNormal
-  fullName: Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel.IsNormal
-  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel.IsNormal
-  nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel.IsNormal
-  nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel.IsNormal
-- uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.IMasterRegistrationViewModel.IsNormal*
-  name: IsNormal
-  href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.html#Convenience_Models_Interfaces_IMasterRegistrationService_3_IMasterRegistrationViewModel_IsNormal_
-  commentId: Overload:Convenience.Models.Interfaces.IMasterRegistrationService`3.IMasterRegistrationViewModel.IsNormal
-  isSpec: "True"
-  fullName: Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel.IsNormal
-  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel.IsNormal
-  nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel.IsNormal
-  nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel.IsNormal
-- uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.IMasterRegistrationViewModel.PostMasterDatas
-  name: PostMasterDatas
-  href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.html#Convenience_Models_Interfaces_IMasterRegistrationService_3_IMasterRegistrationViewModel_PostMasterDatas
-  commentId: P:Convenience.Models.Interfaces.IMasterRegistrationService`3.IMasterRegistrationViewModel.PostMasterDatas
-  fullName: Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel.PostMasterDatas
-  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel.PostMasterDatas
-  nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel.PostMasterDatas
-  nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel.PostMasterDatas
-- uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.IMasterRegistrationViewModel.PostMasterDatas*
-  name: PostMasterDatas
-  href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.html#Convenience_Models_Interfaces_IMasterRegistrationService_3_IMasterRegistrationViewModel_PostMasterDatas_
-  commentId: Overload:Convenience.Models.Interfaces.IMasterRegistrationService`3.IMasterRegistrationViewModel.PostMasterDatas
-  isSpec: "True"
-  fullName: Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel.PostMasterDatas
-  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel.PostMasterDatas
-  nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel.PostMasterDatas
-  nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel.PostMasterDatas
-- uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.IMasterRegistrationViewModel.Remark
-  name: Remark
-  href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.html#Convenience_Models_Interfaces_IMasterRegistrationService_3_IMasterRegistrationViewModel_Remark
-  commentId: P:Convenience.Models.Interfaces.IMasterRegistrationService`3.IMasterRegistrationViewModel.Remark
-  fullName: Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel.Remark
-  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel.Remark
-  nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel.Remark
-  nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel.Remark
-- uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.IMasterRegistrationViewModel.Remark*
-  name: Remark
-  href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.html#Convenience_Models_Interfaces_IMasterRegistrationService_3_IMasterRegistrationViewModel_Remark_
-  commentId: Overload:Convenience.Models.Interfaces.IMasterRegistrationService`3.IMasterRegistrationViewModel.Remark
-  isSpec: "True"
-  fullName: Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel.Remark
-  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel.Remark
-  nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IMasterRegistrationViewModel.Remark
-  nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IMasterRegistrationViewModel.Remark
-- uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.IPostMasterData
-  name: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IPostMasterData
-  href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.IPostMasterData.html
-  commentId: T:Convenience.Models.Interfaces.IMasterRegistrationService`3.IPostMasterData
-  name.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IPostMasterData
-  fullName: Convenience.Models.Interfaces.IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IPostMasterData
-  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IPostMasterData
-  nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>.IPostMasterData
-  nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel).IPostMasterData
 - uid: Convenience.Models.Interfaces.IMasterRegistrationService`3.InsertRow(System.Collections.Generic.IList{`1},System.Int32)
   name: InsertRow(IList<TPostMasterData>, int)
   href: api/Convenience.Models.Interfaces.IMasterRegistrationService-3.html#Convenience_Models_Interfaces_IMasterRegistrationService_3_InsertRow_System_Collections_Generic_IList__1__System_Int32_
@@ -9094,6 +9019,78 @@ references:
   fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel)._context
   nameWithType: IMasterRegistrationService<TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel>._context
   nameWithType.vb: IMasterRegistrationService(Of TKeepMasterData, TPostMasterData, TMasterRegistrationViewModel)._context
+- uid: Convenience.Models.Interfaces.IMasterRegistrationViewModel`1
+  name: IMasterRegistrationViewModel<T>
+  href: api/Convenience.Models.Interfaces.IMasterRegistrationViewModel-1.html
+  commentId: T:Convenience.Models.Interfaces.IMasterRegistrationViewModel`1
+  name.vb: IMasterRegistrationViewModel(Of T)
+  fullName: Convenience.Models.Interfaces.IMasterRegistrationViewModel<T>
+  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationViewModel(Of T)
+  nameWithType: IMasterRegistrationViewModel<T>
+  nameWithType.vb: IMasterRegistrationViewModel(Of T)
+- uid: Convenience.Models.Interfaces.IMasterRegistrationViewModel`1.IsNormal
+  name: IsNormal
+  href: api/Convenience.Models.Interfaces.IMasterRegistrationViewModel-1.html#Convenience_Models_Interfaces_IMasterRegistrationViewModel_1_IsNormal
+  commentId: P:Convenience.Models.Interfaces.IMasterRegistrationViewModel`1.IsNormal
+  fullName: Convenience.Models.Interfaces.IMasterRegistrationViewModel<T>.IsNormal
+  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationViewModel(Of T).IsNormal
+  nameWithType: IMasterRegistrationViewModel<T>.IsNormal
+  nameWithType.vb: IMasterRegistrationViewModel(Of T).IsNormal
+- uid: Convenience.Models.Interfaces.IMasterRegistrationViewModel`1.IsNormal*
+  name: IsNormal
+  href: api/Convenience.Models.Interfaces.IMasterRegistrationViewModel-1.html#Convenience_Models_Interfaces_IMasterRegistrationViewModel_1_IsNormal_
+  commentId: Overload:Convenience.Models.Interfaces.IMasterRegistrationViewModel`1.IsNormal
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IMasterRegistrationViewModel<T>.IsNormal
+  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationViewModel(Of T).IsNormal
+  nameWithType: IMasterRegistrationViewModel<T>.IsNormal
+  nameWithType.vb: IMasterRegistrationViewModel(Of T).IsNormal
+- uid: Convenience.Models.Interfaces.IMasterRegistrationViewModel`1.PostMasterDatas
+  name: PostMasterDatas
+  href: api/Convenience.Models.Interfaces.IMasterRegistrationViewModel-1.html#Convenience_Models_Interfaces_IMasterRegistrationViewModel_1_PostMasterDatas
+  commentId: P:Convenience.Models.Interfaces.IMasterRegistrationViewModel`1.PostMasterDatas
+  fullName: Convenience.Models.Interfaces.IMasterRegistrationViewModel<T>.PostMasterDatas
+  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationViewModel(Of T).PostMasterDatas
+  nameWithType: IMasterRegistrationViewModel<T>.PostMasterDatas
+  nameWithType.vb: IMasterRegistrationViewModel(Of T).PostMasterDatas
+- uid: Convenience.Models.Interfaces.IMasterRegistrationViewModel`1.PostMasterDatas*
+  name: PostMasterDatas
+  href: api/Convenience.Models.Interfaces.IMasterRegistrationViewModel-1.html#Convenience_Models_Interfaces_IMasterRegistrationViewModel_1_PostMasterDatas_
+  commentId: Overload:Convenience.Models.Interfaces.IMasterRegistrationViewModel`1.PostMasterDatas
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IMasterRegistrationViewModel<T>.PostMasterDatas
+  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationViewModel(Of T).PostMasterDatas
+  nameWithType: IMasterRegistrationViewModel<T>.PostMasterDatas
+  nameWithType.vb: IMasterRegistrationViewModel(Of T).PostMasterDatas
+- uid: Convenience.Models.Interfaces.IMasterRegistrationViewModel`1.Remark
+  name: Remark
+  href: api/Convenience.Models.Interfaces.IMasterRegistrationViewModel-1.html#Convenience_Models_Interfaces_IMasterRegistrationViewModel_1_Remark
+  commentId: P:Convenience.Models.Interfaces.IMasterRegistrationViewModel`1.Remark
+  fullName: Convenience.Models.Interfaces.IMasterRegistrationViewModel<T>.Remark
+  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationViewModel(Of T).Remark
+  nameWithType: IMasterRegistrationViewModel<T>.Remark
+  nameWithType.vb: IMasterRegistrationViewModel(Of T).Remark
+- uid: Convenience.Models.Interfaces.IMasterRegistrationViewModel`1.Remark*
+  name: Remark
+  href: api/Convenience.Models.Interfaces.IMasterRegistrationViewModel-1.html#Convenience_Models_Interfaces_IMasterRegistrationViewModel_1_Remark_
+  commentId: Overload:Convenience.Models.Interfaces.IMasterRegistrationViewModel`1.Remark
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IMasterRegistrationViewModel<T>.Remark
+  fullName.vb: Convenience.Models.Interfaces.IMasterRegistrationViewModel(Of T).Remark
+  nameWithType: IMasterRegistrationViewModel<T>.Remark
+  nameWithType.vb: IMasterRegistrationViewModel(Of T).Remark
+- uid: Convenience.Models.Interfaces.INaigaiClassMasterService
+  name: INaigaiClassMasterService
+  href: api/Convenience.Models.Interfaces.INaigaiClassMasterService.html
+  commentId: T:Convenience.Models.Interfaces.INaigaiClassMasterService
+  fullName: Convenience.Models.Interfaces.INaigaiClassMasterService
+  nameWithType: INaigaiClassMasterService
+- uid: Convenience.Models.Interfaces.IPostMasterData
+  name: IPostMasterData
+  href: api/Convenience.Models.Interfaces.IPostMasterData.html
+  commentId: T:Convenience.Models.Interfaces.IPostMasterData
+  fullName: Convenience.Models.Interfaces.IPostMasterData
+  nameWithType: IPostMasterData
 - uid: Convenience.Models.Interfaces.IRetrivalService
   name: IRetrivalService
   href: api/Convenience.Models.Interfaces.IRetrivalService.html
@@ -9998,6 +9995,18 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Interfaces.IShiireJissekiService.ShiireJissekiRetrival
   nameWithType: IShiireJissekiService.ShiireJissekiRetrival
+- uid: Convenience.Models.Interfaces.IShiireMasterService
+  name: IShiireMasterService
+  href: api/Convenience.Models.Interfaces.IShiireMasterService.html
+  commentId: T:Convenience.Models.Interfaces.IShiireMasterService
+  fullName: Convenience.Models.Interfaces.IShiireMasterService
+  nameWithType: IShiireMasterService
+- uid: Convenience.Models.Interfaces.IShiireSakiMasterService
+  name: IShiireSakiMasterService
+  href: api/Convenience.Models.Interfaces.IShiireSakiMasterService.html
+  commentId: T:Convenience.Models.Interfaces.IShiireSakiMasterService
+  fullName: Convenience.Models.Interfaces.IShiireSakiMasterService
+  nameWithType: IShiireSakiMasterService
 - uid: Convenience.Models.Interfaces.IShiireService
   name: IShiireService
   href: api/Convenience.Models.Interfaces.IShiireService.html
@@ -10056,6 +10065,12 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Interfaces.IShiireService.shiire
   nameWithType: IShiireService.shiire
+- uid: Convenience.Models.Interfaces.IShohinMasterService
+  name: IShohinMasterService
+  href: api/Convenience.Models.Interfaces.IShohinMasterService.html
+  commentId: T:Convenience.Models.Interfaces.IShohinMasterService
+  fullName: Convenience.Models.Interfaces.IShohinMasterService
+  nameWithType: IShohinMasterService
 - uid: Convenience.Models.Interfaces.ITentoHaraidashi
   name: ITentoHaraidashi
   href: api/Convenience.Models.Interfaces.ITentoHaraidashi.html
@@ -15599,6 +15614,19 @@ references:
   fullName.vb: Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.New
   nameWithType: ShiireMasterViewModel.ShiireMasterViewModel
   nameWithType.vb: ShiireMasterViewModel.New
+- uid: Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.InitialAsync
+  name: InitialAsync()
+  href: api/Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.html#Convenience_Models_ViewModels_ShiireMaster_ShiireMasterViewModel_InitialAsync
+  commentId: M:Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.InitialAsync
+  fullName: Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.InitialAsync()
+  nameWithType: ShiireMasterViewModel.InitialAsync()
+- uid: Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.InitialAsync*
+  name: InitialAsync
+  href: api/Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.html#Convenience_Models_ViewModels_ShiireMaster_ShiireMasterViewModel_InitialAsync_
+  commentId: Overload:Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.InitialAsync
+  isSpec: "True"
+  fullName: Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.InitialAsync
+  nameWithType: ShiireMasterViewModel.InitialAsync
 - uid: Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.IsNormal
   name: IsNormal
   href: api/Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel.html#Convenience_Models_ViewModels_ShiireMaster_ShiireMasterViewModel_IsNormal

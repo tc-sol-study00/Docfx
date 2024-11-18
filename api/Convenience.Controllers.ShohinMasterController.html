@@ -749,8 +749,8 @@ Class ShohinMasterController  <a class="header-action link-secondary" title="Vie
 
   <a id="Convenience_Controllers_ShohinMasterController__ctor_" data-uid="Convenience.Controllers.ShohinMasterController.#ctor*"></a>
 
-  <h3 id="Convenience_Controllers_ShohinMasterController__ctor_Convenience_Data_ConvenienceContext_" data-uid="Convenience.Controllers.ShohinMasterController.#ctor(Convenience.Data.ConvenienceContext)">
-  ShohinMasterController(ConvenienceContext)
+  <h3 id="Convenience_Controllers_ShohinMasterController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IShohinMasterService_" data-uid="Convenience.Controllers.ShohinMasterController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShohinMasterService)">
+  ShohinMasterController(ConvenienceContext, IShohinMasterService)
   <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShohinMasterController.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -759,7 +759,7 @@ Class ShohinMasterController  <a class="header-action link-secondary" title="Vie
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ShohinMasterController(ConvenienceContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public ShohinMasterController(ConvenienceContext context, IShohinMasterService shohinMasterService)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -767,6 +767,8 @@ Class ShohinMasterController  <a class="header-action link-secondary" title="Vie
     <dt><code>context</code> <a class="xref" href="Convenience.Data.ConvenienceContext.html">ConvenienceContext</a></dt>
     <dd><p>データベースコンテキストのインスタンス</p>
 </dd>
+    <dt><code>shohinMasterService</code> <a class="xref" href="Convenience.Models.Interfaces.IShohinMasterService.html">IShohinMasterService</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -857,7 +859,7 @@ Class ShohinMasterController  <a class="header-action link-secondary" title="Vie
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private readonly ShohinMasterService shohinMasterService</code></pre>
+    <pre><code class="lang-csharp hljs">private readonly IShohinMasterService shohinMasterService</code></pre>
   </div>
 
 
@@ -865,7 +867,7 @@ Class ShohinMasterController  <a class="header-action link-secondary" title="Vie
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.Services.ShohinMasterService.html">ShohinMasterService</a></dt>
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IShohinMasterService.html">IShohinMasterService</a></dt>
     <dd></dd>
   </dl>
 

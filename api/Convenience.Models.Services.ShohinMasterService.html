@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Models_Services_ShohinMasterService" data-uid="Convenience.Models.Services.ShohinMasterService" class="text-break">
-Class ShohinMasterService  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L16"><i class="bi bi-code-slash"></i></a>
+Class ShohinMasterService  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ShohinMasterService : IMasterRegistrationService&lt;ShohinMaster, ShohinMasterService.PostMasterData, ShohinMasterViewModel&gt;, ISharedTools</code></pre>
+    <pre><code class="lang-csharp hljs">public class ShohinMasterService : IShohinMasterService, IMasterRegistrationService&lt;ShohinMaster, ShohinMasterService.PostMasterData, ShohinMasterViewModel&gt;, ISharedTools</code></pre>
   </div>
 
 
@@ -119,6 +119,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
+      <div><a class="xref" href="Convenience.Models.Interfaces.IShohinMasterService.html">IShohinMasterService</a></div>
       <div><a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.html">IMasterRegistrationService</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShohinMaster.html">ShohinMaster</a>, <a class="xref" href="Convenience.Models.Services.ShohinMasterService.html">ShohinMasterService</a>.<a class="xref" href="Convenience.Models.Services.ShohinMasterService.PostMasterData.html">PostMasterData</a>, <a class="xref" href="Convenience.Models.ViewModels.ShohinMaster.ShohinMasterViewModel.html">ShohinMasterViewModel</a>&gt;</div>
       <div><a class="xref" href="Convenience.Models.Interfaces.ISharedTools.html">ISharedTools</a></div>
     </dd>
@@ -164,7 +165,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
 
   <h3 id="Convenience_Models_Services_ShohinMasterService__ctor_Convenience_Data_ConvenienceContext_" data-uid="Convenience.Models.Services.ShohinMasterService.#ctor(Convenience.Data.ConvenienceContext)">
   ShohinMasterService(ConvenienceContext)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>コンストラクタ</p>
@@ -200,14 +201,14 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
 
   <h3 id="Convenience_Models_Services_ShohinMasterService_my" data-uid="Convenience.Models.Services.ShohinMasterService.my">
   my
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private readonly IMasterRegistrationService&lt;ShohinMaster, ShohinMasterService.PostMasterData, ShohinMasterViewModel&gt; my</code></pre>
+    <pre><code class="lang-csharp hljs">private readonly IShohinMasterService my</code></pre>
   </div>
 
 
@@ -215,7 +216,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.html">IMasterRegistrationService</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShohinMaster.html">ShohinMaster</a>, <a class="xref" href="Convenience.Models.Services.ShohinMasterService.html">ShohinMasterService</a>.<a class="xref" href="Convenience.Models.Services.ShohinMasterService.PostMasterData.html">PostMasterData</a>, <a class="xref" href="Convenience.Models.ViewModels.ShohinMaster.ShohinMasterViewModel.html">ShohinMasterViewModel</a>&gt;</dt>
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IShohinMasterService.html">IShohinMasterService</a></dt>
     <dd></dd>
   </dl>
 
@@ -235,7 +236,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
 
   <h3 id="Convenience_Models_Services_ShohinMasterService_KeepMasterDatas" data-uid="Convenience.Models.Services.ShohinMasterService.KeepMasterDatas">
   KeepMasterDatas
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>現在保持しているマスタデータ</p>
@@ -267,7 +268,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
 
   <h3 id="Convenience_Models_Services_ShohinMasterService_MasterRegisiationViewModel" data-uid="Convenience.Models.Services.ShohinMasterService.MasterRegisiationViewModel">
   MasterRegisiationViewModel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ビューモデル</p>
@@ -275,7 +276,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IMasterRegistrationService&lt;ShohinMaster, ShohinMasterService.PostMasterData, ShohinMasterViewModel&gt;.IMasterRegistrationViewModel MasterRegisiationViewModel { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IMasterRegistrationViewModel&lt;ShohinMasterService.PostMasterData&gt; MasterRegisiationViewModel { get; set; }</code></pre>
   </div>
 
 
@@ -284,7 +285,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.html">IMasterRegistrationService</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShohinMaster.html">ShohinMaster</a>, <a class="xref" href="Convenience.Models.Services.ShohinMasterService.html">ShohinMasterService</a>.<a class="xref" href="Convenience.Models.Services.ShohinMasterService.PostMasterData.html">PostMasterData</a>, <a class="xref" href="Convenience.Models.ViewModels.ShohinMaster.ShohinMasterViewModel.html">ShohinMasterViewModel</a>&gt;.<a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationService-3.IMasterRegistrationViewModel.html">IMasterRegistrationViewModel</a></dt>
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IMasterRegistrationViewModel-1.html">IMasterRegistrationViewModel</a>&lt;<a class="xref" href="Convenience.Models.Services.ShohinMasterService.html">ShohinMasterService</a>.<a class="xref" href="Convenience.Models.Services.ShohinMasterService.PostMasterData.html">PostMasterData</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -299,7 +300,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
 
   <h3 id="Convenience_Models_Services_ShohinMasterService_PostedMasterDatas" data-uid="Convenience.Models.Services.ShohinMasterService.PostedMasterDatas">
   PostedMasterDatas
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Postされたマスタデータ</p>
@@ -331,7 +332,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
 
   <h3 id="Convenience_Models_Services_ShohinMasterService__context" data-uid="Convenience.Models.Services.ShohinMasterService._context">
   _context
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>データベースコンテキスト</p>
@@ -367,7 +368,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
 
   <h3 id="Convenience_Models_Services_ShohinMasterService_InsertRow_System_Collections_Generic_IList_Convenience_Models_Services_ShohinMasterService_PostMasterData__System_Int32_" data-uid="Convenience.Models.Services.ShohinMasterService.InsertRow(System.Collections.Generic.IList{Convenience.Models.Services.ShohinMasterService.PostMasterData},System.Int32)">
   InsertRow(IList&lt;PostMasterData&gt;, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L140"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Postデータに新しい行を挿入</p>
@@ -409,7 +410,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
 
   <h3 id="Convenience_Models_Services_ShohinMasterService_MakeViewModel" data-uid="Convenience.Models.Services.ShohinMasterService.MakeViewModel">
   MakeViewModel()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L120"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ビューモデルを作成</p>
@@ -417,13 +418,13 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ShohinMasterViewModel MakeViewModel()</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;ShohinMasterViewModel&gt; MakeViewModel()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.ViewModels.ShohinMaster.ShohinMasterViewModel.html">ShohinMasterViewModel</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.ShohinMaster.ShohinMasterViewModel.html">ShohinMasterViewModel</a>&gt;</dt>
     <dd><p>ビューモデル</p>
 </dd>
   </dl>
@@ -442,7 +443,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
 
   <h3 id="Convenience_Models_Services_ShohinMasterService_MapFromKeepMasterDataToPostData_System_Collections_Generic_IList_Convenience_Models_DataModels_ShohinMaster__" data-uid="Convenience.Models.Services.ShohinMasterService.MapFromKeepMasterDataToPostData(System.Collections.Generic.IList{Convenience.Models.DataModels.ShohinMaster})">
   MapFromKeepMasterDataToPostData(IList&lt;ShohinMaster&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>保持データをPostデータにマッピング</p>
@@ -481,7 +482,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
 
   <h3 id="Convenience_Models_Services_ShohinMasterService_MapFromPostDataToKeepMasterData_System_Collections_Generic_IList_Convenience_Models_Services_ShohinMasterService_PostMasterData__" data-uid="Convenience.Models.Services.ShohinMasterService.MapFromPostDataToKeepMasterData(System.Collections.Generic.IList{Convenience.Models.Services.ShohinMasterService.PostMasterData})">
   MapFromPostDataToKeepMasterData(IList&lt;PostMasterData&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Postデータを保持データにマッピング</p>
@@ -520,7 +521,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
 
   <h3 id="Convenience_Models_Services_ShohinMasterService_QueryMasterData" data-uid="Convenience.Models.Services.ShohinMasterService.QueryMasterData">
   QueryMasterData()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>データベースから商品マスタデータを取得</p>
@@ -528,13 +529,13 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IList&lt;ShohinMaster&gt; QueryMasterData()</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IList&lt;ShohinMaster&gt;&gt; QueryMasterData()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShohinMaster.html">ShohinMaster</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Convenience.Models.DataModels.ShohinMaster.html">ShohinMaster</a>&gt;&gt;</dt>
     <dd><p>保持データリスト</p>
 </dd>
   </dl>
@@ -553,7 +554,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
 
   <h3 id="Convenience_Models_Services_ShohinMasterService_UpdateMasterData_Convenience_Models_ViewModels_ShohinMaster_ShohinMasterViewModel_" data-uid="Convenience.Models.Services.ShohinMasterService.UpdateMasterData(Convenience.Models.ViewModels.ShohinMaster.ShohinMasterViewModel)">
   UpdateMasterData(ShohinMasterViewModel)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ビューモデルを基にマスタデータを更新</p>
@@ -561,7 +562,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ShohinMasterViewModel UpdateMasterData(ShohinMasterViewModel argMasterRegistrationViewModel)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;ShohinMasterViewModel&gt; UpdateMasterData(ShohinMasterViewModel argMasterRegistrationViewModel)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -573,7 +574,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Convenience.Models.ViewModels.ShohinMaster.ShohinMasterViewModel.html">ShohinMasterViewModel</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Convenience.Models.ViewModels.ShohinMaster.ShohinMasterViewModel.html">ShohinMasterViewModel</a>&gt;</dt>
     <dd><p>更新後のビューモデル</p>
 </dd>
   </dl>
@@ -592,7 +593,7 @@ Class ShohinMasterService  <a class="header-action link-secondary" title="View s
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L16" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Services/ShohinMasterService.cs/#L14" class="edit-link">Edit this page</a>
         </div>
 
 

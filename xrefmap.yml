@@ -9806,6 +9806,22 @@ references:
   fullName.vb: Convenience.Models.Interfaces.ISharedTools.IsExistCheck(Of T)(T)
   nameWithType: ISharedTools.IsExistCheck<T>(T?)
   nameWithType.vb: ISharedTools.IsExistCheck(Of T)(T)
+- uid: Convenience.Models.Interfaces.ISharedTools.IsNotExistCheck*
+  name: IsNotExistCheck
+  href: api/Convenience.Models.Interfaces.ISharedTools.html#Convenience_Models_Interfaces_ISharedTools_IsNotExistCheck_
+  commentId: Overload:Convenience.Models.Interfaces.ISharedTools.IsNotExistCheck
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.ISharedTools.IsNotExistCheck
+  nameWithType: ISharedTools.IsNotExistCheck
+- uid: Convenience.Models.Interfaces.ISharedTools.IsNotExistCheck``1(``0)
+  name: IsNotExistCheck<T>(T?)
+  href: api/Convenience.Models.Interfaces.ISharedTools.html#Convenience_Models_Interfaces_ISharedTools_IsNotExistCheck__1___0_
+  commentId: M:Convenience.Models.Interfaces.ISharedTools.IsNotExistCheck``1(``0)
+  name.vb: IsNotExistCheck(Of T)(T)
+  fullName: Convenience.Models.Interfaces.ISharedTools.IsNotExistCheck<T>(T?)
+  fullName.vb: Convenience.Models.Interfaces.ISharedTools.IsNotExistCheck(Of T)(T)
+  nameWithType: ISharedTools.IsNotExistCheck<T>(T?)
+  nameWithType.vb: ISharedTools.IsNotExistCheck(Of T)(T)
 - uid: Convenience.Models.Interfaces.IShiire
   name: IShiire
   href: api/Convenience.Models.Interfaces.IShiire.html

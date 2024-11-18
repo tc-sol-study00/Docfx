@@ -5027,6 +5027,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Controllers.NaigaiClassMasterController.InsertRow
   nameWithType: NaigaiClassMasterController.InsertRow
+- uid: Convenience.Controllers.NaigaiClassMasterController.Result
+  name: Result()
+  href: api/Convenience.Controllers.NaigaiClassMasterController.html#Convenience_Controllers_NaigaiClassMasterController_Result
+  commentId: M:Convenience.Controllers.NaigaiClassMasterController.Result
+  fullName: Convenience.Controllers.NaigaiClassMasterController.Result()
+  nameWithType: NaigaiClassMasterController.Result()
+- uid: Convenience.Controllers.NaigaiClassMasterController.Result*
+  name: Result
+  href: api/Convenience.Controllers.NaigaiClassMasterController.html#Convenience_Controllers_NaigaiClassMasterController_Result_
+  commentId: Overload:Convenience.Controllers.NaigaiClassMasterController.Result
+  isSpec: "True"
+  fullName: Convenience.Controllers.NaigaiClassMasterController.Result
+  nameWithType: NaigaiClassMasterController.Result
 - uid: Convenience.Controllers.NaigaiClassMasterController._context
   name: _context
   href: api/Convenience.Controllers.NaigaiClassMasterController.html#Convenience_Controllers_NaigaiClassMasterController__context
@@ -5310,6 +5323,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Controllers.ShiireMasterController.InsertRow
   nameWithType: ShiireMasterController.InsertRow
+- uid: Convenience.Controllers.ShiireMasterController.Result
+  name: Result()
+  href: api/Convenience.Controllers.ShiireMasterController.html#Convenience_Controllers_ShiireMasterController_Result
+  commentId: M:Convenience.Controllers.ShiireMasterController.Result
+  fullName: Convenience.Controllers.ShiireMasterController.Result()
+  nameWithType: ShiireMasterController.Result()
+- uid: Convenience.Controllers.ShiireMasterController.Result*
+  name: Result
+  href: api/Convenience.Controllers.ShiireMasterController.html#Convenience_Controllers_ShiireMasterController_Result_
+  commentId: Overload:Convenience.Controllers.ShiireMasterController.Result
+  isSpec: "True"
+  fullName: Convenience.Controllers.ShiireMasterController.Result
+  nameWithType: ShiireMasterController.Result
 - uid: Convenience.Controllers.ShiireMasterController._context
   name: _context
   href: api/Convenience.Controllers.ShiireMasterController.html#Convenience_Controllers_ShiireMasterController__context
@@ -5391,6 +5417,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Controllers.ShiireSakiMasterController.InsertRow
   nameWithType: ShiireSakiMasterController.InsertRow
+- uid: Convenience.Controllers.ShiireSakiMasterController.Result
+  name: Result()
+  href: api/Convenience.Controllers.ShiireSakiMasterController.html#Convenience_Controllers_ShiireSakiMasterController_Result
+  commentId: M:Convenience.Controllers.ShiireSakiMasterController.Result
+  fullName: Convenience.Controllers.ShiireSakiMasterController.Result()
+  nameWithType: ShiireSakiMasterController.Result()
+- uid: Convenience.Controllers.ShiireSakiMasterController.Result*
+  name: Result
+  href: api/Convenience.Controllers.ShiireSakiMasterController.html#Convenience_Controllers_ShiireSakiMasterController_Result_
+  commentId: Overload:Convenience.Controllers.ShiireSakiMasterController.Result
+  isSpec: "True"
+  fullName: Convenience.Controllers.ShiireSakiMasterController.Result
+  nameWithType: ShiireSakiMasterController.Result
 - uid: Convenience.Controllers.ShiireSakiMasterController._context
   name: _context
   href: api/Convenience.Controllers.ShiireSakiMasterController.html#Convenience_Controllers_ShiireSakiMasterController__context
@@ -5472,6 +5511,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Controllers.ShohinMasterController.InsertRow
   nameWithType: ShohinMasterController.InsertRow
+- uid: Convenience.Controllers.ShohinMasterController.Result
+  name: Result()
+  href: api/Convenience.Controllers.ShohinMasterController.html#Convenience_Controllers_ShohinMasterController_Result
+  commentId: M:Convenience.Controllers.ShohinMasterController.Result
+  fullName: Convenience.Controllers.ShohinMasterController.Result()
+  nameWithType: ShohinMasterController.Result()
+- uid: Convenience.Controllers.ShohinMasterController.Result*
+  name: Result
+  href: api/Convenience.Controllers.ShohinMasterController.html#Convenience_Controllers_ShohinMasterController_Result_
+  commentId: Overload:Convenience.Controllers.ShohinMasterController.Result
+  isSpec: "True"
+  fullName: Convenience.Controllers.ShohinMasterController.Result
+  nameWithType: ShohinMasterController.Result
 - uid: Convenience.Controllers.ShohinMasterController._context
   name: _context
   href: api/Convenience.Controllers.ShohinMasterController.html#Convenience_Controllers_ShohinMasterController__context

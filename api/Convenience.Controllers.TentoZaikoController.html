@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Controllers_TentoZaikoController" data-uid="Convenience.Controllers.TentoZaikoController" class="text-break">
-Class TentoZaikoController  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L16"><i class="bi bi-code-slash"></i></a>
+Class TentoZaikoController  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -750,9 +750,9 @@ public class TentoZaikoController : Controller, IActionFilter, IAsyncActionFilte
 
   <a id="Convenience_Controllers_TentoZaikoController__ctor_" data-uid="Convenience.Controllers.TentoZaikoController.#ctor*"></a>
 
-  <h3 id="Convenience_Controllers_TentoZaikoController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_ITentoZaikoService_" data-uid="Convenience.Controllers.TentoZaikoController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.ITentoZaikoService)">
-  TentoZaikoController(ConvenienceContext, ITentoZaikoService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Controllers_TentoZaikoController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_ITentoZaikoService_Convenience_Models_Interfaces_IConvertObjectToCsv_" data-uid="Convenience.Controllers.TentoZaikoController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.ITentoZaikoService,Convenience.Models.Interfaces.IConvertObjectToCsv)">
+  TentoZaikoController(ConvenienceContext, ITentoZaikoService, IConvertObjectToCsv)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>コンストラクター</p>
@@ -760,7 +760,7 @@ public class TentoZaikoController : Controller, IActionFilter, IAsyncActionFilte
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TentoZaikoController(ConvenienceContext context, ITentoZaikoService tentoZaikoService)</code></pre>
+    <pre><code class="lang-csharp hljs">public TentoZaikoController(ConvenienceContext context, ITentoZaikoService tentoZaikoService, IConvertObjectToCsv convertObjectToCsv)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -771,6 +771,8 @@ public class TentoZaikoController : Controller, IActionFilter, IAsyncActionFilte
     <dt><code>tentoZaikoService</code> <a class="xref" href="Convenience.Models.Interfaces.ITentoZaikoService.html">ITentoZaikoService</a></dt>
     <dd><p>店頭在庫検索サービスクラスＤＩ注入用</p>
 </dd>
+    <dt><code>convertObjectToCsv</code> <a class="xref" href="Convenience.Models.Interfaces.IConvertObjectToCsv.html">IConvertObjectToCsv</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -791,7 +793,7 @@ public class TentoZaikoController : Controller, IActionFilter, IAsyncActionFilte
 
   <h3 id="Convenience_Controllers_TentoZaikoController_IndexName" data-uid="Convenience.Controllers.TentoZaikoController.IndexName">
   IndexName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>サービスクラス引継ぎ用キーワード</p>
@@ -822,7 +824,7 @@ public class TentoZaikoController : Controller, IActionFilter, IAsyncActionFilte
 
   <h3 id="Convenience_Controllers_TentoZaikoController_PageSize" data-uid="Convenience.Controllers.TentoZaikoController.PageSize">
   PageSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>１ページの行数</p>
@@ -853,7 +855,7 @@ public class TentoZaikoController : Controller, IActionFilter, IAsyncActionFilte
 
   <h3 id="Convenience_Controllers_TentoZaikoController__context" data-uid="Convenience.Controllers.TentoZaikoController._context">
   _context
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>DBコンテキスト</p>
@@ -882,9 +884,40 @@ public class TentoZaikoController : Controller, IActionFilter, IAsyncActionFilte
 
 
 
+  <h3 id="Convenience_Controllers_TentoZaikoController__convertObjectToCsv" data-uid="Convenience.Controllers.TentoZaikoController._convertObjectToCsv">
+  _convertObjectToCsv
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>CSVファイル作成（ＤＩ用）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly IConvertObjectToCsv _convertObjectToCsv</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IConvertObjectToCsv.html">IConvertObjectToCsv</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <h3 id="Convenience_Controllers_TentoZaikoController_tentoZaikoService" data-uid="Convenience.Controllers.TentoZaikoController.tentoZaikoService">
   tentoZaikoService
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>店頭在庫検索サービスクラス（ＤＩ用）</p>
@@ -915,7 +948,7 @@ public class TentoZaikoController : Controller, IActionFilter, IAsyncActionFilte
 
   <h3 id="Convenience_Controllers_TentoZaikoController_tentoZaikoViewModel" data-uid="Convenience.Controllers.TentoZaikoController.tentoZaikoViewModel">
   tentoZaikoViewModel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ビュー・モデル</p>
@@ -947,11 +980,55 @@ public class TentoZaikoController : Controller, IActionFilter, IAsyncActionFilte
 </h2>
 
 
+  <a id="Convenience_Controllers_TentoZaikoController_DownLoad_" data-uid="Convenience.Controllers.TentoZaikoController.DownLoad*"></a>
+
+  <h3 id="Convenience_Controllers_TentoZaikoController_DownLoad_System_String_" data-uid="Convenience.Controllers.TentoZaikoController.DownLoad(System.String)">
+  DownLoad(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Download</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+public Task&lt;IActionResult&gt; DownLoad(string id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</dt>
+    <dd><p>Downloadファイル</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
   <a id="Convenience_Controllers_TentoZaikoController_Index_" data-uid="Convenience.Controllers.TentoZaikoController.Index*"></a>
 
   <h3 id="Convenience_Controllers_TentoZaikoController_Index" data-uid="Convenience.Controllers.TentoZaikoController.Index">
   Index()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>店頭在庫検索１枚目の初期表示処理</p>
@@ -985,7 +1062,7 @@ public Task&lt;IActionResult&gt; Index()</code></pre>
 
   <h3 id="Convenience_Controllers_TentoZaikoController_ProcessResult_Convenience_Models_ViewModels_TentoZaiko_TentoZaikoViewModel_System_Int32_System_Int32_" data-uid="Convenience.Controllers.TentoZaikoController.ProcessResult(Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel,System.Int32,System.Int32)">
   ProcessResult(TentoZaikoViewModel, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L141"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>検索データ作成</p>
@@ -1029,7 +1106,7 @@ public Task&lt;IActionResult&gt; Index()</code></pre>
 
   <h3 id="Convenience_Controllers_TentoZaikoController_Result_Convenience_Models_ViewModels_TentoZaiko_TentoZaikoViewModel_System_Int32_" data-uid="Convenience.Controllers.TentoZaikoController.Result(Convenience.Models.ViewModels.TentoZaiko.TentoZaikoViewModel,System.Int32)">
   Result(TentoZaikoViewModel, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>店頭在庫検索キー入力後</p>
@@ -1072,7 +1149,7 @@ public Task&lt;IActionResult&gt; Result(TentoZaikoViewModel postedTentoZaikoView
 
   <h3 id="Convenience_Controllers_TentoZaikoController_Result_System_Int32_" data-uid="Convenience.Controllers.TentoZaikoController.Result(System.Int32)">
   Result(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>検索結果</p>
@@ -1112,7 +1189,7 @@ public Task&lt;IActionResult&gt; Result(int page)</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L16" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/TentoZaikoController.cs/#L19" class="edit-link">Edit this page</a>
         </div>
 
 

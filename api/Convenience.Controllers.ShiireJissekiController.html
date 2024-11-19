@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Controllers_ShiireJissekiController" data-uid="Convenience.Controllers.ShiireJissekiController" class="text-break">
-Class ShiireJissekiController  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L12"><i class="bi bi-code-slash"></i></a>
+Class ShiireJissekiController  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -750,9 +750,9 @@ public class ShiireJissekiController : Controller, IActionFilter, IAsyncActionFi
 
   <a id="Convenience_Controllers_ShiireJissekiController__ctor_" data-uid="Convenience.Controllers.ShiireJissekiController.#ctor*"></a>
 
-  <h3 id="Convenience_Controllers_ShiireJissekiController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IShiireJissekiService_" data-uid="Convenience.Controllers.ShiireJissekiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShiireJissekiService)">
-  ShiireJissekiController(ConvenienceContext, IShiireJissekiService)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Convenience_Controllers_ShiireJissekiController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IShiireJissekiService_Convenience_Models_Interfaces_IConvertObjectToCsv_" data-uid="Convenience.Controllers.ShiireJissekiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShiireJissekiService,Convenience.Models.Interfaces.IConvertObjectToCsv)">
+  ShiireJissekiController(ConvenienceContext, IShiireJissekiService, IConvertObjectToCsv)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>コンストラクター</p>
@@ -760,7 +760,7 @@ public class ShiireJissekiController : Controller, IActionFilter, IAsyncActionFi
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ShiireJissekiController(ConvenienceContext context, IShiireJissekiService shiireJissekiService)</code></pre>
+    <pre><code class="lang-csharp hljs">public ShiireJissekiController(ConvenienceContext context, IShiireJissekiService shiireJissekiService, IConvertObjectToCsv convertObjectToCsv)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -771,6 +771,8 @@ public class ShiireJissekiController : Controller, IActionFilter, IAsyncActionFi
     <dt><code>shiireJissekiService</code> <a class="xref" href="Convenience.Models.Interfaces.IShiireJissekiService.html">IShiireJissekiService</a></dt>
     <dd><p>仕入実績サービスクラスＤＩ注入用</p>
 </dd>
+    <dt><code>convertObjectToCsv</code> <a class="xref" href="Convenience.Models.Interfaces.IConvertObjectToCsv.html">IConvertObjectToCsv</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -791,7 +793,7 @@ public class ShiireJissekiController : Controller, IActionFilter, IAsyncActionFi
 
   <h3 id="Convenience_Controllers_ShiireJissekiController_IndexName" data-uid="Convenience.Controllers.ShiireJissekiController.IndexName">
   IndexName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>サービスクラス引継ぎ用キーワード</p>
@@ -822,7 +824,7 @@ public class ShiireJissekiController : Controller, IActionFilter, IAsyncActionFi
 
   <h3 id="Convenience_Controllers_ShiireJissekiController_PageSize" data-uid="Convenience.Controllers.ShiireJissekiController.PageSize">
   PageSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>１ページの行数</p>
@@ -853,7 +855,7 @@ public class ShiireJissekiController : Controller, IActionFilter, IAsyncActionFi
 
   <h3 id="Convenience_Controllers_ShiireJissekiController__context" data-uid="Convenience.Controllers.ShiireJissekiController._context">
   _context
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>DBコンテキスト</p>
@@ -882,9 +884,40 @@ public class ShiireJissekiController : Controller, IActionFilter, IAsyncActionFi
 
 
 
+  <h3 id="Convenience_Controllers_ShiireJissekiController__convertObjectToCsv" data-uid="Convenience.Controllers.ShiireJissekiController._convertObjectToCsv">
+  _convertObjectToCsv
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>CSVファイル作成（ＤＩ用）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private readonly IConvertObjectToCsv _convertObjectToCsv</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Convenience.Models.Interfaces.IConvertObjectToCsv.html">IConvertObjectToCsv</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <h3 id="Convenience_Controllers_ShiireJissekiController_shiireJissekiService" data-uid="Convenience.Controllers.ShiireJissekiController.shiireJissekiService">
   shiireJissekiService
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>仕入実績サービスクラス（ＤＩ用）</p>
@@ -915,7 +948,7 @@ public class ShiireJissekiController : Controller, IActionFilter, IAsyncActionFi
 
   <h3 id="Convenience_Controllers_ShiireJissekiController_shiireJissekiViewModel" data-uid="Convenience.Controllers.ShiireJissekiController.shiireJissekiViewModel">
   shiireJissekiViewModel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>ビュー・モデル</p>
@@ -923,7 +956,7 @@ public class ShiireJissekiController : Controller, IActionFilter, IAsyncActionFi
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private readonly ShiireJissekiViewModel shiireJissekiViewModel</code></pre>
+    <pre><code class="lang-csharp hljs">private ShiireJissekiViewModel shiireJissekiViewModel</code></pre>
   </div>
 
 
@@ -947,11 +980,55 @@ public class ShiireJissekiController : Controller, IActionFilter, IAsyncActionFi
 </h2>
 
 
+  <a id="Convenience_Controllers_ShiireJissekiController_DownLoad_" data-uid="Convenience.Controllers.ShiireJissekiController.DownLoad*"></a>
+
+  <h3 id="Convenience_Controllers_ShiireJissekiController_DownLoad_System_String_" data-uid="Convenience.Controllers.ShiireJissekiController.DownLoad(System.String)">
+  DownLoad(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Download</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+public Task&lt;IActionResult&gt; DownLoad(string id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a>&gt;</dt>
+    <dd><p>Downloadファイル</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
   <a id="Convenience_Controllers_ShiireJissekiController_Index_" data-uid="Convenience.Controllers.ShiireJissekiController.Index*"></a>
 
   <h3 id="Convenience_Controllers_ShiireJissekiController_Index" data-uid="Convenience.Controllers.ShiireJissekiController.Index">
   Index()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>仕入実績検索１枚目の初期表示処理</p>
@@ -985,7 +1062,7 @@ public Task&lt;IActionResult&gt; Index()</code></pre>
 
   <h3 id="Convenience_Controllers_ShiireJissekiController_ProcessResult_Convenience_Models_ViewModels_ShiireJisseki_ShiireJissekiViewModel_System_Int32_System_Int32_" data-uid="Convenience.Controllers.ShiireJissekiController.ProcessResult(Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel,System.Int32,System.Int32)">
   ProcessResult(ShiireJissekiViewModel, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L107"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>検索データ作成</p>
@@ -1029,7 +1106,7 @@ public Task&lt;IActionResult&gt; Index()</code></pre>
 
   <h3 id="Convenience_Controllers_ShiireJissekiController_Result_Convenience_Models_ViewModels_ShiireJisseki_ShiireJissekiViewModel_System_Int32_" data-uid="Convenience.Controllers.ShiireJissekiController.Result(Convenience.Models.ViewModels.ShiireJisseki.ShiireJissekiViewModel,System.Int32)">
   Result(ShiireJissekiViewModel, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>仕入実績検索キー入力後</p>
@@ -1072,7 +1149,7 @@ public Task&lt;IActionResult&gt; Result(ShiireJissekiViewModel postedShiireJisse
 
   <h3 id="Convenience_Controllers_ShiireJissekiController_Result_System_Int32_" data-uid="Convenience.Controllers.ShiireJissekiController.Result(System.Int32)">
   Result(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>検索結果</p>
@@ -1112,7 +1189,7 @@ public Task&lt;IActionResult&gt; Result(int page)</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L12" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Controllers/ShiireJissekiController.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 

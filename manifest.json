@@ -762,6 +762,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Interfaces.IConvertObjectToCsv.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Interfaces.IConvertObjectToCsv.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Interfaces.IDbContext.yml",
       "output": {
         ".html": {
@@ -1132,6 +1142,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.CSVMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.CSVMapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Properties.Chumon.DelegateOverrideProc.yml",
       "output": {
         ".html": {
@@ -1186,6 +1256,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Properties.ChumonJissekiSetupException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.ConvertObjectToCsv.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.ConvertObjectToCsv.html"
         }
       },
       "version": ""

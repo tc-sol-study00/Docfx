@@ -4559,15 +4559,15 @@ references:
   commentId: T:Convenience.Controllers.ChumonJissekiController
   fullName: Convenience.Controllers.ChumonJissekiController
   nameWithType: ChumonJissekiController
-- uid: Convenience.Controllers.ChumonJissekiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IChumonJissekiService)
-  name: ChumonJissekiController(ConvenienceContext, IChumonJissekiService)
-  href: api/Convenience.Controllers.ChumonJissekiController.html#Convenience_Controllers_ChumonJissekiController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IChumonJissekiService_
-  commentId: M:Convenience.Controllers.ChumonJissekiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IChumonJissekiService)
-  name.vb: New(ConvenienceContext, IChumonJissekiService)
-  fullName: Convenience.Controllers.ChumonJissekiController.ChumonJissekiController(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IChumonJissekiService)
-  fullName.vb: Convenience.Controllers.ChumonJissekiController.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IChumonJissekiService)
-  nameWithType: ChumonJissekiController.ChumonJissekiController(ConvenienceContext, IChumonJissekiService)
-  nameWithType.vb: ChumonJissekiController.New(ConvenienceContext, IChumonJissekiService)
+- uid: Convenience.Controllers.ChumonJissekiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IChumonJissekiService,Convenience.Models.Interfaces.IConvertObjectToCsv)
+  name: ChumonJissekiController(ConvenienceContext, IChumonJissekiService, IConvertObjectToCsv)
+  href: api/Convenience.Controllers.ChumonJissekiController.html#Convenience_Controllers_ChumonJissekiController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IChumonJissekiService_Convenience_Models_Interfaces_IConvertObjectToCsv_
+  commentId: M:Convenience.Controllers.ChumonJissekiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IChumonJissekiService,Convenience.Models.Interfaces.IConvertObjectToCsv)
+  name.vb: New(ConvenienceContext, IChumonJissekiService, IConvertObjectToCsv)
+  fullName: Convenience.Controllers.ChumonJissekiController.ChumonJissekiController(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IChumonJissekiService, Convenience.Models.Interfaces.IConvertObjectToCsv)
+  fullName.vb: Convenience.Controllers.ChumonJissekiController.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IChumonJissekiService, Convenience.Models.Interfaces.IConvertObjectToCsv)
+  nameWithType: ChumonJissekiController.ChumonJissekiController(ConvenienceContext, IChumonJissekiService, IConvertObjectToCsv)
+  nameWithType.vb: ChumonJissekiController.New(ConvenienceContext, IChumonJissekiService, IConvertObjectToCsv)
 - uid: Convenience.Controllers.ChumonJissekiController.#ctor*
   name: ChumonJissekiController
   href: api/Convenience.Controllers.ChumonJissekiController.html#Convenience_Controllers_ChumonJissekiController__ctor_
@@ -4578,6 +4578,22 @@ references:
   fullName.vb: Convenience.Controllers.ChumonJissekiController.New
   nameWithType: ChumonJissekiController.ChumonJissekiController
   nameWithType.vb: ChumonJissekiController.New
+- uid: Convenience.Controllers.ChumonJissekiController.DownLoad(System.String)
+  name: DownLoad(string)
+  href: api/Convenience.Controllers.ChumonJissekiController.html#Convenience_Controllers_ChumonJissekiController_DownLoad_System_String_
+  commentId: M:Convenience.Controllers.ChumonJissekiController.DownLoad(System.String)
+  name.vb: DownLoad(String)
+  fullName: Convenience.Controllers.ChumonJissekiController.DownLoad(string)
+  fullName.vb: Convenience.Controllers.ChumonJissekiController.DownLoad(String)
+  nameWithType: ChumonJissekiController.DownLoad(string)
+  nameWithType.vb: ChumonJissekiController.DownLoad(String)
+- uid: Convenience.Controllers.ChumonJissekiController.DownLoad*
+  name: DownLoad
+  href: api/Convenience.Controllers.ChumonJissekiController.html#Convenience_Controllers_ChumonJissekiController_DownLoad_
+  commentId: Overload:Convenience.Controllers.ChumonJissekiController.DownLoad
+  isSpec: "True"
+  fullName: Convenience.Controllers.ChumonJissekiController.DownLoad
+  nameWithType: ChumonJissekiController.DownLoad
 - uid: Convenience.Controllers.ChumonJissekiController.Index
   name: Index()
   href: api/Convenience.Controllers.ChumonJissekiController.html#Convenience_Controllers_ChumonJissekiController_Index
@@ -4650,6 +4666,12 @@ references:
   commentId: F:Convenience.Controllers.ChumonJissekiController._context
   fullName: Convenience.Controllers.ChumonJissekiController._context
   nameWithType: ChumonJissekiController._context
+- uid: Convenience.Controllers.ChumonJissekiController._convertObjectToCsv
+  name: _convertObjectToCsv
+  href: api/Convenience.Controllers.ChumonJissekiController.html#Convenience_Controllers_ChumonJissekiController__convertObjectToCsv
+  commentId: F:Convenience.Controllers.ChumonJissekiController._convertObjectToCsv
+  fullName: Convenience.Controllers.ChumonJissekiController._convertObjectToCsv
+  nameWithType: ChumonJissekiController._convertObjectToCsv
 - uid: Convenience.Controllers.ChumonJissekiController.chumonJissekiService
   name: chumonJissekiService
   href: api/Convenience.Controllers.ChumonJissekiController.html#Convenience_Controllers_ChumonJissekiController_chumonJissekiService
@@ -4855,15 +4877,15 @@ references:
   commentId: T:Convenience.Controllers.KaikeiJissekiController
   fullName: Convenience.Controllers.KaikeiJissekiController
   nameWithType: KaikeiJissekiController
-- uid: Convenience.Controllers.KaikeiJissekiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IKaikeiJissekiService)
-  name: KaikeiJissekiController(ConvenienceContext, IKaikeiJissekiService)
-  href: api/Convenience.Controllers.KaikeiJissekiController.html#Convenience_Controllers_KaikeiJissekiController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IKaikeiJissekiService_
-  commentId: M:Convenience.Controllers.KaikeiJissekiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IKaikeiJissekiService)
-  name.vb: New(ConvenienceContext, IKaikeiJissekiService)
-  fullName: Convenience.Controllers.KaikeiJissekiController.KaikeiJissekiController(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IKaikeiJissekiService)
-  fullName.vb: Convenience.Controllers.KaikeiJissekiController.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IKaikeiJissekiService)
-  nameWithType: KaikeiJissekiController.KaikeiJissekiController(ConvenienceContext, IKaikeiJissekiService)
-  nameWithType.vb: KaikeiJissekiController.New(ConvenienceContext, IKaikeiJissekiService)
+- uid: Convenience.Controllers.KaikeiJissekiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IKaikeiJissekiService,Convenience.Models.Interfaces.IConvertObjectToCsv)
+  name: KaikeiJissekiController(ConvenienceContext, IKaikeiJissekiService, IConvertObjectToCsv)
+  href: api/Convenience.Controllers.KaikeiJissekiController.html#Convenience_Controllers_KaikeiJissekiController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IKaikeiJissekiService_Convenience_Models_Interfaces_IConvertObjectToCsv_
+  commentId: M:Convenience.Controllers.KaikeiJissekiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IKaikeiJissekiService,Convenience.Models.Interfaces.IConvertObjectToCsv)
+  name.vb: New(ConvenienceContext, IKaikeiJissekiService, IConvertObjectToCsv)
+  fullName: Convenience.Controllers.KaikeiJissekiController.KaikeiJissekiController(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IKaikeiJissekiService, Convenience.Models.Interfaces.IConvertObjectToCsv)
+  fullName.vb: Convenience.Controllers.KaikeiJissekiController.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IKaikeiJissekiService, Convenience.Models.Interfaces.IConvertObjectToCsv)
+  nameWithType: KaikeiJissekiController.KaikeiJissekiController(ConvenienceContext, IKaikeiJissekiService, IConvertObjectToCsv)
+  nameWithType.vb: KaikeiJissekiController.New(ConvenienceContext, IKaikeiJissekiService, IConvertObjectToCsv)
 - uid: Convenience.Controllers.KaikeiJissekiController.#ctor*
   name: KaikeiJissekiController
   href: api/Convenience.Controllers.KaikeiJissekiController.html#Convenience_Controllers_KaikeiJissekiController__ctor_
@@ -4874,6 +4896,22 @@ references:
   fullName.vb: Convenience.Controllers.KaikeiJissekiController.New
   nameWithType: KaikeiJissekiController.KaikeiJissekiController
   nameWithType.vb: KaikeiJissekiController.New
+- uid: Convenience.Controllers.KaikeiJissekiController.DownLoad(System.String)
+  name: DownLoad(string)
+  href: api/Convenience.Controllers.KaikeiJissekiController.html#Convenience_Controllers_KaikeiJissekiController_DownLoad_System_String_
+  commentId: M:Convenience.Controllers.KaikeiJissekiController.DownLoad(System.String)
+  name.vb: DownLoad(String)
+  fullName: Convenience.Controllers.KaikeiJissekiController.DownLoad(string)
+  fullName.vb: Convenience.Controllers.KaikeiJissekiController.DownLoad(String)
+  nameWithType: KaikeiJissekiController.DownLoad(string)
+  nameWithType.vb: KaikeiJissekiController.DownLoad(String)
+- uid: Convenience.Controllers.KaikeiJissekiController.DownLoad*
+  name: DownLoad
+  href: api/Convenience.Controllers.KaikeiJissekiController.html#Convenience_Controllers_KaikeiJissekiController_DownLoad_
+  commentId: Overload:Convenience.Controllers.KaikeiJissekiController.DownLoad
+  isSpec: "True"
+  fullName: Convenience.Controllers.KaikeiJissekiController.DownLoad
+  nameWithType: KaikeiJissekiController.DownLoad
 - uid: Convenience.Controllers.KaikeiJissekiController.Index
   name: Index()
   href: api/Convenience.Controllers.KaikeiJissekiController.html#Convenience_Controllers_KaikeiJissekiController_Index
@@ -4946,6 +4984,12 @@ references:
   commentId: F:Convenience.Controllers.KaikeiJissekiController._context
   fullName: Convenience.Controllers.KaikeiJissekiController._context
   nameWithType: KaikeiJissekiController._context
+- uid: Convenience.Controllers.KaikeiJissekiController._convertObjectToCsv
+  name: _convertObjectToCsv
+  href: api/Convenience.Controllers.KaikeiJissekiController.html#Convenience_Controllers_KaikeiJissekiController__convertObjectToCsv
+  commentId: F:Convenience.Controllers.KaikeiJissekiController._convertObjectToCsv
+  fullName: Convenience.Controllers.KaikeiJissekiController._convertObjectToCsv
+  nameWithType: KaikeiJissekiController._convertObjectToCsv
 - uid: Convenience.Controllers.KaikeiJissekiController.kaikeiJissekiService
   name: kaikeiJissekiService
   href: api/Convenience.Controllers.KaikeiJissekiController.html#Convenience_Controllers_KaikeiJissekiController_kaikeiJissekiService
@@ -5151,15 +5195,15 @@ references:
   commentId: T:Convenience.Controllers.ShiireJissekiController
   fullName: Convenience.Controllers.ShiireJissekiController
   nameWithType: ShiireJissekiController
-- uid: Convenience.Controllers.ShiireJissekiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShiireJissekiService)
-  name: ShiireJissekiController(ConvenienceContext, IShiireJissekiService)
-  href: api/Convenience.Controllers.ShiireJissekiController.html#Convenience_Controllers_ShiireJissekiController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IShiireJissekiService_
-  commentId: M:Convenience.Controllers.ShiireJissekiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShiireJissekiService)
-  name.vb: New(ConvenienceContext, IShiireJissekiService)
-  fullName: Convenience.Controllers.ShiireJissekiController.ShiireJissekiController(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IShiireJissekiService)
-  fullName.vb: Convenience.Controllers.ShiireJissekiController.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IShiireJissekiService)
-  nameWithType: ShiireJissekiController.ShiireJissekiController(ConvenienceContext, IShiireJissekiService)
-  nameWithType.vb: ShiireJissekiController.New(ConvenienceContext, IShiireJissekiService)
+- uid: Convenience.Controllers.ShiireJissekiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShiireJissekiService,Convenience.Models.Interfaces.IConvertObjectToCsv)
+  name: ShiireJissekiController(ConvenienceContext, IShiireJissekiService, IConvertObjectToCsv)
+  href: api/Convenience.Controllers.ShiireJissekiController.html#Convenience_Controllers_ShiireJissekiController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_IShiireJissekiService_Convenience_Models_Interfaces_IConvertObjectToCsv_
+  commentId: M:Convenience.Controllers.ShiireJissekiController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.IShiireJissekiService,Convenience.Models.Interfaces.IConvertObjectToCsv)
+  name.vb: New(ConvenienceContext, IShiireJissekiService, IConvertObjectToCsv)
+  fullName: Convenience.Controllers.ShiireJissekiController.ShiireJissekiController(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IShiireJissekiService, Convenience.Models.Interfaces.IConvertObjectToCsv)
+  fullName.vb: Convenience.Controllers.ShiireJissekiController.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.IShiireJissekiService, Convenience.Models.Interfaces.IConvertObjectToCsv)
+  nameWithType: ShiireJissekiController.ShiireJissekiController(ConvenienceContext, IShiireJissekiService, IConvertObjectToCsv)
+  nameWithType.vb: ShiireJissekiController.New(ConvenienceContext, IShiireJissekiService, IConvertObjectToCsv)
 - uid: Convenience.Controllers.ShiireJissekiController.#ctor*
   name: ShiireJissekiController
   href: api/Convenience.Controllers.ShiireJissekiController.html#Convenience_Controllers_ShiireJissekiController__ctor_
@@ -5170,6 +5214,22 @@ references:
   fullName.vb: Convenience.Controllers.ShiireJissekiController.New
   nameWithType: ShiireJissekiController.ShiireJissekiController
   nameWithType.vb: ShiireJissekiController.New
+- uid: Convenience.Controllers.ShiireJissekiController.DownLoad(System.String)
+  name: DownLoad(string)
+  href: api/Convenience.Controllers.ShiireJissekiController.html#Convenience_Controllers_ShiireJissekiController_DownLoad_System_String_
+  commentId: M:Convenience.Controllers.ShiireJissekiController.DownLoad(System.String)
+  name.vb: DownLoad(String)
+  fullName: Convenience.Controllers.ShiireJissekiController.DownLoad(string)
+  fullName.vb: Convenience.Controllers.ShiireJissekiController.DownLoad(String)
+  nameWithType: ShiireJissekiController.DownLoad(string)
+  nameWithType.vb: ShiireJissekiController.DownLoad(String)
+- uid: Convenience.Controllers.ShiireJissekiController.DownLoad*
+  name: DownLoad
+  href: api/Convenience.Controllers.ShiireJissekiController.html#Convenience_Controllers_ShiireJissekiController_DownLoad_
+  commentId: Overload:Convenience.Controllers.ShiireJissekiController.DownLoad
+  isSpec: "True"
+  fullName: Convenience.Controllers.ShiireJissekiController.DownLoad
+  nameWithType: ShiireJissekiController.DownLoad
 - uid: Convenience.Controllers.ShiireJissekiController.Index
   name: Index()
   href: api/Convenience.Controllers.ShiireJissekiController.html#Convenience_Controllers_ShiireJissekiController_Index
@@ -5242,6 +5302,12 @@ references:
   commentId: F:Convenience.Controllers.ShiireJissekiController._context
   fullName: Convenience.Controllers.ShiireJissekiController._context
   nameWithType: ShiireJissekiController._context
+- uid: Convenience.Controllers.ShiireJissekiController._convertObjectToCsv
+  name: _convertObjectToCsv
+  href: api/Convenience.Controllers.ShiireJissekiController.html#Convenience_Controllers_ShiireJissekiController__convertObjectToCsv
+  commentId: F:Convenience.Controllers.ShiireJissekiController._convertObjectToCsv
+  fullName: Convenience.Controllers.ShiireJissekiController._convertObjectToCsv
+  nameWithType: ShiireJissekiController._convertObjectToCsv
 - uid: Convenience.Controllers.ShiireJissekiController.shiireJissekiService
   name: shiireJissekiService
   href: api/Convenience.Controllers.ShiireJissekiController.html#Convenience_Controllers_ShiireJissekiController_shiireJissekiService
@@ -5635,15 +5701,15 @@ references:
   commentId: T:Convenience.Controllers.TentoZaikoController
   fullName: Convenience.Controllers.TentoZaikoController
   nameWithType: TentoZaikoController
-- uid: Convenience.Controllers.TentoZaikoController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.ITentoZaikoService)
-  name: TentoZaikoController(ConvenienceContext, ITentoZaikoService)
-  href: api/Convenience.Controllers.TentoZaikoController.html#Convenience_Controllers_TentoZaikoController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_ITentoZaikoService_
-  commentId: M:Convenience.Controllers.TentoZaikoController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.ITentoZaikoService)
-  name.vb: New(ConvenienceContext, ITentoZaikoService)
-  fullName: Convenience.Controllers.TentoZaikoController.TentoZaikoController(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.ITentoZaikoService)
-  fullName.vb: Convenience.Controllers.TentoZaikoController.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.ITentoZaikoService)
-  nameWithType: TentoZaikoController.TentoZaikoController(ConvenienceContext, ITentoZaikoService)
-  nameWithType.vb: TentoZaikoController.New(ConvenienceContext, ITentoZaikoService)
+- uid: Convenience.Controllers.TentoZaikoController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.ITentoZaikoService,Convenience.Models.Interfaces.IConvertObjectToCsv)
+  name: TentoZaikoController(ConvenienceContext, ITentoZaikoService, IConvertObjectToCsv)
+  href: api/Convenience.Controllers.TentoZaikoController.html#Convenience_Controllers_TentoZaikoController__ctor_Convenience_Data_ConvenienceContext_Convenience_Models_Interfaces_ITentoZaikoService_Convenience_Models_Interfaces_IConvertObjectToCsv_
+  commentId: M:Convenience.Controllers.TentoZaikoController.#ctor(Convenience.Data.ConvenienceContext,Convenience.Models.Interfaces.ITentoZaikoService,Convenience.Models.Interfaces.IConvertObjectToCsv)
+  name.vb: New(ConvenienceContext, ITentoZaikoService, IConvertObjectToCsv)
+  fullName: Convenience.Controllers.TentoZaikoController.TentoZaikoController(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.ITentoZaikoService, Convenience.Models.Interfaces.IConvertObjectToCsv)
+  fullName.vb: Convenience.Controllers.TentoZaikoController.New(Convenience.Data.ConvenienceContext, Convenience.Models.Interfaces.ITentoZaikoService, Convenience.Models.Interfaces.IConvertObjectToCsv)
+  nameWithType: TentoZaikoController.TentoZaikoController(ConvenienceContext, ITentoZaikoService, IConvertObjectToCsv)
+  nameWithType.vb: TentoZaikoController.New(ConvenienceContext, ITentoZaikoService, IConvertObjectToCsv)
 - uid: Convenience.Controllers.TentoZaikoController.#ctor*
   name: TentoZaikoController
   href: api/Convenience.Controllers.TentoZaikoController.html#Convenience_Controllers_TentoZaikoController__ctor_
@@ -5654,6 +5720,22 @@ references:
   fullName.vb: Convenience.Controllers.TentoZaikoController.New
   nameWithType: TentoZaikoController.TentoZaikoController
   nameWithType.vb: TentoZaikoController.New
+- uid: Convenience.Controllers.TentoZaikoController.DownLoad(System.String)
+  name: DownLoad(string)
+  href: api/Convenience.Controllers.TentoZaikoController.html#Convenience_Controllers_TentoZaikoController_DownLoad_System_String_
+  commentId: M:Convenience.Controllers.TentoZaikoController.DownLoad(System.String)
+  name.vb: DownLoad(String)
+  fullName: Convenience.Controllers.TentoZaikoController.DownLoad(string)
+  fullName.vb: Convenience.Controllers.TentoZaikoController.DownLoad(String)
+  nameWithType: TentoZaikoController.DownLoad(string)
+  nameWithType.vb: TentoZaikoController.DownLoad(String)
+- uid: Convenience.Controllers.TentoZaikoController.DownLoad*
+  name: DownLoad
+  href: api/Convenience.Controllers.TentoZaikoController.html#Convenience_Controllers_TentoZaikoController_DownLoad_
+  commentId: Overload:Convenience.Controllers.TentoZaikoController.DownLoad
+  isSpec: "True"
+  fullName: Convenience.Controllers.TentoZaikoController.DownLoad
+  nameWithType: TentoZaikoController.DownLoad
 - uid: Convenience.Controllers.TentoZaikoController.Index
   name: Index()
   href: api/Convenience.Controllers.TentoZaikoController.html#Convenience_Controllers_TentoZaikoController_Index
@@ -5726,6 +5808,12 @@ references:
   commentId: F:Convenience.Controllers.TentoZaikoController._context
   fullName: Convenience.Controllers.TentoZaikoController._context
   nameWithType: TentoZaikoController._context
+- uid: Convenience.Controllers.TentoZaikoController._convertObjectToCsv
+  name: _convertObjectToCsv
+  href: api/Convenience.Controllers.TentoZaikoController.html#Convenience_Controllers_TentoZaikoController__convertObjectToCsv
+  commentId: F:Convenience.Controllers.TentoZaikoController._convertObjectToCsv
+  fullName: Convenience.Controllers.TentoZaikoController._convertObjectToCsv
+  nameWithType: TentoZaikoController._convertObjectToCsv
 - uid: Convenience.Controllers.TentoZaikoController.tentoZaikoService
   name: tentoZaikoService
   href: api/Convenience.Controllers.TentoZaikoController.html#Convenience_Controllers_TentoZaikoController_tentoZaikoService
@@ -5744,15 +5832,15 @@ references:
   commentId: T:Convenience.Controllers.ZaikoController
   fullName: Convenience.Controllers.ZaikoController
   nameWithType: ZaikoController
-- uid: Convenience.Controllers.ZaikoController.#ctor(Convenience.Models.Interfaces.IZaikoService)
-  name: ZaikoController(IZaikoService)
-  href: api/Convenience.Controllers.ZaikoController.html#Convenience_Controllers_ZaikoController__ctor_Convenience_Models_Interfaces_IZaikoService_
-  commentId: M:Convenience.Controllers.ZaikoController.#ctor(Convenience.Models.Interfaces.IZaikoService)
-  name.vb: New(IZaikoService)
-  fullName: Convenience.Controllers.ZaikoController.ZaikoController(Convenience.Models.Interfaces.IZaikoService)
-  fullName.vb: Convenience.Controllers.ZaikoController.New(Convenience.Models.Interfaces.IZaikoService)
-  nameWithType: ZaikoController.ZaikoController(IZaikoService)
-  nameWithType.vb: ZaikoController.New(IZaikoService)
+- uid: Convenience.Controllers.ZaikoController.#ctor(Convenience.Models.Interfaces.IZaikoService,Convenience.Models.Interfaces.IConvertObjectToCsv)
+  name: ZaikoController(IZaikoService, IConvertObjectToCsv)
+  href: api/Convenience.Controllers.ZaikoController.html#Convenience_Controllers_ZaikoController__ctor_Convenience_Models_Interfaces_IZaikoService_Convenience_Models_Interfaces_IConvertObjectToCsv_
+  commentId: M:Convenience.Controllers.ZaikoController.#ctor(Convenience.Models.Interfaces.IZaikoService,Convenience.Models.Interfaces.IConvertObjectToCsv)
+  name.vb: New(IZaikoService, IConvertObjectToCsv)
+  fullName: Convenience.Controllers.ZaikoController.ZaikoController(Convenience.Models.Interfaces.IZaikoService, Convenience.Models.Interfaces.IConvertObjectToCsv)
+  fullName.vb: Convenience.Controllers.ZaikoController.New(Convenience.Models.Interfaces.IZaikoService, Convenience.Models.Interfaces.IConvertObjectToCsv)
+  nameWithType: ZaikoController.ZaikoController(IZaikoService, IConvertObjectToCsv)
+  nameWithType.vb: ZaikoController.New(IZaikoService, IConvertObjectToCsv)
 - uid: Convenience.Controllers.ZaikoController.#ctor*
   name: ZaikoController
   href: api/Convenience.Controllers.ZaikoController.html#Convenience_Controllers_ZaikoController__ctor_
@@ -5763,6 +5851,22 @@ references:
   fullName.vb: Convenience.Controllers.ZaikoController.New
   nameWithType: ZaikoController.ZaikoController
   nameWithType.vb: ZaikoController.New
+- uid: Convenience.Controllers.ZaikoController.DownLoad(System.String)
+  name: DownLoad(string)
+  href: api/Convenience.Controllers.ZaikoController.html#Convenience_Controllers_ZaikoController_DownLoad_System_String_
+  commentId: M:Convenience.Controllers.ZaikoController.DownLoad(System.String)
+  name.vb: DownLoad(String)
+  fullName: Convenience.Controllers.ZaikoController.DownLoad(string)
+  fullName.vb: Convenience.Controllers.ZaikoController.DownLoad(String)
+  nameWithType: ZaikoController.DownLoad(string)
+  nameWithType.vb: ZaikoController.DownLoad(String)
+- uid: Convenience.Controllers.ZaikoController.DownLoad*
+  name: DownLoad
+  href: api/Convenience.Controllers.ZaikoController.html#Convenience_Controllers_ZaikoController_DownLoad_
+  commentId: Overload:Convenience.Controllers.ZaikoController.DownLoad
+  isSpec: "True"
+  fullName: Convenience.Controllers.ZaikoController.DownLoad
+  nameWithType: ZaikoController.DownLoad
 - uid: Convenience.Controllers.ZaikoController.Index
   name: Index()
   href: api/Convenience.Controllers.ZaikoController.html#Convenience_Controllers_ZaikoController_Index
@@ -5782,6 +5886,18 @@ references:
   isSpec: "True"
   fullName: Convenience.Controllers.ZaikoController.Index
   nameWithType: ZaikoController.Index
+- uid: Convenience.Controllers.ZaikoController.IndexName
+  name: IndexName
+  href: api/Convenience.Controllers.ZaikoController.html#Convenience_Controllers_ZaikoController_IndexName
+  commentId: F:Convenience.Controllers.ZaikoController.IndexName
+  fullName: Convenience.Controllers.ZaikoController.IndexName
+  nameWithType: ZaikoController.IndexName
+- uid: Convenience.Controllers.ZaikoController._convertObjectToCsv
+  name: _convertObjectToCsv
+  href: api/Convenience.Controllers.ZaikoController.html#Convenience_Controllers_ZaikoController__convertObjectToCsv
+  commentId: F:Convenience.Controllers.ZaikoController._convertObjectToCsv
+  fullName: Convenience.Controllers.ZaikoController._convertObjectToCsv
+  nameWithType: ZaikoController._convertObjectToCsv
 - uid: Convenience.Controllers.ZaikoController.zaikoService
   name: zaikoService
   href: api/Convenience.Controllers.ZaikoController.html#Convenience_Controllers_ZaikoController_zaikoService
@@ -8432,6 +8548,57 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Interfaces.IChumonService.chumon
   nameWithType: IChumonService.chumon
+- uid: Convenience.Models.Interfaces.IConvertObjectToCsv
+  name: IConvertObjectToCsv
+  href: api/Convenience.Models.Interfaces.IConvertObjectToCsv.html
+  commentId: T:Convenience.Models.Interfaces.IConvertObjectToCsv
+  fullName: Convenience.Models.Interfaces.IConvertObjectToCsv
+  nameWithType: IConvertObjectToCsv
+- uid: Convenience.Models.Interfaces.IConvertObjectToCsv.ConvertToCSV*
+  name: ConvertToCSV
+  href: api/Convenience.Models.Interfaces.IConvertObjectToCsv.html#Convenience_Models_Interfaces_IConvertObjectToCsv_ConvertToCSV_
+  commentId: Overload:Convenience.Models.Interfaces.IConvertObjectToCsv.ConvertToCSV
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IConvertObjectToCsv.ConvertToCSV
+  nameWithType: IConvertObjectToCsv.ConvertToCSV
+- uid: Convenience.Models.Interfaces.IConvertObjectToCsv.ConvertToCSV``2(System.Collections.Generic.IEnumerable{``0},System.String)
+  name: ConvertToCSV<T1, T2>(IEnumerable<T1>, string)
+  href: api/Convenience.Models.Interfaces.IConvertObjectToCsv.html#Convenience_Models_Interfaces_IConvertObjectToCsv_ConvertToCSV__2_System_Collections_Generic_IEnumerable___0__System_String_
+  commentId: M:Convenience.Models.Interfaces.IConvertObjectToCsv.ConvertToCSV``2(System.Collections.Generic.IEnumerable{``0},System.String)
+  name.vb: ConvertToCSV(Of T1, T2)(IEnumerable(Of T1), String)
+  fullName: Convenience.Models.Interfaces.IConvertObjectToCsv.ConvertToCSV<T1, T2>(System.Collections.Generic.IEnumerable<T1>, string)
+  fullName.vb: Convenience.Models.Interfaces.IConvertObjectToCsv.ConvertToCSV(Of T1, T2)(System.Collections.Generic.IEnumerable(Of T1), String)
+  nameWithType: IConvertObjectToCsv.ConvertToCSV<T1, T2>(IEnumerable<T1>, string)
+  nameWithType.vb: IConvertObjectToCsv.ConvertToCSV(Of T1, T2)(IEnumerable(Of T1), String)
+- uid: Convenience.Models.Interfaces.IConvertObjectToCsv.CsvConfig
+  name: CsvConfig()
+  href: api/Convenience.Models.Interfaces.IConvertObjectToCsv.html#Convenience_Models_Interfaces_IConvertObjectToCsv_CsvConfig
+  commentId: M:Convenience.Models.Interfaces.IConvertObjectToCsv.CsvConfig
+  fullName: Convenience.Models.Interfaces.IConvertObjectToCsv.CsvConfig()
+  nameWithType: IConvertObjectToCsv.CsvConfig()
+- uid: Convenience.Models.Interfaces.IConvertObjectToCsv.CsvConfig*
+  name: CsvConfig
+  href: api/Convenience.Models.Interfaces.IConvertObjectToCsv.html#Convenience_Models_Interfaces_IConvertObjectToCsv_CsvConfig_
+  commentId: Overload:Convenience.Models.Interfaces.IConvertObjectToCsv.CsvConfig
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IConvertObjectToCsv.CsvConfig
+  nameWithType: IConvertObjectToCsv.CsvConfig
+- uid: Convenience.Models.Interfaces.IConvertObjectToCsv.GetFileName(System.String)
+  name: GetFileName(string)
+  href: api/Convenience.Models.Interfaces.IConvertObjectToCsv.html#Convenience_Models_Interfaces_IConvertObjectToCsv_GetFileName_System_String_
+  commentId: M:Convenience.Models.Interfaces.IConvertObjectToCsv.GetFileName(System.String)
+  name.vb: GetFileName(String)
+  fullName: Convenience.Models.Interfaces.IConvertObjectToCsv.GetFileName(string)
+  fullName.vb: Convenience.Models.Interfaces.IConvertObjectToCsv.GetFileName(String)
+  nameWithType: IConvertObjectToCsv.GetFileName(string)
+  nameWithType.vb: IConvertObjectToCsv.GetFileName(String)
+- uid: Convenience.Models.Interfaces.IConvertObjectToCsv.GetFileName*
+  name: GetFileName
+  href: api/Convenience.Models.Interfaces.IConvertObjectToCsv.html#Convenience_Models_Interfaces_IConvertObjectToCsv_GetFileName_
+  commentId: Overload:Convenience.Models.Interfaces.IConvertObjectToCsv.GetFileName
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IConvertObjectToCsv.GetFileName
+  nameWithType: IConvertObjectToCsv.GetFileName
 - uid: Convenience.Models.Interfaces.IDbContext
   name: IDbContext
   href: api/Convenience.Models.Interfaces.IDbContext.html
@@ -10473,6 +10640,692 @@ references:
   fullName.vb: Convenience.Models.Properties.AutoMapperSharedProfile.New
   nameWithType: AutoMapperSharedProfile.AutoMapperSharedProfile
   nameWithType.vb: AutoMapperSharedProfile.New
+- uid: Convenience.Models.Properties.CSVMapping
+  name: CSVMapping
+  href: api/Convenience.Models.Properties.CSVMapping.html
+  commentId: T:Convenience.Models.Properties.CSVMapping
+  fullName: Convenience.Models.Properties.CSVMapping
+  nameWithType: CSVMapping
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV
+  name: CSVMapping.ChumonJissekiCSV
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html
+  commentId: T:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV
+  nameWithType: CSVMapping.ChumonJissekiCSV
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonDate
+  name: ChumonDate
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ChumonDate
+  commentId: P:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonDate
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonDate
+  nameWithType: CSVMapping.ChumonJissekiCSV.ChumonDate
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonDate*
+  name: ChumonDate
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ChumonDate_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonDate
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonDate
+  nameWithType: CSVMapping.ChumonJissekiCSV.ChumonDate
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonId
+  name: ChumonId
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ChumonId
+  commentId: P:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonId
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonId
+  nameWithType: CSVMapping.ChumonJissekiCSV.ChumonId
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonId*
+  name: ChumonId
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ChumonId_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonId
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonId
+  nameWithType: CSVMapping.ChumonJissekiCSV.ChumonId
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonKingaku
+  name: ChumonKingaku
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ChumonKingaku
+  commentId: P:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonKingaku
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonKingaku
+  nameWithType: CSVMapping.ChumonJissekiCSV.ChumonKingaku
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonKingaku*
+  name: ChumonKingaku
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ChumonKingaku_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonKingaku
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonKingaku
+  nameWithType: CSVMapping.ChumonJissekiCSV.ChumonKingaku
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonSu
+  name: ChumonSu
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ChumonSu
+  commentId: P:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonSu
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonSu
+  nameWithType: CSVMapping.ChumonJissekiCSV.ChumonSu
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonSu*
+  name: ChumonSu
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ChumonSu_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonSu
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonSu
+  nameWithType: CSVMapping.ChumonJissekiCSV.ChumonSu
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonZan
+  name: ChumonZan
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ChumonZan
+  commentId: P:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonZan
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonZan
+  nameWithType: CSVMapping.ChumonJissekiCSV.ChumonZan
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonZan*
+  name: ChumonZan
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ChumonZan_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonZan
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonZan
+  nameWithType: CSVMapping.ChumonJissekiCSV.ChumonZan
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonZanKingaku
+  name: ChumonZanKingaku
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ChumonZanKingaku
+  commentId: P:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonZanKingaku
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonZanKingaku
+  nameWithType: CSVMapping.ChumonJissekiCSV.ChumonZanKingaku
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonZanKingaku*
+  name: ChumonZanKingaku
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ChumonZanKingaku_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonZanKingaku
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ChumonZanKingaku
+  nameWithType: CSVMapping.ChumonJissekiCSV.ChumonZanKingaku
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiirePrdId
+  name: ShiirePrdId
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ShiirePrdId
+  commentId: P:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiirePrdId
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiirePrdId
+  nameWithType: CSVMapping.ChumonJissekiCSV.ShiirePrdId
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiirePrdId*
+  name: ShiirePrdId
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ShiirePrdId_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiirePrdId
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiirePrdId
+  nameWithType: CSVMapping.ChumonJissekiCSV.ShiirePrdId
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiirePrdName
+  name: ShiirePrdName
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ShiirePrdName
+  commentId: P:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiirePrdName
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiirePrdName
+  nameWithType: CSVMapping.ChumonJissekiCSV.ShiirePrdName
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiirePrdName*
+  name: ShiirePrdName
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ShiirePrdName_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiirePrdName
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiirePrdName
+  nameWithType: CSVMapping.ChumonJissekiCSV.ShiirePrdName
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireSakiId
+  name: ShiireSakiId
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ShiireSakiId
+  commentId: P:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireSakiId
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireSakiId
+  nameWithType: CSVMapping.ChumonJissekiCSV.ShiireSakiId
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireSakiId*
+  name: ShiireSakiId
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ShiireSakiId_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireSakiId
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireSakiId
+  nameWithType: CSVMapping.ChumonJissekiCSV.ShiireSakiId
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireSakiKaisya
+  name: ShiireSakiKaisya
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ShiireSakiKaisya
+  commentId: P:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireSakiKaisya
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireSakiKaisya
+  nameWithType: CSVMapping.ChumonJissekiCSV.ShiireSakiKaisya
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireSakiKaisya*
+  name: ShiireSakiKaisya
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ShiireSakiKaisya_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireSakiKaisya
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireSakiKaisya
+  nameWithType: CSVMapping.ChumonJissekiCSV.ShiireSakiKaisya
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireZumiKingaku
+  name: ShiireZumiKingaku
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ShiireZumiKingaku
+  commentId: P:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireZumiKingaku
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireZumiKingaku
+  nameWithType: CSVMapping.ChumonJissekiCSV.ShiireZumiKingaku
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireZumiKingaku*
+  name: ShiireZumiKingaku
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ShiireZumiKingaku_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireZumiKingaku
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireZumiKingaku
+  nameWithType: CSVMapping.ChumonJissekiCSV.ShiireZumiKingaku
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireZumiSu
+  name: ShiireZumiSu
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ShiireZumiSu
+  commentId: P:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireZumiSu
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireZumiSu
+  nameWithType: CSVMapping.ChumonJissekiCSV.ShiireZumiSu
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireZumiSu*
+  name: ShiireZumiSu
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ShiireZumiSu_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireZumiSu
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShiireZumiSu
+  nameWithType: CSVMapping.ChumonJissekiCSV.ShiireZumiSu
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShohinId
+  name: ShohinId
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ShohinId
+  commentId: P:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShohinId
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShohinId
+  nameWithType: CSVMapping.ChumonJissekiCSV.ShohinId
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShohinId*
+  name: ShohinId
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ShohinId_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShohinId
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShohinId
+  nameWithType: CSVMapping.ChumonJissekiCSV.ShohinId
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShohinName
+  name: ShohinName
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ShohinName
+  commentId: P:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShohinName
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShohinName
+  nameWithType: CSVMapping.ChumonJissekiCSV.ShohinName
+- uid: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShohinName*
+  name: ShohinName
+  href: api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ChumonJissekiCSV_ShohinName_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShohinName
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.ShohinName
+  nameWithType: CSVMapping.ChumonJissekiCSV.ShohinName
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV
+  name: CSVMapping.KaikeiJissekiCSV
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html
+  commentId: T:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV
+  nameWithType: CSVMapping.KaikeiJissekiCSV
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.NaigaiClass
+  name: NaigaiClass
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_NaigaiClass
+  commentId: P:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.NaigaiClass
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.NaigaiClass
+  nameWithType: CSVMapping.KaikeiJissekiCSV.NaigaiClass
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.NaigaiClass*
+  name: NaigaiClass
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_NaigaiClass_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.NaigaiClass
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.NaigaiClass
+  nameWithType: CSVMapping.KaikeiJissekiCSV.NaigaiClass
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.NaigaiClassName
+  name: NaigaiClassName
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_NaigaiClassName
+  commentId: P:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.NaigaiClassName
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.NaigaiClassName
+  nameWithType: CSVMapping.KaikeiJissekiCSV.NaigaiClassName
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.NaigaiClassName*
+  name: NaigaiClassName
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_NaigaiClassName_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.NaigaiClassName
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.NaigaiClassName
+  nameWithType: CSVMapping.KaikeiJissekiCSV.NaigaiClassName
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohiZeiritsu
+  name: ShohiZeiritsu
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_ShohiZeiritsu
+  commentId: P:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohiZeiritsu
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohiZeiritsu
+  nameWithType: CSVMapping.KaikeiJissekiCSV.ShohiZeiritsu
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohiZeiritsu*
+  name: ShohiZeiritsu
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_ShohiZeiritsu_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohiZeiritsu
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohiZeiritsu
+  nameWithType: CSVMapping.KaikeiJissekiCSV.ShohiZeiritsu
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinId
+  name: ShohinId
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_ShohinId
+  commentId: P:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinId
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinId
+  nameWithType: CSVMapping.KaikeiJissekiCSV.ShohinId
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinId*
+  name: ShohinId
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_ShohinId_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinId
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinId
+  nameWithType: CSVMapping.KaikeiJissekiCSV.ShohinId
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinName
+  name: ShohinName
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_ShohinName
+  commentId: P:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinName
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinName
+  nameWithType: CSVMapping.KaikeiJissekiCSV.ShohinName
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinName*
+  name: ShohinName
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_ShohinName_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinName
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinName
+  nameWithType: CSVMapping.KaikeiJissekiCSV.ShohinName
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinTanka
+  name: ShohinTanka
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_ShohinTanka
+  commentId: P:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinTanka
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinTanka
+  nameWithType: CSVMapping.KaikeiJissekiCSV.ShohinTanka
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinTanka*
+  name: ShohinTanka
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_ShohinTanka_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinTanka
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ShohinTanka
+  nameWithType: CSVMapping.KaikeiJissekiCSV.ShohinTanka
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageDatetime
+  name: UriageDatetime
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_UriageDatetime
+  commentId: P:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageDatetime
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageDatetime
+  nameWithType: CSVMapping.KaikeiJissekiCSV.UriageDatetime
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageDatetime*
+  name: UriageDatetime
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_UriageDatetime_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageDatetime
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageDatetime
+  nameWithType: CSVMapping.KaikeiJissekiCSV.UriageDatetime
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageKingaku
+  name: UriageKingaku
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_UriageKingaku
+  commentId: P:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageKingaku
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageKingaku
+  nameWithType: CSVMapping.KaikeiJissekiCSV.UriageKingaku
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageKingaku*
+  name: UriageKingaku
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_UriageKingaku_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageKingaku
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageKingaku
+  nameWithType: CSVMapping.KaikeiJissekiCSV.UriageKingaku
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageSu
+  name: UriageSu
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_UriageSu
+  commentId: P:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageSu
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageSu
+  nameWithType: CSVMapping.KaikeiJissekiCSV.UriageSu
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageSu*
+  name: UriageSu
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_UriageSu_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageSu
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.UriageSu
+  nameWithType: CSVMapping.KaikeiJissekiCSV.UriageSu
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ZeikomiKingaku
+  name: ZeikomiKingaku
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_ZeikomiKingaku
+  commentId: P:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ZeikomiKingaku
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ZeikomiKingaku
+  nameWithType: CSVMapping.KaikeiJissekiCSV.ZeikomiKingaku
+- uid: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ZeikomiKingaku*
+  name: ZeikomiKingaku
+  href: api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html#Convenience_Models_Properties_CSVMapping_KaikeiJissekiCSV_ZeikomiKingaku_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ZeikomiKingaku
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.ZeikomiKingaku
+  nameWithType: CSVMapping.KaikeiJissekiCSV.ZeikomiKingaku
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV
+  name: CSVMapping.ShiireJissekiCSV
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html
+  commentId: T:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV
+  nameWithType: CSVMapping.ShiireJissekiCSV
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ChumonId
+  name: ChumonId
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ChumonId
+  commentId: P:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ChumonId
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ChumonId
+  nameWithType: CSVMapping.ShiireJissekiCSV.ChumonId
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ChumonId*
+  name: ChumonId
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ChumonId_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ChumonId
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ChumonId
+  nameWithType: CSVMapping.ShiireJissekiCSV.ChumonId
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.NonyuSu
+  name: NonyuSu
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_NonyuSu
+  commentId: P:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.NonyuSu
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.NonyuSu
+  nameWithType: CSVMapping.ShiireJissekiCSV.NonyuSu
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.NonyuSu*
+  name: NonyuSu
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_NonyuSu_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.NonyuSu
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.NonyuSu
+  nameWithType: CSVMapping.ShiireJissekiCSV.NonyuSu
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.SeqByShiireDate
+  name: SeqByShiireDate
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_SeqByShiireDate
+  commentId: P:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.SeqByShiireDate
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.SeqByShiireDate
+  nameWithType: CSVMapping.ShiireJissekiCSV.SeqByShiireDate
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.SeqByShiireDate*
+  name: SeqByShiireDate
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_SeqByShiireDate_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.SeqByShiireDate
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.SeqByShiireDate
+  nameWithType: CSVMapping.ShiireJissekiCSV.SeqByShiireDate
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireDate
+  name: ShiireDate
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ShiireDate
+  commentId: P:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireDate
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireDate
+  nameWithType: CSVMapping.ShiireJissekiCSV.ShiireDate
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireDate*
+  name: ShiireDate
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ShiireDate_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireDate
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireDate
+  nameWithType: CSVMapping.ShiireJissekiCSV.ShiireDate
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireDateTime
+  name: ShiireDateTime
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ShiireDateTime
+  commentId: P:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireDateTime
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireDateTime
+  nameWithType: CSVMapping.ShiireJissekiCSV.ShiireDateTime
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireDateTime*
+  name: ShiireDateTime
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ShiireDateTime_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireDateTime
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireDateTime
+  nameWithType: CSVMapping.ShiireJissekiCSV.ShiireDateTime
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiirePrdId
+  name: ShiirePrdId
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ShiirePrdId
+  commentId: P:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiirePrdId
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiirePrdId
+  nameWithType: CSVMapping.ShiireJissekiCSV.ShiirePrdId
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiirePrdId*
+  name: ShiirePrdId
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ShiirePrdId_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiirePrdId
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiirePrdId
+  nameWithType: CSVMapping.ShiireJissekiCSV.ShiirePrdId
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiirePrdName
+  name: ShiirePrdName
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ShiirePrdName
+  commentId: P:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiirePrdName
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiirePrdName
+  nameWithType: CSVMapping.ShiireJissekiCSV.ShiirePrdName
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiirePrdName*
+  name: ShiirePrdName
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ShiirePrdName_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiirePrdName
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiirePrdName
+  nameWithType: CSVMapping.ShiireJissekiCSV.ShiirePrdName
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireSakiId
+  name: ShiireSakiId
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ShiireSakiId
+  commentId: P:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireSakiId
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireSakiId
+  nameWithType: CSVMapping.ShiireJissekiCSV.ShiireSakiId
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireSakiId*
+  name: ShiireSakiId
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ShiireSakiId_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireSakiId
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireSakiId
+  nameWithType: CSVMapping.ShiireJissekiCSV.ShiireSakiId
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireSakiKaisya
+  name: ShiireSakiKaisya
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ShiireSakiKaisya
+  commentId: P:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireSakiKaisya
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireSakiKaisya
+  nameWithType: CSVMapping.ShiireJissekiCSV.ShiireSakiKaisya
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireSakiKaisya*
+  name: ShiireSakiKaisya
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ShiireSakiKaisya_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireSakiKaisya
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShiireSakiKaisya
+  nameWithType: CSVMapping.ShiireJissekiCSV.ShiireSakiKaisya
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShohinId
+  name: ShohinId
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ShohinId
+  commentId: P:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShohinId
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShohinId
+  nameWithType: CSVMapping.ShiireJissekiCSV.ShohinId
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShohinId*
+  name: ShohinId
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ShohinId_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShohinId
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShohinId
+  nameWithType: CSVMapping.ShiireJissekiCSV.ShohinId
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShohinName
+  name: ShohinName
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ShohinName
+  commentId: P:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShohinName
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShohinName
+  nameWithType: CSVMapping.ShiireJissekiCSV.ShohinName
+- uid: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShohinName*
+  name: ShohinName
+  href: api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html#Convenience_Models_Properties_CSVMapping_ShiireJissekiCSV_ShohinName_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShohinName
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.ShohinName
+  nameWithType: CSVMapping.ShiireJissekiCSV.ShohinName
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV
+  name: CSVMapping.SokoZaikoCSV
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html
+  commentId: T:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV
+  nameWithType: CSVMapping.SokoZaikoCSV
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ChumonZan
+  name: ChumonZan
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_ChumonZan
+  commentId: P:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ChumonZan
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ChumonZan
+  nameWithType: CSVMapping.SokoZaikoCSV.ChumonZan
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ChumonZan*
+  name: ChumonZan
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_ChumonZan_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ChumonZan
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ChumonZan
+  nameWithType: CSVMapping.SokoZaikoCSV.ChumonZan
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.LastDeliveryDate
+  name: LastDeliveryDate
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_LastDeliveryDate
+  commentId: P:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.LastDeliveryDate
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.LastDeliveryDate
+  nameWithType: CSVMapping.SokoZaikoCSV.LastDeliveryDate
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.LastDeliveryDate*
+  name: LastDeliveryDate
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_LastDeliveryDate_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.LastDeliveryDate
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.LastDeliveryDate
+  nameWithType: CSVMapping.SokoZaikoCSV.LastDeliveryDate
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.LastShiireDate
+  name: LastShiireDate
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_LastShiireDate
+  commentId: P:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.LastShiireDate
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.LastShiireDate
+  nameWithType: CSVMapping.SokoZaikoCSV.LastShiireDate
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.LastShiireDate*
+  name: LastShiireDate
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_LastShiireDate_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.LastShiireDate
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.LastShiireDate
+  nameWithType: CSVMapping.SokoZaikoCSV.LastShiireDate
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShiirePrdId
+  name: ShiirePrdId
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_ShiirePrdId
+  commentId: P:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShiirePrdId
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShiirePrdId
+  nameWithType: CSVMapping.SokoZaikoCSV.ShiirePrdId
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShiirePrdId*
+  name: ShiirePrdId
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_ShiirePrdId_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShiirePrdId
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShiirePrdId
+  nameWithType: CSVMapping.SokoZaikoCSV.ShiirePrdId
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShiireSakiId
+  name: ShiireSakiId
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_ShiireSakiId
+  commentId: P:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShiireSakiId
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShiireSakiId
+  nameWithType: CSVMapping.SokoZaikoCSV.ShiireSakiId
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShiireSakiId*
+  name: ShiireSakiId
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_ShiireSakiId_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShiireSakiId
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShiireSakiId
+  nameWithType: CSVMapping.SokoZaikoCSV.ShiireSakiId
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShohinId
+  name: ShohinId
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_ShohinId
+  commentId: P:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShohinId
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShohinId
+  nameWithType: CSVMapping.SokoZaikoCSV.ShohinId
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShohinId*
+  name: ShohinId
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_ShohinId_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShohinId
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShohinId
+  nameWithType: CSVMapping.SokoZaikoCSV.ShohinId
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShohinName
+  name: ShohinName
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_ShohinName
+  commentId: P:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShohinName
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShohinName
+  nameWithType: CSVMapping.SokoZaikoCSV.ShohinName
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShohinName*
+  name: ShohinName
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_ShohinName_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShohinName
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.ShohinName
+  nameWithType: CSVMapping.SokoZaikoCSV.ShohinName
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.SokoZaikoCaseSu
+  name: SokoZaikoCaseSu
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_SokoZaikoCaseSu
+  commentId: P:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.SokoZaikoCaseSu
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.SokoZaikoCaseSu
+  nameWithType: CSVMapping.SokoZaikoCSV.SokoZaikoCaseSu
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.SokoZaikoCaseSu*
+  name: SokoZaikoCaseSu
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_SokoZaikoCaseSu_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.SokoZaikoCaseSu
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.SokoZaikoCaseSu
+  nameWithType: CSVMapping.SokoZaikoCSV.SokoZaikoCaseSu
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.SokoZaikoSu
+  name: SokoZaikoSu
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_SokoZaikoSu
+  commentId: P:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.SokoZaikoSu
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.SokoZaikoSu
+  nameWithType: CSVMapping.SokoZaikoCSV.SokoZaikoSu
+- uid: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.SokoZaikoSu*
+  name: SokoZaikoSu
+  href: api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html#Convenience_Models_Properties_CSVMapping_SokoZaikoCSV_SokoZaikoSu_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.SokoZaikoSu
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.SokoZaikoSu
+  nameWithType: CSVMapping.SokoZaikoCSV.SokoZaikoSu
+- uid: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV
+  name: CSVMapping.TentoZaIkoCSV
+  href: api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.html
+  commentId: T:Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV
+  fullName: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV
+  nameWithType: CSVMapping.TentoZaIkoCSV
+- uid: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastHaraidashiDate
+  name: LastHaraidashiDate
+  href: api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.html#Convenience_Models_Properties_CSVMapping_TentoZaIkoCSV_LastHaraidashiDate
+  commentId: P:Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastHaraidashiDate
+  fullName: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastHaraidashiDate
+  nameWithType: CSVMapping.TentoZaIkoCSV.LastHaraidashiDate
+- uid: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastHaraidashiDate*
+  name: LastHaraidashiDate
+  href: api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.html#Convenience_Models_Properties_CSVMapping_TentoZaIkoCSV_LastHaraidashiDate_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastHaraidashiDate
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastHaraidashiDate
+  nameWithType: CSVMapping.TentoZaIkoCSV.LastHaraidashiDate
+- uid: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastShireDateTime
+  name: LastShireDateTime
+  href: api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.html#Convenience_Models_Properties_CSVMapping_TentoZaIkoCSV_LastShireDateTime
+  commentId: P:Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastShireDateTime
+  fullName: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastShireDateTime
+  nameWithType: CSVMapping.TentoZaIkoCSV.LastShireDateTime
+- uid: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastShireDateTime*
+  name: LastShireDateTime
+  href: api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.html#Convenience_Models_Properties_CSVMapping_TentoZaIkoCSV_LastShireDateTime_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastShireDateTime
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastShireDateTime
+  nameWithType: CSVMapping.TentoZaIkoCSV.LastShireDateTime
+- uid: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastUriageDatetime
+  name: LastUriageDatetime
+  href: api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.html#Convenience_Models_Properties_CSVMapping_TentoZaIkoCSV_LastUriageDatetime
+  commentId: P:Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastUriageDatetime
+  fullName: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastUriageDatetime
+  nameWithType: CSVMapping.TentoZaIkoCSV.LastUriageDatetime
+- uid: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastUriageDatetime*
+  name: LastUriageDatetime
+  href: api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.html#Convenience_Models_Properties_CSVMapping_TentoZaIkoCSV_LastUriageDatetime_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastUriageDatetime
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.LastUriageDatetime
+  nameWithType: CSVMapping.TentoZaIkoCSV.LastUriageDatetime
+- uid: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ShohinId
+  name: ShohinId
+  href: api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.html#Convenience_Models_Properties_CSVMapping_TentoZaIkoCSV_ShohinId
+  commentId: P:Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ShohinId
+  fullName: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ShohinId
+  nameWithType: CSVMapping.TentoZaIkoCSV.ShohinId
+- uid: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ShohinId*
+  name: ShohinId
+  href: api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.html#Convenience_Models_Properties_CSVMapping_TentoZaIkoCSV_ShohinId_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ShohinId
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ShohinId
+  nameWithType: CSVMapping.TentoZaIkoCSV.ShohinId
+- uid: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ShohinName
+  name: ShohinName
+  href: api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.html#Convenience_Models_Properties_CSVMapping_TentoZaIkoCSV_ShohinName
+  commentId: P:Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ShohinName
+  fullName: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ShohinName
+  nameWithType: CSVMapping.TentoZaIkoCSV.ShohinName
+- uid: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ShohinName*
+  name: ShohinName
+  href: api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.html#Convenience_Models_Properties_CSVMapping_TentoZaIkoCSV_ShohinName_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ShohinName
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ShohinName
+  nameWithType: CSVMapping.TentoZaIkoCSV.ShohinName
+- uid: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ZaikoSu
+  name: ZaikoSu
+  href: api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.html#Convenience_Models_Properties_CSVMapping_TentoZaIkoCSV_ZaikoSu
+  commentId: P:Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ZaikoSu
+  fullName: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ZaikoSu
+  nameWithType: CSVMapping.TentoZaIkoCSV.ZaikoSu
+- uid: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ZaikoSu*
+  name: ZaikoSu
+  href: api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.html#Convenience_Models_Properties_CSVMapping_TentoZaIkoCSV_ZaikoSu_
+  commentId: Overload:Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ZaikoSu
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.ZaikoSu
+  nameWithType: CSVMapping.TentoZaIkoCSV.ZaikoSu
 - uid: Convenience.Models.Properties.Chumon
   name: Chumon
   href: api/Convenience.Models.Properties.Chumon.html
@@ -10767,6 +11620,112 @@ references:
   fullName.vb: Convenience.Models.Properties.ChumonJissekiSetupException.New
   nameWithType: ChumonJissekiSetupException.ChumonJissekiSetupException
   nameWithType.vb: ChumonJissekiSetupException.New
+- uid: Convenience.Models.Properties.ConvertObjectToCsv
+  name: ConvertObjectToCsv
+  href: api/Convenience.Models.Properties.ConvertObjectToCsv.html
+  commentId: T:Convenience.Models.Properties.ConvertObjectToCsv
+  fullName: Convenience.Models.Properties.ConvertObjectToCsv
+  nameWithType: ConvertObjectToCsv
+- uid: Convenience.Models.Properties.ConvertObjectToCsv.#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  name: ConvertObjectToCsv(IWebHostEnvironment)
+  href: api/Convenience.Models.Properties.ConvertObjectToCsv.html#Convenience_Models_Properties_ConvertObjectToCsv__ctor_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_
+  commentId: M:Convenience.Models.Properties.ConvertObjectToCsv.#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  name.vb: New(IWebHostEnvironment)
+  fullName: Convenience.Models.Properties.ConvertObjectToCsv.ConvertObjectToCsv(Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  fullName.vb: Convenience.Models.Properties.ConvertObjectToCsv.New(Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  nameWithType: ConvertObjectToCsv.ConvertObjectToCsv(IWebHostEnvironment)
+  nameWithType.vb: ConvertObjectToCsv.New(IWebHostEnvironment)
+- uid: Convenience.Models.Properties.ConvertObjectToCsv.#ctor*
+  name: ConvertObjectToCsv
+  href: api/Convenience.Models.Properties.ConvertObjectToCsv.html#Convenience_Models_Properties_ConvertObjectToCsv__ctor_
+  commentId: Overload:Convenience.Models.Properties.ConvertObjectToCsv.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Convenience.Models.Properties.ConvertObjectToCsv.ConvertObjectToCsv
+  fullName.vb: Convenience.Models.Properties.ConvertObjectToCsv.New
+  nameWithType: ConvertObjectToCsv.ConvertObjectToCsv
+  nameWithType.vb: ConvertObjectToCsv.New
+- uid: Convenience.Models.Properties.ConvertObjectToCsv.ConvertToCSV*
+  name: ConvertToCSV
+  href: api/Convenience.Models.Properties.ConvertObjectToCsv.html#Convenience_Models_Properties_ConvertObjectToCsv_ConvertToCSV_
+  commentId: Overload:Convenience.Models.Properties.ConvertObjectToCsv.ConvertToCSV
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.ConvertObjectToCsv.ConvertToCSV
+  nameWithType: ConvertObjectToCsv.ConvertToCSV
+- uid: Convenience.Models.Properties.ConvertObjectToCsv.ConvertToCSV``2(System.Collections.Generic.IEnumerable{``0},System.String)
+  name: ConvertToCSV<T1, T2>(IEnumerable<T1>, string)
+  href: api/Convenience.Models.Properties.ConvertObjectToCsv.html#Convenience_Models_Properties_ConvertObjectToCsv_ConvertToCSV__2_System_Collections_Generic_IEnumerable___0__System_String_
+  commentId: M:Convenience.Models.Properties.ConvertObjectToCsv.ConvertToCSV``2(System.Collections.Generic.IEnumerable{``0},System.String)
+  name.vb: ConvertToCSV(Of T1, T2)(IEnumerable(Of T1), String)
+  fullName: Convenience.Models.Properties.ConvertObjectToCsv.ConvertToCSV<T1, T2>(System.Collections.Generic.IEnumerable<T1>, string)
+  fullName.vb: Convenience.Models.Properties.ConvertObjectToCsv.ConvertToCSV(Of T1, T2)(System.Collections.Generic.IEnumerable(Of T1), String)
+  nameWithType: ConvertObjectToCsv.ConvertToCSV<T1, T2>(IEnumerable<T1>, string)
+  nameWithType.vb: ConvertObjectToCsv.ConvertToCSV(Of T1, T2)(IEnumerable(Of T1), String)
+- uid: Convenience.Models.Properties.ConvertObjectToCsv.CsvConfig
+  name: CsvConfig()
+  href: api/Convenience.Models.Properties.ConvertObjectToCsv.html#Convenience_Models_Properties_ConvertObjectToCsv_CsvConfig
+  commentId: M:Convenience.Models.Properties.ConvertObjectToCsv.CsvConfig
+  fullName: Convenience.Models.Properties.ConvertObjectToCsv.CsvConfig()
+  nameWithType: ConvertObjectToCsv.CsvConfig()
+- uid: Convenience.Models.Properties.ConvertObjectToCsv.CsvConfig*
+  name: CsvConfig
+  href: api/Convenience.Models.Properties.ConvertObjectToCsv.html#Convenience_Models_Properties_ConvertObjectToCsv_CsvConfig_
+  commentId: Overload:Convenience.Models.Properties.ConvertObjectToCsv.CsvConfig
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.ConvertObjectToCsv.CsvConfig
+  nameWithType: ConvertObjectToCsv.CsvConfig
+- uid: Convenience.Models.Properties.ConvertObjectToCsv.FilenameDic
+  name: FilenameDic
+  href: api/Convenience.Models.Properties.ConvertObjectToCsv.html#Convenience_Models_Properties_ConvertObjectToCsv_FilenameDic
+  commentId: F:Convenience.Models.Properties.ConvertObjectToCsv.FilenameDic
+  fullName: Convenience.Models.Properties.ConvertObjectToCsv.FilenameDic
+  nameWithType: ConvertObjectToCsv.FilenameDic
+- uid: Convenience.Models.Properties.ConvertObjectToCsv.GetFileName(System.String)
+  name: GetFileName(string)
+  href: api/Convenience.Models.Properties.ConvertObjectToCsv.html#Convenience_Models_Properties_ConvertObjectToCsv_GetFileName_System_String_
+  commentId: M:Convenience.Models.Properties.ConvertObjectToCsv.GetFileName(System.String)
+  name.vb: GetFileName(String)
+  fullName: Convenience.Models.Properties.ConvertObjectToCsv.GetFileName(string)
+  fullName.vb: Convenience.Models.Properties.ConvertObjectToCsv.GetFileName(String)
+  nameWithType: ConvertObjectToCsv.GetFileName(string)
+  nameWithType.vb: ConvertObjectToCsv.GetFileName(String)
+- uid: Convenience.Models.Properties.ConvertObjectToCsv.GetFileName*
+  name: GetFileName
+  href: api/Convenience.Models.Properties.ConvertObjectToCsv.html#Convenience_Models_Properties_ConvertObjectToCsv_GetFileName_
+  commentId: Overload:Convenience.Models.Properties.ConvertObjectToCsv.GetFileName
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.ConvertObjectToCsv.GetFileName
+  nameWithType: ConvertObjectToCsv.GetFileName
+- uid: Convenience.Models.Properties.ConvertObjectToCsv._environment
+  name: _environment
+  href: api/Convenience.Models.Properties.ConvertObjectToCsv.html#Convenience_Models_Properties_ConvertObjectToCsv__environment
+  commentId: F:Convenience.Models.Properties.ConvertObjectToCsv._environment
+  fullName: Convenience.Models.Properties.ConvertObjectToCsv._environment
+  nameWithType: ConvertObjectToCsv._environment
+- uid: Convenience.Models.Properties.ConvertObjectToCsv.configuration
+  name: configuration
+  href: api/Convenience.Models.Properties.ConvertObjectToCsv.html#Convenience_Models_Properties_ConvertObjectToCsv_configuration
+  commentId: F:Convenience.Models.Properties.ConvertObjectToCsv.configuration
+  fullName: Convenience.Models.Properties.ConvertObjectToCsv.configuration
+  nameWithType: ConvertObjectToCsv.configuration
+- uid: Convenience.Models.Properties.ConvertObjectToCsv.encoding
+  name: encoding
+  href: api/Convenience.Models.Properties.ConvertObjectToCsv.html#Convenience_Models_Properties_ConvertObjectToCsv_encoding
+  commentId: F:Convenience.Models.Properties.ConvertObjectToCsv.encoding
+  fullName: Convenience.Models.Properties.ConvertObjectToCsv.encoding
+  nameWithType: ConvertObjectToCsv.encoding
+- uid: Convenience.Models.Properties.ConvertObjectToCsv.strEncoding
+  name: strEncoding
+  href: api/Convenience.Models.Properties.ConvertObjectToCsv.html#Convenience_Models_Properties_ConvertObjectToCsv_strEncoding
+  commentId: F:Convenience.Models.Properties.ConvertObjectToCsv.strEncoding
+  fullName: Convenience.Models.Properties.ConvertObjectToCsv.strEncoding
+  nameWithType: ConvertObjectToCsv.strEncoding
+- uid: Convenience.Models.Properties.ConvertObjectToCsv.tmpDir
+  name: tmpDir
+  href: api/Convenience.Models.Properties.ConvertObjectToCsv.html#Convenience_Models_Properties_ConvertObjectToCsv_tmpDir
+  commentId: F:Convenience.Models.Properties.ConvertObjectToCsv.tmpDir
+  fullName: Convenience.Models.Properties.ConvertObjectToCsv.tmpDir
+  nameWithType: ConvertObjectToCsv.tmpDir
 - uid: Convenience.Models.Properties.DataCountMismatchException
   name: DataCountMismatchException
   href: api/Convenience.Models.Properties.DataCountMismatchException.html

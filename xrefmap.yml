@@ -4937,21 +4937,18 @@ references:
   fullName.vb: Convenience.Controllers.NaigaiClassMasterController.New
   nameWithType: NaigaiClassMasterController.NaigaiClassMasterController
   nameWithType.vb: NaigaiClassMasterController.New
+- uid: Convenience.Controllers.NaigaiClassMasterController.Index
+  name: Index()
+  href: api/Convenience.Controllers.NaigaiClassMasterController.html#Convenience_Controllers_NaigaiClassMasterController_Index
+  commentId: M:Convenience.Controllers.NaigaiClassMasterController.Index
+  fullName: Convenience.Controllers.NaigaiClassMasterController.Index()
+  nameWithType: NaigaiClassMasterController.Index()
 - uid: Convenience.Controllers.NaigaiClassMasterController.Index(Convenience.Models.ViewModels.NaigaiClassMaster.NaigaiClassMasterViewModel)
   name: Index(NaigaiClassMasterViewModel)
   href: api/Convenience.Controllers.NaigaiClassMasterController.html#Convenience_Controllers_NaigaiClassMasterController_Index_Convenience_Models_ViewModels_NaigaiClassMaster_NaigaiClassMasterViewModel_
   commentId: M:Convenience.Controllers.NaigaiClassMasterController.Index(Convenience.Models.ViewModels.NaigaiClassMaster.NaigaiClassMasterViewModel)
   fullName: Convenience.Controllers.NaigaiClassMasterController.Index(Convenience.Models.ViewModels.NaigaiClassMaster.NaigaiClassMasterViewModel)
   nameWithType: NaigaiClassMasterController.Index(NaigaiClassMasterViewModel)
-- uid: Convenience.Controllers.NaigaiClassMasterController.Index(System.String)
-  name: Index(string)
-  href: api/Convenience.Controllers.NaigaiClassMasterController.html#Convenience_Controllers_NaigaiClassMasterController_Index_System_String_
-  commentId: M:Convenience.Controllers.NaigaiClassMasterController.Index(System.String)
-  name.vb: Index(String)
-  fullName: Convenience.Controllers.NaigaiClassMasterController.Index(string)
-  fullName.vb: Convenience.Controllers.NaigaiClassMasterController.Index(String)
-  nameWithType: NaigaiClassMasterController.Index(string)
-  nameWithType.vb: NaigaiClassMasterController.Index(String)
 - uid: Convenience.Controllers.NaigaiClassMasterController.Index*
   name: Index
   href: api/Convenience.Controllers.NaigaiClassMasterController.html#Convenience_Controllers_NaigaiClassMasterController_Index_
@@ -5255,21 +5252,18 @@ references:
   fullName.vb: Convenience.Controllers.ShiireMasterController.New
   nameWithType: ShiireMasterController.ShiireMasterController
   nameWithType.vb: ShiireMasterController.New
+- uid: Convenience.Controllers.ShiireMasterController.Index
+  name: Index()
+  href: api/Convenience.Controllers.ShiireMasterController.html#Convenience_Controllers_ShiireMasterController_Index
+  commentId: M:Convenience.Controllers.ShiireMasterController.Index
+  fullName: Convenience.Controllers.ShiireMasterController.Index()
+  nameWithType: ShiireMasterController.Index()
 - uid: Convenience.Controllers.ShiireMasterController.Index(Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel)
   name: Index(ShiireMasterViewModel)
   href: api/Convenience.Controllers.ShiireMasterController.html#Convenience_Controllers_ShiireMasterController_Index_Convenience_Models_ViewModels_ShiireMaster_ShiireMasterViewModel_
   commentId: M:Convenience.Controllers.ShiireMasterController.Index(Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel)
   fullName: Convenience.Controllers.ShiireMasterController.Index(Convenience.Models.ViewModels.ShiireMaster.ShiireMasterViewModel)
   nameWithType: ShiireMasterController.Index(ShiireMasterViewModel)
-- uid: Convenience.Controllers.ShiireMasterController.Index(System.String)
-  name: Index(string)
-  href: api/Convenience.Controllers.ShiireMasterController.html#Convenience_Controllers_ShiireMasterController_Index_System_String_
-  commentId: M:Convenience.Controllers.ShiireMasterController.Index(System.String)
-  name.vb: Index(String)
-  fullName: Convenience.Controllers.ShiireMasterController.Index(string)
-  fullName.vb: Convenience.Controllers.ShiireMasterController.Index(String)
-  nameWithType: ShiireMasterController.Index(string)
-  nameWithType.vb: ShiireMasterController.Index(String)
 - uid: Convenience.Controllers.ShiireMasterController.Index*
   name: Index
   href: api/Convenience.Controllers.ShiireMasterController.html#Convenience_Controllers_ShiireMasterController_Index_
@@ -5349,21 +5343,18 @@ references:
   fullName.vb: Convenience.Controllers.ShiireSakiMasterController.New
   nameWithType: ShiireSakiMasterController.ShiireSakiMasterController
   nameWithType.vb: ShiireSakiMasterController.New
+- uid: Convenience.Controllers.ShiireSakiMasterController.Index
+  name: Index()
+  href: api/Convenience.Controllers.ShiireSakiMasterController.html#Convenience_Controllers_ShiireSakiMasterController_Index
+  commentId: M:Convenience.Controllers.ShiireSakiMasterController.Index
+  fullName: Convenience.Controllers.ShiireSakiMasterController.Index()
+  nameWithType: ShiireSakiMasterController.Index()
 - uid: Convenience.Controllers.ShiireSakiMasterController.Index(Convenience.Models.ViewModels.ShiireSakiMaster.ShiireSakiMasterViewModel)
   name: Index(ShiireSakiMasterViewModel)
   href: api/Convenience.Controllers.ShiireSakiMasterController.html#Convenience_Controllers_ShiireSakiMasterController_Index_Convenience_Models_ViewModels_ShiireSakiMaster_ShiireSakiMasterViewModel_
   commentId: M:Convenience.Controllers.ShiireSakiMasterController.Index(Convenience.Models.ViewModels.ShiireSakiMaster.ShiireSakiMasterViewModel)
   fullName: Convenience.Controllers.ShiireSakiMasterController.Index(Convenience.Models.ViewModels.ShiireSakiMaster.ShiireSakiMasterViewModel)
   nameWithType: ShiireSakiMasterController.Index(ShiireSakiMasterViewModel)
-- uid: Convenience.Controllers.ShiireSakiMasterController.Index(System.String)
-  name: Index(string)
-  href: api/Convenience.Controllers.ShiireSakiMasterController.html#Convenience_Controllers_ShiireSakiMasterController_Index_System_String_
-  commentId: M:Convenience.Controllers.ShiireSakiMasterController.Index(System.String)
-  name.vb: Index(String)
-  fullName: Convenience.Controllers.ShiireSakiMasterController.Index(string)
-  fullName.vb: Convenience.Controllers.ShiireSakiMasterController.Index(String)
-  nameWithType: ShiireSakiMasterController.Index(string)
-  nameWithType.vb: ShiireSakiMasterController.Index(String)
 - uid: Convenience.Controllers.ShiireSakiMasterController.Index*
   name: Index
   href: api/Convenience.Controllers.ShiireSakiMasterController.html#Convenience_Controllers_ShiireSakiMasterController_Index_
@@ -5443,21 +5434,18 @@ references:
   fullName.vb: Convenience.Controllers.ShohinMasterController.New
   nameWithType: ShohinMasterController.ShohinMasterController
   nameWithType.vb: ShohinMasterController.New
+- uid: Convenience.Controllers.ShohinMasterController.Index
+  name: Index()
+  href: api/Convenience.Controllers.ShohinMasterController.html#Convenience_Controllers_ShohinMasterController_Index
+  commentId: M:Convenience.Controllers.ShohinMasterController.Index
+  fullName: Convenience.Controllers.ShohinMasterController.Index()
+  nameWithType: ShohinMasterController.Index()
 - uid: Convenience.Controllers.ShohinMasterController.Index(Convenience.Models.ViewModels.ShohinMaster.ShohinMasterViewModel)
   name: Index(ShohinMasterViewModel)
   href: api/Convenience.Controllers.ShohinMasterController.html#Convenience_Controllers_ShohinMasterController_Index_Convenience_Models_ViewModels_ShohinMaster_ShohinMasterViewModel_
   commentId: M:Convenience.Controllers.ShohinMasterController.Index(Convenience.Models.ViewModels.ShohinMaster.ShohinMasterViewModel)
   fullName: Convenience.Controllers.ShohinMasterController.Index(Convenience.Models.ViewModels.ShohinMaster.ShohinMasterViewModel)
   nameWithType: ShohinMasterController.Index(ShohinMasterViewModel)
-- uid: Convenience.Controllers.ShohinMasterController.Index(System.String)
-  name: Index(string)
-  href: api/Convenience.Controllers.ShohinMasterController.html#Convenience_Controllers_ShohinMasterController_Index_System_String_
-  commentId: M:Convenience.Controllers.ShohinMasterController.Index(System.String)
-  name.vb: Index(String)
-  fullName: Convenience.Controllers.ShohinMasterController.Index(string)
-  fullName.vb: Convenience.Controllers.ShohinMasterController.Index(String)
-  nameWithType: ShohinMasterController.Index(string)
-  nameWithType.vb: ShohinMasterController.Index(String)
 - uid: Convenience.Controllers.ShohinMasterController.Index*
   name: Index
   href: api/Convenience.Controllers.ShohinMasterController.html#Convenience_Controllers_ShohinMasterController_Index_

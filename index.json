@@ -557,7 +557,7 @@
   "api/Convenience.Models.MenuItem.html": {
     "href": "api/Convenience.Models.MenuItem.html",
     "title": "Class MenuItem | Convenience",
-    "keywords": "Class MenuItem Namespace Convenience.Models Assembly Convenience.dll メニューアイテムクラス public class MenuItem Inheritance object MenuItem Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Description 説明 public string Description { get; set; } Property Value string Name メニュー名 public string Name { get; set; } Property Value string Url 起動ＵＲＬ public string Url { get; set; } Property Value string"
+    "keywords": "Class MenuItem Namespace Convenience.Models Assembly Convenience.dll メニューアイテムクラス public class MenuItem Inheritance object MenuItem Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ChildrenMenus public IList<MenuItem>? ChildrenMenus { get; set; } Property Value IList<MenuItem> Description 説明 public string Description { get; set; } Property Value string Name メニュー名 public required string Name { get; set; } Property Value string Url 起動ＵＲＬ public string Url { get; set; } Property Value string"
   },
   "api/Convenience.Models.Properties.AutoMapperSharedProfile.html": {
     "href": "api/Convenience.Models.Properties.AutoMapperSharedProfile.html",

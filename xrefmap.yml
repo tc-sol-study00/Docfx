@@ -10480,6 +10480,19 @@ references:
   commentId: T:Convenience.Models.MenuItem
   fullName: Convenience.Models.MenuItem
   nameWithType: MenuItem
+- uid: Convenience.Models.MenuItem.ChildrenMenus
+  name: ChildrenMenus
+  href: api/Convenience.Models.MenuItem.html#Convenience_Models_MenuItem_ChildrenMenus
+  commentId: P:Convenience.Models.MenuItem.ChildrenMenus
+  fullName: Convenience.Models.MenuItem.ChildrenMenus
+  nameWithType: MenuItem.ChildrenMenus
+- uid: Convenience.Models.MenuItem.ChildrenMenus*
+  name: ChildrenMenus
+  href: api/Convenience.Models.MenuItem.html#Convenience_Models_MenuItem_ChildrenMenus_
+  commentId: Overload:Convenience.Models.MenuItem.ChildrenMenus
+  isSpec: "True"
+  fullName: Convenience.Models.MenuItem.ChildrenMenus
+  nameWithType: MenuItem.ChildrenMenus
 - uid: Convenience.Models.MenuItem.Description
   name: Description
   href: api/Convenience.Models.MenuItem.html#Convenience_Models_MenuItem_Description

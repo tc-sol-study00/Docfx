@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Interface ITotalSummaryRetrival | Convenience ">
       
-      
+      <meta name="description" content="合計集計用インターフェース">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="Convenience_Models_Interfaces_ITotalSummaryRetrival" data-uid="Convenience.Models.Interfaces.ITotalSummaryRetrival" class="text-break">
-Interface ITotalSummaryRetrival  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/ITotalSummaryRetrival.cs/#L5"><i class="bi bi-code-slash"></i></a>
+Interface ITotalSummaryRetrival  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/ITotalSummaryRetrival.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,8 @@ Interface ITotalSummaryRetrival  <a class="header-action link-secondary" title="
   <dl><dt>Assembly</dt><dd>Convenience.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>合計集計用インターフェース</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -133,6 +134,9 @@ Interface ITotalSummaryRetrival  <a class="header-action link-secondary" title="
 
 
 
+  <h2 id="Convenience_Models_Interfaces_ITotalSummaryRetrival_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>合計機能が必要なクラスに実装する</p>
+</div>
 
 
   <h2 class="section" id="methods">Methods
@@ -143,10 +147,11 @@ Interface ITotalSummaryRetrival  <a class="header-action link-secondary" title="
 
   <h3 id="Convenience_Models_Interfaces_ITotalSummaryRetrival_IsNumericType_System_Type_" data-uid="Convenience.Models.Interfaces.ITotalSummaryRetrival.IsNumericType(System.Type)">
   IsNumericType(Type)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/ITotalSummaryRetrival.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/ITotalSummaryRetrival.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>数値型かどうかを確認するメソッド</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -162,7 +167,8 @@ Interface ITotalSummaryRetrival  <a class="header-action link-secondary" title="
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>数値型であればtrue</p>
+</dd>
   </dl>
 
 
@@ -179,10 +185,11 @@ Interface ITotalSummaryRetrival  <a class="header-action link-secondary" title="
 
   <h3 id="Convenience_Models_Interfaces_ITotalSummaryRetrival_TotalSummary__1_System_Collections_Generic_IEnumerable___0____0_System_String_" data-uid="Convenience.Models.Interfaces.ITotalSummaryRetrival.TotalSummary``1(System.Collections.Generic.IEnumerable{``0},``0,System.String)">
   TotalSummary&lt;T&gt;(IEnumerable&lt;T&gt;, T, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/ITotalSummaryRetrival.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/ITotalSummaryRetrival.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>合計集計</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -192,11 +199,14 @@ Interface ITotalSummaryRetrival  <a class="header-action link-secondary" title="
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>argDatas</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
-    <dd></dd>
+    <dd><p>合計集計される元リスト</p>
+</dd>
     <dt><code>argOutDatas</code> <span class="xref">T</span></dt>
-    <dd></dd>
+    <dd><p>合計集計結果</p>
+</dd>
     <dt><code>aCountProperty</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>集計されるリストの件数をセットするプロパティ名</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -216,6 +226,9 @@ Interface ITotalSummaryRetrival  <a class="header-action link-secondary" title="
 
 
 
+  <h4 class="section" id="Convenience_Models_Interfaces_ITotalSummaryRetrival_TotalSummary__1_System_Collections_Generic_IEnumerable___0____0_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>argOutDatasはインスタンス化され、数字項目は初期設定されていること</p>
+</div>
 
 
 
@@ -224,7 +237,7 @@ Interface ITotalSummaryRetrival  <a class="header-action link-secondary" title="
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/ITotalSummaryRetrival.cs/#L5" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/ITotalSummaryRetrival.cs/#L12" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -1132,16 +1132,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.AutoMapperSharedProfile.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.AutoMapperSharedProfile.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.yml",
       "output": {
         ".html": {
@@ -1316,6 +1306,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Properties.KaikeiJissekiPostdataToKaikeiJissekiViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile.html"
         }
       },
       "version": ""

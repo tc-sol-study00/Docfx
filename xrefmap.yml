@@ -10526,31 +10526,6 @@ references:
   commentId: N:Convenience.Models.Properties
   fullName: Convenience.Models.Properties
   nameWithType: Convenience.Models.Properties
-- uid: Convenience.Models.Properties.AutoMapperSharedProfile
-  name: AutoMapperSharedProfile
-  href: api/Convenience.Models.Properties.AutoMapperSharedProfile.html
-  commentId: T:Convenience.Models.Properties.AutoMapperSharedProfile
-  fullName: Convenience.Models.Properties.AutoMapperSharedProfile
-  nameWithType: AutoMapperSharedProfile
-- uid: Convenience.Models.Properties.AutoMapperSharedProfile.#ctor
-  name: AutoMapperSharedProfile()
-  href: api/Convenience.Models.Properties.AutoMapperSharedProfile.html#Convenience_Models_Properties_AutoMapperSharedProfile__ctor
-  commentId: M:Convenience.Models.Properties.AutoMapperSharedProfile.#ctor
-  name.vb: New()
-  fullName: Convenience.Models.Properties.AutoMapperSharedProfile.AutoMapperSharedProfile()
-  fullName.vb: Convenience.Models.Properties.AutoMapperSharedProfile.New()
-  nameWithType: AutoMapperSharedProfile.AutoMapperSharedProfile()
-  nameWithType.vb: AutoMapperSharedProfile.New()
-- uid: Convenience.Models.Properties.AutoMapperSharedProfile.#ctor*
-  name: AutoMapperSharedProfile
-  href: api/Convenience.Models.Properties.AutoMapperSharedProfile.html#Convenience_Models_Properties_AutoMapperSharedProfile__ctor_
-  commentId: Overload:Convenience.Models.Properties.AutoMapperSharedProfile.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Convenience.Models.Properties.AutoMapperSharedProfile.AutoMapperSharedProfile
-  fullName.vb: Convenience.Models.Properties.AutoMapperSharedProfile.New
-  nameWithType: AutoMapperSharedProfile.AutoMapperSharedProfile
-  nameWithType.vb: AutoMapperSharedProfile.New
 - uid: Convenience.Models.Properties.CSVMapping
   name: CSVMapping
   href: api/Convenience.Models.Properties.CSVMapping.html
@@ -11893,6 +11868,31 @@ references:
   fullName.vb: Convenience.Models.Properties.KaikeiJissekiPostdataToKaikeiJissekiViewModel.New
   nameWithType: KaikeiJissekiPostdataToKaikeiJissekiViewModel.KaikeiJissekiPostdataToKaikeiJissekiViewModel
   nameWithType.vb: KaikeiJissekiPostdataToKaikeiJissekiViewModel.New
+- uid: Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile
+  name: KaikeiJissekiforSaveAutoMapperProfile
+  href: api/Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile.html
+  commentId: T:Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile
+  fullName: Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile
+  nameWithType: KaikeiJissekiforSaveAutoMapperProfile
+- uid: Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile.#ctor
+  name: KaikeiJissekiforSaveAutoMapperProfile()
+  href: api/Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile.html#Convenience_Models_Properties_KaikeiJissekiforSaveAutoMapperProfile__ctor
+  commentId: M:Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile.#ctor
+  name.vb: New()
+  fullName: Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile.KaikeiJissekiforSaveAutoMapperProfile()
+  fullName.vb: Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile.New()
+  nameWithType: KaikeiJissekiforSaveAutoMapperProfile.KaikeiJissekiforSaveAutoMapperProfile()
+  nameWithType.vb: KaikeiJissekiforSaveAutoMapperProfile.New()
+- uid: Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile.#ctor*
+  name: KaikeiJissekiforSaveAutoMapperProfile
+  href: api/Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile.html#Convenience_Models_Properties_KaikeiJissekiforSaveAutoMapperProfile__ctor_
+  commentId: Overload:Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile.KaikeiJissekiforSaveAutoMapperProfile
+  fullName.vb: Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile.New
+  nameWithType: KaikeiJissekiforSaveAutoMapperProfile.KaikeiJissekiforSaveAutoMapperProfile
+  nameWithType.vb: KaikeiJissekiforSaveAutoMapperProfile.New
 - uid: Convenience.Models.Properties.KaikeiPostToDTOAutoMapperProfile
   name: KaikeiPostToDTOAutoMapperProfile
   href: api/Convenience.Models.Properties.KaikeiPostToDTOAutoMapperProfile.html

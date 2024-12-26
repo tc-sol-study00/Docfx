@@ -272,6 +272,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Controllers.DebugController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Controllers.DebugController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Controllers.HomeController.yml",
       "output": {
         ".html": {
@@ -1132,66 +1142,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.CSVMapping.ChumonJissekiCSV.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.CSVMapping.KaikeiJissekiCSV.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.CSVMapping.ShiireJissekiCSV.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.CSVMapping.SokoZaikoCSV.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.CSVMapping.TentoZaIkoCSV.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.CSVMapping.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.CSVMapping.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Properties.Chumon.DelegateOverrideProc.yml",
       "output": {
         ".html": {
@@ -1212,40 +1162,230 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.ChumonChumonJissekiToDTOAutoMapperProfile.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.ChumonChumonJissekiToDTOAutoMapperProfile.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.ChumonCreateChumonJissekiToDTOAutoMapperProfile.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.ChumonJissekiPostdataToChumonJissekiViewModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.ChumonJissekiPostdataToChumonJissekiViewModel.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Properties.ChumonJissekiSetupException.yml",
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Properties.ChumonJissekiSetupException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.CSVMapping.ChumonJissekiCSV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.CSVMapping.ChumonJissekiCSV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.CSVMapping.KaikeiJissekiCSV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.CSVMapping.KaikeiJissekiCSV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.CSVMapping.ShiireJissekiCSV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.CSVMapping.ShiireJissekiCSV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.CSVMapping.SokoZaikoCSV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.CSVMapping.SokoZaikoCSV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.CSVMapping.TentoZaIkoCSV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.CSVMapping.TentoZaIkoCSV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.CSVMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.CSVMapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.ChumonChumonJissekiToDTOAutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.ChumonChumonJissekiToDTOAutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.ChumonCreateChumonJissekiToDTOAutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.ChumonCreateChumonJissekiToDTOAutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.ChumonJissekiPostdataToChumonJissekiViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.ChumonJissekiPostdataToChumonJissekiViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.KaikeiAddLineToTempDataAutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.KaikeiAddLineToTempDataAutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.KaikeiJissekiPostdataToKaikeiJissekiViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.KaikeiJissekiPostdataToKaikeiJissekiViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.KaikeiJissekiforSaveAutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.KaikeiJissekiforSaveAutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.KaikeiPostToDTOAutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.KaikeiPostToDTOAutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.Message.ErrDef.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.Message.ErrDef.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.Message.MessageDataClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.Message.MessageDataClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.Message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.Message.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.ShiireJissekiPostdataToShiireJissekiViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.ShiireJissekiPostdataToShiireJissekiViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.ShiirePostToDTOAutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.ShiirePostToDTOAutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.TentoHaraidashiPostToDTOAutoMapperProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.TentoHaraidashiPostToDTOAutoMapperProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.TentoZaikoPostdataToTentoZaikoViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.TentoZaikoPostdataToTentoZaikoViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Convenience.Models.Properties.Config.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Convenience.Models.Properties.Config.html"
         }
       },
       "version": ""
@@ -1286,76 +1426,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Properties.Kaikei.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.KaikeiAddLineToTempDataAutoMapperProfile.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.KaikeiAddLineToTempDataAutoMapperProfile.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.KaikeiJissekiPostdataToKaikeiJissekiViewModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.KaikeiJissekiPostdataToKaikeiJissekiViewModel.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.KaikeiJissekiforSaveAutoMapperProfile.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.KaikeiPostToDTOAutoMapperProfile.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.KaikeiPostToDTOAutoMapperProfile.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.Message.ErrDef.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.Message.ErrDef.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.Message.MessageData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.Message.MessageData.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.Message.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.Message.html"
         }
       },
       "version": ""
@@ -1422,60 +1492,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.ShiireConvChumonJissekiToShiireJissekiAutoMapperProfile.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.ShiireJissekiPostdataToShiireJissekiViewModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.ShiireJissekiPostdataToShiireJissekiViewModel.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.ShiirePostToDTOAutoMapperProfile.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.ShiirePostToDTOAutoMapperProfile.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Convenience.Models.Properties.TentoHaraidashi.yml",
       "output": {
         ".html": {
           "relative_path": "api/Convenience.Models.Properties.TentoHaraidashi.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.TentoHaraidashiPostToDTOAutoMapperProfile.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.TentoHaraidashiPostToDTOAutoMapperProfile.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Convenience.Models.Properties.TentoZaikoPostdataToTentoZaikoViewModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Convenience.Models.Properties.TentoZaikoPostdataToTentoZaikoViewModel.html"
         }
       },
       "version": ""

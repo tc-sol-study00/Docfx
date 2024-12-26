@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface IDeleteFlag | Convenience </title>
+      <title>Enum Message.ErrDef | Convenience </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface IDeleteFlag | Convenience ">
+      <meta name="title" content="Enum Message.ErrDef | Convenience ">
       
-      <meta name="description" content="削除フラグ不可設定用インターフェース">
+      <meta name="description" content="エラーコードenum設定（0から付与）">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/tc-sol-study00/Convenience/new/main/apiSpec/new?filename=Convenience_Models_Interfaces_IDeleteFlag.md&amp;value=---%0Auid%3A%20Convenience.Models.Interfaces.IDeleteFlag%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/tc-sol-study00/Convenience/new/main/apiSpec/new?filename=Convenience_Models_Properties_Config_Message_ErrDef.md&amp;value=---%0Auid%3A%20Convenience.Models.Properties.Config.Message.ErrDef%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,25 +84,26 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Convenience.Models.Interfaces.IDeleteFlag">
+        <article data-uid="Convenience.Models.Properties.Config.Message.ErrDef">
 
 
 
-  <h1 id="Convenience_Models_Interfaces_IDeleteFlag" data-uid="Convenience.Models.Interfaces.IDeleteFlag" class="text-break">
-Interface IDeleteFlag  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IMasterRegistrationService.cs/#L210"><i class="bi bi-code-slash"></i></a>
+
+  <h1 id="Convenience_Models_Properties_Config_Message_ErrDef" data-uid="Convenience.Models.Properties.Config.Message.ErrDef" class="text-break">
+Enum Message.ErrDef  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Config/Message.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Convenience.html">Convenience</a>.<a class="xref" href="Convenience.Models.html">Models</a>.<a class="xref" href="Convenience.Models.Interfaces.html">Interfaces</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Convenience.html">Convenience</a>.<a class="xref" href="Convenience.Models.html">Models</a>.<a class="xref" href="Convenience.Models.Properties.html">Properties</a>.<a class="xref" href="Convenience.Models.Properties.Config.html">Config</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Convenience.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>削除フラグ不可設定用インターフェース</p>
+  <div class="markdown summary"><p>エラーコードenum設定（0から付与）</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IDeleteFlag</code></pre>
+    <pre><code class="lang-csharp hljs">public enum Message.ErrDef</code></pre>
   </div>
 
 
@@ -113,50 +114,41 @@ Interface IDeleteFlag  <a class="header-action link-secondary" title="View sourc
 
 
 
-
-
-
-
-  <h2 class="section" id="properties">Properties
+  <h2 id="fields">Fields
 </h2>
-
-
-  <a id="Convenience_Models_Interfaces_IDeleteFlag_DeleteFlag_" data-uid="Convenience.Models.Interfaces.IDeleteFlag.DeleteFlag*"></a>
-
-  <h3 id="Convenience_Models_Interfaces_IDeleteFlag_DeleteFlag" data-uid="Convenience.Models.Interfaces.IDeleteFlag.DeleteFlag">
-  DeleteFlag
-  <a class="header-action link-secondary" title="View source" href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IMasterRegistrationService.cs/#L211"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool DeleteFlag { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt id="Convenience_Models_Properties_Config_Message_ErrDef_CanNotlUpdate"><code>CanNotlUpdate = 2</code></dt>
+    <dd></dd>
+    <dt id="Convenience_Models_Properties_Config_Message_ErrDef_ChumonDateError"><code>ChumonDateError = 4</code></dt>
+    <dd></dd>
+    <dt id="Convenience_Models_Properties_Config_Message_ErrDef_ChumonIdError"><code>ChumonIdError = 3</code></dt>
+    <dd></dd>
+    <dt id="Convenience_Models_Properties_Config_Message_ErrDef_ChumonIdRelationError"><code>ChumonIdRelationError = 5</code></dt>
+    <dd></dd>
+    <dt id="Convenience_Models_Properties_Config_Message_ErrDef_ChumonSuBadRange"><code>ChumonSuBadRange = 7</code></dt>
+    <dd></dd>
+    <dt id="Convenience_Models_Properties_Config_Message_ErrDef_ChumonSuIsNull"><code>ChumonSuIsNull = 6</code></dt>
+    <dd></dd>
+    <dt id="Convenience_Models_Properties_Config_Message_ErrDef_ChumonZanIsNull"><code>ChumonZanIsNull = 8</code></dt>
+    <dd></dd>
+    <dt id="Convenience_Models_Properties_Config_Message_ErrDef_DataValid"><code>DataValid = 0</code></dt>
+    <dd></dd>
+    <dt id="Convenience_Models_Properties_Config_Message_ErrDef_NormalUpdate"><code>NormalUpdate = 1</code></dt>
+    <dd></dd>
+    <dt id="Convenience_Models_Properties_Config_Message_ErrDef_NothingChumonJisseki"><code>NothingChumonJisseki = 10</code></dt>
+    <dd></dd>
+    <dt id="Convenience_Models_Properties_Config_Message_ErrDef_OtherError"><code>OtherError = 11</code></dt>
+    <dd></dd>
+    <dt id="Convenience_Models_Properties_Config_Message_ErrDef_SuErrorBetChumonSuAndZan"><code>SuErrorBetChumonSuAndZan = 9</code></dt>
     <dd></dd>
   </dl>
-
-
-
-
-
-
 
 
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Interfaces/IMasterRegistrationService.cs/#L210" class="edit-link">Edit this page</a>
+          <a href="https://github.com/tc-sol-study00/Convenience/blob/main/Convenience/Models/Properties/Config/Message.cs/#L31" class="edit-link">Edit this page</a>
         </div>
 
 

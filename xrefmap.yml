@@ -4591,6 +4591,63 @@ references:
   commentId: F:Convenience.Controllers.ChumonJissekiController.chumonJissekiViewModel
   fullName: Convenience.Controllers.ChumonJissekiController.chumonJissekiViewModel
   nameWithType: ChumonJissekiController.chumonJissekiViewModel
+- uid: Convenience.Controllers.DebugController
+  name: DebugController
+  href: api/Convenience.Controllers.DebugController.html
+  commentId: T:Convenience.Controllers.DebugController
+  fullName: Convenience.Controllers.DebugController
+  nameWithType: DebugController
+- uid: Convenience.Controllers.DebugController.#ctor(Convenience.Data.ConvenienceContext)
+  name: DebugController(ConvenienceContext)
+  href: api/Convenience.Controllers.DebugController.html#Convenience_Controllers_DebugController__ctor_Convenience_Data_ConvenienceContext_
+  commentId: M:Convenience.Controllers.DebugController.#ctor(Convenience.Data.ConvenienceContext)
+  name.vb: New(ConvenienceContext)
+  fullName: Convenience.Controllers.DebugController.DebugController(Convenience.Data.ConvenienceContext)
+  fullName.vb: Convenience.Controllers.DebugController.New(Convenience.Data.ConvenienceContext)
+  nameWithType: DebugController.DebugController(ConvenienceContext)
+  nameWithType.vb: DebugController.New(ConvenienceContext)
+- uid: Convenience.Controllers.DebugController.#ctor*
+  name: DebugController
+  href: api/Convenience.Controllers.DebugController.html#Convenience_Controllers_DebugController__ctor_
+  commentId: Overload:Convenience.Controllers.DebugController.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Convenience.Controllers.DebugController.DebugController
+  fullName.vb: Convenience.Controllers.DebugController.New
+  nameWithType: DebugController.DebugController
+  nameWithType.vb: DebugController.New
+- uid: Convenience.Controllers.DebugController.Index
+  name: Index()
+  href: api/Convenience.Controllers.DebugController.html#Convenience_Controllers_DebugController_Index
+  commentId: M:Convenience.Controllers.DebugController.Index
+  fullName: Convenience.Controllers.DebugController.Index()
+  nameWithType: DebugController.Index()
+- uid: Convenience.Controllers.DebugController.Index*
+  name: Index
+  href: api/Convenience.Controllers.DebugController.html#Convenience_Controllers_DebugController_Index_
+  commentId: Overload:Convenience.Controllers.DebugController.Index
+  isSpec: "True"
+  fullName: Convenience.Controllers.DebugController.Index
+  nameWithType: DebugController.Index
+- uid: Convenience.Controllers.DebugController.Index20241226
+  name: Index20241226()
+  href: api/Convenience.Controllers.DebugController.html#Convenience_Controllers_DebugController_Index20241226
+  commentId: M:Convenience.Controllers.DebugController.Index20241226
+  fullName: Convenience.Controllers.DebugController.Index20241226()
+  nameWithType: DebugController.Index20241226()
+- uid: Convenience.Controllers.DebugController.Index20241226*
+  name: Index20241226
+  href: api/Convenience.Controllers.DebugController.html#Convenience_Controllers_DebugController_Index20241226_
+  commentId: Overload:Convenience.Controllers.DebugController.Index20241226
+  isSpec: "True"
+  fullName: Convenience.Controllers.DebugController.Index20241226
+  nameWithType: DebugController.Index20241226
+- uid: Convenience.Controllers.DebugController._context
+  name: _context
+  href: api/Convenience.Controllers.DebugController.html#Convenience_Controllers_DebugController__context
+  commentId: F:Convenience.Controllers.DebugController._context
+  fullName: Convenience.Controllers.DebugController._context
+  nameWithType: DebugController._context
 - uid: Convenience.Controllers.HomeController
   name: HomeController
   href: api/Convenience.Controllers.HomeController.html

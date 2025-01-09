@@ -10041,6 +10041,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Interfaces.IShiire.ChuumonZanZaikoSuChousei
   nameWithType: IShiire.ChuumonZanZaikoSuChousei
+- uid: Convenience.Models.Interfaces.IShiire.GetSokoZaiko
+  name: GetSokoZaiko()
+  href: api/Convenience.Models.Interfaces.IShiire.html#Convenience_Models_Interfaces_IShiire_GetSokoZaiko
+  commentId: M:Convenience.Models.Interfaces.IShiire.GetSokoZaiko
+  fullName: Convenience.Models.Interfaces.IShiire.GetSokoZaiko()
+  nameWithType: IShiire.GetSokoZaiko()
+- uid: Convenience.Models.Interfaces.IShiire.GetSokoZaiko*
+  name: GetSokoZaiko
+  href: api/Convenience.Models.Interfaces.IShiire.html#Convenience_Models_Interfaces_IShiire_GetSokoZaiko_
+  commentId: Overload:Convenience.Models.Interfaces.IShiire.GetSokoZaiko
+  isSpec: "True"
+  fullName: Convenience.Models.Interfaces.IShiire.GetSokoZaiko
+  nameWithType: IShiire.GetSokoZaiko
 - uid: Convenience.Models.Interfaces.IShiire.NextSeq(System.String,System.DateOnly)
   name: NextSeq(string, DateOnly)
   href: api/Convenience.Models.Interfaces.IShiire.html#Convenience_Models_Interfaces_IShiire_NextSeq_System_String_System_DateOnly_
@@ -12465,6 +12478,19 @@ references:
   isSpec: "True"
   fullName: Convenience.Models.Properties.Shiire.ChuumonZanZaikoSuChousei
   nameWithType: Shiire.ChuumonZanZaikoSuChousei
+- uid: Convenience.Models.Properties.Shiire.GetSokoZaiko
+  name: GetSokoZaiko()
+  href: api/Convenience.Models.Properties.Shiire.html#Convenience_Models_Properties_Shiire_GetSokoZaiko
+  commentId: M:Convenience.Models.Properties.Shiire.GetSokoZaiko
+  fullName: Convenience.Models.Properties.Shiire.GetSokoZaiko()
+  nameWithType: Shiire.GetSokoZaiko()
+- uid: Convenience.Models.Properties.Shiire.GetSokoZaiko*
+  name: GetSokoZaiko
+  href: api/Convenience.Models.Properties.Shiire.html#Convenience_Models_Properties_Shiire_GetSokoZaiko_
+  commentId: Overload:Convenience.Models.Properties.Shiire.GetSokoZaiko
+  isSpec: "True"
+  fullName: Convenience.Models.Properties.Shiire.GetSokoZaiko
+  nameWithType: Shiire.GetSokoZaiko
 - uid: Convenience.Models.Properties.Shiire.NextSeq(System.String,System.DateOnly)
   name: NextSeq(string, DateOnly)
   href: api/Convenience.Models.Properties.Shiire.html#Convenience_Models_Properties_Shiire_NextSeq_System_String_System_DateOnly_
